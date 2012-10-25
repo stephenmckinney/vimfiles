@@ -26,6 +26,8 @@ runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigat
 
 " NERDTree
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o', '\~$']
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
 let NERDTreeHijackNetrw = 0
 let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
