@@ -71,7 +71,7 @@ NeoBundle 'VimEz/ShowMarks'
 " Rename
 NeoBundle 'vim-scripts/Rename2'
 " Powerline
-NeoBundle 'skwp/vim-powerline'
+NeoBundle 'git@github.com:stephenmckinney/vim-powerline.git'
 " Vim-Tmux integration
 NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
     \ 'jgdavey/tslime.vim',

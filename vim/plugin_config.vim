@@ -35,7 +35,7 @@ let NERDTreeMapOpenSplit='s'
 " Powerline
 let g:Powerline_symbols='fancy'
 let g:Powerline_theme='skwp'
-let g:Powerline_colorscheme='skwp'
+let g:Powerline_colorscheme='skwp16'
 
 " Ruby Doc
 let g:ruby_doc_command='open'
