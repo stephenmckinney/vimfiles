@@ -22,7 +22,7 @@ nmap <C-h> <C-w>h
 " Split window vertically
 nmap <leader>v <C-w>v<C-w>l
 " Split window horizontally
-nmap <leader>s <C-w>s<C-w>j
+nmap <leader>h <C-w>s<C-w>j
 " Close all but current
 nmap <leader>o <C-w>o
 " Cycle through all windows
@@ -41,9 +41,13 @@ nmap <silent> <leader>N :cprevious<CR>
 " Turn off hightlight search
 nnoremap <silent> <CR> :noh<CR>
 
+" Search and replace prompt
+nnoremap <leader>s :%s/\v/g<left><left>
+vnoremap <leader>s :s/\v/g<left><left>
+nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
+
 " Edit/source vimrc file
 nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vim<CR>
-nmap <leader>sv :so $MYVIMRC<CR>
 
 " View Rails source
 command! Rsource :tabnew | NERDTree ~/code/src/rails
@@ -151,7 +155,6 @@ nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<cr>
 "nmap <leader>r :RainbowParenthesesToggle<CR>
 
 " Tagbar
-" Toggle Tagbar
 nmap <silent> <leader>c :TagbarToggle<CR>
 
 " Tabular
