@@ -74,8 +74,6 @@ NeoBundle 'vim-scripts/YankRing.vim'
 NeoBundle 'xsunsmile/showmarks'
 " Rename
 NeoBundle 'vim-scripts/Rename2'
-" Powerline
-NeoBundle 'git@github.com:stephenmckinney/vim-powerline.git'
 " Vim-Tmux integration
 NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
     \ 'jgdavey/tslime.vim',
@@ -104,7 +102,9 @@ NeoBundle 'wgibbs/vim-irblack'
 NeoBundle 'tpope/vim-vividchalk'
 NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
 NeoBundle 'chriskempson/vim-tomorrow-theme'
-
+" Powerline
+NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
 
 " ======================================================================
 " Languages & Syntax
