@@ -88,7 +88,7 @@ endfunction
 " Filetypes and autocmds
 " ======================================================================
 if has("autocmd")
-  augroup poorlilrichboy
+  augroup stephenmckinney
     au!
     " Indention
     "   FYI: rb, html, css indention are handled by the default vim support
@@ -101,7 +101,7 @@ if has("autocmd")
     au BufRead,BufNewFile *.{rdoc,md,markdown,mdown,mkd,mkdn,txt} call s:setupMarkup()
 
     " Strip trailing whitespace on save
-    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee :call s:StripTrailingWhitespaces()
+    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call s:StripTrailingWhitespaces()
 
     " Remember last location in file
     au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
@@ -110,9 +110,9 @@ if has("autocmd")
     " NERDTree Customizations (taken from Janus)
     " https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
     au VimEnter * call s:CdIfDirectory(expand("<amatch>"))
-    au FocusGained * call s:UpdateNERDTree()
-    " Quit NERDTree when there are no active windows
-    " Taken from https://github.com/scrooloose/nerdtree/issues/21
-    au bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+    "au FocusGained * call s:UpdateNERDTree()
+    " Quit when only NERDTreee or Quickfix are the remaining buffers
+    au bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | quit | endif
+    au bufenter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
   augroup END
 endif
