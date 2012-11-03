@@ -17,6 +17,8 @@ NeoBundle 'Shougo/neobundle.vim' " required
 " ======================================================================
 " Ack
 NeoBundle 'mileszs/ack.vim'
+" Command-T
+NeoBundle 'wincent/Command-T'
 " Ctrl-P
 NeoBundle 'kien/ctrlp.vim'
 " Nerdtree

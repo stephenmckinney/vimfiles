@@ -1,6 +1,13 @@
 " ======================================================================
 " Plugin Configuration
 " ======================================================================
+" Command-T
+let g:CommandTMatchWindowAtTop=1
+let g:CommandTMaxHeight=20
+let g:CommandTMaxFiles=20000
+let g:CommandTMaxCachedDirectories=0
+let g:CommandTCancelMap=['<ESC>','<C-c>']
+
 " CtrlP
 let g:ctrlp_map = ''
 let g:ctrlp_match_window_bottom = 0

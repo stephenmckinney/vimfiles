@@ -47,8 +47,9 @@ set noswapfile
 " No beeps
 set noerrorbells visualbell t_vb=
 
-" Always open vertical splits to the right
+" Always open vertical splits to the right and automatically make them the same size
 set splitright
+set equalalways
 
 " Tab completion options in Command mode
 set wildmode=list:longest,list:full

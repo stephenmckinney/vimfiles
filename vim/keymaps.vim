@@ -89,30 +89,31 @@ nmap <silent> <D-9> :set foldlevel=8<CR>
 " Ack ignores are stored in ~/.ackrc
 nmap <leader>f :Ack!<space>
 
-" CtrlP
-nmap <silent> <leader>t :CtrlP<CR>
-nmap <silent> <leader>T :ClearCtrlPCache<CR>\|:CtrlP<CR>
-nmap <silent> <leader>b :CtrlPBuffer<CR>
+" CommandT
+nmap <silent> <Leader>t :CommandT<cr>
+nmap <silent> <leader>T :CommandTFlush<cr>\|:CommandT<cr>
+nmap <silent> <Leader>b :CommandTBuffer<cr>
 nmap <silent> <leader>B :BufOnly<CR>
-" Rails CtrlP Mappings - taken from:
-" https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/ctrlp.vim
-" Open CtrlP starting from a particular path, making it much
-" more likely to find the correct thing first. mnemonic 'jump to [something]'
-nmap <leader>ja :CtrlP app/assets<CR>
-nmap <leader>jc :CtrlP app/controllers<CR>
-nmap <leader>jh :CtrlP app/helpers<CR>
-nmap <leader>jm :CtrlP app/models<CR>
-nmap <leader>jv :CtrlP app/views<CR>
-nmap <leader>jf :CtrlP test/fixtures<CR>
-nmap <leader>jF :CtrlP features<CR>
-nmap <leader>jl :CtrlP lib<CR>
-nmap <leader>jp :CtrlP public<CR>
-nmap <leader>js :CtrlP spec<CR>
-"nmap <leader>jF :CtrlP spec/factories<CR>
-nmap <leader>jt :CtrlP test<CR>
-nmap <leader>jd :CtrlP db<CR>
-nmap <leader>jC :CtrlP config<CR>
-nmap <leader>jV :CtrlP vendor<CR>
+
+" Rails Command-T Mappings - taken from:
+"   https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/ctrlp.vim
+"   Open Command-T starting from a particular path, making it much
+"   more likely to find the correct thing first. mnemonic 'jump to [something]'
+nmap <leader>ja :CommandT app/assets<CR>
+nmap <leader>jc :CommandT app/controllers<CR>
+nmap <leader>jh :CommandT app/helpers<CR>
+nmap <leader>jm :CommandT app/models<CR>
+nmap <leader>jv :CommandT app/views<CR>
+nmap <leader>jF :CommandT test/fixtures<CR>
+nmap <leader>jf :CommandT features<CR>
+nmap <leader>jl :CommandT lib<CR>
+nmap <leader>jp :CommandT public<CR>
+nmap <leader>js :CommandT spec<CR>
+"nmap <leader>jF :CommandT spec/factories<CR>
+nmap <leader>jt :CommandT test<CR>
+nmap <leader>jd :CommandT db<CR>
+nmap <leader>jC :CommandT config<CR>
+nmap <leader>jV :CommandT vendor<CR>
 "Cmd-(m)ethod - jump to a method (tag in current file)
 nmap <leader>m :CtrlPBufTag<CR>
 "Ctrl-(M)ethod - jump to a method (tag in all files)
