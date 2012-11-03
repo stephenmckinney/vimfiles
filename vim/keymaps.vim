@@ -34,9 +34,16 @@ nmap <leader>= <C-w>=
 " Toggle ZoomWin
 nmap <silent> <leader>z :ZoomWin<CR>
 
-" Quicklist navigation
-nmap <silent> <leader>n :cnext<CR>
-nmap <silent> <leader>N :cprevious<CR>
+" Buffer navigation
+nmap <left> :bp<CR>
+nmap <right> :bn<CR>
+
+" Quickfix navigation
+noremap <up>  :cprev<cr>zvzz
+nnoremap <down> :cnext<cr>zvzz
+
+" Toggle Quickfix window
+nmap <silent> <leader>q :QFix<CR>
 
 " Turn off hightlight search
 nnoremap <silent> <CR> :noh<CR>
