@@ -56,6 +56,8 @@ NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'tpope/vim-fugitive'
 " Gitv
 NeoBundle 'gregsexton/gitv'
+" Gundo
+NeoBundle 'sjl/gundo.vim'
 " Gist
 NeoBundle 'mattn/gist-vim', { 'depends' : [
     \ 'mattn/webapi-vim',
@@ -79,6 +81,8 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 " =========================================
 " The below plugins I am experimenting with
 " =========================================
+" Sparkup
+NeoBundle 'bingaman/vim-sparkup'
 " Endwise
 NeoBundle 'tpope/vim-endwise'
 " Matchit
@@ -142,7 +146,6 @@ NeoBundle 'ajf/puppet-vim'
 " Tried and didn't like
 " ======================================================================
 "
-" 'sjl/gundo.vim'
 " 'sjl/threesome.vim'
 " 'Lokaltog/vim-easymotion'
 " 'tpope/vim-unimpaired' - RSI
@@ -152,4 +155,3 @@ NeoBundle 'ajf/puppet-vim'
 " Will try some day when I have time
 " ======================================================================
 " 'scratch'
-" 'nelstrom/vim-markdown-preview'

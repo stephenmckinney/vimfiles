@@ -134,6 +134,9 @@ nmap <leader>gv :Gitv --all<CR>
 nmap <leader>gV :Gitv! --all<CR>
 vmap <leader>gV :Gitv! --all<CR>
 
+" Gundo
+nmap <leader>u :GundoToggle<CR>
+
 " NarrowRegion
 xmap <leader>nr <Plug>NrrwrgnDo
 
