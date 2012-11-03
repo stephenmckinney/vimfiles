@@ -95,6 +95,7 @@ nmap <silent> <D-9> :set foldlevel=8<CR>
 " Ack
 " Ack ignores are stored in ~/.ackrc
 nmap <leader>f :Ack!<space>
+nmap <leader># :Ack!<CR>
 
 " CommandT
 nmap <silent> <Leader>t :CommandT<cr>
@@ -152,9 +153,11 @@ xmap <leader>nr <Plug>NrrwrgnDo
 nmap <silent> <leader>d :NERDTreeToggle<CR>
 nmap <leader>e :NERDTree<space>
 
-" QFix
-" Toggle Quickfix window
-nmap <silent> <leader>q :QFix<CR>
+" Taken from https://github.com/sjl/dotfiles/blob/master/vim/vimrc
+" Open a Quickfix window for the last search.
+nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
+" Ack for the last search.
+nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute(@/, "\\\\<", "\\\\b", ""), "\\\\>", "\\\\b", ""), "\\\\v", "", "") . "'"<CR>
 
 " ri.vim
 " RI documention
