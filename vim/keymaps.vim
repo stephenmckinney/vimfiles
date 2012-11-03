@@ -54,7 +54,7 @@ vnoremap <leader>s :s/\v/g<left><left>
 nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 " Edit/source vimrc file
-nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vim<CR>
+nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vimfiles<CR>
 
 " View Rails source
 command! Rsource :tabnew | NERDTree ~/code/src/rails

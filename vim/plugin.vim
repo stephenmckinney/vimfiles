@@ -71,7 +71,7 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 " Yank History
 NeoBundle 'vim-scripts/YankRing.vim'
 " Marks
-NeoBundle 'VimEz/ShowMarks'
+NeoBundle 'xsunsmile/showmarks'
 " Rename
 NeoBundle 'vim-scripts/Rename2'
 " Powerline

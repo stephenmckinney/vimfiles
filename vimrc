@@ -65,8 +65,9 @@ set wildignore+=*.gif,*.GIF,*.jpg,*.JPG,*.png,*.PNG,*.pdf,*.PDF,*.psd,*.PSD
 set wildignore+=*.swp,*~,._*,.DS_Store
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
-" Ignore Rails log and tmp
-set wildignore+=log/**,tmp/**
+" Ignore Rails bin, db, log, script, temp, and public stuff
+set wildignore+=bin/**,db/migrate/**,log/**,public/cache/**,public/stylesheets/**,public/system/**,script/**,tmp/**,vendor/**
+
 
 " Use modeline overrides
 set modeline
@@ -91,6 +92,7 @@ set smartcase
 " ======================================================================
 set ruler " show the cursor position all the time
 set number " show line numbers
+set cursorline " highlight cursorline
 set numberwidth=4
 set guifont=Menlo:h13
 set background=dark
