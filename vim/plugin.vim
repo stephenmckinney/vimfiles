@@ -54,9 +54,11 @@ NeoBundle 'vim-scripts/ZoomWin'
 NeoBundle 'Valloric/QFixToggle'
 " BufOnly
 NeoBundle 'vim-scripts/BufOnly.vim'
-" Fugitive
+" Git commands
 NeoBundle 'tpope/vim-fugitive'
-" Gitv
+" Github integration
+NeoBundle 'tpope/vim-rhubarb'
+" Gitlog browswer
 NeoBundle 'gregsexton/gitv'
 " Gundo
 NeoBundle 'sjl/gundo.vim'
@@ -89,10 +91,13 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'edsono/vim-matchit'
 " Docs
 NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
-" Ruby/RSpec/Rails
+" Ruby/RSpec/Rails Docs
 NeoBundle 'lucapette/vim-ruby-doc'
 NeoBundle 'ecomba/vim-ruby-refactoring'
 NeoBundle 'danchoi/ri.vim'
+" Scratch buffer (useful for tSlime)
+NeoBundle 'vim-scripts/scratch.vim'
+NeoBundle 'nelstrom/vim-markdown-preview'
 
 " ======================================================================
 " Themes
@@ -123,6 +128,12 @@ NeoBundle 'tpope/vim-cucumber'
 NeoBundle 'tsaleh/vim-shoulda'
 " MiniTest
 NeoBundle 'sunaku/vim-ruby-minitest'
+" Bundler
+NeoBundle 'tpope/vim-bundler'
+" Capybara
+NeoBundle 'asux/vim-capybara'
+" RVM
+NeoBundle 'tpope/vim-rvm'
 " JQuery
 NeoBundle 'itspriddle/vim-jquery'
 " JavaScript
