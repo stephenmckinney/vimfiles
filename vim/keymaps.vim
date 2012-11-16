@@ -16,7 +16,7 @@ nnoremap <C-@> <C-u>
 nnoremap j gj
 nnoremap k gk
 
-" User tab to navigate parans, etc.
+" Use tab to navigate parans, etc.
 nnoremap <tab> %
 vnoremap <tab> %
 
@@ -79,7 +79,7 @@ nmap <leader>x <C-w>x
 " Adjust viewports to the same size
 nmap <leader>= <C-w>=
 " Toggle ZoomWin
-nmap <silent> <leader>z :ZoomWin<CR>
+nmap <silent> <leader>Z :ZoomWin<CR>
 
 " Buffer navigation
 nmap <left>  :bp<CR>
