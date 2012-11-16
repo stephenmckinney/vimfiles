@@ -39,10 +39,12 @@ set autoindent
 set foldmethod=indent
 set foldlevel=99
 
-" No backups
-set nobackup
-set nowritebackup
-set noswapfile
+" Backup / Undo
+set backupdir=~/.vim/backup
+set undodir=~/.vim/undo
+set undofile
+set undolevels=1000  " maximum number of changes that can be undone
+set undoreload=10000 " maximum number lines to save for undo on a buffer reload
 
 " No beeps
 set noerrorbells visualbell t_vb=
