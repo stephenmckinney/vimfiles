@@ -10,6 +10,7 @@ let g:CommandTCancelMap=['<ESC>','<C-c>']
 
 " CtrlP
 let g:ctrlp_map = ''
+let g:ctrlp_mruf_default_order = 1
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_max_height = 15
@@ -43,6 +44,9 @@ let NERDTreeMapOpenSplit='s'
 let g:Powerline_symbols='fancy'
 let g:Powerline_theme='short'
 let g:Powerline_colorscheme='solarized16'
+if has("gui_macvim")
+  let g:Powerline_colorscheme='solarized256'
+end
 
 " Ruby Doc
 let g:ruby_doc_command='open'
@@ -55,7 +59,9 @@ let g:showmarks_textlower="*\t"
 let g:showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY"
 
 " Solarized
-let g:solarized_termcolors=16
+if !has("gui_macvim")
+  let g:solarized_termcolors=16
+end
 let g:solarized_contrast="normal"  "default value is normal
 let g:solarized_diffmode="high"    "default value is normal
 let g:solarized_visibility="high"  "default value is normal

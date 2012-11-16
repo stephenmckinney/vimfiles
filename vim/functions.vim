@@ -24,8 +24,8 @@ function! s:setupWrapping()
 endfunction
 
 " Add keymaps for the above
-nmap <silent> <leader>S :call <SID>StripTrailingWhitespaces()<CR>
-nmap <silent> <leader>W :call <SID>setupWrapping()<CR>
+nmap <silent> <leader>W :call <SID>StripTrailingWhitespaces()<CR>
+"nmap <silent> <leader>W :call <SID>setupWrapping()<CR>
 
 " Wrap text and allow preview
 function! s:setupMarkup()
@@ -64,24 +64,24 @@ function! s:CdIfDirectory(directory)
 endfunction
 
 " NERDTree utility function
-function! s:UpdateNERDTree(...)
-  let stay = 0
+"function! s:UpdateNERDTree(...)
+  "let stay = 0
 
-  if(exists("a:1"))
-    let stay = a:1
-  end
+  "if(exists("a:1"))
+    "let stay = a:1
+  "end
 
-  if exists("t:NERDTreeBufName")
-    let nr = bufwinnr(t:NERDTreeBufName)
-    if nr != -1
-      exe nr . "wincmd w"
-      exe substitute(mapcheck("R"), "<CR>", "", "")
-      if !stay
-        wincmd p
-      end
-    endif
-  endif
-endfunction
+  "if exists("t:NERDTreeBufName")
+    "let nr = bufwinnr(t:NERDTreeBufName)
+    "if nr != -1
+      "exe nr . "wincmd w"
+      "exe substitute(mapcheck("R"), "<CR>", "", "")
+      "if !stay
+        "wincmd p
+      "end
+    "endif
+  "endif
+"endfunction
 
 
 " ======================================================================

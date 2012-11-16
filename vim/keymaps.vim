@@ -1,6 +1,7 @@
 " ======================================================================
-" General Key Mappings
+" General
 " ======================================================================
+
 " <,> is the leader character
 let mapleader = ","
 
@@ -10,6 +11,52 @@ command! W :w
 " Page up/Page down: Space/Ctrl-Space
 nnoremap <Space> <C-d>
 nnoremap <C-@> <C-u>
+
+" Make j and k move by screen line instead of file line
+nnoremap j gj
+nnoremap k gk
+
+" User tab to navigate parans, etc.
+nnoremap <tab> %
+vnoremap <tab> %
+
+" Maintain selection after indent
+vmap > >gv
+vmap < <gv
+
+" Make Y consistent with C and D: Yank from the cursor to the end of the line
+" Customized for YankRing
+function! YRRunAfterMaps()
+  nnoremap Y :<C-U>YRYankCount 'y$'<CR>
+endfunction
+
+" Toggle paste mode
+set pastetoggle=<F1>
+
+" Code folding options
+nmap <silent> <D-0> :set foldlevel=99<CR>
+nmap <silent> <D-1> :set foldlevel=0<CR>
+nmap <silent> <D-2> :set foldlevel=1<CR>
+nmap <silent> <D-3> :set foldlevel=2<CR>
+nmap <silent> <D-4> :set foldlevel=3<CR>
+nmap <silent> <D-5> :set foldlevel=4<CR>
+nmap <silent> <D-6> :set foldlevel=5<CR>
+nmap <silent> <D-7> :set foldlevel=6<CR>
+nmap <silent> <D-8> :set foldlevel=7<CR>
+nmap <silent> <D-9> :set foldlevel=8<CR>
+" 'fold tag'
+nnoremap <leader>zt Vatzf
+
+" Edit/source vimrc file
+nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vimfiles<CR>
+
+" View Rails source
+command! Rsource :tabnew | NERDTree ~/code/src/rails
+
+
+" ======================================================================
+" Tab / Buffer / Window Navigation
+" ======================================================================
 
 " New tab
 nmap <silent> <C-t> :tabnew<CR>
@@ -35,74 +82,52 @@ nmap <leader>= <C-w>=
 nmap <silent> <leader>z :ZoomWin<CR>
 
 " Buffer navigation
-nmap <left> :bp<CR>
+nmap <left>  :bp<CR>
 nmap <right> :bn<CR>
 
 " Quickfix navigation
-noremap <up>  :cprev<cr>zvzz
-nnoremap <down> :cnext<cr>zvzz
+noremap <up>    :cprev<CR>zvzz
+nnoremap <down> :cnext<CR>zvzz
 
 " Toggle Quickfix window
 nmap <silent> <leader>q :QFix<CR>
 
+
+" ======================================================================
+" Search
+" ======================================================================
+
 " Turn off hightlight search
 nnoremap <silent> <CR> :noh<CR>
+
+" Seach prompt
+nnoremap / /\v
+vnoremap / /\v
 
 " Search and replace prompt
 nnoremap <leader>s :%s/\v/g<left><left>
 vnoremap <leader>s :s/\v/g<left><left>
 nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
 
-" Edit/source vimrc file
-nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vimfiles<CR>
-
-" View Rails source
-command! Rsource :tabnew | NERDTree ~/code/src/rails
-
-" Make j and k move by screen line instead of file line
-nnoremap j gj
-nnoremap k gk
-
-" Make Y consistent with C and D: Yank from the cursor to the end of the line
-" Customized for YankRing
-function! YRRunAfterMaps()
-  nnoremap Y :<C-U>YRYankCount 'y$'<CR>
-endfunction
-
-" Maintain selection after indent
-vmap > >gv
-vmap < <gv
-
-" Toggle paste mode
-set pastetoggle=<F1>
-
-" Code folding options
-nmap <silent> <D-0> :set foldlevel=99<CR>
-nmap <silent> <D-1> :set foldlevel=0<CR>
-nmap <silent> <D-2> :set foldlevel=1<CR>
-nmap <silent> <D-3> :set foldlevel=2<CR>
-nmap <silent> <D-4> :set foldlevel=3<CR>
-nmap <silent> <D-5> :set foldlevel=4<CR>
-nmap <silent> <D-6> :set foldlevel=5<CR>
-nmap <silent> <D-7> :set foldlevel=6<CR>
-nmap <silent> <D-8> :set foldlevel=7<CR>
-nmap <silent> <D-9> :set foldlevel=8<CR>
-
 
 " ======================================================================
-" Plugin Key Mappings
+" Searh Plugins
 " ======================================================================
+
+" =============
 " Ack
+" =============
 " Ack ignores are stored in ~/.ackrc
 nmap <leader>f :Ack!<space>
-nmap <leader># :Ack!<CR>
+nmap <leader>F :Ack!<CR>
 
+" =============
 " CommandT
-nmap <silent> <Leader>t :CommandT<cr>
-nmap <silent> <leader>T :CommandTFlush<cr>\|:CommandT<cr>
-nmap <silent> <Leader>b :CommandTBuffer<cr>
+" =============
+nmap <silent> <leader>t :CommandT<CR>
+nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
+nmap <silent> <leader>b :CtrlPBuffer<CR>
 nmap <silent> <leader>B :BufOnly<CR>
-
 " Rails Command-T Mappings - taken from:
 "   https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/ctrlp.vim
 "   Open Command-T starting from a particular path, making it much
@@ -127,12 +152,18 @@ nmap <leader>m :CtrlPBufTag<CR>
 "Ctrl-(M)ethod - jump to a method (tag in all files)
 nmap <leader>M :CtrlPBufTagAll<CR>
 
-" Fugitive & Gitv
+" ======================================================================
+" Other Plugins
+" ======================================================================
+
+" =============
+" Fugitive/Gitv
+" =============
 command! -range Dg <line1>,<line2>diffget | diffupdate
 command! -range Dp <line1>,<line2>diffput | diffupdate
 xmap <leader>dg :diffget<CR>\|:diffupdate<CR>
 xmap <leader>dp :diffput<CR>\|:diffupdate<CR>
-nmap <leader>gb :Gblame<CR>
+nmap <leader>gb :Gblame w<CR>
 nmap <leader>gh :Gbrowse<CR>
 nmap <leader>gc :Gcommit<CR>
 nmap <leader>gd :Gdiff<CR>
@@ -143,14 +174,21 @@ nmap <leader>gv :Gitv --all<CR>
 nmap <leader>gV :Gitv! --all<CR>
 vmap <leader>gV :Gitv! --all<CR>
 
+" =============
 " Gundo
+" =============
 nmap <leader>u :GundoToggle<CR>
 
+" =============
 " NarrowRegion
-xmap <leader>nr <Plug>NrrwrgnDo
+" =============
+xmap <leader>n <Plug>NrrwrgnDo
 
+" =============
 " NERDTree
+" =============
 nmap <silent> <leader>d :NERDTreeToggle<CR>
+nmap <silent> <leader>D :NERDTreeFind<CR>
 nmap <leader>e :NERDTree<space>
 
 " Taken from https://github.com/sjl/dotfiles/blob/master/vim/vimrc
@@ -159,19 +197,68 @@ nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 " Ack for the last search.
 nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute(@/, "\\\\<", "\\\\b", ""), "\\\\>", "\\\\b", ""), "\\\\v", "", "") . "'"<CR>
 
+" =============
 " ri.vim
-" RI documention
-nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<cr>
-nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<cr>
+" =============
+nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR>
+nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR>
 "nnoremap <silent> <leader>K :call ri#LookupNameUnderCursor()<cr>
 
-" Rainbow Parantheses
-"nmap <leader>r :RainbowParenthesesToggle<CR>
+" =============
+" Scratch
+" =============
+nmap <silent> <leader><tab> :Scratch<CR>
 
+" =============
+" Surround.vim
+" =============
+" Use v or # to get a variable interpolation (inside of a string)}
+" ysiw#   Wrap the token under the cursor in #{}
+" v...s#  Wrap the selection in #{}
+let g:surround_113 = "#{\r}"   " v
+let g:surround_35  = "#{\r}"   " #
+" Select text in an ERb file with visual mode and then press ysaw- or ysaw=
+" Or yss- to do entire line.
+let g:surround_45 = "<% \r %>"    " -
+let g:surround_61 = "<%= \r %>"   " =
+
+" <leader># Surround a word with #{ruby interpolation}
+map <leader>s# ysiw#
+vmap <leader>s# c#{<C-R>"}<ESC>
+" <leader>" Surround a word with "quotes"
+map <leader>s" ysiw"
+vmap <leader>s" c"<C-R>""<ESC>
+" <leader>' Surround a word with 'single quotes'
+map <leader>s' ysiw'
+vmap <leader>s' c'<C-R>"'<ESC>
+" <leader>` Surround a word with markdown ``
+map <leader>s` ysiw`
+vmap <leader>s` c`<C-R>"`<ESC>
+" <leader>) or <leader>( Surround a word with (parens)
+" The difference is in whether a space is put in
+map <leader>s) ysiw(
+map <leader>s( ysiw)
+vmap <leader>s) c( <C-R>" )<ESC>
+vmap <leader>s( c(<C-R>")<ESC>
+" <leader>[ Surround a word with [brackets]
+map <leader>s[ ysiw]
+map <leader>s] ysiw[
+vmap <leader>s] c[ <C-R>" ]<ESC>
+vmap <leader>s[ c[<C-R>"]<ESC>
+" <leader>{ Surround a word with {braces}
+map <leader>s{ ysiw}
+map <leader>s} ysiw{
+vmap <leader>s} c{ <C-R>" }<ESC>
+vmap <leader>s{ c{<C-R>"}<ESC>
+
+" =============
 " Tagbar
+" =============
 nmap <silent> <leader>c :TagbarToggle<CR>
 
+" =============
 " Tabular
+" =============
 nmap <leader>a  :Tabularize /
 vmap <leader>a  :Tabularize /
 nmap <leader>a= :Tabularize /=<CR>
@@ -179,6 +266,9 @@ vmap <leader>a= :Tabularize /=<CR>
 nmap <leader>a: :Tabularize /:<CR>
 vmap <leader>a: :Tabularize /:<CR>
 
-" Vim-Turbux
+" =============
+" Turbux/tSlime
+" =============
 nmap <leader>r <Plug>SendTestToTmux
 nmap <leader>R <Plug>SendFocusedTestToTmux
+vmap <C-c><C-c> <Plug>SendSelectionToTmux
