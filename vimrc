@@ -19,8 +19,10 @@ filetype plugin indent on
 set encoding=utf-8
 set shell=/bin/sh
 set history=100 " keep 100 lines of command line history
-set showcmd " display incomplete commands
-set showmode " display mode
+set ttyfast
+set showcmd   " display incomplete commands
+set showmode  " display mode
+set showmatch " jump back and forth to matching paran
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
 " When the page starts to scroll, keep the cursor 8 lines from the top and 8
@@ -92,9 +94,8 @@ set smartcase
 " ======================================================================
 " UI
 " ======================================================================
-set ruler " show the cursor position all the time
-set number " show line numbers
-set cursorline " highlight cursorline
+set ruler          " show the cursor position all the time
+set number         " show line numbers
 set numberwidth=4
 set background=dark
 colorscheme solarized
