@@ -1,10 +1,11 @@
 " MacVim should go fullscreen
 if has("gui_macvim")
+  set guifont=Inconsolata-dz\ for\ Powerline:h13
   " Fullscreen
-  set fuoptions=maxhorz,maxvert
-  au GUIEnter * set fullscreen
+  "set fuoptions=maxhorz,maxvert
+  "au GUIEnter * set fullscreen
   " Remove toolbar
-  set guioptions-=T
+  "set guioptions-=T
 endif
 
 

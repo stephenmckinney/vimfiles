@@ -96,7 +96,6 @@ set ruler " show the cursor position all the time
 set number " show line numbers
 set cursorline " highlight cursorline
 set numberwidth=4
-set guifont=Menlo:h13
 set background=dark
 colorscheme solarized
 syntax enable " Turn on syntax highlighting allowing local overrides
