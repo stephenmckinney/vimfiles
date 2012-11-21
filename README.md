@@ -44,6 +44,18 @@ These are installed by following the above.
   including my [snipmate-snippets](https://github.com/stephenmckinney/snipmate-snippets), my [fork of Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized)
   and [dochub.vim](https://github.com/stephenmckinney/vim-dochub)
 
+## Moar
+
+Go dumpster diving for more Vim-goodies:
+
+* https://github.com/sjl/dotfiles
+* https://github.com/garybernhardt/dotfiles
+* https://github.com/astrails/dotvim
+* https://github.com/spf13/spf13-vim
+* https://github.com/zaiste/vimified
+* https://github.com/skwp/dotfiles
+* https://github.com/carlhuda/janus
+
 ## TODO
 * Add vim cheatsheet.
 * Test vimfiles on Linux.
