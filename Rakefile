@@ -3,9 +3,13 @@ require 'erb'
 
 desc "install the dot files into user's home directory"
 task :install do
+  puts "======================================================"
+  puts "Installing symlinks."
+  puts "======================================================"
+
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README.md LICENSE].include? file
+    next if %w[Rakefile README.md LICENSE fonts].include? file
 
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"))
       if File.identical? file, File.join(ENV['HOME'], ".#{file.sub('.erb', '')}")
@@ -30,15 +34,13 @@ task :install do
       link_file(file)
     end
   end
+  puts
 
   install_neobundle
-end
 
-def install_neobundle
-  unless File.exist?(File.join(ENV['HOME'], '.vim', 'bundle', 'neobundle.vim'))
-    puts "installing ~/.vim/bundle/neobundle.vim"
-    system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim")
-  end
+  install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
+
+  success_msg("installed")
 end
 
 def replace_file(file)
@@ -57,3 +59,30 @@ def link_file(file)
     system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
   end
 end
+
+def success_msg(action)
+  puts "======================================================"
+  puts "Success!"
+  puts "======================================================"
+  puts
+  puts ".vimfiles have been #{action}. Please restart any open Vim sessions."
+end
+
+def install_fonts
+  puts "======================================================"
+  puts "Installing patched fonts for Vim Powerline."
+  puts "======================================================"
+  system %{ cp -f $HOME/.vimfiles/fonts/* $HOME/Library/Fonts }
+  puts
+end
+
+def install_neobundle
+  unless File.exist?(File.join(ENV['HOME'], '.vim', 'bundle', 'neobundle.vim'))
+    puts "======================================================"
+    puts "Installing neobundle.vim"
+    puts "======================================================"
+    system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim")
+    puts
+  end
+end
+
