@@ -76,32 +76,35 @@ NeoBundle 'vim-scripts/YankRing.vim'
 NeoBundle 'xsunsmile/showmarks'
 " Rename
 NeoBundle 'vim-scripts/Rename2'
+" Endwise
+NeoBundle 'tpope/vim-endwise'
+" Matchit
+NeoBundle 'edsono/vim-matchit'
 " Vim-Tmux integration
 NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
     \ 'jgdavey/tslime.vim',
     \ ]}
+" Scratch buffer (useful for tSlime)
+NeoBundle 'vim-scripts/scratch.vim'
+
 " =========================================
 " The below plugins I am experimenting with
 " =========================================
 " Sparkup
 NeoBundle 'bingaman/vim-sparkup'
-" Endwise
-NeoBundle 'tpope/vim-endwise'
-" Matchit
-NeoBundle 'edsono/vim-matchit'
 " Docs
 NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs
 NeoBundle 'lucapette/vim-ruby-doc'
 NeoBundle 'ecomba/vim-ruby-refactoring'
 NeoBundle 'danchoi/ri.vim'
-" Scratch buffer (useful for tSlime)
-NeoBundle 'vim-scripts/scratch.vim'
 NeoBundle 'nelstrom/vim-markdown-preview'
+
 
 " ======================================================================
 " Themes
 " ======================================================================
+
 NeoBundle 'vim-scripts/Color-Sampler-Pack'
 NeoBundle 'wgibbs/vim-irblack'
 NeoBundle 'tpope/vim-vividchalk'
@@ -111,9 +114,11 @@ NeoBundle 'chriskempson/vim-tomorrow-theme'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
 
+
 " ======================================================================
 " Languages & Syntax
 " ======================================================================
+
 " Syntastic
 NeoBundle 'scrooloose/syntastic'
 " Ruby
@@ -155,16 +160,18 @@ NeoBundle 'tpope/vim-git'
 " Puppet
 NeoBundle 'ajf/puppet-vim'
 
+
 " ======================================================================
 " Tried and didn't like
 " ======================================================================
 "
-" 'sjl/threesome.vim'
-" 'Lokaltog/vim-easymotion'
+" 'sjl/threesome.vim' AKA 'sjl/splice.vim' - kept crashing Vim
 " 'tpope/vim-unimpaired' - RSI
 " 'kien/rainbow_parentheses.vim' - Never worked right
+" 'Lokaltog/vim-easymotion'
+"
 "
 " ======================================================================
 " Will try some day when I have time
 " ======================================================================
-" 'scratch'
+"
