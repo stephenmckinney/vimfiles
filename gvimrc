@@ -1,6 +1,6 @@
 " MacVim should go fullscreen
 if has("gui_macvim")
-  set guifont=Inconsolata-dz\ for\ Powerline:h13
+  set guifont=Inconsolata-dz\ for\ Powerline:h13,Inconsolata-dz:h13,Menlo:h13
   " Fullscreen
   "set fuoptions=maxhorz,maxvert
   "au GUIEnter * set fullscreen
