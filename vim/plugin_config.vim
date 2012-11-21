@@ -69,15 +69,18 @@ let g:solarized_contrast="normal"  "default value is normal
 let g:solarized_diffmode="high"    "default value is normal
 let g:solarized_visibility="high"  "default value is normal
 let g:solarized_hitrail=1          "default value is 0
+"hi Pmenu  guifg=#000000 guibg=#F8F8F8 ctermfg=black ctermbg=Lightgray
+"hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
+"hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
 
-" Snipmate
-let g:snips_author='Steve McKinney'
-let g:snipMate = {}
-let g:snipMate.scope_aliases = {}
-let g:snipMate.scope_aliases['eruby'] = 'eruby,eruby-rails,html'
-let g:snipMate.scope_aliases['htmldjango'] = 'htmldjango,html'
-let g:snipMate.scope_aliases['php'] = 'php,html'
-let g:snipMate.scope_aliases['ruby'] = 'ruby,ruby-factorygirl,ruby-rails,ruby-rspec,ruby-shoulda'
+" UltiSnips
+let g:UltiSnipsUsePythonVersion = 2
+let g:UltiSnipsSnippetDirectories=['snippets']
+let g:UltiSnipsListSnippets="<c-k>" " terminal doesn't understand <c-tab>
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsEditSplit='vertical'
 
 " Syntastic
 let g:syntastic_auto_jump=1

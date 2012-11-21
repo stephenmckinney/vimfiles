@@ -25,13 +25,10 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'scrooloose/nerdtree'
 " Nerdcommenter
 NeoBundle 'ddollar/nerdcommenter'
-" Snipmate
-NeoBundle 'garbas/vim-snipmate', { 'depends' : [
-    \ 'MarcWeber/vim-addon-mw-utils',
-    \ 'tomtom/tlib_vim',
-    \ ]}
-" Snipmate Snippets
-NeoBundle 'git@github.com:stephenmckinney/snipmate-snippets.git'
+" Ultisnips
+NeoBundle 'SirVer/ultisnips'
+" Ultisnips Snippets
+NeoBundle 'git@github.com:stephenmckinney/ultisnips-snippets.git'
 " Surround
 NeoBundle 'tpope/vim-surround'
 " Repeat
@@ -165,10 +162,12 @@ NeoBundle 'ajf/puppet-vim'
 " Tried and didn't like
 " ======================================================================
 "
+" 'Shougo/neocomplcache.git' - woh! So slow, it was like using Eclipse.
+" 'Shougo/neosnippet.git' - welp
 " 'sjl/threesome.vim' AKA 'sjl/splice.vim' - kept crashing Vim
 " 'tpope/vim-unimpaired' - RSI
 " 'kien/rainbow_parentheses.vim' - Never worked right
-" 'Lokaltog/vim-easymotion'
+" 'Lokaltog/vim-easymotion' - Vim has easy motions built-in
 "
 "
 " ======================================================================
