@@ -90,3 +90,6 @@ let g:tagbar_compact = 1
 " Turbux
 let g:no_turbux_mappings = 1
 "let g:turbux_command_prefix = 'bundle exec'
+let g:tmux_sessionname = substitute(system("tmux display-message -p '#S'"), '\n', '', '')
+let g:tmux_windowname = 'editor'
+let g:tmux_panenumber = '2'
