@@ -107,6 +107,10 @@ if has("autocmd")
     au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
       \| exe "normal g'\"" | endif
 
+    " Command-T Hack
+    " Resize splits when the a buffer is opened
+    au BufReadPost * :wincmd =
+
     " NERDTree Customizations (taken from Janus)
     " https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
     au VimEnter * call s:CdIfDirectory(expand("<amatch>"))
