@@ -4,17 +4,22 @@ Configures vim...for use at home and on the road.
 
 ## Install
 
-    git clone git://github.com/stephenmckinney/vimfiles ~/.vimfiles
-    cd ~/.vimfiles
-    rake install
-
-To install Vim plugins, open Vim and run `:NeoBundleInstall`.
-
 ### Install Requirements and Dependencies on Mac OS X
 
 Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
+    rvm use system
     brew install vim ack ctags
+
+> **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
+> see [issue](https://github.com/mxcl/homebrew/issues/15902).
+
+### Install vimfiles
+
+    git clone git://github.com/stephenmckinney/vimfiles ~/.vimfiles
+    cd ~/.vimfiles
+    rake install
+    vim +NeoBundleInstall +q
 
 #### Aside: A Nice Vim-Emacs Hack
 

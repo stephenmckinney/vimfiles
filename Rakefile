@@ -36,11 +36,18 @@ task :install do
   end
   puts
 
-  install_neobundle
-
   install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
 
+  install_neobundle
+
+  install_command_t
+
   success_msg("installed")
+end
+
+desc "(Re)compiles Command-T using system Ruby"
+task :compile_command_t do
+  compile_command_t
 end
 
 def replace_file(file)
@@ -86,3 +93,22 @@ def install_neobundle
   end
 end
 
+def install_command_t
+  unless File.exist?(File.join(ENV['HOME'], '.vim', 'bundle', 'Command-T'))
+    puts "======================================================"
+    puts "Installing Command-T"
+    puts "======================================================"
+    system("git clone https://github.com/wincent/Command-T ~/.vim/bundle/Command-T")
+    puts
+    compile_command_t
+  end
+end
+
+def compile_command_t
+  puts "======================================================"
+  puts "Compiling Command-T"
+  puts "======================================================"
+  FileUtils.cd(File.join(ENV['HOME'], '.vim', 'bundle', 'Command-T'))
+  system("bash -l -c 'source $HOME/.rvm/scripts/rvm; rvm use system; rake make' ")
+  puts
+end
