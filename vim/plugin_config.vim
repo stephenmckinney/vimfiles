@@ -33,7 +33,7 @@ let g:indent_guides_start_level = 2
 runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigation
 
 " NeoBundle
-let g:neobundle#log_filename=expand('~/.vim/bundle/plugin_install.log')
+let g:neobundle#log_filename=expand('~/.vim/plugin_install.log')
 
 " NERDTree
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o', '\~$']
