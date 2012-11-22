@@ -9,7 +9,7 @@ Configures vim...for use at home and on the road.
 Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
     rvm use system
-    brew install vim ack ctags
+    brew install vim macvim ack ctags
 
 > **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
 > see [issue](https://github.com/mxcl/homebrew/issues/15902).
