@@ -1,6 +1,7 @@
 " ======================================================================
 " Functions
 " ======================================================================
+
 " Strip trailing whitespace
 " Taken from: http://vimcasts.org/episodes/tidying-whitespace/
 function! s:StripTrailingWhitespaces()
@@ -87,6 +88,7 @@ endfunction
 " ======================================================================
 " Filetypes and autocmds
 " ======================================================================
+
 if has("autocmd")
   augroup stephenmckinney
     au!
@@ -99,6 +101,12 @@ if has("autocmd")
     au FileType ruby       setlocal foldmethod=syntax
     au FileType ruby       compiler ruby
     au BufRead,BufNewFile *.{rdoc,md,markdown,mdown,mkd,mkdn,txt} call s:setupMarkup()
+
+    " Omnicompletion
+    au FileType ruby set omnifunc=rubycomplete#Complete
+    au FileType ruby let g:rubycomplete_buffer_loading=1
+    au FileType ruby let g:rubycomplete_classes_in_global=1
+    au FileType ruby let g:rubycomplete_rails = 1
 
     " Strip trailing whitespace on save
     au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call s:StripTrailingWhitespaces()

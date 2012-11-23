@@ -1,6 +1,7 @@
 " ======================================================================
 " Plugin Configuration
 " ======================================================================
+
 " Command-T
 let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=20
@@ -72,6 +73,9 @@ let g:solarized_hitrail=1          "default value is 0
 "hi Pmenu  guifg=#000000 guibg=#F8F8F8 ctermfg=black ctermbg=Lightgray
 "hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
 "hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
+
+" Supertab
+let g:SuperTabDefaultCompletionType = "context"
 
 " UltiSnips
 let g:UltiSnipsUsePythonVersion = 2
