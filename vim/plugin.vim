@@ -49,15 +49,25 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 
 
 " ======================================================================
-" Vim Objects
+" Plugins that plug into default Vim behavior - Objects, Folding, etc.
 " ======================================================================
 
 " Indent Object
 NeoBundle 'michaeljsmith/vim-indent-object'
+" Endwise - add `end` after if, do, def and several other keywords
+NeoBundle 'tpope/vim-endwise'
+" Markdown Folding
+NeoBundle 'nelstrom/vim-markdown-folding'
+" Matchit - allows % to match more than just single characters
+NeoBundle 'edsono/vim-matchit'
+" Repeat- remaps `.` in a way that plugins can tap into it
+NeoBundle 'tpope/vim-repeat'
 " Ruby Block Object
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
     \ 'kana/vim-textobj-user',
     \ ]}
+" Yank History
+NeoBundle 'vim-scripts/YankRing.vim'
 
 
 " ======================================================================
@@ -68,8 +78,6 @@ NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
 NeoBundle 'vim-scripts/BufOnly.vim'
 " Cheat Sheet
 NeoBundle 'cheat_sheet', {'type' : 'nosync'}
-" Endwise
-NeoBundle 'tpope/vim-endwise'
 " Git commands
 NeoBundle 'tpope/vim-fugitive'
 " Github integration
@@ -86,8 +94,6 @@ NeoBundle 'mattn/gist-vim', { 'depends' : [
 NeoBundle 'nathanaelkane/vim-indent-guides'
 " Marks
 NeoBundle 'xsunsmile/showmarks'
-" Matchit
-NeoBundle 'edsono/vim-matchit'
 " Narrow Region
 NeoBundle 'chrisbra/NrrwRgn'
 " Nerdcommenter
@@ -96,8 +102,6 @@ NeoBundle 'ddollar/nerdcommenter'
 NeoBundle 'Valloric/QFixToggle'
 " Rename
 NeoBundle 'vim-scripts/Rename2'
-" Repeat
-NeoBundle 'tpope/vim-repeat'
 " Scratch buffer (useful for tSlime)
 NeoBundle 'vim-scripts/scratch.vim'
 " Surround
@@ -108,8 +112,6 @@ NeoBundle "godlygeek/tabular"
 NeoBundle 'majutsushi/tagbar'
 " ZoomWin
 NeoBundle 'vim-scripts/ZoomWin'
-" Yank History
-NeoBundle 'vim-scripts/YankRing.vim'
 
 
 " =========================================
