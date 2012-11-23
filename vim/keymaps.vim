@@ -122,7 +122,7 @@ nmap <leader>f :Ack!<space>
 nmap <leader>F :Ack!<CR>
 
 " =============
-" CommandT
+" CommandT/CtrlP
 " =============
 nmap <silent> <leader>t :CommandT<CR>
 nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
@@ -151,6 +151,7 @@ nmap <leader>jV :CommandT vendor<CR>
 nmap <leader>m :CtrlPBufTag<CR>
 "Ctrl-(M)ethod - jump to a method (tag in all files)
 nmap <leader>M :CtrlPBufTagAll<CR>
+
 
 " ======================================================================
 " Other Plugins
@@ -200,8 +201,8 @@ nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute
 " =============
 " ri.vim
 " =============
-nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR>
-nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR>
+nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR> " vertical split
+nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR> " horizontal split
 "nnoremap <silent> <leader>K :call ri#LookupNameUnderCursor()<cr>
 
 " =============

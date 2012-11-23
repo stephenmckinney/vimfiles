@@ -13,8 +13,9 @@ NeoBundle 'Shougo/neobundle.vim' " required
 
 
 " ======================================================================
-" Tools
+" Search, Buffer, File Navigation
 " ======================================================================
+
 " Ack
 NeoBundle 'mileszs/ack.vim'
 " Command-T
@@ -23,34 +24,52 @@ NeoBundle 'wincent/Command-T'
 NeoBundle 'kien/ctrlp.vim'
 " Nerdtree
 NeoBundle 'scrooloose/nerdtree'
-" Nerdcommenter
-NeoBundle 'ddollar/nerdcommenter'
+
+
+" ======================================================================
+" Omnicompletion, Snippets
+" ======================================================================
+
 " Ultisnips
 NeoBundle 'SirVer/ultisnips'
 " Ultisnips Snippets
 NeoBundle 'git@github.com:stephenmckinney/ultisnips-snippets.git'
-" Surround
-NeoBundle 'tpope/vim-surround'
-" Repeat
-NeoBundle 'tpope/vim-repeat'
-" Tabularize
-NeoBundle "godlygeek/tabular"
+" Supertab
+NeoBundle 'ervandew/supertab'
+
+
+" ======================================================================
+" Tmux Integration
+" ======================================================================
+
+" Vim-Tmux integration
+NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
+    \ 'jgdavey/tslime.vim',
+    \ ]}
+
+
+" ======================================================================
+" Vim Objects
+" ======================================================================
+
 " Indent Object
 NeoBundle 'michaeljsmith/vim-indent-object'
 " Ruby Block Object
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
     \ 'kana/vim-textobj-user',
     \ ]}
-" Tagbar
-NeoBundle 'majutsushi/tagbar'
-" Supertab
-NeoBundle 'ervandew/supertab'
-" ZoomWin
-NeoBundle 'vim-scripts/ZoomWin'
-" QFixToggle
-NeoBundle 'Valloric/QFixToggle'
+
+
+" ======================================================================
+" Misc Tools
+" ======================================================================
+
 " BufOnly
 NeoBundle 'vim-scripts/BufOnly.vim'
+" Cheat Sheet
+NeoBundle 'cheat_sheet', {'type' : 'nosync'}
+" Endwise
+NeoBundle 'tpope/vim-endwise'
 " Git commands
 NeoBundle 'tpope/vim-fugitive'
 " Github integration
@@ -63,30 +82,40 @@ NeoBundle 'sjl/gundo.vim'
 NeoBundle 'mattn/gist-vim', { 'depends' : [
     \ 'mattn/webapi-vim',
     \ ]}
-" Narrow Region
-NeoBundle 'chrisbra/NrrwRgn'
 " Indent Guides
 NeoBundle 'nathanaelkane/vim-indent-guides'
-" Yank History
-NeoBundle 'vim-scripts/YankRing.vim'
 " Marks
 NeoBundle 'xsunsmile/showmarks'
-" Rename
-NeoBundle 'vim-scripts/Rename2'
-" Endwise
-NeoBundle 'tpope/vim-endwise'
 " Matchit
 NeoBundle 'edsono/vim-matchit'
-" Vim-Tmux integration
-NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
-    \ 'jgdavey/tslime.vim',
-    \ ]}
+" Narrow Region
+NeoBundle 'chrisbra/NrrwRgn'
+" Nerdcommenter
+NeoBundle 'ddollar/nerdcommenter'
+" QFixToggle
+NeoBundle 'Valloric/QFixToggle'
+" Rename
+NeoBundle 'vim-scripts/Rename2'
+" Repeat
+NeoBundle 'tpope/vim-repeat'
 " Scratch buffer (useful for tSlime)
 NeoBundle 'vim-scripts/scratch.vim'
+" Surround
+NeoBundle 'tpope/vim-surround'
+" Tabularize
+NeoBundle "godlygeek/tabular"
+" Tagbar
+NeoBundle 'majutsushi/tagbar'
+" ZoomWin
+NeoBundle 'vim-scripts/ZoomWin'
+" Yank History
+NeoBundle 'vim-scripts/YankRing.vim'
+
 
 " =========================================
-" The below plugins I am experimenting with
+" **Tools I am experimenting with**
 " =========================================
+
 " Sparkup
 NeoBundle 'bingaman/vim-sparkup'
 " Docs
@@ -99,63 +128,68 @@ NeoBundle 'nelstrom/vim-markdown-preview'
 
 
 " ======================================================================
-" Themes
-" ======================================================================
-
-NeoBundle 'vim-scripts/Color-Sampler-Pack'
-NeoBundle 'wgibbs/vim-irblack'
-NeoBundle 'tpope/vim-vividchalk'
-NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
-NeoBundle 'chriskempson/vim-tomorrow-theme'
-" Powerline
-NeoBundle 'Lokaltog/vim-powerline'
-NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
-
-
-" ======================================================================
 " Languages & Syntax
 " ======================================================================
 
 " Syntastic
 NeoBundle 'scrooloose/syntastic'
-" Ruby
-NeoBundle 'vim-ruby/vim-ruby'
-" Rails
-NeoBundle 'tpope/vim-rails'
-" Rspec
-NeoBundle 'skwp/vim-rspec'
-" Cucumber
-NeoBundle 'tpope/vim-cucumber'
-" Shoulda
-NeoBundle 'tsaleh/vim-shoulda'
-" MiniTest
-NeoBundle 'sunaku/vim-ruby-minitest'
+
 " Bundler
 NeoBundle 'tpope/vim-bundler'
 " Capybara
 NeoBundle 'asux/vim-capybara'
-" RVM
-NeoBundle 'tpope/vim-rvm'
-" JQuery
-NeoBundle 'itspriddle/vim-jquery'
-" JavaScript
-NeoBundle 'pangloss/vim-javascript'
 " CoffeeScript
 NeoBundle 'kchmck/vim-coffee-script'
-" SCSS
-NeoBundle 'cakebaker/scss-syntax.vim'
-" Less
-NeoBundle 'groenewege/vim-less'
-" Haml
-NeoBundle 'tpope/vim-haml'
-" Textile
-NeoBundle 'timcharper/textile.vim'
-" Markdown
-NeoBundle 'tpope/vim-markdown'
+" Cucumber
+NeoBundle 'tpope/vim-cucumber'
 " Git
 NeoBundle 'tpope/vim-git'
+" Haml
+NeoBundle 'tpope/vim-haml'
+" JavaScript
+NeoBundle 'pangloss/vim-javascript'
+" JQuery
+NeoBundle 'itspriddle/vim-jquery'
+" Less
+NeoBundle 'groenewege/vim-less'
+" Markdown
+NeoBundle 'tpope/vim-markdown'
+" MiniTest
+NeoBundle 'sunaku/vim-ruby-minitest'
 " Puppet
 NeoBundle 'ajf/puppet-vim'
+" Rails
+NeoBundle 'tpope/vim-rails'
+" Rspec
+NeoBundle 'skwp/vim-rspec'
+" Ruby
+NeoBundle 'vim-ruby/vim-ruby'
+" RVM
+NeoBundle 'tpope/vim-rvm'
+" SCSS
+NeoBundle 'cakebaker/scss-syntax.vim'
+" Shoulda
+NeoBundle 'tsaleh/vim-shoulda'
+" Textile
+NeoBundle 'timcharper/textile.vim'
+
+
+" ======================================================================
+" Powerline
+" ======================================================================
+NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
+
+
+" ======================================================================
+" Themes
+" ======================================================================
+
+NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
+NeoBundle 'chriskempson/vim-tomorrow-theme'
+NeoBundle 'wgibbs/vim-irblack'
+NeoBundle 'tpope/vim-vividchalk'
+NeoBundle 'vim-scripts/Color-Sampler-Pack'
 
 
 " ======================================================================
