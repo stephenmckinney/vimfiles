@@ -45,7 +45,9 @@ nmap <silent> <D-7> :set foldlevel=6<CR>
 nmap <silent> <D-8> :set foldlevel=7<CR>
 nmap <silent> <D-9> :set foldlevel=8<CR>
 " 'fold tag'
-nnoremap <leader>zt Vatzf
+nnoremap <leader>zt Vatzfu
+nnoremap zo za
+vnoremap zo za
 
 " Edit/source vimrc file
 nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vimfiles<CR>

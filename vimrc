@@ -37,8 +37,11 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
-set foldmethod=indent
-set foldlevel=99
+
+" Folding
+set foldmethod=indent   "fold based on indent
+set foldnestmax=3       "deepest fold is 3 levels
+set nofoldenable        "dont fold by default
 
 " Backup / Undo
 set backupdir=~/.vim/backup
