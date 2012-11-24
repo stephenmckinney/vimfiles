@@ -174,6 +174,8 @@ NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'tsaleh/vim-shoulda'
 " Textile
 NeoBundle 'timcharper/textile.vim'
+" Tmux
+NeoBundle 'zaiste/tmux.vim'
 
 
 " ======================================================================
