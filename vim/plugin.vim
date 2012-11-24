@@ -193,7 +193,6 @@ NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
 NeoBundle 'chriskempson/vim-tomorrow-theme'
 NeoBundle 'wgibbs/vim-irblack'
 NeoBundle 'tpope/vim-vividchalk'
-NeoBundle 'vim-scripts/Color-Sampler-Pack'
 
 
 " ======================================================================
