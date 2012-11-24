@@ -130,7 +130,7 @@ NeoBundle 'nelstrom/vim-markdown-preview'
 
 
 " ======================================================================
-" Languages & Syntax
+" Languages & Syntax Highlighting
 " ======================================================================
 
 " Syntastic
@@ -196,7 +196,7 @@ NeoBundle 'tpope/vim-vividchalk'
 
 
 " ======================================================================
-" Tried and didn't like
+" Don't Like
 " ======================================================================
 "
 " 'Shougo/neocomplcache.git' - woh! So slow, it was like using Eclipse.
@@ -211,3 +211,4 @@ NeoBundle 'tpope/vim-vividchalk'
 " Will try some day when I have time
 " ======================================================================
 "
+" Nada
