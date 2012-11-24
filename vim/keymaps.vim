@@ -49,8 +49,14 @@ nnoremap <leader>zt Vatzfu
 nnoremap zo za
 vnoremap zo za
 
-" Edit/source vimrc file
+" Edit config files
 nmap <leader>ev :tabnew<CR>\|:NERDTree ~/.vimfiles<CR>
+nmap <leader>es :tabnew<CR>\|:NERDTree ~/.vimfiles/vim/bundle/ultisnips-snippets/snippets<CR>
+nmap <leader>ed :tabnew<CR>\|:NERDTree ~/.dotfiles<CR>
+nmap <leader>ez :tabnew<CR>\|:NERDTree ~/.zprezto<CR>
+nmap <leader>eg :tabnew<CR>\|:e ~/.gitconfig<cr>
+nmap <leader>et :tabnew<CR>\|:e ~/.tmux.conf<cr>
+
 
 " View Rails source
 command! Rsource :tabnew | NERDTree ~/code/src/rails
