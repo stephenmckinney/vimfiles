@@ -21,13 +21,13 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
     rake install
     vim +NeoBundleInstall +q
 
-#### Aside: A Nice Vim-Emacs Hack
-
-[Remap Caps Lock to act like Control and ESC](http://www.quora.com/How-can-I-remap-Caps-Lock-in-Mac-OS-X-so-that-it-acts-like-Control-in-Emacs-but-acts-like-Escape-in-Vim)
+> **Preventing RSI:**
+> You should really [Remap Caps Lock to act like Control and ESC](http://www.quora.com/How-can-I-remap-Caps-Lock-in-Mac-OS-X-so-that-it-acts-like-Control-in-Emacs-but-acts-like-Escape-in-Vim).
+> You'll thank me later.
 
 ## Stay Updated
 
-Open Vim and run `:NeoBundleUpdate`
+    vim +NeoBundleUpdate +q
 
 ## Requirements and Dependencies
 
