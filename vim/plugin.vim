@@ -126,7 +126,6 @@ NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 NeoBundle 'lucapette/vim-ruby-doc'
 NeoBundle 'ecomba/vim-ruby-refactoring'
 NeoBundle 'danchoi/ri.vim'
-NeoBundle 'nelstrom/vim-markdown-preview'
 
 
 " ======================================================================
@@ -199,12 +198,13 @@ NeoBundle 'tpope/vim-vividchalk'
 " Don't Like
 " ======================================================================
 "
-" 'Shougo/neocomplcache.git' - woh! So slow, it was like using Eclipse.
-" 'Shougo/neosnippet.git' - welp
+" 'Shougo/neocomplcache' - woh! So slow, it was like using Eclipse.
+" 'Shougo/neosnippet' - welp
 " 'sjl/threesome.vim' AKA 'sjl/splice.vim' - kept crashing Vim
 " 'tpope/vim-unimpaired' - RSI
 " 'kien/rainbow_parentheses.vim' - Never worked right
 " 'Lokaltog/vim-easymotion' - Vim has easy motions built-in
+" 'nelstrom/vim-markdown-preview' - Not bad but Marked.app is better
 "
 "
 " ======================================================================
