@@ -55,13 +55,13 @@ These are installed by following the above.
 
 Go dumpster diving for more Vim-goodies:
 
-* https://github.com/sjl/dotfiles
-* https://github.com/garybernhardt/dotfiles
-* https://github.com/astrails/dotvim
-* https://github.com/spf13/spf13-vim
-* https://github.com/zaiste/vimified
-* https://github.com/skwp/dotfiles
-* https://github.com/carlhuda/janus
+* [garybernhardt dotfiles](https://github.com/garybernhardt/dotfiles)
+* [sjl dotfiles](https://github.com/sjl/dotfiles)
+* [spf13 vim](https://github.com/spf13/spf13-vim)
+* [zastie vimified](https://github.com/zaiste/vimified)
+* [astrails dotvim](https://github.com/astrails/dotvim)
+* [skwp dotfiles](https://github.com/skwp/dotfiles)
+* [carlhuda janus](https://github.com/carlhuda/janus)
 
 ## TODO
 * Add vim cheatsheet.
