@@ -64,5 +64,4 @@ Go dumpster diving for more Vim-goodies:
 * [carlhuda janus](https://github.com/carlhuda/janus)
 
 ## TODO
-* Add vim cheatsheet.
 * Test vimfiles on Linux.

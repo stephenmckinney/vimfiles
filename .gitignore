@@ -3,3 +3,4 @@ vim/.VimballRecord
 vim/backup
 vim/undo
 vim/bundle/*
+!vim/bundle/cheat_sheet/doc/tags/cheat.txt

@@ -1,0 +1,70 @@
+*cheat_sheet.txt*
+
+        A Vim cheat sheet for things I can't remember.
+
+Author:  Steve McKinney <http://stephenmckinney.me/>
+
+Cheat Sheet                                                           *cheat*
+
+==============================================================================
+MOTION                                                          *cheat-motion*
+
+|w| next word
+|e| end of word
+|b| beginning of word
+|0| start of line
+|$| end of line
+|^| first char of line
+
+|h,j,k,l|
+|f|{char}   find {char} (inclusive)
+|F|{char}   find prev {char}
+|t|{char}   'til {char} (exclusive)
+|T|{char}   'til prev {char}
+|;|         repeat last find
+
+|/|{term}   search to next {term}
+|?|{term}   search to prev {term}
+|n|         next {term}
+|p|         prev {term}
+
+|:|{number} go to line {number}
+CTRL-u    page up
+CTRL-d    page down
+
+==============================================================================
+EDITING                                                        *cheat-editing*
+
+|cc|, |yy|, |dd| edit entire line
+|c|{motion} change to {motion}
+|y|{motion} yank to {motion}
+|d|{motion} delete to {motion}
+|r|{char}   replace single {char}
+|p| paste before cursor
+|P| paste after cursor
+|>>|, |<<| indent, outdent
+
+Visual Mode                                                *cheat-visual-mode*
+-----------
+|c|    change
+|y|    yank
+|d|    delete
+|>|, |<| indent, outdent
+
+==============================================================================
+SEARCH                                                          *cheat-search*
+
+:%s/{search}/{replace}/gc       search and replace entire file
+:.,$s/{search}/{replace}/gc     search and replace current line to end of file
+:.,{num}s/{search}/{replace}/gc search and replace current line to {num} lines
+
+==============================================================================
+FOLDING                                                        *cheat-folding*
+
+|zi| toggle all folds
+|zo| toggle fold under cursor
+|zj| jump to next fold
+|zk| jump to prev fold
+
+
+ vim:tw=78:et:ft=help:norl:
