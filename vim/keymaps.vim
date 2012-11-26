@@ -259,6 +259,11 @@ map <leader>s{ ysiw}
 map <leader>s} ysiw{
 vmap <leader>s} c{ <C-R>" }<ESC>
 vmap <leader>s{ c{<C-R>"}<ESC>
+" <leader>| Surround a word with |braces|
+map <leader>s<bar> ysiw<bar>
+map <leader>s<bar> ysiw<bar>
+vmap <leader>s<bar> c<bar> <C-R>" <bar><ESC>
+vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
 
 " =============
 " Tagbar
@@ -274,6 +279,8 @@ nmap <leader>a= :Tabularize /=<CR>
 vmap <leader>a= :Tabularize /=<CR>
 nmap <leader>a: :Tabularize /:<CR>
 vmap <leader>a: :Tabularize /:<CR>
+nmap <leader>a<bar> :Tabularize /<bar><CR>
+vmap <leader>a<bar> :Tabularize /<bar><CR>
 
 " =============
 " Turbux/tSlime
