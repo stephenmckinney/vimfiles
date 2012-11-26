@@ -41,8 +41,8 @@ These are all installed by following the steps above.
 
 ### Vim Plugins
 
-* [NeoBundle](https://github.com/Shougo/neobundle.vim) to manage plugins
-* [A laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim), including my own plugins and forks:
+* [NeoBundle.vim](https://github.com/Shougo/neobundle.vim) to manage [a laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim)
+* My own Vim plugins and forks:
     * [Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
     * [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline) to bring Solarized to the statusbar
     * [dochub.vim](https://github.com/stephenmckinney/vim-dochub) for HTML, CSS, JavaScript, jQuery, and PHP documentation 
@@ -50,7 +50,7 @@ These are all installed by following the steps above.
 
 ## Moar
 
-Go dumpster diving for more Vim-goodies:
+Go dumpster diving for more Vim goodies:
 
 * [garybernhardt dotfiles](https://github.com/garybernhardt/dotfiles)
 * [sjl dotfiles](https://github.com/sjl/dotfiles)
@@ -61,4 +61,5 @@ Go dumpster diving for more Vim-goodies:
 * [carlhuda janus](https://github.com/carlhuda/janus)
 
 ## TODO
+
 * Test vimfiles on Linux.
