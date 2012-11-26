@@ -14,7 +14,7 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 > **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
 > see [issue](https://github.com/mxcl/homebrew/issues/15902).
 
-### Install vimfiles
+### Install Vimfiles and Plugins
 
     git clone git://github.com/stephenmckinney/vimfiles ~/.vimfiles
     cd ~/.vimfiles
@@ -31,21 +31,18 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
 ## Requirements and Dependencies
 
-These are installed by following the above.
+These are all installed by following the steps above.
 
-### Required
+### Brews
 
 * [Vim](http://www.vim.org/) or [MacVim](https://github.com/b4winckler/macvim) 7.3 or greater
-
-### Optional
-
 * [Ack](http://betterthangrep.com/) is required for [Ack.vim](https://github.com/mileszs/ack.vim)
 * [Exuberant Ctags](http://ctags.sourceforge.net/) is required for [Tagbar](http://majutsushi.github.com/tagbar/)
 
-## Makes Use Of
+### Vim Plugins
 
 * [NeoBundle](https://github.com/Shougo/neobundle.vim) to manage plugins
-* Many [other Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim), including my own plugins and forks:
+* [A laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim), including my own plugins and forks:
     * [Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
     * [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline) to bring Solarized to the statusbar
     * [dochub.vim](https://github.com/stephenmckinney/vim-dochub) for HTML, CSS, JavaScript, jQuery, and PHP documentation 
