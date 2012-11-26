@@ -12,6 +12,9 @@ MOTION                                                          *cheat-motion*
 |w| next word
 |e| end of word
 |b| beginning of word
+|W| next whitespace-delimited word
+|E| end of whitespace-delimited word
+|B| beginning of whitespace-delimited word
 |0| start of line
 |$| end of line
 |^| first char of line
@@ -35,28 +38,66 @@ CTRL-d    page down
 ==============================================================================
 EDITING                                                        *cheat-editing*
 
-|cc|, |yy|, |dd| edit entire line
-|c|{motion} change to {motion}
-|y|{motion} yank to {motion}
-|d|{motion} delete to {motion}
-|r|{char}   replace single {char}
-|p| paste before cursor
-|P| paste after cursor
-|>>|, |<<| indent, outdent
+|cc|, |yy|, |dd|  edit entire line
+|c|{motion}   change to {motion}
+|y|{motion}   yank to {motion}
+|d|{motion}   delete to {motion}
+|r|{char}     replace single char under cursor with {char}
+|x|           delete single char under cursor
+|X|           delete single char before cursor
+
+|C|       change the rest of the line
+|Y|       yank the rest of the line
+|D|       delete the rest of the line
+|R|       insert mode but replace characters rather than inserting
+|p|       paste before cursor
+|P|       paste after cursor
+|>>|, |<<|  indent, outdent
+
+|.| repeat last command
+
+|i| insert before cursor
+|a| append after cursor
+|o| open a new line below and insert
+
+|I| insert at the start of the line
+|A| append at the end of the line
+|O| open a new line above and insert
+
+
+:e {file} edit {file}
+|gf|        'goto file' under cursor
 
 Visual Mode                                                *cheat-visual-mode*
 -----------
+|v|    Start highlighting characters for Visual mode
+|V|    Start highlighting lines for Visual mode
 |c|    change
 |y|    yank
 |d|    delete
 |>|, |<| indent, outdent
 
 ==============================================================================
+UNDO-REDO                                                    *cheat-undo-redo*
+
+|u|      Undo the last action
+|U|      Undo all the latest changes that were made to the current line
+CTRL-U redo
+
+==============================================================================
 SEARCH                                                          *cheat-search*
 
-:%s/{search}/{replace}/gc       search and replace entire file
-:.,$s/{search}/{replace}/gc     search and replace current line to end of file
-:.,{num}s/{search}/{replace}/gc search and replace current line to {num} lines
+|/|{term}   search to next {term}
+|?|{term}   search to prev {term}
+|n|         next {term}
+|p|         prev {term}
+
+==============================================================================
+REPLACE                                                        *cheat-replace*
+
+:%s/{search}/{replace}/gci       search and replace entire file
+:.,$s/{search}/{replace}/gci     search and replace current line to end of file
+:.,{num}s/{search}/{replace}/gci search and replace current line to {num} lines
 
 ==============================================================================
 FOLDING                                                        *cheat-folding*
@@ -66,5 +107,40 @@ FOLDING                                                        *cheat-folding*
 |zj| jump to next fold
 |zk| jump to prev fold
 
+==============================================================================
+OBJECTS                                                        *cheat-objects*
+
+{operator}{extent}{object}
+
+Example:
+      |vit|
+      visual-inner-tag
+
+Operator                                               *cheat-objects-operator*
+--------
+
+|c|hange
+|y|ank
+|d|elete
+|v|isual
+
+Extent                                                   *cheat-objects-extent*
+------
+
+|a|ll delimeters
+|i|nner object
+
+Object                                                    *cheat-objects-object*
+------
+
+|w|ord
+|W|ord
+|t|ag
+|b|lock        "[({" to "])}"
+|r|uby block
+|i|ndent
+|s|entence
+|p|aragrash
+|quote|, |'|, |(|, |[|, |{|, |<|, |backtick|
 
  vim:tw=78:et:ft=help:norl:
