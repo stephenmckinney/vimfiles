@@ -45,11 +45,11 @@ These are installed by following the above.
 ## Makes Use Of
 
 * [NeoBundle](https://github.com/Shougo/neobundle.vim) to manage plugins
-* Many [other Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim), including:
-    * my [fork of Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
-    * my [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline)
-    * my [dochub.vim](https://github.com/stephenmckinney/vim-dochub) for HTML, CSS, JavaScript, jQuery, and PHP documentation 
-    * my [ultisnips-snippets](https://github.com/stephenmckinney/ultisnips-snippets)
+* Many [other Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim), including my own plugins and forks:
+    * [Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
+    * [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline) to bring Solarized to the statusbar
+    * [dochub.vim](https://github.com/stephenmckinney/vim-dochub) for HTML, CSS, JavaScript, jQuery, and PHP documentation 
+    * [ultisnips-snippets](https://github.com/stephenmckinney/ultisnips-snippets) for Textmate-like snippets that focus on Ruby, Rails, and RSpec & friends
 
 ## Moar
 
