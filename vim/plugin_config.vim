@@ -100,3 +100,6 @@ let g:no_turbux_mappings = 1
 let g:tmux_sessionname = substitute(system("tmux display-message -p '#S'"), '\n', '', '')
 let g:tmux_windowname = 'editor'
 let g:tmux_panenumber = '2'
+
+" YankStank
+let g:yankstack_map_keys = 0

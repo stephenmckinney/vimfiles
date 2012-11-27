@@ -127,10 +127,6 @@ endif
 " Load functions, autocommands, plugin configurations,
 " key mappings, and local vim conifg
 " ======================================================================
-if filereadable(expand("~/.vim/functions.vim"))
-  source ~/.vim/functions.vim
-endif
-
 if filereadable(expand("~/.vim/plugin_config.vim"))
   source ~/.vim/plugin_config.vim
 endif

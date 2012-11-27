@@ -67,7 +67,7 @@ NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
     \ 'kana/vim-textobj-user',
     \ ]}
 " Yank History
-NeoBundle 'vim-scripts/YankRing.vim'
+NeoBundle 'maxbrunsfeld/vim-yankstack'
 
 
 " ======================================================================
@@ -205,6 +205,7 @@ NeoBundle 'tpope/vim-vividchalk'
 " 'kien/rainbow_parentheses.vim' - Never worked right
 " 'Lokaltog/vim-easymotion' - Vim has easy motions built-in
 " 'nelstrom/vim-markdown-preview' - Not bad but Marked.app is better
+" 'vim-scripts/YankRing.vim' - kept messing up my Vim macros
 "
 "
 " ======================================================================

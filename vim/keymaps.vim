@@ -5,6 +5,9 @@
 " <,> is the leader character
 let mapleader = ","
 
+" setup Yank Stack before all keymaps
+call yankstack#setup()
+
 " It's not like :W is bound to anything anyway.
 command! W :w
 
@@ -25,10 +28,7 @@ vmap > >gv
 vmap < <gv
 
 " Make Y consistent with C and D: Yank from the cursor to the end of the line
-" Customized for YankRing
-function! YRRunAfterMaps()
-  nnoremap Y :<C-U>YRYankCount 'y$'<CR>
-endfunction
+nmap Y y$
 
 " Toggle paste mode
 set pastetoggle=<F1>
@@ -44,8 +44,11 @@ nmap <silent> <D-6> :set foldlevel=5<CR>
 nmap <silent> <D-7> :set foldlevel=6<CR>
 nmap <silent> <D-8> :set foldlevel=7<CR>
 nmap <silent> <D-9> :set foldlevel=8<CR>
-" 'fold tag'
+
+" 'fold tag'?
 nnoremap <leader>zt Vatzfu
+
+" 'toggle fold' as an easier keymap
 nnoremap zo za
 vnoremap zo za
 
@@ -57,9 +60,11 @@ nmap <leader>ez :tabnew<CR>\|:NERDTree ~/.zprezto<CR>
 nmap <leader>eg :tabnew<CR>\|:e ~/.gitconfig<cr>
 nmap <leader>et :tabnew<CR>\|:e ~/.tmux.conf<cr>
 
-
 " View Rails source
 command! Rsource :tabnew | NERDTree ~/code/src/rails
+
+" Strip trailing whitespace
+nmap <silent> <leader>W :call <SID>StripTrailingWhitespaces()<CR>
 
 
 " ======================================================================
@@ -179,9 +184,9 @@ nmap <leader>gd :Gdiff<CR>
 nmap <leader>gr :Gread<CR>
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gw :Gwrite<CR>
-nmap <leader>gv :Gitv --all<CR>
-nmap <leader>gV :Gitv! --all<CR>
-vmap <leader>gV :Gitv! --all<CR>
+nmap <leader>gv :Gitv! --all<CR> " File mode
+vmap <leader>gv :Gitv! --all<CR> " File mode
+nmap <leader>gV :Gitv --all<CR>  " Browser mode
 
 " =============
 " Gundo
@@ -200,7 +205,7 @@ nmap <silent> <leader>d :NERDTreeToggle<CR>
 nmap <silent> <leader>D :NERDTreeFind<CR>
 nmap <leader>e :NERDTree<space>
 
-" Taken from https://github.com/sjl/dotfiles/blob/master/vim/vimrc
+" Taken from: https://github.com/sjl/dotfiles/blob/master/vim/vimrc
 " Open a Quickfix window for the last search.
 nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 " Ack for the last search.
@@ -288,3 +293,146 @@ vmap <leader>a<bar> :Tabularize /<bar><CR>
 nmap <leader>r <Plug>SendTestToTmux
 nmap <leader>R <Plug>SendFocusedTestToTmux
 vmap <C-c><C-c> <Plug>SendSelectionToTmux
+
+" =============
+" YankStank
+" =============
+nmap <C-p> <Plug>yankstack_substitute_older_paste
+nmap <C-n> <Plug>yankstack_substitute_older_paste
+
+
+" ======================================================================
+" Functions
+" ======================================================================
+
+" Strip trailing whitespace
+" Taken from: http://vimcasts.org/episodes/tidying-whitespace/
+function! s:StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+
+" Wrap text
+function! s:SetupWrapping()
+  set wrap
+  set linebreak
+  set textwidth=72
+  set nolist
+endfunction
+
+" Wrap text and allow preview
+function! s:SetupMarkdown()
+  call <SID>SetupWrapping()
+  " Preview in Marked.app
+  command! Marked silent !open -a "Marked.app" "%:p"
+  nmap <silent> <leader>p :Marked<CR>\|:redraw!<CR>
+endfunction
+
+" NERDTree Customizations
+" Taken from https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
+" If the parameter is a directory, cd into it
+function! s:CdIfDirectory(directory)
+  let explicitDirectory = isdirectory(a:directory)
+  let directory = explicitDirectory || empty(a:directory)
+
+  if explicitDirectory
+    exe "cd " . fnameescape(a:directory)
+  endif
+
+  " Allows reading from stdin
+  " ex: git diff | mvim -R -
+  if strlen(a:directory) == 0
+    return
+  endif
+
+  if directory
+    NERDTree
+    wincmd p
+    bd
+  endif
+
+  if explicitDirectory
+    wincmd p
+  endif
+endfunction
+
+" NERDTree utility function
+"function! s:UpdateNERDTree(...)
+  "let stay = 0
+
+  "if(exists("a:1"))
+    "let stay = a:1
+  "end
+
+  "if exists("t:NERDTreeBufName")
+    "let nr = bufwinnr(t:NERDTreeBufName)
+    "if nr != -1
+      "exe nr . "wincmd w"
+      "exe substitute(mapcheck("R"), "<CR>", "", "")
+      "if !stay
+        "wincmd p
+      "end
+    "endif
+  "endif
+"endfunction
+
+" ======================================================================
+" Autocmds
+" ======================================================================
+
+if has("autocmd")
+  " General autocmds
+  augroup stephenmckinney
+    au!
+    " Indention - rb, html, css indention are handled by the default vim support
+    au FileType make       setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+    au FileType python     setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    au FileType javascript setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    au FileType htmldjango setlocal textwidth=200 " stop fucking up my HTML
+    au BufRead,BufNewFile *.{rdoc,md,markdown,mdown,mkd,mkdn,txt} call <SID>SetupMarkdown()
+
+    " Ruby
+    au FileType ruby       setlocal foldmethod=syntax
+    au FileType ruby       compiler ruby
+
+    " Ruby Omnicompletion
+    au FileType ruby set omnifunc=rubycomplete#Complete
+    au FileType ruby let g:rubycomplete_buffer_loading=1
+    au FileType ruby let g:rubycomplete_classes_in_global=1
+    au FileType ruby let g:rubycomplete_rails = 1
+
+    " Strip trailing whitespace on save
+    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
+
+    " Remember last location in file
+    au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+      \| exe "normal g'\"" | endif
+
+    " Command-T Hack - Resize splits when the a buffer is opened
+    au BufReadPost * :wincmd =
+  augroup END
+
+  " NERDTree autocmds
+  " Taken from: https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
+  augroup stephenmckinneyNERDTree
+    au!
+    " cd if opening a directory
+    au VimEnter * call <SID>CdIfDirectory(expand("<amatch>"))
+
+    " Update NERDTree
+    "au FocusGained * call <SID>UpdateNERDTree()
+
+    " Quit when only NERDTreee is the remaining buffer
+    au bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | quit | endif
+
+    " Quit when only Quickfix is the remaining buffer
+    au bufenter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
+  augroup END
+endif
