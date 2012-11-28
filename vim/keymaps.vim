@@ -90,7 +90,7 @@ nmap <leader>x <C-w>x
 " Adjust viewports to the same size
 nmap <leader>= <C-w>=
 " Toggle ZoomWin
-nmap <silent> <leader>Z :ZoomWin<CR>
+nmap <silent> <leader>z :ZoomWin<CR>
 
 " Buffer navigation
 nmap <left>  :bp<CR>
@@ -338,24 +338,12 @@ function! s:StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 
-" Wrap text
-function! s:SetupWrapping()
-  set wrap
-  set linebreak
-  set textwidth=72
-  set nolist
-endfunction
-
-" Wrap text and allow preview
-function! s:SetupMarkdown()
-  call <SID>SetupWrapping()
-  " Preview in Marked.app
+" Set up Markdown Preview keymap
+function! s:SetupMarkdownPreview()
   command! Marked silent !open -a "Marked.app" "%:p"
   nmap <silent> <leader>p :Marked<CR>\|:redraw!<CR>
 endfunction
 
-" NERDTree Customizations
-" Taken from https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
 " If the parameter is a directory, cd into it
 function! s:CdIfDirectory(directory)
   let explicitDirectory = isdirectory(a:directory)
@@ -382,25 +370,24 @@ function! s:CdIfDirectory(directory)
   endif
 endfunction
 
-" NERDTree utility function
-"function! s:UpdateNERDTree(...)
-  "let stay = 0
+function! s:UpdateNERDTree(...)
+  let stay = 0
 
-  "if(exists("a:1"))
-    "let stay = a:1
-  "end
+  if(exists("a:1"))
+    let stay = a:1
+  end
 
-  "if exists("t:NERDTreeBufName")
-    "let nr = bufwinnr(t:NERDTreeBufName)
-    "if nr != -1
-      "exe nr . "wincmd w"
-      "exe substitute(mapcheck("R"), "<CR>", "", "")
-      "if !stay
-        "wincmd p
-      "end
-    "endif
-  "endif
-"endfunction
+  if exists("t:NERDTreeBufName")
+    let nr = bufwinnr(t:NERDTreeBufName)
+    if nr != -1
+      exe nr . "wincmd w"
+      exe substitute(mapcheck("R"), "<CR>", "", "")
+      if !stay
+        wincmd p
+      end
+    endif
+  endif
+endfunction
 
 
 " ======================================================================
@@ -408,51 +395,56 @@ endfunction
 " ======================================================================
 
 if has("autocmd")
-  " General autocmds
-  augroup stephenmckinney
+  augroup samFileTypeOptions
     au!
-    " Indention - rb, html, css indention are handled by the default vim support
-    au FileType make       setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
-    au FileType python     setlocal tabstop=4 softtabstop=4 shiftwidth=4
-    au FileType javascript setlocal tabstop=4 softtabstop=4 shiftwidth=4
-    au FileType htmldjango setlocal textwidth=200 " stop fucking up my HTML
-    au BufRead,BufNewFile *.{rdoc,md,markdown,mdown,mkd,mkdn,txt} call <SID>SetupMarkdown()
 
-    " Ruby
+    " Indention - rb, html, css, javascript use default
+    au FileType htmldjango setlocal textwidth=200    " stop fucking up my HTML
+    au FileType make       setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+    au FileType markdown   setlocal textwidth=72 wrap linebreak nolist
+    au FileType python     setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    au FileType text,txt   setlocal textwidth=72 wrap linebreak nolist
+
+
+    " Folding
+    au FileType html       setlocal foldmethod=syntax
+    au FileType javascript setlocal foldmethod=syntax
     au FileType ruby       setlocal foldmethod=syntax
+
+    " Compiler
     au FileType ruby       compiler ruby
 
-    " Ruby Omnicompletion
+    " Omnicompletion
+    au FileType css  silent! setlocal omnifunc=csscomplete#CompleteCSS
     au FileType ruby set omnifunc=rubycomplete#Complete
     au FileType ruby let g:rubycomplete_buffer_loading=1
     au FileType ruby let g:rubycomplete_classes_in_global=1
     au FileType ruby let g:rubycomplete_rails = 1
 
-    " Strip trailing whitespace on save
-    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
+    " Keymaps
+    au FileType help     nnoremap <silent><buffer> q :q<CR>
+    au FileType markdown call <SID>SetupMarkdownPreview()
+  augroup END
 
+  augroup samFileTypeMisc
+    " cd if opening a directory
+    au VimEnter * call <SID>CdIfDirectory(expand("<amatch>"))
+    " Update NERDTree
+    au FocusGained * silent! call <SID>UpdateNERDTree()
+    " Reload Fugitive
+    au FocusGained * if !has('win32') | silent! call fugitive#reload_status() | endif
+    " Stop folding by indent in help buffer
+    au BufReadPre * if (&buftype == 'help') | setlocal foldmethod=manual | endif
     " Remember last location in file
     au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
       \| exe "normal g'\"" | endif
-
-    " Command-T Hack - Resize splits when the a buffer is opened
+    " FIXME: Command-T Hack - Resize splits when the a buffer is opened
     au BufReadPost * :wincmd =
-  augroup END
-
-  " NERDTree autocmds
-  " Taken from: https://github.com/carlhuda/janus/blob/master/janus/vim/tools/janus/after/plugin/nerdtree.vim
-  augroup stephenmckinneyNERDTree
-    au!
-    " cd if opening a directory
-    au VimEnter * call <SID>CdIfDirectory(expand("<amatch>"))
-
-    " Update NERDTree
-    "au FocusGained * call <SID>UpdateNERDTree()
-
-    " Quit when only NERDTreee is the remaining buffer
-    au bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | quit | endif
-
+    " Strip trailing whitespace on save
+    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
     " Quit when only Quickfix is the remaining buffer
-    au bufenter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
+    au BufEnter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
+    " Quit when only NERDTreee is the remaining buffer
+    au BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | quit | endif
   augroup END
 endif

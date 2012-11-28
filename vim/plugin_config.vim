@@ -30,6 +30,11 @@ let g:indent_guides_auto_colors = 1
 let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 
+" HTML seettings from javascript.vim
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
 " Matchit
 runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigation
 
