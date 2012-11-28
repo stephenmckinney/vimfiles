@@ -31,22 +31,20 @@ vmap < <gv
 nmap Y y$
 
 " Toggle paste mode
-set pastetoggle=<F1>
+set pastetoggle=<F10>
 
 " Code folding options
-nmap <silent> <D-0> :set foldlevel=99<CR>
-nmap <silent> <D-1> :set foldlevel=0<CR>
-nmap <silent> <D-2> :set foldlevel=1<CR>
-nmap <silent> <D-3> :set foldlevel=2<CR>
-nmap <silent> <D-4> :set foldlevel=3<CR>
-nmap <silent> <D-5> :set foldlevel=4<CR>
-nmap <silent> <D-6> :set foldlevel=5<CR>
-nmap <silent> <D-7> :set foldlevel=6<CR>
-nmap <silent> <D-8> :set foldlevel=7<CR>
-nmap <silent> <D-9> :set foldlevel=8<CR>
-
+nmap <silent> <F1> :set foldenable<CR>\|:set foldlevel=0<CR>
+nmap <silent> <F2> :set foldenable<CR>\|:set foldlevel=1<CR>
+nmap <silent> <F3> :set foldenable<CR>\|:set foldlevel=2<CR>
+nmap <silent> <F4> :set foldenable<CR>\|:set foldlevel=3<CR>
+nmap <silent> <F5> :set foldenable<CR>\|:set foldlevel=4<CR>
+nmap <silent> <F6> :set foldenable<CR>\|:set foldlevel=5<CR>
+nmap <silent> <F7> :set foldenable<CR>\|:set foldlevel=6<CR>
+nmap <silent> <F8> :set foldenable<CR>\|:set foldlevel=7<CR>
+nmap <silent> <F9> :set foldenable<CR>\|:set foldlevel=8<CR>
 " 'fold tag'?
-nnoremap <leader>zt Vatzfu
+"nnoremap <leader>zt Vatzfu
 
 " 'toggle fold' as an easier keymap
 nnoremap zo za
