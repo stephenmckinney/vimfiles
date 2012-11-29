@@ -445,6 +445,6 @@ if has("autocmd")
     " Quit when only Quickfix is the remaining buffer
     au BufEnter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
     " Quit when only NERDTreee is the remaining buffer
-    au BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | quit | endif
+    au BufEnter * if (winnr('$') == 1 && exists('b:NERDTreeType') && b:NERDTreeType == 'primary') | quit | endif
   augroup END
 endif
