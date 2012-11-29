@@ -64,8 +64,11 @@ let g:ruby_doc_command='open'
 let g:ruby_refactoring_map_keys = 0
 
 " ShowMarks
-let g:showmarks_textlower="*\t"
-let g:showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY"
+let g:showmarks_textlower=" "
+let g:showmarks_textupper=" "
+let g:showmarks_include = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz"
+let g:showmarks_hlline_lower=1
+let g:showmarks_hlline_upper=1
 
 " Solarized
 if !has("gui_macvim")
