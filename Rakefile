@@ -109,6 +109,6 @@ def compile_command_t
   puts "Compiling Command-T"
   puts "======================================================"
   FileUtils.cd(File.join(ENV['HOME'], '.vim', 'bundle', 'Command-T'))
-  system("bash -l -c 'source $HOME/.rvm/scripts/rvm; rvm use system; rake make' ")
+  system("bash -l -c 'source $HOME/.rvm/scripts/rvm; rvm use system; make clean; rake make' ")
   puts
 end
