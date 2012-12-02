@@ -52,6 +52,7 @@ These are all installed by following the steps above.
 
 Go dumpster diving for more Vim goodies:
 
+* [tpope's dotfiles](https://github.com/tpope/tpope)
 * [garybernhardt dotfiles](https://github.com/garybernhardt/dotfiles)
 * [sjl dotfiles](https://github.com/sjl/dotfiles)
 * [spf13 vim](https://github.com/spf13/spf13-vim)
