@@ -18,9 +18,12 @@ let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_max_height = 15
 let g:ctrlp_open_new_file = 'v'
 let g:ctrlp_extensions = ['tag']
-let g:ctrlp_custom_ignore = {
-\ 'dir':  'bin$\|db/migrate$\|log$\|public/cache$\|public/stylesheets$\|public/system$\|script$\|tmp$\|vendor$'
-\ }
+" This should be unecessary since we HAVE to set |wildignore| options
+" for Command-T (unfortunately). And these custom ignores are identical
+" to our |wildignore| settings.
+"let g:ctrlp_custom_ignore = {
+"\ 'dir':  'bin$\|db/migrate$\|log$\|public/cache$\|public/stylesheets$\|public/system$\|script$\|tmp$\|vendor$'
+"\ }
 
 " Gitv
 let g:Gitv_DoNotMapCtrlKey = 1
