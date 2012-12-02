@@ -31,12 +31,12 @@ set sidescrolloff=15
 set sidescroll=1
 
 " Indentation (Softtabs, 2 spaces): rb, html, css, js
+set autoindent
+set expandtab
 set nowrap
-set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set expandtab
-set autoindent
+set tabstop=2
 
 " Folding
 set foldmethod=indent   " fold based on indent

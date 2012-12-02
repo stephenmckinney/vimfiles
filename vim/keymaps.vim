@@ -401,12 +401,18 @@ if has("autocmd")
     au!
 
     " Indention - rb, html, css, javascript use default
-    au FileType htmldjango setlocal textwidth=200    " stop fucking up my HTML
-    au FileType make       setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
-    au FileType markdown   setlocal textwidth=72 wrap linebreak nolist
-    au FileType python     setlocal tabstop=4 softtabstop=4 shiftwidth=4
-    au FileType text,txt   setlocal textwidth=72 wrap linebreak nolist
-
+    "   (ai) turn on auto-indenting (great for programers)
+    "   (et) expand tabs to spaces (use :retab to redo entire file)
+    "   (sw) width (in spaces) used in each step of autoindent (aswell as << and >>)
+    "   (sts) makes spaces feel like tabs (like deleting)
+    "   (ts) width (in spaces) that a <tab> is displayed as
+    "   (tw) number of columns before an automatic line break is inserted (see formatoptions)
+    "   (lbr) wrap long lines at a space instead of in the middle of a word
+    au FileType htmldjango setlocal ai et sw=2 sts=2 ts=2 tw=200 " stop fucking up my HTML
+    au FileType make       setlocal ai et sw=8 sts=8 ts=8
+    au FileType markdown   setlocal ai et sw=2 sts=2 ts=2 tw=72
+    au FileType python     setlocal ai et sw=4 sts=4 ts=4
+    au FileType text,txt   setlocal ai et sw=2 sts=2 ts=2 tw=72 wrap nolist lbr
 
     " Folding
     au FileType html       setlocal foldmethod=syntax
@@ -418,6 +424,7 @@ if has("autocmd")
 
     " Omnicompletion
     au FileType css  silent! setlocal omnifunc=csscomplete#CompleteCSS
+    " see :h ft-ruby-omni
     au FileType ruby set omnifunc=rubycomplete#Complete
     au FileType ruby let g:rubycomplete_buffer_loading=1
     au FileType ruby let g:rubycomplete_classes_in_global=1
