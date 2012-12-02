@@ -286,11 +286,13 @@ nmap <leader>a<bar> :Tabularize /<bar><CR>
 vmap <leader>a<bar> :Tabularize /<bar><CR>
 
 " =============
-" Turbux/tSlime
+" Turbux/Vimux
 " =============
-nmap <leader>r <Plug>SendTestToTmux
-nmap <leader>R <Plug>SendFocusedTestToTmux
-vmap <C-c><C-c> <Plug>SendSelectionToTmux
+nmap <silent> <leader>r <Plug>SendTestToTmux
+vmap <silent> <leader>r "vy :call VimuxRunCommand(@v . "\n", 0)<CR>
+nmap <silent> <leader>R <Plug>SendFocusedTestToTmux
+nmap <silent> <Leader>RR :VimuxRunLastCommand<CR>
+"vmap <C-c><C-c> <Plug>SendSelectionToTmux
 
 " =============
 " YankStank

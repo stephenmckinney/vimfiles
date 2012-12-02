@@ -44,7 +44,7 @@ NeoBundle 'ervandew/supertab'
 
 " Vim-Tmux integration
 NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
-    \ 'jgdavey/tslime.vim',
+    \ 'benmills/vimux',
     \ ]}
 
 

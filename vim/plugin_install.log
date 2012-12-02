@@ -337,3 +337,9 @@ vim-endwise
 ultisnips-snippets
 Please read error message log by :message command.
 [neobundle/install] Helptags: done. 2 bundles processed
+[neobundle/install] (1/1): |vimux| git clone --depth 1 git://github.com/benmills/vimux.git "/Users/smckinney/.vim/bundle/vimux"
+[neobundle/install] (1/1): |vimux| Updated
+[neobundle/install]  -> d6d88a4fce39f856d46b86e3fcd46f5dbbdd9035
+[neobundle/install] Installed/Updated bundles:
+vimux
+[neobundle/install] Helptags: done. 1 bundles processed
