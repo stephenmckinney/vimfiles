@@ -7,7 +7,8 @@ let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=20
 let g:CommandTMaxFiles=20000
 let g:CommandTMaxCachedDirectories=0
-let g:CommandTCancelMap=['<ESC>','<C-c>']
+let g:CommandTCancelMap='<ESC>'
+let g:CommandTAcceptSelectionSplitMap='<C-h>' " <C-s> won't work in TERM
 
 " CtrlP
 let g:ctrlp_map = ''
