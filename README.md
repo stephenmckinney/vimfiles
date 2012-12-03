@@ -1,6 +1,7 @@
 # my vimfiles
 
-Configures vim...for use at home and on the road.
+Configures Vim with a focus on Ruby and Rails development.
+Solarized **ALL** the things.
 
 ## Install
 
