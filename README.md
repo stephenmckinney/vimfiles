@@ -20,10 +20,6 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
     git clone git://github.com/stephenmckinney/vimfiles ~/.vimfiles
     cd ~/.vimfiles && rake install
 
-> **Preventing RSI:**
-> You should really [Remap Caps Lock to act like Control and ESC](http://www.quora.com/How-can-I-remap-Caps-Lock-in-Mac-OS-X-so-that-it-acts-like-Control-in-Emacs-but-acts-like-Escape-in-Vim).
-> You'll thank me later.
-
 ## Stay Updated
 
     vim +NeoBundleUpdate +q
