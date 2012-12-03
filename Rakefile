@@ -4,7 +4,7 @@ require 'erb'
 desc "install the dot files into user's home directory"
 task :install do
   puts "======================================================"
-  puts "Installing symlinks."
+  puts "Installing symlinks"
   puts "======================================================"
 
   replace_all = false
@@ -40,7 +40,9 @@ task :install do
 
   install_neobundle
 
-  install_command_t
+  install_plugins
+
+  compile_command_t
 
   success_msg("installed")
 end
@@ -77,7 +79,7 @@ end
 
 def install_fonts
   puts "======================================================"
-  puts "Installing patched fonts for Vim Powerline."
+  puts "Installing patched fonts for Vim Powerline"
   puts "======================================================"
   system %{ cp -f $HOME/.vimfiles/fonts/* $HOME/Library/Fonts }
   puts
@@ -93,15 +95,12 @@ def install_neobundle
   end
 end
 
-def install_command_t
-  unless File.exist?(File.join(ENV['HOME'], '.vim', 'bundle', 'Command-T'))
-    puts "======================================================"
-    puts "Installing Command-T"
-    puts "======================================================"
-    system("git clone https://github.com/wincent/Command-T ~/.vim/bundle/Command-T")
-    puts
-    compile_command_t
-  end
+def install_plugins
+  puts "======================================================"
+  puts "Installing plugins via neobundle.vim"
+  puts "======================================================"
+  system("vim +NeoBundleInstall +qa")
+  puts
 end
 
 def compile_command_t
