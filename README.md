@@ -14,7 +14,7 @@ anyone interested in tmux + zsh + vim as a Ruby and Rails IDE on OS X. See
 Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
     rvm use system
-    brew install vim macvim ack ctags
+    brew install vim macvim the_silver_searcher ctags
 
 > **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
 > see [issue](https://github.com/mxcl/homebrew/issues/15902).
@@ -35,7 +35,7 @@ These are all installed by following the steps above.
 ### Brews
 
 * [Vim](http://www.vim.org/) or [MacVim](https://github.com/b4winckler/macvim) 7.3 or greater
-* [Ack](http://betterthangrep.com/) is required for [Ack.vim](https://github.com/mileszs/ack.vim)
+* [Silver Searcher](https://github.com/ggreer/the_silver_searcher) is required for [Ack.vim](https://github.com/mileszs/ack.vim)
 * [Exuberant Ctags](http://ctags.sourceforge.net/) is required for [Tagbar](http://majutsushi.github.com/tagbar/)
 
 ### Vim Plugins
