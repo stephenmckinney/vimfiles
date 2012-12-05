@@ -2,6 +2,9 @@
 " Plugin Configuration
 " ======================================================================
 
+" Ack
+let g:ackprg = 'ag --nogroup --nocolor --column' " Use ag
+
 " Command-T
 let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=20
