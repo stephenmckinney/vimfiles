@@ -1,7 +1,11 @@
 # my vimfiles
 
-Configures Vim with a focus on Ruby and Rails development.
-Solarized **ALL** the things.
+Configures Vim with a focus on Ruby and Rails development
+and testing. Solarized **ALL** the things.
+
+These are my personal vimfiles, but it is also a good starting point for
+anyone interested in tmux + zsh + vim as a Ruby and Rails IDE on OS X. See
+[dotfiles](https://github.com/stephenmckinney/dotfiles) for more.
 
 ## Install
 
@@ -45,7 +49,7 @@ These are all installed by following the steps above.
 
 ## Moar
 
-Go dumpster diving for more Vim goodies:
+Go dumpster diving for more Vim goodness:
 
 * [tpope's dotfiles](https://github.com/tpope/tpope)
 * [garybernhardt dotfiles](https://github.com/garybernhardt/dotfiles)
