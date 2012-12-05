@@ -90,7 +90,7 @@ let g:solarized_hitrail=1          "default value is 0
 "hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
 
 " Supertab
-let g:SuperTabDefaultCompletionType = "context"
+"let g:SuperTabDefaultCompletionType = "context"
 
 " UltiSnips
 let g:UltiSnipsUsePythonVersion = 2
