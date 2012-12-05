@@ -30,8 +30,12 @@ vmap < <gv
 " Make Y consistent with C and D: Yank from the cursor to the end of the line
 nmap Y y$
 
+" Mac OS X pasteboard integration
+nmap <F10> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+vmap <F11> :w !pbcopy<CR><CR>
+
 " Toggle paste mode
-set pastetoggle=<F10>
+"set pastetoggle=<F12>
 
 " Code folding options
 nmap <silent> <F1> :set foldenable<CR>\|:set foldlevel=0<CR>
