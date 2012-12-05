@@ -66,7 +66,7 @@ nmap <leader>et :tabnew<CR>\|:e ~/.tmux.conf<cr>
 command! Rsource :tabnew | NERDTree ~/code/src/rails
 
 " Strip trailing whitespace
-nmap <silent> <leader>W :call <SID>StripTrailingWhitespaces()<CR>
+command! StripTrailingWhiteSpace :call <SID>StripTrailingWhitespaces()<CR>
 
 
 " ======================================================================
