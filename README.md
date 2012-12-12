@@ -30,9 +30,9 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
 ## Requirements and Dependencies
 
-These are all installed by following the steps above.
-
 ### Brews
+
+*The below are installed by following the steps in the [Install](#install) section.*
 
 * [Vim](http://www.vim.org/) or [MacVim](https://github.com/b4winckler/macvim) 7.3 or greater
 * [Silver Searcher](https://github.com/ggreer/the_silver_searcher) is required for [Ack.vim](https://github.com/mileszs/ack.vim)
@@ -40,12 +40,29 @@ These are all installed by following the steps above.
 
 ### Vim Plugins
 
+*The below are installed by following the steps in the [Install](#install) section.*
+
 * [NeoBundle.vim](https://github.com/Shougo/neobundle.vim) to manage [a laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim)
 * My own Vim plugins and forks:
     * [Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
     * [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline) to bring Solarized to the statusbar
     * [dochub.vim](https://github.com/stephenmckinney/vim-dochub) for HTML, CSS, JavaScript, jQuery, and PHP documentation 
     * [ultisnips-snippets](https://github.com/stephenmckinney/ultisnips-snippets) for Textmate-like snippets that focus on Ruby, Rails, and RSpec & friends
+
+#### ri/rdoc Documentation
+
+ri docs are required for [ri.vim](https://github.com/danchoi/ri.vim).
+
+In order to conserve space, RVM does not automatically generate and
+install each Ruby's ri / rdoc documentation.
+
+Provided you have not cleaned up the extracted sources for all currently
+installed Rubies by executing 'rvm cleanup all' then you can install the
+docs for **all** currently installed Rubies by executing:
+
+    rvm all do rvm docs generate all
+
+See [RVM docs](https://rvm.io/rubies/docs) for further details.
 
 ## Moar
 
