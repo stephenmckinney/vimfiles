@@ -544,3 +544,1127 @@ vim-ruby
 ultisnips-snippets
 Please read error message log by :message command.
 [neobundle/install] Helptags: done. 2 bundles processed
+[neobundle/install] ( 1/70): |ack.vim| git pull --rebase
+[neobundle/install] ( 2/70): |BufOnly.vim| git pull --rebase
+[neobundle/install] ( 3/70): |cheat_sheet| Skipped
+[neobundle/install] ( 4/70): |Command-T| git pull --rebase
+[neobundle/install] ( 5/70): |ctrlp.vim| git pull --rebase
+[neobundle/install] ( 6/70): |gist-vim| git pull --rebase
+[neobundle/install] ( 1/70): |ack.vim| Skipped
+[neobundle/install] ( 2/70): |BufOnly.vim| Skipped
+[neobundle/install] ( 4/70): |Command-T| Skipped
+[neobundle/install] ( 5/70): |ctrlp.vim| Updated
+[neobundle/install] * 5b98c74 [2 weeks ago] Set pos when data is empty
+[neobundle/install] * 254144e [2 weeks ago] Update ctrlp.txt
+[neobundle/install] * 4f99626 [2 weeks ago] Check and insert the ending slash
+[neobundle/install] * f1acbbc [3 weeks ago] Further reduce MRU saving
+[neobundle/install] ( 6/70): |gist-vim| Updated
+[neobundle/install] * 28c3486 [7 days ago] version bump up.
+[neobundle/install] * b2a52f9 [7 days ago] updated doc.
+[neobundle/install] * 0420991 [7 days ago] updated doc.
+[neobundle/install] * 0fe42d8 [7 days ago] updated doc.
+[neobundle/install] * 61012e5 [7 days ago] move checking part to autoload.
+[neobundle/install] * f94abc6 [2 months ago] Merge pull request #106 from superbrothers/ghe
+[neobundle/install] * 7b9152f [2 months ago] support Github Enterprise
+[neobundle/install] ( 7/70): |gitv| git pull --rebase
+[neobundle/install] ( 8/70): |gundo.vim| git pull --rebase
+[neobundle/install] ( 9/70): |neobundle.vim| git pull --rebase
+[neobundle/install] (10/70): |nerdcommenter| git pull --rebase
+[neobundle/install] (11/70): |nerdtree| git pull --rebase
+[neobundle/install] ( 7/70): |gitv| Skipped
+[neobundle/install] ( 8/70): |gundo.vim| Skipped
+[neobundle/install] ( 9/70): |neobundle.vim| Updated
+[neobundle/install] * 4022205 [3 days ago] - Added :NeoBundleFetch.
+[neobundle/install] * 3e642cc [3 days ago] - Added :NeoBundleFetch.
+[neobundle/install] * 1bfee51 [3 days ago] - Improved Mac checker.
+[neobundle/install] * 3115dd2 [3 days ago] - Improved mac checker.
+[neobundle/install] * 2cf1000 [5 days ago] - Added description.
+[neobundle/install] * 51b39a2 [5 days ago] - Added examples.
+[neobundle/install] * 1426686 [6 days ago] - filetype off automatically in neobundle#rc().
+[neobundle/install] * 85057a0 [6 days ago] - Improved examples.
+[neobundle/install] * ec785e9 [6 days ago] - Improved tail_path behavior.
+[neobundle/install] * 5473128 [6 days ago] - Improved :NeoBundleDisable behavior.
+[neobundle/install] * 04723e1 [7 days ago] - Converted markers.
+[neobundle/install] * 0686df7 [7 days ago] - Added neobundle#is_sourced().
+[neobundle/install] * 256bee0 [9 days ago] - Fixed neobundle source.
+[neobundle/install] * 05ad316 [12 days ago] - Improved yank action.
+[neobundle/install] * 5781ad5 [3 weeks ago] - Fixed log.
+[neobundle/install] (10/70): |nerdcommenter| Skipped
+[neobundle/install] (11/70): |nerdtree| Updated
+[neobundle/install] *   3a8310a [9 days ago] Merge pull request #213 from cperl82/fixes
+[neobundle/install] |\  
+[neobundle/install] | * bb1390c [9 days ago] Fix s:Path.Resolve to it handles '/' properly
+[neobundle/install] |/  
+[neobundle/install] * 1dc3891 [5 weeks ago] Merge pull request #204 from techlivezheng/feature/chrootcwd
+[neobundle/install] * 072d468 [6 weeks ago] Add a NERDTreeCWD command to change tree root to CWD
+[neobundle/install] (12/70): |NrrwRgn| git pull --rebase
+[neobundle/install] (13/70): |puppet-vim| git pull --rebase
+[neobundle/install] (14/70): |pyflakes| git clone --depth 1 git://github.com/kevinw/pyflakes.git "/Users/smckinney/.vim/bundle/pyflakes"
+[neobundle/install] (15/70): |QFixToggle| git pull --rebase
+[neobundle/install] (16/70): |Rename2| git pull --rebase
+[neobundle/install] (12/70): |NrrwRgn| Updated
+[neobundle/install] * 2883065 [3 hours ago] also clean up for single narrowed windows
+[neobundle/install] * d238309 [4 hours ago] don't need another parameter
+[neobundle/install] * 7493d2d [4 hours ago] updated documentation
+[neobundle/install] * 57cc3ef [4 hours ago] delete unused argument
+[neobundle/install] * c0a4bc8 [2 days ago] Reformatting string concatination
+[neobundle/install] * caf7d02 [2 days ago] for multi narrowed buffers, don't highlight single narrowed windows
+[neobundle/install] * 0415ef3 [2 days ago] set highlighting in original window
+[neobundle/install] * 54560c7 [2 days ago] simpler logic for creating narrowed windows
+[neobundle/install] * 16e1a3d [2 days ago] NRM! did not work correctly
+[neobundle/install] * 1774d57 [3 days ago] document changes
+[neobundle/install] * 7e82c09 [3 days ago] Allow range for :NRV, but don't use it
+[neobundle/install] * 545ff53 [3 days ago] Don't pollute script namespace
+[neobundle/install] * 222c34b [3 days ago] Save and Restore visual selection
+[neobundle/install] * 63f0128 [3 days ago] only switch buffers for single narrowed windows
+[neobundle/install] * 243be2b [3 days ago] for single narrowed windows, don't jump back
+[neobundle/install] * ee7eaf0 [3 days ago] enable bang for NRV!
+[neobundle/install] * 9fdeb8e [3 weeks ago] Make sure highlighting will be deleted, if closing Narrowed window
+[neobundle/install] (13/70): |puppet-vim| Skipped
+[neobundle/install] (14/70): |pyflakes| Updated
+[neobundle/install]  -> 06e149a6e3973535d25473e1c83e46d038103149
+[neobundle/install] (15/70): |QFixToggle| Skipped
+[neobundle/install] (16/70): |Rename2| Skipped
+[neobundle/install] (17/70): |ri.vim| git pull --rebase
+[neobundle/install] (18/70): |scratch.vim| git pull --rebase
+[neobundle/install] (19/70): |scss-syntax.vim| git pull --rebase
+[neobundle/install] (20/70): |showmarks| git pull --rebase
+[neobundle/install] (21/70): |supertab| git pull --rebase
+[neobundle/install] (17/70): |ri.vim| Updated
+[neobundle/install] *   f9f60b9 [2 days ago] Merge pull request #9 from billgathen/README_correction
+[neobundle/install] |\  
+[neobundle/install] | * a632e50 [10 days ago] Changed ,rr to ,,r: two places
+[neobundle/install] |/  
+[neobundle/install] * 4754984 [3 months ago] put ri_vim_cache in vim plugin directory
+[neobundle/install] (18/70): |scratch.vim| Skipped
+[neobundle/install] (19/70): |scss-syntax.vim| Updated
+[neobundle/install] * 7c9c53f [12 days ago] Applying @dexteryy's patch for #18
+[neobundle/install] * c530623 [4 months ago] Source possible custom CSS syntax files
+[neobundle/install] (20/70): |showmarks| Skipped
+[neobundle/install] (21/70): |supertab| Updated
+[neobundle/install] * cb52cf1 [7 days ago] update context regex to support c++ template syntax
+[neobundle/install] * e299037 [10 weeks ago] run autocmd on preview close
+[neobundle/install] (22/70): |syntastic| git pull --rebase
+[neobundle/install] (23/70): |tabular| git pull --rebase
+[neobundle/install] (24/70): |tagbar| git pull --rebase
+[neobundle/install] (25/70): |textile.vim| git pull --rebase
+[neobundle/install] (26/70): |tmux.vim| git pull --rebase
+[neobundle/install] (22/70): |syntastic| Updated
+[neobundle/install] *   5be9ee2 [9 hours ago] Merge pull request #426 from troydm/master
+[neobundle/install] |\  
+[neobundle/install] | * e25a3ef [10 hours ago] javac checker path seperator related bugfix added
+[neobundle/install] | * b476114 [10 hours ago] added config file support for javac checker and windows os support
+[neobundle/install] |/  
+[neobundle/install] * 7353b32 [2 days ago] perl: add -Tc to makeprg if the shebang contains -T
+[neobundle/install] *   8540748 [3 days ago] Merge pull request #425 from Fruneau/c-cpp-improvements
+[neobundle/install] |\  
+[neobundle/install] | * 29d5b88 [3 days ago] c/c++: force language in compiler invocation.
+[neobundle/install] | * 4b0b81c [3 days ago] c/c++: add an option to ignore default include dirs.
+[neobundle/install] | * 91f3af2 [4 days ago] c: allow using clang to check C.
+[neobundle/install] * | 3deec1d [3 days ago] add syntastic#util#ParseMagicNumber()
+[neobundle/install] |/  
+[neobundle/install] * fec1bf3 [2 weeks ago] add an faq about style checkers
+[neobundle/install] * 163d5fb [2 weeks ago] php: add a bit of doc at the top
+[neobundle/install] *   1b84327 [2 weeks ago] Merge pull request #421 from Hegz/master
+[neobundle/install] |\  
+[neobundle/install] | * c253e3e [2 weeks ago] Update syntax_checkers/efm_perl.pl
+[neobundle/install] |/  
+[neobundle/install] *   fc4ec25 [2 weeks ago] Merge branch 'load_any_checker'
+[neobundle/install] |\  
+[neobundle/install] | * 42480a0 [2 weeks ago] modify SyntasticLoadChecker to load any checkers present
+[neobundle/install] * |   ab5dcca [2 weeks ago] Merge branch 'allow_custom_checkers'
+[neobundle/install] |\ \  
+[neobundle/install] | * | 7fe3ac4 [2 weeks ago] allow custom checkers by just defining a checking function
+[neobundle/install] | |/  
+[neobundle/install] * | 2c0abf4 [2 weeks ago] perl: fix some comments that got slightly screwed
+[neobundle/install] * |   9c575f5 [2 weeks ago] Merge pull request #419 from NotBugger/patch-1
+[neobundle/install] |\ \  
+[neobundle/install] | * | 558de5a [2 weeks ago] Update syntax_checkers/efm_perl.pl
+[neobundle/install] |/ /  
+[neobundle/install] * |   6d5a604 [2 weeks ago] Merge pull request #409 from jhickner/master
+[neobundle/install] |\ \  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] | * 9f92044 [4 weeks ago] fix typo
+[neobundle/install] | * 02ab1c9 [4 weeks ago] add the -fno-code ghc option to speed up checking
+[neobundle/install] * |   11907f6 [2 weeks ago] Merge pull request #413 from jgrande/master
+[neobundle/install] |\ \  
+[neobundle/install] | * | 45f5437 [3 weeks ago] docbook checker: added quotes to args in expand() call
+[neobundle/install] | |/  
+[neobundle/install] * | d4e74d8 [2 weeks ago] typescript: dont need to escape the space inside a string
+[neobundle/install] * |   1b237eb [2 weeks ago] Merge pull request #416 from jb55/typescript
+[neobundle/install] |\ \  
+[neobundle/install] | * | 562a37a [3 weeks ago] Support zero or more spaces at the end of a filename in the typescript errorformat
+[neobundle/install] | * | 7ceba36 [3 weeks ago] Fix typescript errorformat for latest version of the compiler
+[neobundle/install] | |/  
+[neobundle/install] * |   ac0c732 [2 weeks ago] Merge pull request #410 from dbarnett/loaded_flag
+[neobundle/install] |\ \  
+[neobundle/install] | * | b209693 [3 weeks ago] Only set g:loaded_FT_syntax_checker if unset
+[neobundle/install] | * | dcac33e [3 weeks ago] Set g:loaded_FOO_syntax_checker in syntastic.vim, not every ft file.
+[neobundle/install] | |/  
+[neobundle/install] * |   9f7df94 [2 weeks ago] Merge pull request #417 from artnez/python-interpreter-checker
+[neobundle/install] |\ \  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] | * 4126760 [3 weeks ago] Add python checker that uses python itself
+[neobundle/install] |/  
+[neobundle/install] * 122e88b [4 weeks ago] Merge pull request #365 from coryf/erb-ruby-exec-setting
+[neobundle/install] * 66e5f3b [3 months ago] Add support for changing the ruby version for erb
+[neobundle/install] (23/70): |tabular| Skipped
+[neobundle/install] (24/70): |tagbar| Skipped
+[neobundle/install] (25/70): |textile.vim| Skipped
+[neobundle/install] (26/70): |tmux.vim| Skipped
+[neobundle/install] (27/70): |ultisnips| git pull --rebase
+[neobundle/install] (28/70): |ultisnips-snippets| git pull --rebase
+[neobundle/install] (29/70): |vim-bundler| git pull --rebase
+[neobundle/install] (30/70): |vim-capybara| git pull --rebase
+[neobundle/install] (31/70): |vim-coffee-script| git pull --rebase
+[neobundle/install] (27/70): |ultisnips| Updated
+[neobundle/install] *   86dcbf0 [3 days ago] Merge pull request #41 from s0undt3ch/features/single-quotes
+[neobundle/install] |\  
+[neobundle/install] | * 0d8c8b2 [8 days ago] Support single quoting projects.
+[neobundle/install] * | 69c95f5 [3 days ago] Added Pedro to the list of contributors.
+[neobundle/install] * |   7f920cf [3 days ago] Merge pull request #42 from s0undt3ch/hotfix/pep-8
+[neobundle/install] |\ \  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] | * bbb9800 [8 days ago] Remove un-used imports. PEP8 fixes.
+[neobundle/install] |/  
+[neobundle/install] *   e427495 [2 weeks ago] Improvements to D snippets by Ferdinand Majerech
+[neobundle/install] |\  
+[neobundle/install] | *   6de6f25 [3 weeks ago] Merge https://github.com/SirVer/ultisnips
+[neobundle/install] | |\  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] * | 4c068bd [3 weeks ago] New snippet option to strip whitespaces in front of cursor. Patch by aschrab
+[neobundle/install]  /  
+[neobundle/install] * a236077 [3 weeks ago] A toString() snippet.
+[neobundle/install] * 59abbd6 [5 weeks ago] Fixed the Par: snippet.
+[neobundle/install] * fcb4ea1 [6 weeks ago] Fixed a typo.
+[neobundle/install] * a451f2f [6 weeks ago] Synchronized with source branch
+[neobundle/install] * 2a432a8 [6 weeks ago] Added a "union" snippet.
+[neobundle/install] * 75f69ac [6 weeks ago] catch snippet fix, assert snippet improvement.
+[neobundle/install] * b83eee6 [7 weeks ago] Fixed bugs in "catch" and "fdoc" snippets.
+[neobundle/install] * a004ad3 [7 weeks ago] Fixed two minor bugs.
+[neobundle/install] * 80a60bf [7 weeks ago] Added snippets for the D programming language.
+[neobundle/install] * 30fac27 [8 weeks ago] Improved documentation a bit.
+[neobundle/install] * da776e3 [8 weeks ago] Updated the installation doc correctly this time.
+[neobundle/install] * 57e08fb [9 weeks ago] Updated installation documentation
+[neobundle/install] * 27cae38 [10 weeks ago] DEL and c-h now behave as BS in select mode. Patch partly by buztard
+[neobundle/install] * 4d642dd [10 weeks ago] ife snippet for C by theocrite
+[neobundle/install] * ed941fb [2 months ago] Removed content tag from html snippets.
+[neobundle/install] * 1690986 [3 months ago] Indicate success or failure of expansions and jumps
+[neobundle/install] * 5fe09b8 [4 months ago] Improved the div snippet in html a bit
+[neobundle/install] * bb75169 [4 months ago] Updated ChangeLog
+[neobundle/install] *   3fc86a3 [4 months ago] Fix for folding problem by Aaron
+[neobundle/install] |\  
+[neobundle/install] | * 3584ee3 [4 months ago] Add test with perl syntax folding
+[neobundle/install] | * 7335225 [5 months ago] Fix opening folds inserted by snippets
+[neobundle/install] * |   e283500 [4 months ago] Patch by Aaron: optionally disable warning for no Python
+[neobundle/install] |\ \  
+[neobundle/install] | * | 2f7317e [5 months ago] Document UltiSnipsNoPythonWarning variable
+[neobundle/install] | * | 0f08e2e [5 months ago] Allow suppressing warning about python support
+[neobundle/install] | * | c9bb292 [5 months ago] Dummy version of UltiSnips_FileTypeChanged()
+[neobundle/install] | |/  
+[neobundle/install] * |   a916c60 [4 months ago] Matchit support + small fix by Aaron
+[neobundle/install] |\ \  
+[neobundle/install] | * | 5f6d281 [4 months ago] Matchit support for snippet files
+[neobundle/install] | * | 1f151be [4 months ago] Remove obsolete comment
+[neobundle/install] |/ /  
+[neobundle/install] * |   fe81063 [4 months ago] Improvements to the syntax file by NagatoPain
+[neobundle/install] |\ \  
+[neobundle/install] | * | 7366984 [4 months ago] improve snipVar matches, like 10 100 etc
+[neobundle/install] |/ /  
+[neobundle/install] * | b319569 [4 months ago] Fixed bug 1034805: Langmap with escaped characters where a problem
+[neobundle/install] * |   aae704b [4 months ago] Merged Patch by Aaron Schrab
+[neobundle/install] |\ \  
+[neobundle/install] | * | c04b6aa [4 months ago] Leave new scratch buffers in command mode
+[neobundle/install] |/ /  
+[neobundle/install] * |   f98bcd6 [4 months ago] Test script refactorings by Aaron Schrab
+[neobundle/install] |\ \  
+[neobundle/install] | * | 8e3f419 [4 months ago] Fix tests to work with new version of screen
+[neobundle/install] | * | 2ab17b6 [4 months ago] Move getting buffer data into interface class
+[neobundle/install] | * | fc22af0 [4 months ago] Use classes for managing vim interaction
+[neobundle/install] | * | 461a475 [4 months ago] Have test script set vim buffer type to nofile
+[neobundle/install] |/ /  
+[neobundle/install] * | a1f9776 [5 months ago] Improved HTML and PHP snippets. Patch by Jacek Wysocki
+[neobundle/install] * | 890291e [6 months ago] Adhere to pseudostandard of length of sections in Vim help. Patch by Martin Krauskopf
+[neobundle/install] |/  
+[neobundle/install] * e9a7838 [6 months ago] Better commentboxes. Patch by Alexander Kondratskiy.
+[neobundle/install] * 9cc7c92 [6 months ago] Updated ChangeLog
+[neobundle/install] * 632ebf5 [6 months ago] added full name of pavel
+[neobundle/install] *   3860ca8 [6 months ago] Merge pull request #19 from neoascetic/master
+[neobundle/install] |\  
+[neobundle/install] | * ff79899 [6 months ago] "markdown" is right filetype, not "mkd"
+[neobundle/install] | *   7df7896 [6 months ago] Merge branch 'master' of git://github.com/SirVer/ultisnips
+[neobundle/install] | |\  
+[neobundle/install] | * | 5256107 [6 months ago] Typo fix in markdown snippet
+[neobundle/install] * | | 44b0367 [6 months ago] Added exu to the list of contributors
+[neobundle/install] * | |   066a83d [6 months ago] Merge branch 'exu'
+[neobundle/install] |\ \ \  
+[neobundle/install] | * | | 92f393b [6 months ago] added optional __construct to class name
+[neobundle/install] | * | | 41d50af [6 months ago] order removed $options load from contruct
+[neobundle/install] | * | | 74bd536 [6 months ago] added my custom php snippets
+[neobundle/install] | |/ /  
+[neobundle/install] * | | 72715d3 [6 months ago] Made an error message more sensible
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] * | 50254a3 [6 months ago] Ignore unicode/decode errors. This is so that UltiSnips tries harder to stay out of your way
+[neobundle/install] |/  
+[neobundle/install] * c7e7852 [7 months ago] Fix a bug with localisation
+[neobundle/install] * 30795ee [7 months ago] Added Laurent to the list of contributors
+[neobundle/install] * af2f762 [7 months ago] avoid crashing if trig list is empty
+[neobundle/install] * d627144 [7 months ago] Added luca to the list of contributors
+[neobundle/install] *   cf7839b [7 months ago] Merge branch 'master' of https://github.com/lucapette/ultisnips
+[neobundle/install] |\  
+[neobundle/install] | * d203e69 [7 months ago] Change visualmode to visual-mode
+[neobundle/install] * |   e41bb29 [7 months ago] Merge pull request #16 from graudeejs/master
+[neobundle/install] |\ \  
+[neobundle/install] | * | 25be45d [7 months ago] Update ruby snippets
+[neobundle/install] | |/  
+[neobundle/install] * | 0423ee5 [7 months ago] Coffee and Jasmine snippets by Ches Martin
+[neobundle/install] |/  
+[neobundle/install] * 3406aca [7 months ago] Added fgalassi to the list of contributors
+[neobundle/install] * 17954d2 [7 months ago] fixed error in documentation about file pattern for snippets files
+[neobundle/install] * d28259d [8 months ago] added pavel to the lists of contributors
+[neobundle/install] *   95cff58 [8 months ago] Merge pull request #13 from neoascetic/pdb
+[neobundle/install] |\  
+[neobundle/install] | * 6f223dc [8 months ago] ...only on new line
+[neobundle/install] | * 4f80d6c [8 months ago] Added PDB breakpoint snippet
+[neobundle/install] |/  
+[neobundle/install] * 93b480a [8 months ago] html: added doctype for html 5.0. Suggested by harry
+[neobundle/install] * 5782180 [8 months ago] Added chapter and part to RST snippets. Suggested by Chen Houwu
+[neobundle/install] * 9879911 [8 months ago] rst: Parts should be marked with '#'
+[neobundle/install] * 2ddb5b7 [9 months ago] Small bug fix for last commit
+[neobundle/install] * bfce5af [9 months ago] Implemented UltiSnipsAddFiletypes
+[neobundle/install] * 9d35d72 [9 months ago] Links to fourth screencast about python interpolation
+[neobundle/install] * 5640013 [9 months ago] Fixed critical bug in last commit. Sorry
+[neobundle/install] * c5bf7dc [9 months ago] Also leave snippets when exiting the buffer, not only when exiting the window
+[neobundle/install] * d49db70 [9 months ago] Fixed bug with mkline and noexpandtab
+[neobundle/install] * 4be8a92 [9 months ago] Added Jim to the list of contributors
+[neobundle/install] *   2c3db30 [9 months ago] Merge pull request #12 from iiijjjii/master
+[neobundle/install] |\  
+[neobundle/install] | * 80d36d7 [9 months ago] Documentation improvements
+[neobundle/install] |/  
+[neobundle/install] * 6d40614 [10 months ago] Added Chris to the list of contributors
+[neobundle/install] * c3a02d8 [10 months ago] Allow Sphinx info field list-formatted docstrings.
+[neobundle/install] * 2ee0b01 [10 months ago] Python snippets docstrings adhere to PEP 257.
+[neobundle/install] * f8af2e2 [10 months ago] Updated go snippets, added json snippets
+[neobundle/install] * 45b1d09 [10 months ago] Fixed bug: / could not be escaped in Visual default text
+[neobundle/install] * 773d143 [10 months ago] Added timothy to the list of contributors
+[neobundle/install] *   b0f6985 [10 months ago] Merge branch 'patch-1' of https://github.com/mellort/ultisnips
+[neobundle/install] |\  
+[neobundle/install] | * b049fe7 [10 months ago] oops! looks like someone misnumbered this snippet
+[neobundle/install] * | 9abc08a [10 months ago] added nick to the list of contributors
+[neobundle/install] * | 14578a2 [10 months ago] Add bind zonefile snippets for creating a new zone, and inserting an A record
+[neobundle/install] * | fda1662 [10 months ago] Added the two latest snippet contributors
+[neobundle/install] * |   aa44eb3 [10 months ago] Merge branch 'add-haskell' of https://github.com/anthonywilson/ultisnips
+[neobundle/install] |\ \  
+[neobundle/install] | * | cb95040 [10 months ago] Add Haskell snippets.
+[neobundle/install] | |/  
+[neobundle/install] * | 8a7af50 [10 months ago] Load snippets as soon as filetype is set. This avoids a delay in the first expansion in a file
+[neobundle/install] |/  
+[neobundle/install] * 874cb89 [10 months ago] Fixed a bug when visual expand was used after umlauts or tabs.
+[neobundle/install] * e5551cd [10 months ago] Added a vis snippet to snippets.snippets
+[neobundle/install] * a961c98 [10 months ago] Updated ChangeLog
+[neobundle/install] * 2c08d50 [10 months ago] Added Martin Grenfell to the list of contributors
+[neobundle/install] * 7c1fc6c [10 months ago] Fix a bug with the eruby:slt snippet
+[neobundle/install] * 850b9a6 [10 months ago] Fix a link in the docs that was written as a tag.
+[neobundle/install] * bed4156 [10 months ago] Python code has access to text for VISUAL via snip.v
+[neobundle/install] * c1e5bb6 [10 months ago] Visual now supports transformations
+[neobundle/install] * 92209f9 [10 months ago] Fixed jumping back bug after killing the current tabstop
+[neobundle/install] * 164bcbc [10 months ago] Fixed bug triggered by deleting the last few lines of a snippet in normal mode
+[neobundle/install] * 6d6fe9d [10 months ago] Fixed a bug when tabstop zero was deleted and then a jump attemted
+[neobundle/install] * 1b904ea [10 months ago] Some fixes in rails and ruby snippets
+[neobundle/install] * 7f426f5 [11 months ago] Documentation clarification by Jorge
+[neobundle/install] * 3087549 [11 months ago] Made python version configurable
+[neobundle/install] * 1b71a87 [11 months ago] Disable Deprecation warnings for fetching strings.
+[neobundle/install] * 5cb1687 [11 months ago] Added Giuseppe Rota to the list of contributors
+[neobundle/install] * 85832c1 [11 months ago] Fix bug in python snipmate conversion script, to avoid skipping every other snippet
+[neobundle/install] * 6d79810 [11 months ago] Small fixes to docs
+[neobundle/install] * 6c1371f [11 months ago] htmldjango is django + html
+[neobundle/install] * a5738f6 [11 months ago] Improvements to the tex/texmath snippets by jorge
+[neobundle/install] * 22bb4e0 [11 months ago] Minor bug in the docs fixed
+[neobundle/install] * 5f670d0 [11 months ago] Updated with new screencast.
+[neobundle/install] * b0827fe [11 months ago] Some improvements to Syntax highlighting including support for ${VISUAL}
+[neobundle/install] * 49d9ff2 [11 months ago] Added ${VISUAL} in some snippets I use regularly.
+[neobundle/install] * fd03a1c [11 months ago] Fixed a bug in snippet listing and silenced tests
+[neobundle/install] * aedd485 [11 months ago] Don't <esc> out of normal mode
+[neobundle/install] * 8dd7720 [11 months ago] Fix bug: List snippets didn't work after whitespace.
+[neobundle/install] * 46f3258 [11 months ago] Fixed a bug in snippet selection when using selection=exclusive
+[neobundle/install] * 13aadb5 [11 months ago] $VISUAL now supports default text
+[neobundle/install] * 8c9bf50 [11 months ago] Fixed a bug that could happen when a whole snippet was deleted.
+[neobundle/install] * 634fdeb [11 months ago] Fixed two small bugs with text object positioning.
+[neobundle/install] * 36cba73 [11 months ago] Removed a no longer needed todo
+[neobundle/install] * e34fac2 [11 months ago] One error in last commit
+[neobundle/install] * da71206 [11 months ago] Significant bug fixes for windows.
+[neobundle/install] * 599f3f7 [11 months ago] Reformatted ChangeLog
+[neobundle/install] * 26c2de0 [11 months ago] Updated ChangeLog with the features of 2.0
+[neobundle/install] * ee607db [11 months ago] Guess when a tabstop is overwritten
+[neobundle/install] * d537d1d [11 months ago] A few more tests.
+[neobundle/install] * bcf8cc8 [11 months ago] Change globbing patterns for snippets to follow Vim more closely
+[neobundle/install] * 5ebad73 [11 months ago] Fixes for Python 3
+[neobundle/install] * e69838c [11 months ago] UltiSnips should now be able to cope with formatoptions. Removed turning them off and the corresponding snippet option "f"
+[neobundle/install] * 5325d3b [11 months ago] Fixed a bug in the last commit
+[neobundle/install] * f2ce576 [11 months ago] Fixed various smaller bugs I encountered
+[neobundle/install] * 0f37d62 [11 months ago] No longer cache the whole buffer, only the last range
+[neobundle/install] * 2dc4148 [11 months ago] We now require py >= 2.6
+[neobundle/install] * 6226b29 [11 months ago] Added and fixed a failing test case
+[neobundle/install] * 3efd383 [11 months ago] Fixed a bug concerning python locals.
+[neobundle/install] * 0caa5be [11 months ago] Small refactoring
+[neobundle/install] * ced34ee [11 months ago] Made simple insertion and deletion a little more robust
+[neobundle/install] * 7ece270 [11 months ago] Really removed debug output
+[neobundle/install] * 4e1d340 [11 months ago] Remove debug output
+[neobundle/install] * 13ea92d [11 months ago] More test that I thought could make trouble.
+[neobundle/install] * e8416d8 [11 months ago] - More cleanups and fixes
+[neobundle/install] * a4f8e12 [11 months ago] VimBuffer.cursor.line is no 0 based
+[neobundle/install] * 30286f5 [11 months ago] Introduced _vim as wrapper around vim that makes compatibility stuff transparent to users. Remove usage of vim from everywhere else.
+[neobundle/install] * c1c10b1 [11 months ago] Renamed all modules to lower_case to be more PEP8y
+[neobundle/install] * c01230e [11 months ago] Moved unittests for various components into own files
+[neobundle/install] * 400ac85 [11 months ago] Remove Span class
+[neobundle/install] * f8d6285 [11 months ago] Fix selection of tabstop when selection=exclusive
+[neobundle/install] * 35439b5 [11 months ago] Now reall all TODOs in TextObjects. Also final proofread.
+[neobundle/install] * f9566d1 [11 months ago] Remaining TODOs in TextObjects
+[neobundle/install] * 08e099b [11 months ago] More refactorings and cleanups. Fixed various TODOs
+[neobundle/install] * ca63cbd [11 months ago] Code cleanup and fixes
+[neobundle/install] * 89f720c [11 months ago] Improved ${VISUAL} support
+[neobundle/install] * cf2c2ff [11 months ago] Code fixes and cleanups
+[neobundle/install] * fe4d0c7 [11 months ago] Some fixes when handling deletions
+[neobundle/install] * 947b7dc [11 months ago] Enabled normal mode editing. All tests pass but there are some errors lurking
+[neobundle/install] * 36a1bc1 [11 months ago] Be less clever again about Where to check for changes.
+[neobundle/install] * 2bddcdb [11 months ago] Even smarter about comparision
+[neobundle/install] * a483218 [11 months ago] Become a little smarter about the area that actually changed in an edit
+[neobundle/install] * 7e05d49 [11 months ago] Refactored TextObjects.py into a package
+[neobundle/install] * 59dd116 [11 months ago] Lots of code cleanups and smaller bug fixes
+[neobundle/install] * 5982bdf [11 months ago] Removed a duplicate test
+[neobundle/install] * 3c65e36 [11 months ago] All tests pass
+[neobundle/install] * 54d946c [11 months ago] Recursive Snippets and various other tests
+[neobundle/install] * da63479 [11 months ago] More tests enabled
+[neobundle/install] * 15bb3ff [11 months ago] Python code
+[neobundle/install] * 71b1bb6 [11 months ago] ShellCode and VimScript Interpolation
+[neobundle/install] * 9044a95 [11 months ago] TabStops and Mirror Tests now all pass again
+[neobundle/install] * f1f6e9a [11 months ago] 7 failures. Now weeding out abs_start and abs_end
+[neobundle/install] * b057d63 [11 months ago] More mirror tests
+[neobundle/install] * 994074d [11 months ago] More mirror tests passing
+[neobundle/install] * f203e59 [11 months ago] More tricky Multiline Mirrors
+[neobundle/install] * 9cc97cd [11 months ago] All enabled tests pass again
+[neobundle/install] * a47f6ab [11 months ago] Need a new metrik for editing distance
+[neobundle/install] * 5c47698 [11 months ago] All enabled tests pass for the moment
+[neobundle/install] * b49d548 [11 months ago] Mor fixes and refactorings
+[neobundle/install] * 544af97 [11 months ago] Reenabled SimpleExpands
+[neobundle/install] * 717bdd7 [11 months ago] Reordered tests. Disabled most tests to bring back features incrementally
+[neobundle/install] * 042c382 [11 months ago] Worked a little further
+[neobundle/install] * 3568275 [11 months ago] Intermediate Commit TabStop_Escaping tests pass
+[neobundle/install] * ac31677 [11 months ago] Simple Expands are working again
+[neobundle/install] * 3a7674b [11 months ago] First hooks into vim. Very slow atm
+[neobundle/install] * 96f4068 [11 months ago] initial version of edit script.
+[neobundle/install] * 03942a1 [11 months ago] __repr__ has no second argument
+[neobundle/install] * f3d396b [11 months ago] Reverting to using .vim and vimfiles.
+[neobundle/install] * 91ecf6a [11 months ago] Fix error in def snippet when inside of a class
+[neobundle/install] * da49b4b [11 months ago] Work around an awkward py3 <-> py bug on vim on ubuntu
+[neobundle/install] * 11c69a8 [11 months ago] Make box and bigbox snippet aware of &comments setting
+[neobundle/install] * ea14690 [11 months ago] Fixed: Empty args string in python's def snippet
+[neobundle/install] * f251aa5 [11 months ago] Added Alejandro Exojo to the list of contributors
+[neobundle/install] * 97bad15 [11 months ago] Also unset the 'a' flag in formatoptions.
+[neobundle/install] * 3c8661d [11 months ago] Code cleanups and refactorings
+[neobundle/install] * 9a7e760 [11 months ago] Reworked adding of Zero Tabstop if not explicitly defined. All test pass
+[neobundle/install] * a8a1572 [11 months ago] More test. Still one failure
+[neobundle/install] * 0a554c5 [11 months ago] Intermediate commit: All but one test pass
+[neobundle/install] * 9e6ab34 [11 months ago] Make some texmath snippets word boundary expandable
+[neobundle/install] * cd34039 [11 months ago] .dot is _vim under windows. Fixes bug 915048
+[neobundle/install] * 3b865c0 [11 months ago] Added documentation for
+[neobundle/install] * 32754e9 [11 months ago] Fixed py3 problems with sunmap
+[neobundle/install] * 0c63f20 [11 months ago] Added basic support for the  token. No documentation yet, but 16 new tests
+[neobundle/install] * 88f2c86 [11 months ago] More Umlaut fixes
+[neobundle/install] * fc4e427 [11 months ago] Bug 908139: Fix sunmap problems with unprintable chars in lhs. This is only a workaround really
+[neobundle/install] * 9f992c5 [11 months ago] Updated changelog
+[neobundle/install] * 324681d [11 months ago] Support for unicode in Langmap. This fixes bug 871357
+[neobundle/install] * bc7bf73 [11 months ago] Fixed plenty of bugs in handling of unicode snippets
+[neobundle/install] * be84684 [11 months ago] Update ChangeLog
+[neobundle/install] * e277fb1 [11 months ago] Updated documentation with pathogen installation and python 3 support
+[neobundle/install] * c1b60dc [11 months ago] All tests pass now for python 2 and python 3
+[neobundle/install] * cad74ab [11 months ago] All tests pass in py3
+[neobundle/install] * f191cef [11 months ago] Fixed transformations. Only one test fails
+[neobundle/install] * 1095c07 [11 months ago] Only 2 tests are failing
+[neobundle/install] * d72eb58 [11 months ago] 22/339 tests are failing
+[neobundle/install] * 1653eb8 [11 months ago] UltiSnips loads in python3 now, but does not work so far
+[neobundle/install] * 089e508 [12 months ago] The name is Sanders not Sander. Sorry
+[neobundle/install] * 4ec7483 [12 months ago] One more comment.
+[neobundle/install] * 7d860d6 [12 months ago] F-uped with the README.rst. Once more.
+[neobundle/install] * 91fe432 [12 months ago] Promote second screencast.
+[neobundle/install] * a08cd7b [12 months ago] Didn't handle ~ as homedir in search paths correctly
+[neobundle/install] * 5a2ca0a [12 months ago] Added documentation for reusing of python functions
+[neobundle/install] * 4309940 [12 months ago] Added a globals snippet for snippets files
+[neobundle/install] * a54efb9 [12 months ago] Added a link to a screencast on the github readme
+[neobundle/install] * 14c3071 [12 months ago] Update ChangeLog
+[neobundle/install] * d02def1 [12 months ago] Mention GitHub and launchpad in README
+[neobundle/install] * d30aa5d [12 months ago] Fixed ignored list in .gitignore
+[neobundle/install] * e711786 [12 months ago] Added a quick README for github. Fixed ignored list in .gitignore
+[neobundle/install] * 3a025ce [12 months ago] Added Cody Frazer as contributor
+[neobundle/install] * da3680e [12 months ago] Ignore Vim swap files.
+[neobundle/install] * 450ba8e [12 months ago] Do not track compiled python files.
+[neobundle/install] * f378d3d [12 months ago] Fixed slugginess with lots of recursive snippets
+[neobundle/install] * 3237960 [12 months ago] Move python online commands into vim functions for better profiling
+[neobundle/install] * cebf11e [12 months ago] Better handling of unicode in snippet definitions and names
+[neobundle/install] * 3094d79 [1 year, 1 month ago] Updated ruby snippets by Aldis Berjoza
+[neobundle/install] * 2c6d5bd [1 year, 1 month ago] New ruby snippets by Aldis Berjoza
+[neobundle/install] * e825142 [1 year, 1 month ago] New rails snippet by Aldis Berjoza (graudeejs)
+[neobundle/install] * 5f04f3e [1 year, 2 months ago] New Ruby on Rails translation snippet by graudeejs (graudeejs)
+[neobundle/install] * aae12ec [1 year, 3 months ago] Updated ChangeLog
+[neobundle/install] * ee000f5 [1 year, 3 months ago] Added an xhtml snippets file which only extends html but defines no new snippets
+[neobundle/install] *   4e30504 [1 year, 3 months ago] Merged puppet and go snippets by Miek Gieben
+[neobundle/install] |\  
+[neobundle/install] | * 34d7648 [1 year, 3 months ago] Added a snippet files for Go (www.golang.org) and Puppet (www.puppetlabs.com)
+[neobundle/install] |/  
+[neobundle/install] * 499ac4f [1 year, 3 months ago] Fixed bug with mirrors of tabstops-in-tabstops
+[neobundle/install] * 4c6a614 [1 year, 4 months ago] Fix a off-by-one error in selecting 0-length tabstop. Only surfaces with recent vim versions
+[neobundle/install] * f21386e [1 year, 4 months ago] Forgot to add Rico to the contributors list
+[neobundle/install] *   e848b2b [1 year, 4 months ago] Merged runtimepath patch by Rico Cruz
+[neobundle/install] |\  
+[neobundle/install] | * dcc286b [1 year, 4 months ago] Add the g:UltiSnipsDontReverseSearchPath option
+[neobundle/install] |/  
+[neobundle/install] * bcfb52b [1 year, 4 months ago] removed non ascii char from one snippet name. Patch by Thanatermesis
+[neobundle/install] *   84e70f5 [1 year, 5 months ago] New Python snippets by Georgi Valkov
+[neobundle/install] |\  
+[neobundle/install] | * 9a44d6d [1 year, 5 months ago] pyunit testcase snippet
+[neobundle/install] | * c188127 [1 year, 5 months ago] Add 'special' method snippets
+[neobundle/install] | * aa3bce2 [1 year, 5 months ago] Add 'class with slots' snippet
+[neobundle/install] | * 57b1273 [1 year, 5 months ago] Refactoring common class/def snippet code
+[neobundle/install] * |   24025a7 [1 year, 5 months ago] Jinja2 snippets by Georgi Valkov
+[neobundle/install] |\ \  
+[neobundle/install] | * | e82133b [1 year, 5 months ago] A fairly comprehensive Jinja2 snippets collection
+[neobundle/install] | |/  
+[neobundle/install] * | 795d38b [1 year, 5 months ago] Removed some random spaces from python snippets, added self if a function is indended
+[neobundle/install] * | b5ed083 [1 year, 5 months ago] Split tex snippets into math and other because some filetypes only use math mode (i.e. rst)
+[neobundle/install] |/  
+[neobundle/install] * 6c855d1 [1 year, 5 months ago] Removed some non ascii chars from tex descriptions
+[neobundle/install] * ecd2671 [1 year, 5 months ago] Corrected usage of anonymous snippets
+[neobundle/install] * f29c3ac [1 year, 5 months ago] Added two more tests I wrote while searching a bug that wasn't even there
+[neobundle/install] * 0711c6b [1 year, 5 months ago] Only expand r on word boundaried, not also in words
+[neobundle/install] * 6975711 [1 year, 5 months ago] Added a small hint to the Documentation how to use Anonymous snippets for fun and profit
+[neobundle/install] * 72ed530 [1 year, 5 months ago] Anonymous triggers with empty trigger string where not expanded after whitespaces.
+[neobundle/install] *   b774ce8 [1 year, 5 months ago] Merged my new parser implementation that can handle irregular cases and is generally more flexible.
+[neobundle/install] |\  
+[neobundle/install] | * f7c12f9 [1 year, 5 months ago] Fixed all remaining TODOs
+[neobundle/install] | * 7f12de5 [1 year, 5 months ago] More cleanup
+[neobundle/install] | * 9608346 [1 year, 5 months ago] TextObjects now accept a single token as initializer
+[neobundle/install] | * ad0059b [1 year, 5 months ago] Some refactoring
+[neobundle/install] | * ac619f0 [1 year, 5 months ago] All tests pass again. Only beautifying still to do
+[neobundle/install] | * c5245ae [1 year, 5 months ago] Implemted ShellCode again
+[neobundle/install] | * 6c1a82c [1 year, 5 months ago] Implemented Transformation parsing
+[neobundle/install] | * ef10362 [1 year, 5 months ago] Fixed escaped chars handling
+[neobundle/install] | * b91e97f [1 year, 5 months ago] Homing in on a design
+[neobundle/install] | * 4307612 [1 year, 5 months ago] New stateful parser. Still flawed design and not flexible enough, but a beginning
+[neobundle/install] | * cdb4558 [1 year, 9 months ago] First tryouts.. Nothing working so far and all is horrible ugly
+[neobundle/install] | * 4fe0cd4 [1 year, 9 months ago] Added a failing test that can not be corrected with our current parser
+[neobundle/install] |/  
+[neobundle/install] * 6257b2b [1 year, 5 months ago] Updated ChangeLog. Tagged 1.4
+[neobundle/install] * 3508ee2 [1 year, 5 months ago] Fixed some test cases that got wrong because of the new sorting of the snippet list
+[neobundle/install] * 1cbd26d [1 year, 5 months ago] Added php snippets
+[neobundle/install] *   2ac5fd4 [1 year, 5 months ago] New conversion script for snipmate snippet files. Work by Phillip Berndt, only whitespace corrections by me
+[neobundle/install] |\  
+[neobundle/install] | * 8276ec9 [1 year, 5 months ago] Use argparse in the snipmate conversion script, renamed that script to convert_snipmate_snippets, removed the snipmate compatibility code from UltiSnips.vim and placed it into it's own file, fixed a bug where the user's value of g:snips_author was overwritten
+[neobundle/install] | * d08b58c [1 year, 5 months ago] Some of snipmates snippets also require one to have g:snips_author defined
+[neobundle/install] | * 281781f [1 year, 5 months ago] Added snipmate's Filename() helper to UltiSnips.vim
+[neobundle/install] | * 2060e06 [1 year, 5 months ago] Added a script for automated snipmate → UltiSnips snippet conversion
+[neobundle/install] * | b46461b [1 year, 5 months ago] Sort snippets alphabetically before showing them in the list. Patch by Allait
+[neobundle/install] |/  
+[neobundle/install] * 07b3c79 [1 year, 6 months ago] Some ammendements to html.snippets by Jan Mollowitz
+[neobundle/install] * dce54d0 [1 year, 6 months ago] Django html snippets by Jan Mollowitz
+[neobundle/install] * a973522 [1 year, 6 months ago] Minor documentation patch by Shlomi Fish
+[neobundle/install] * 83de7a3 [1 year, 6 months ago] Fixed the problem that you could not switch windows/tabs while inside a snippet
+[neobundle/install] * 402df76 [1 year, 6 months ago] Fixed a bug which compared a vim.eval to an integer instead of a string. Patch by Sung Pae
+[neobundle/install] * c6af0d0 [1 year, 6 months ago] Regression fix for listing snippets by Charles Gunawan
+[neobundle/install] * cc68d27 [1 year, 7 months ago] Added real name of allait
+[neobundle/install] *   70b7aff [1 year, 7 months ago] Merged Ryan and allaits fixes for various bugs
+[neobundle/install] |\  
+[neobundle/install] | * 4e145d7 [1 year, 8 months ago] Added tests and a fix for bug #774923.
+[neobundle/install] | * cd375f9 [1 year, 8 months ago] Added fix for bug #774917.
+[neobundle/install] | * e566419 [1 year, 8 months ago] added tests for Bug #774917
+[neobundle/install] | * 5d208cb [1 year, 8 months ago] return snippets in original order
+[neobundle/install] | * a2ee197 [1 year, 8 months ago] added proper quoting taken from rope-omni plugin
+[neobundle/install] | * 5facee7 [1 year, 8 months ago] applied patch from allait. fixes bug #774911.
+[neobundle/install] |/  
+[neobundle/install] * 9e712a9 [1 year, 8 months ago] Removed UltiSnipsReset. It is no longer needed
+[neobundle/install] *   8c249b7 [1 year, 8 months ago] Merged ryans implementation of automatic reloading of changed snippet files. Replaced crc32 through hashlib.sha1 because it is always available since python 2.5, more reliable and has the same runtime up to an order of magnitude
+[neobundle/install] |\  
+[neobundle/install] | * 6b86dca [1 year, 8 months ago] added fallback for crc and ability to disable hashing on entry.
+[neobundle/install] | * 7d5e927 [1 year, 8 months ago] track manually added snippets differently
+[neobundle/install] | * db9e0b2 [1 year, 8 months ago] implemented idea from bug #720326.
+[neobundle/install] * |   c65e732 [1 year, 8 months ago] Merged ryans fixes for UltiSnipsEdit command without any change
+[neobundle/install] |\ \  
+[neobundle/install] | |/  
+[neobundle/install] | * 424b817 [1 year, 8 months ago] look through filetypes in the right order
+[neobundle/install] | * fe896cf [1 year, 8 months ago] fixed return for method - tests all pass now
+[neobundle/install] | * b54300a [1 year, 8 months ago] added documentation for new search
+[neobundle/install] | * ce6efdd [1 year, 8 months ago] added in-code documentation
+[neobundle/install] | * ad84c34 [1 year, 8 months ago] - extracted and cleaned up searching for snippets files - cleaned up UltiSnipsEdit by rewriting in python reusing existing code
+[neobundle/install] | * dbeecdb [1 year, 8 months ago] use consistent spacing in vim file
+[neobundle/install] * | 47a6270 [1 year, 8 months ago] Small fix in lorem ipsum
+[neobundle/install] |/  
+[neobundle/install] * a63c3f9 [1 year, 8 months ago] Improvements to UltiSnipsEdit command by jmcantrell which partially fixes bug 748433
+[neobundle/install] * eeb8dc4 [1 year, 8 months ago] Disable vims auto-wrapping inside snippets
+[neobundle/install] * a790674 [1 year, 8 months ago] Fixed a small thin in the mako snippets
+[neobundle/install] * 2def1b4 [1 year, 9 months ago] Escaping of \ didn't work
+[neobundle/install] * 5243805 [1 year, 9 months ago] Added a section about character escaping to the docs
+[neobundle/install] * 8513aa4 [1 year, 9 months ago] Added a new variable for snippet directory names. UltiSnips directories can be excluded to not make the shipped plugins available
+[neobundle/install] * c3300e2 [1 year, 9 months ago] Updated ChangeLog
+[neobundle/install] * 1b782e1 [1 year, 9 months ago] Compatibility changes for python 2.6, mainly for windows
+[neobundle/install] * 86ae636 [1 year, 9 months ago] Skip a bogus test on windows
+[neobundle/install] * 0f50245 [1 year, 9 months ago] Leave initial indent of line alone, only reindent snippet definition
+[neobundle/install] * a0a2b54 [1 year, 9 months ago] Catch errors and show them in a scratch buffer instead of posting useless lines in the statusbar
+[neobundle/install] * db82894 [1 year, 9 months ago] Added a testcase for verification of a question on launchpad
+[neobundle/install] * c408ae9 [1 year, 9 months ago] Fixed some lines in contributors
+[neobundle/install] * 6324ff1 [1 year, 9 months ago] Added a ftplugin file for .snippets file and set some sane defaults for folding
+[neobundle/install] * 3563b7a [1 year, 9 months ago] Added improvements to the syntax file by Anthony Jackson
+[neobundle/install] * 20742d3 [1 year, 9 months ago] Added a test case for bug 719649
+[neobundle/install] * 7f7adc1 [1 year, 9 months ago] Removed some unicode symbols that confuse windows
+[neobundle/install] * 09e4b7a [1 year, 9 months ago] We sent the keys for testing as unicode and expect vim to write the output as utf-8.
+[neobundle/install] * cacecfc [1 year, 9 months ago] Correct encoding of test.py
+[neobundle/install] * 6223143 [1 year, 9 months ago] More windows test case fixing action
+[neobundle/install] * 52c50db [1 year, 9 months ago] ork around for testing on windows. Some systems expect a second keystroke after ` and ´.
+[neobundle/install] * 336e5ca [1 year, 9 months ago] Added some snippets for the mako template language
+[neobundle/install] *   066b1d2 [1 year, 9 months ago] Merged Ryans fixes to test on windows
+[neobundle/install] |\  
+[neobundle/install] | * 53f3df5 [1 year, 10 months ago] added ability to skip tests depending on platform
+[neobundle/install] | * 45bad86 [1 year, 10 months ago] try to ensure that the GVIM window is open before sending keys to it
+[neobundle/install] | *   da3f407 [1 year, 10 months ago] merged with trunk
+[neobundle/install] | |\  
+[neobundle/install] | * | e66d4ad [1 year, 10 months ago] Added initial support for testing on windows.
+[neobundle/install] * | | b0ff9b6 [1 year, 9 months ago] Added my snippet collection for Lua
+[neobundle/install] * | |   f970651 [1 year, 9 months ago] Merged improvements for Textmate converter script by Daniel Hahler
+[neobundle/install] |\ \ \  
+[neobundle/install] | * | | d47f28f [1 year, 9 months ago] Improve get_tm_snippets.py script:
+[neobundle/install] | | |/  
+[neobundle/install] | |/|   
+[neobundle/install] * | | 8a09bda [1 year, 9 months ago] Added Daniel Hahler to the contributors
+[neobundle/install] * | | 093a27a [1 year, 9 months ago] Do not mess with clipboard while testing. Fix by Daniel Hahler (blueyed)
+[neobundle/install] * | |   1f12855 [1 year, 9 months ago] Doc fixes by Daniel Hahler (blueyed)
+[neobundle/install] |\ \ \  
+[neobundle/install] | * | | 5556432 [1 year, 9 months ago] Minor doc fixes.
+[neobundle/install] | |/ /  
+[neobundle/install] * | |   0016482 [1 year, 9 months ago] Applied Ryans fix for bug 720611
+[neobundle/install] |\ \ \  
+[neobundle/install] | |/ /  
+[neobundle/install] |/| |   
+[neobundle/install] | * | 6c210e2 [1 year, 10 months ago] fixes bug #720611 by keeping track of which filetypes have been tried.
+[neobundle/install] |/ /  
+[neobundle/install] * | 07bfcb5 [1 year, 10 months ago] Fixed a typo in the documentation
+[neobundle/install] * | e5591e2 [1 year, 10 months ago] Dummy commit to overwrite old tags on launchpad
+[neobundle/install] * | 81be108 [1 year, 10 months ago] Initialize output variable in tests, so that less timing errors occure. This makes testing more stable on my system
+[neobundle/install] * | 9eb0e5b [1 year, 10 months ago] Parsing ultisnips takes even longer
+[neobundle/install] * | cee3b42 [1 year, 10 months ago] Fix some 'No such mapping' warnings which led to random test failures on my system
+[neobundle/install] * | 37f28fe [1 year, 10 months ago] Sleep a bit after sourcing widelands in tests. Increases reliability on my system
+[neobundle/install] * |   a7ebbe3 [1 year, 10 months ago] Merged my fixes for proper handling of autoformatting
+[neobundle/install] |\ \  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] | * 57cf279 [1 year, 10 months ago] Refactored fix for better understandability
+[neobundle/install] | * 91520a2 [1 year, 10 months ago] Refactored test cases
+[neobundle/install] | * 70ba6f0 [1 year, 10 months ago] Added another test case that encloses the snippet
+[neobundle/install] | * 461e81d [1 year, 10 months ago] Added stricter test case that show the problem and implement fixes for them
+[neobundle/install] |/  
+[neobundle/install] * b371f0c [1 year, 10 months ago] Updated syntax file by Timo Schmiade
+[neobundle/install] * c8fe2f4 [1 year, 10 months ago] Added a syntax file by Timo Schmiade. Made sure all shipped files are recognized as snippets, even when ftdetect is not in /Users/sirver
+[neobundle/install] * 3f7bfee [1 year, 10 months ago] ft should be snippets not snippet
+[neobundle/install] * e730eef [1 year, 10 months ago] Added a small notice about contribution to the README
+[neobundle/install] * 528759d [1 year, 10 months ago] Fixed a typo in the documentation
+[neobundle/install] * be07baf [1 year, 10 months ago] Handle the case when vim was not compiled with the langmap option
+[neobundle/install] * a4242d6 [1 year, 10 months ago] Fixed a map with select mode unmapping
+[neobundle/install] * 95e5427 [1 year, 10 months ago] Updated Changelog
+[neobundle/install] *   489a9ad [1 year, 10 months ago] Small fixes from Ryan
+[neobundle/install] |\  
+[neobundle/install] | * 386e0a6 [1 year, 10 months ago] Return true from expand_anon if the snippet was actually expanded.
+[neobundle/install] | * 30738b2 [1 year, 10 months ago] Use faster, cleaner method for modifying the path.
+[neobundle/install] |/  
+[neobundle/install] *   29eb9dc [1 year, 11 months ago] Erlang snippets from g0rdin
+[neobundle/install] |\  
+[neobundle/install] | * ad3a3d7 [1 year, 11 months ago] tweaked receive snippet for erlang
+[neobundle/install] | * 06b6aeb [1 year, 11 months ago] Added useful snippets to erlang snippets
+[neobundle/install] | * 89522d1 [1 year, 11 months ago] Added snippets for erlang (grabbed from TextMate bundles)
+[neobundle/install] |/  
+[neobundle/install] *   4930e21 [2 years ago] Merged anonymous snippets feature from Ryan
+[neobundle/install] |\  
+[neobundle/install] | * 92f979d [2 years ago] Added documentation for the new functions
+[neobundle/install] | * 1e068f1 [2 years ago] Add test to ensure that anon snippets aren't added to the list of snippets.
+[neobundle/install] | * 98b396f [2 years ago] Fixes Bug #427676.
+[neobundle/install] |/  
+[neobundle/install] *   8c71d10 [2 years ago] Merged Ryans Bug fix
+[neobundle/install] |\  
+[neobundle/install] | * b065b5c [2 years ago] Fixes Bug #691575.
+[neobundle/install] |/  
+[neobundle/install] * 3310ccb [2 years ago] Added eruby and rails snippets from Ches Martin
+[neobundle/install] *   6e7f848 [2 years, 1 month ago] applied Ryan's fix for proper vimlike indenting
+[neobundle/install] |\  
+[neobundle/install] | * fbb339d [2 years, 1 month ago] add option to not expand tabs in snippet
+[neobundle/install] | * eff5ec2 [2 years, 1 month ago] use shiftwidth again as per bug comments
+[neobundle/install] | * 9464f0c [2 years, 1 month ago] better name for 'tab' attribute, and expand to tabstops, rather inserting 'ts' spaces
+[neobundle/install] | * 23924c3 [2 years, 1 month ago] use sts instead of sw for initial tabs
+[neobundle/install] | * c20c76b [2 years, 1 month ago] Fixes bug #676998.
+[neobundle/install] |/  
+[neobundle/install] *   a7a3de7 [2 years, 1 month ago] Fixes from Ryan
+[neobundle/install] |\  
+[neobundle/install] | * 2fe73f0 [2 years, 1 month ago] add ability to have newlines before braces in java snippets
+[neobundle/install] | * 65a282c [2 years, 1 month ago] fix whitespace in c/cpp snippets
+[neobundle/install] | * d74c3f6 [2 years, 1 month ago] fixes bug with trailing whitespace
+[neobundle/install] |/  
+[neobundle/install] * 5630899 [2 years, 1 month ago] Added rupa deadwyler
+[neobundle/install] *   8329008 [2 years, 1 month ago] recognize .snippets files
+[neobundle/install] |\  
+[neobundle/install] | * 49f4d35 [2 years, 1 month ago] recognize .snippets files
+[neobundle/install] * | 16d6335 [2 years, 1 month ago] Small correction for ref snippet in tex
+[neobundle/install] |/  
+[neobundle/install] * b9c4876 [2 years, 3 months ago] Removed unneeded import statement
+[neobundle/install] * 13331a8 [2 years, 3 months ago] Fixed a bug if a snippet contains folding markers. Call normal zv (show current line) after each insertion
+[neobundle/install] * 76a8d7b [2 years, 3 months ago] Updated ChangeLog
+[neobundle/install] * c095147 [2 years, 3 months ago] Added commands UltiSnipsReset and UltiSnipsEdit by JCEB
+[neobundle/install] * 54a2350 [2 years, 3 months ago] Added a codeblock snippet
+[neobundle/install] * c74e8b0 [2 years, 4 months ago] Added a nice begin/end snippet. Triggered with b or begin
+[neobundle/install] * 14da7e5 [2 years, 4 months ago] Fixed a small typo
+[neobundle/install] *   05c09d7 [2 years, 4 months ago] Merged my fixes for the bug Ryan brought up
+[neobundle/install] |\  
+[neobundle/install] | * 09939c2 [2 years, 4 months ago] Fixed the bug again
+[neobundle/install] | * 5340bb1 [2 years, 4 months ago] New failing tests
+[neobundle/install] |/  
+[neobundle/install] *   00656a2 [2 years, 4 months ago] Merged my fix for bug 427298
+[neobundle/install] |\  
+[neobundle/install] | * 2970414 [2 years, 4 months ago] Updated ChangeLog
+[neobundle/install] | * 58b562b [2 years, 4 months ago] Added documentation about smap unmapping
+[neobundle/install] | * 243e933 [2 years, 4 months ago] Whitespace fixes in help doc
+[neobundle/install] | * 5aac3f5 [2 years, 4 months ago] Implemented a fix for select mode mappings along the lines of the suggestions by Ryan. Added tests. Documentation is still missing
+[neobundle/install] * | fb8be85 [2 years, 4 months ago] Removed the Roadmap from the help docs since it is constantly outdated
+[neobundle/install] |/  
+[neobundle/install] * 511915d [2 years, 4 months ago] Updated ChangeLog
+[neobundle/install] * b5fe29b [2 years, 4 months ago] Fixed a TODO and removed some which do not seem to be reasonable at this point in time
+[neobundle/install] *   1771f77 [2 years, 4 months ago] Merged my fix for bug 616315
+[neobundle/install] |\  
+[neobundle/install] | * e557c87 [2 years, 4 months ago] All tests pass
+[neobundle/install] | * 686bacb [2 years, 4 months ago] All TrailingNewline tests pass now. Others broke though
+[neobundle/install] | * d2190f9 [2 years, 4 months ago] First test passes, have not broken anything yet
+[neobundle/install] | * 6ba2c53 [2 years, 4 months ago] Added the test cases. Only commented the easiest in so far
+[neobundle/install] |/  
+[neobundle/install] * 7828366 [2 years, 4 months ago] Fixed a bug in the c snippets that came from the new multiword triggers
+[neobundle/install] *   9011515 [2 years, 4 months ago] Merged my fix for bug 501727
+[neobundle/install] |\  
+[neobundle/install] | * e3d9896 [2 years, 4 months ago] Encapsulated the translation of the langmap including caching of results into a own object
+[neobundle/install] | * 1637cbe [2 years, 4 months ago] The only working solution is to manually reverse the langmap if possible.
+[neobundle/install] | * 131e5fd [2 years, 4 months ago] all calls to feedkeys are now routed through one function
+[neobundle/install] | * 6b38c5d [2 years, 4 months ago] added a testcase for bug 501727
+[neobundle/install] |/  
+[neobundle/install] * aede016 [2 years, 4 months ago] Made tests more stable: repetitions are now done slower
+[neobundle/install] *   564c2af [2 years, 4 months ago] Merged global snippets branch from Ryan
+[neobundle/install] |\  
+[neobundle/install] | * 514d9d1 [2 years, 4 months ago] updated some snippets to use new global and locals features.
+[neobundle/install] | * 4b85266 [2 years, 4 months ago] Added documentation for globals, and fixed docs for locals. Fixed error messages to match tests. Changed endsnippet -> endglobal for global snippets.
+[neobundle/install] | * e025da5 [2 years, 4 months ago] Changed local variables in python code blocks to persist across blocks in a snippet. Removed "snips.locals". Also added ability to use file-wide "global" snippets. Added tests for both.
+[neobundle/install] |/  
+[neobundle/install] * c9d0ff4 [2 years, 4 months ago] Added a test for bug 423701, which seems to have been fixed already
+[neobundle/install] * 3d0de8b [2 years, 4 months ago] Updated README. All snippets are now cleaned up
+[neobundle/install] * a2e07d1 [2 years, 4 months ago] Cleaned up JavaScript snippets
+[neobundle/install] * 26abb41 [2 years, 4 months ago] Removed Ruby snippets. I do not know enough of this language to clean those snippets up. Please contribute some.
+[neobundle/install] * a6c0cde [2 years, 4 months ago] Cleaned up objective C snippets
+[neobundle/install] * 6bcbc40 [2 years, 4 months ago] Cleaned CSS snippets up.
+[neobundle/install] *   5803910 [2 years, 4 months ago] Merged ryans regular expression trigger branch
+[neobundle/install] |\  
+[neobundle/install] | * deecdc8 [2 years, 4 months ago] added some in-code documentation to clarify the changes.
+[neobundle/install] | * e9e3c3b [2 years, 4 months ago] minor fix for python snippets.
+[neobundle/install] | * 64debe1 [2 years, 4 months ago] fixed lorem ipsum snippet, and upgraded "self." snippet.
+[neobundle/install] | * 64eaac4 [2 years, 4 months ago] added docs for new functionality and test for example in docs.
+[neobundle/install] | * 4a3b231 [2 years, 4 months ago] give match object to python blocks.
+[neobundle/install] | * 4851a82 [2 years, 4 months ago] Added support for multi-word snippets.
+[neobundle/install] | * 1167fd6 [2 years, 4 months ago] added basic regular expression matching.
+[neobundle/install] | * b5c8a32 [2 years, 4 months ago] added new "matched" property on snippet. contains the last string that matched the snippet.
+[neobundle/install] | * fb54432 [2 years, 4 months ago] more work on the refactor. most duplicated code is gone now.
+[neobundle/install] | * 4e0102b [2 years, 4 months ago] started refactor of _try_expand and list_snippets.
+[neobundle/install] * | 4e966e1 [2 years, 4 months ago] Fixed some whitespaces
+[neobundle/install] |/  
+[neobundle/install] * 76b5ce1 [2 years, 5 months ago] Whitespace fixes and python 2.5 compatibility
+[neobundle/install] *   1f57719 [2 years, 5 months ago] Merged ryans awesome python improvements
+[neobundle/install] |\  
+[neobundle/install] | * 462b9cd [2 years, 5 months ago] updated deprecation messages, and updated (and documented) the way "snip.rv" works.
+[neobundle/install] | * 897cca0 [2 years, 5 months ago] Added option to use doxygen style comments in smart def and smart class.
+[neobundle/install] | * f880766 [2 years, 5 months ago] Updated snippets to use new "snip" object.
+[neobundle/install] | * e6759cd [2 years, 5 months ago] added fn, basename and ft properties to SnippetUtil.
+[neobundle/install] | *   d6c174e [2 years, 5 months ago] merged with upstream
+[neobundle/install] | |\  
+[neobundle/install] | |/  
+[neobundle/install] |/|   
+[neobundle/install] * | b437f30 [2 years, 5 months ago] Applied patch from Chris Chambers
+[neobundle/install] | * 54e849b [2 years, 5 months ago] Updated documentation for new/changed functionality.
+[neobundle/install] | * 6a98c54 [2 years, 5 months ago] typo fixes!
+[neobundle/install] | * 784097c [2 years, 5 months ago] added unit tests for new python snippetutil.
+[neobundle/install] | * 64500f6 [2 years, 5 months ago] - removed some hacks from testing. - removed "first" variable hack. - made some variables more consistent. - cleaned up indentation code. - added "opt". - hand the right things into SnippetUtil.
+[neobundle/install] | * d7ccf9f [2 years, 5 months ago] improved mkline, added syntatic sugar, rv, c, and locals.
+[neobundle/install] | * ee7c23b [2 years, 7 months ago] Added myself to the contributors lists
+[neobundle/install] | * 41441c4 [2 years, 7 months ago] added example of using snip for snippet-local data
+[neobundle/install] | * 67d1b65 [2 years, 7 months ago] removed another extra print, and fixed some comments
+[neobundle/install] | * c72307c [2 years, 7 months ago] removed a print statement which was causing unit tests to fail
+[neobundle/install] | * 513a635 [2 years, 7 months ago] use a helper object, rather than replacing 'res', also provide 'snippet-local' variables
+[neobundle/install] | * e812505 [2 years, 7 months ago] Added PythonResult class to handle indentation, etc automatically. Modified my python snippets to use it.
+[neobundle/install] | * 52be5df [2 years, 7 months ago] Shortened the variable name, and added documentation.
+[neobundle/install] | * 8f7cdb9 [2 years, 7 months ago] added new 'smart def' and 'smart class' for python using new indent info
+[neobundle/install] | * 7416866 [2 years, 7 months ago] Added initial_indent to python context
+[neobundle/install] |/  
+[neobundle/install] * ee1b3aa [2 years, 10 months ago] Python, smart def by Alec Thomas
+[neobundle/install] * a8ad930 [2 years, 10 months ago] Ignore .bzr-repo
+[neobundle/install] * 5214f93 [2 years, 11 months ago] Fixed a documentation bug. Patch by Gregor Muellegger
+[neobundle/install] * 1ad7a79 [2 years, 11 months ago] Trivial change to get tags removed
+[neobundle/install] * af0ff03 [2 years, 11 months ago] Trivial change to get tags removed
+[neobundle/install] * a3acc40 [2 years, 11 months ago] Fixed a type in tex snippets
+[neobundle/install] *   3587458 [3 years, 1 month ago] Merged with trunk
+[neobundle/install] |\  
+[neobundle/install] | * adb5be2 [3 years, 2 months ago] Added clearsnippets to Changelog
+[neobundle/install] * | 6832660 [3 years, 1 month ago] Added some snippets for REST
+[neobundle/install] |/  
+[neobundle/install] *   5d116ba [3 years, 2 months ago] Merged with clearsnippets branch from Michael Henry. Only very minor changes on my part
+[neobundle/install] |\  
+[neobundle/install] | * ca560ac [3 years, 3 months ago] Removed spurious debug "print" statement.
+[neobundle/install] | * 99e8842 [3 years, 3 months ago] A "clearsnippets" feature =========================
+[neobundle/install] * | df7c03c [3 years, 3 months ago] Added lorem ipsum text
+[neobundle/install] * | 31cd328 [3 years, 3 months ago] Cleaned python 2.6 workaround up a bit
+[neobundle/install] * | e12f7f3 [3 years, 3 months ago] Fixes for python 2.6
+[neobundle/install] * |   b795232 [3 years, 3 months ago] Applied Michael Henrys silent mapping patch
+[neobundle/install] |\ \  
+[neobundle/install] | * | 9e6b373 [3 years, 3 months ago] Added <silent> to mappings to remove the distraction in the status line.
+[neobundle/install] | |/  
+[neobundle/install] * | 3871db1 [3 years, 3 months ago] Added snippets for lr( and lr| in tex mode
+[neobundle/install] |/  
+[neobundle/install] *   4948c5f [3 years, 4 months ago] Applied Michael Henrys patch for w option
+[neobundle/install] |\  
+[neobundle/install] | * 66d3541 [3 years, 4 months ago] Added support for snippet option "w" for word-boundary triggers.
+[neobundle/install] * |   441d0d2 [3 years, 4 months ago] Applied patch by Michael Henry to fix a bug that ultisnips doesn't exit at ts zero
+[neobundle/install] |\ \  
+[neobundle/install] | * | 66ba068 [3 years, 4 months ago] Snippet mode is now exited after final tabstop zero is encountered.
+[neobundle/install] | |/  
+[neobundle/install] * |   eafbe00 [3 years, 4 months ago] Applied suggested patch by Michael Henry to fix problem with tab not being accepted even though ultisnips does nothing with it
+[neobundle/install] |\ \  
+[neobundle/install] | * | 9a19e9c [3 years, 4 months ago] Fixed problem with tab being ignored on failed snippet expansion.
+[neobundle/install] | |/  
+[neobundle/install] * | 995404e [3 years, 4 months ago] Fixed typo. Reported by m.d.
+[neobundle/install] |/  
+[neobundle/install] * 4721cb0 [3 years, 4 months ago] Stabilized another test by making it muuuuch slower
+[neobundle/install] * f6de934 [3 years, 4 months ago] Cleaned up java snippets
+[neobundle/install] * 40a0b46 [3 years, 4 months ago] Fixed a bug with escaping of twopoints in conditional replaces
+[neobundle/install] * 1dea8be [3 years, 4 months ago] Updated changelog
+[neobundle/install] * 405521c [3 years, 4 months ago] Cleaned up TCL snippets
+[neobundle/install] * 3cf9827 [3 years, 4 months ago] Implemented listing of current snippets following the suggestion of jceb. This patch took another route than his suggestion, but should be functional equivalent
+[neobundle/install] * de9e35b [3 years, 4 months ago] Fixed stupid bug introduced in last revision
+[neobundle/install] * a96a6a3 [3 years, 4 months ago] Made trigger description include trigger by default. Patch suggested by jceb
+[neobundle/install] * c1462f3 [3 years, 4 months ago] _SnippetDictionary is no longer derived from dict since it makes no longer sense with the i option
+[neobundle/install] * cd0b859 [3 years, 4 months ago] Implemented i option (inword snippet expansion) along the line of the patch by jceb, also added his test cases
+[neobundle/install] * f5610ae [3 years, 4 months ago] Added a contributors section to the help file
+[neobundle/install] * f4515da [3 years, 4 months ago] Fixed bug 411010
+[neobundle/install] * 43e60eb [3 years, 5 months ago] Added support for extends keyword. With this it is simple to make inheritance trees of snippets for file types
+[neobundle/install] * 1236d0a [3 years, 5 months ago] Refactored parsing of Snippets files a bit to make it easier to extend the syntax
+[neobundle/install] * 5eaed11 [3 years, 5 months ago] Fixed 407144. Also added test cases for it
+[neobundle/install] * 4d550b4 [3 years, 5 months ago] Small cleanup in tm_objc. Not completed
+[neobundle/install] * 1aa73e8 [3 years, 5 months ago] Fixed a small bug while printing out non ascii chars
+[neobundle/install] * fdb6622 [3 years, 5 months ago] Fixed test case for expandtab. Expected functionality has changed in the last commit
+[neobundle/install] * ac16399 [3 years, 5 months ago] Fixed expandtabs. Was broken at the beginning of the line. Now it is broken in the middle of the line
+[neobundle/install] * 51f462b [3 years, 5 months ago] Replaced space indent through tab indent in snippets. This is more logical now that expandtab is adhered to
+[neobundle/install] * 22804a2 [3 years, 5 months ago] Cleaned up HTML snippets
+[neobundle/install] * 8fb1412 [3 years, 5 months ago] - fixed a bug related to indentexpr. vim just has too many options - expandtab and ts options are now taken into consideration when expanding tabs
+[neobundle/install] * 274ef83 [3 years, 5 months ago] Fixed bug #405502. Also added a test case for it
+[neobundle/install] * 24ce065 [3 years, 5 months ago] Finally fixed #404819
+[neobundle/install] * cb458a0 [3 years, 5 months ago] Attemp to work around SuperTabs <tab> claiming when installed in the home vim folder
+[neobundle/install] * e505808 [3 years, 5 months ago] Fixed a missing self; a bug that slipped the tests
+[neobundle/install] * 2f28d0e [3 years, 5 months ago] Fixed bug #404822 with a patch by jceb.
+[neobundle/install] * 39fdc55 [3 years, 5 months ago] Unified hdr to #!
+[neobundle/install] * 8c7c82d [3 years, 5 months ago] Added img link
+[neobundle/install] * 5ee8b84 [3 years, 5 months ago] Fixed some bugs related to char escaping in snippet definitions. fixes #401687
+[neobundle/install] * a76165c [3 years, 5 months ago] Fixed a backslash in printf and fprintf snippets
+[neobundle/install] * 242d9f8 [3 years, 5 months ago] Pushed version to 1.1. Prepare a release
+[neobundle/install] * d0a50ae [3 years, 5 months ago] Made trigger keys configurable. Added support for setting forward jump and expand to the same key
+[neobundle/install] * 9292919 [3 years, 5 months ago] Fixed rwprop now... maybe
+[neobundle/install] * ebc6852 [3 years, 5 months ago] Fixed rwprop
+[neobundle/install] * 9c3456e [3 years, 5 months ago] Cleaned perl snippets up
+[neobundle/install] * 954e579 [3 years, 5 months ago] Fixed README
+[neobundle/install] * f0d55ca [3 years, 5 months ago] Cleaned sh snippets up
+[neobundle/install] * 46db06a [3 years, 5 months ago] Cleaned vim snippets up
+[neobundle/install] * 5a1b36e [3 years, 5 months ago] Splitted c snippets into c and c++
+[neobundle/install] * 11c20ee [3 years, 5 months ago] Beefed converter script a bit. Still an ugly hack. Imported HTML and CSS snippets from Textmate
+[neobundle/install] * c3dff61 [3 years, 5 months ago] Fixed a small bug with string escaping in transformations. Went over the c snippets from TextMate, reworked them to work without any shell code (for compatibility sake)
+[neobundle/install] * 47a7948 [3 years, 5 months ago] Conditional replaces can now be nested
+[neobundle/install] * 5a42d16 [3 years, 5 months ago] Added snippets for snippets. Fixed a subtle bug with overwriting snippets
+[neobundle/install] * e1b66b9 [3 years, 5 months ago] Added link to Vims script page on vim.org
+[neobundle/install] * 6574033 [3 years, 5 months ago] Removed the snippet options item from the Roadmap. It is already implemented
+[neobundle/install] * 0943961 [3 years, 5 months ago] Added support for b option. Some snippets can be defined to only be valid at the beginning of the line
+[neobundle/install] * 0b9d1cf [3 years, 5 months ago] Added ChangeLog
+[neobundle/install] * c1494c6 [3 years, 5 months ago] A small refactoring
+[neobundle/install] * 5d2a39a [3 years, 5 months ago] Fixed a inconsequent handling of indent: indent was different for recursive snippets then for the othermost snippet
+[neobundle/install] * 93b3cc7 [3 years, 5 months ago] Added support for overwriting of previous snippet definitions
+[neobundle/install] * e3ae328 [3 years, 5 months ago] Added support for dotted ft syntax
+[neobundle/install] * e9c1dd5 [3 years, 5 months ago] All done. Ready for intial release I guess
+[neobundle/install] * 3e25a15 [3 years, 5 months ago] Fixed the annoying bug
+[neobundle/install] * 3f760ea [3 years, 5 months ago] Only one critical known bug remaining in recursive expansion
+[neobundle/install] * 118045a [3 years, 5 months ago] Added more test cases for recursive tabstops, fixed some bugs that occured
+[neobundle/install] * 94ee96c [3 years, 5 months ago] Added vim module into imported python modules for python interpolation. box and bbox are now in the all.snippets and use the comment leader extracted from the commentstring option
+[neobundle/install] * 8e46b5b [3 years, 5 months ago] Beginning of recursive snippet expansion. This still has more bugs than a dog has fleas
+[neobundle/install] * fc0d40e [3 years, 5 months ago] Added header for python scripts
+[neobundle/install] * b15199b [3 years, 5 months ago] Removed and reordered some TODOs
+[neobundle/install] * 318b272 [3 years, 5 months ago] Fixed bug 400105 and 400114
+[neobundle/install] * f60417c [3 years, 5 months ago] Slowed another test down, added a TODO for a bug that I ran into
+[neobundle/install] * 87922dc [3 years, 5 months ago] added a planned feature that was missing in the roadmap
+[neobundle/install] * 172e943 [3 years, 5 months ago] Finished first version of help file
+[neobundle/install] * 4633e77 [3 years, 5 months ago] Added more help
+[neobundle/install] * 7a34de5 [3 years, 5 months ago] Added box snippets for python. Added a test case for completion inside of snippets
+[neobundle/install] * 717ae75 [3 years, 5 months ago] Fixed a stupid bug where == and  bzr commit -m "Fixed a stupid bug where == and  boxes -d shell= were used. Instead it should have been is and is not"= were used. Instead it should have been is and is not
+[neobundle/install] * 001bb70 [3 years, 5 months ago] Added support for vimscript interpolation
+[neobundle/install] * 8b2c827 [3 years, 5 months ago] Removed an unneeded debug output
+[neobundle/install] * 80c7069 [3 years, 5 months ago] Enhanced the help snippets, enhanced the help file a bit
+[neobundle/install] * ab7ad57 [3 years, 5 months ago] Added support for python interpolation. Added a cool help snippet sec that uses this feature. This needs documentation
+[neobundle/install] * 79d342d [3 years, 5 months ago] Added support for interpolated python code
+[neobundle/install] * 13eec1f [3 years, 5 months ago] Added the beginning of documentation
+[neobundle/install] * 537e4ce [3 years, 5 months ago] Added some common language snippets from other projects.
+[neobundle/install] * 9312159 [3 years, 5 months ago] Added a missing newline
+[neobundle/install] * 53f464e [3 years, 5 months ago] Fixed a bug with indenting in snippets. Autoindent is now supported
+[neobundle/install] * ba6e066 [3 years, 5 months ago] Added the possibility to backspace over newlines in tabstops
+[neobundle/install] * 49aa031 [3 years, 5 months ago] Sleep after each char send through screen which makes testing even slower but more reliable
+[neobundle/install] * 86e7b3a [3 years, 5 months ago] The project now has a name: UltiSnips
+[neobundle/install] * 5db7148 [3 years, 5 months ago] children -> childs everywhere
+[neobundle/install] * 3bcbdac [3 years, 5 months ago] - Fixed a bug in parsing of definition files - implemented shell code interpolation - implemented multiline tabstop selection (needed for shell code interpolation)
+[neobundle/install] * fa513f7 [3 years, 5 months ago] Removed a TODO that was handled
+[neobundle/install] * 982e327 [3 years, 5 months ago] Removed a TODO reminder that was fixed
+[neobundle/install] * 8d9c04c [3 years, 5 months ago] Fixed a corner case in jumping: When a TS was selected and the next one was jumped too and was a TS with zero lenght, the cursor moved one too far
+[neobundle/install] * 8a978cc [3 years, 5 months ago] Got Rid of _parse function. Parsing is now done in constructor of SnippetInstance
+[neobundle/install] * bdb61f9 [3 years, 5 months ago] Very minor refactoring
+[neobundle/install] * 4cdf05d [3 years, 5 months ago] All tests pass again
+[neobundle/install] * ade790c [3 years, 5 months ago] Nearly fixed all bugs with Tab in DefText
+[neobundle/install] * 447b800 [3 years, 5 months ago] Some bugs remain with tabstops in default text
+[neobundle/install] * 307d822 [3 years, 5 months ago] Halfway through with tabstop in default text
+[neobundle/install] * ccfa5d7 [3 years, 5 months ago] Expand is now <tab>, forward is <c-j> and backwards is <c-k>
+[neobundle/install] * 82dffc5 [3 years, 5 months ago] A little more cleanup in TextObjects
+[neobundle/install] * 7953717 [3 years, 5 months ago] Got rid of ChangeableText. Cleaned TextObjects up a little
+[neobundle/install] * 4acf520 [3 years, 5 months ago] Range is now Span
+[neobundle/install] * 5935131 [3 years, 5 months ago] Moved tab_selected also into SnippetManager
+[neobundle/install] * 86a400d [3 years, 5 months ago] Input is now complelty handled in the SnippetManager
+[neobundle/install] * 493c628 [3 years, 5 months ago] chars_added was moved to SnipperManager
+[neobundle/install] * 514e646 [3 years, 5 months ago] TextObject.update()  no longer takes arguments
+[neobundle/install] * 0c3530f [3 years, 5 months ago] Some refactoring
+[neobundle/install] * b7df58e [3 years, 5 months ago] Removed some unneded cursor jumping
+[neobundle/install] * 3b921ca [3 years, 5 months ago] Fixed a bug that prevented newlines in the first column in snippets
+[neobundle/install] * 130706b [3 years, 5 months ago] TextObjects.py no longer needs the vim module. Now the VimBuffer also needs removing
+[neobundle/install] * 384a8d5 [3 years, 5 months ago] Got rid of the unintuitive accept_input variable. We now keep track of the current tabstop
+[neobundle/install] * 920f6f6 [3 years, 5 months ago] If a snippet doesn't define a zero Tabstop, it is now automatically added at it's end after parsing
+[neobundle/install] * 448a0a3 [3 years, 5 months ago] there is now only one snippet active at all times, we no longer need an array for the current snippets
+[neobundle/install] * e0f689d [3 years, 5 months ago] Tab selection no longer takes place inside TabStop
+[neobundle/install] * d3ab473 [3 years, 5 months ago] There is now always only one active snippet, if another is launched, the current one gains an child
+[neobundle/install] * 4ae5334 [3 years, 5 months ago] Packaged all Files into one Module
+[neobundle/install] * d25ffbe [3 years, 5 months ago] Removed two unneeded properties
+[neobundle/install] * 2d6c5d8 [3 years, 5 months ago] Refactored the code in different files. This makes Stuff a bit more Readable
+[neobundle/install] * 5dba871 [3 years, 5 months ago] Added tests for tabstops in tabstops
+[neobundle/install] * 9adacca [3 years, 5 months ago] Added a very basic fetching utility that fetches TextMate Bundle Snippets from the TextMate site and writes out a file that is compatible with us. Also added a new critical feature/bug that needs fixing: Tabstops in Default Text of Tabstops
+[neobundle/install] * 3ac62a0 [3 years, 5 months ago] The next important todos
+[neobundle/install] * 09e50ac [3 years, 5 months ago] Added the one hundreds test with many tabstops and many mirrors
+[neobundle/install] * 4bd7da2 [3 years, 5 months ago] Enhanced the class snippet
+[neobundle/install] * c7da6bd [3 years, 5 months ago] Pimped python snippets a bit
+[neobundle/install] * b3f7a04 [3 years, 5 months ago] Added a few more usefull latex snippets
+[neobundle/install] * ca9010e [3 years, 5 months ago] ported some latex textmate snippets
+[neobundle/install] * ddd4a57 [3 years, 5 months ago] Added support for transformations in default text of tabstops
+[neobundle/install] * 97315a1 [3 years, 5 months ago] Added tests for transformations in tabstop default texts. Fixed a todo in the code
+[neobundle/install] * ee882dd [3 years, 5 months ago] Fully implemented backspacing while tab is selected
+[neobundle/install] * 8c8f3b9 [3 years, 5 months ago] A first attempt to add the feature to backspace a default text away
+[neobundle/install] * 4261a6d [3 years, 5 months ago] Added two more tests for the escape bug
+[neobundle/install] * fdc3c17 [3 years, 5 months ago] Fixed the annoying bug when directly escaping after selecting a tabstop
+[neobundle/install] * 0268422 [3 years, 5 months ago] Added tests for leaving snippets above or below
+[neobundle/install] * d8cd3f3 [3 years, 6 months ago] Snippets are now dropped when cursor reached /bin/zsh
+[neobundle/install] * 892db43 [3 years, 6 months ago] Snippet was not poppoed if it didn't contain a zero tabstop at its end
+[neobundle/install] * 5901574 [3 years, 6 months ago] Added the beginning of latex snippets
+[neobundle/install] * 52a91f1 [3 years, 6 months ago] Only jump to the end of a snippet when there is no Zero Tabstop defined
+[neobundle/install] * 531a9c1 [3 years, 6 months ago] Fixed a bug with indented single line snippets. A new line was added after them before
+[neobundle/install] * 657af1a [3 years, 6 months ago] Added support for exiting snippet if moved out left or right
+[neobundle/install] * 8c9b393 [3 years, 6 months ago] Change detection no longer needs to cache the complete buffer, only one char. Renamed Cursor to VimState because it also trackes BufferChanges
+[neobundle/install] * bf5b4c8 [3 years, 6 months ago] Tabstops no longer receive text when user moved the cursor while inputting.
+[neobundle/install] * 0e54082 [3 years, 6 months ago] Further refactored unittests by moving runTest up into _VimTest. Now all non test base classes run a dummy test, which doesn't hurt so much
+[neobundle/install] * 4a38210 [3 years, 6 months ago] Further refactored test by replacing cmd function through keys variable
+[neobundle/install] * 58731e2 [3 years, 6 months ago] Removed escape function int tests, added a constant for it
+[neobundle/install] * 3e34086 [3 years, 6 months ago] Made test execution faster and also a bit more reliable. The remaining problem is the screen stuff command :/
+[neobundle/install] * e5715d8 [3 years, 6 months ago] Removed some oververbose debug output
+[neobundle/install] * f1f5bb1 [3 years, 6 months ago] Snippet updates
+[neobundle/install] * 87b0c19 [3 years, 6 months ago] A slight optimization
+[neobundle/install] * a541272 [3 years, 6 months ago] Renabled a test that was accidentally disabled
+[neobundle/install] * f308e96 [3 years, 6 months ago] Fixed a bug when tabstops were behind mirrors
+[neobundle/install] * 4eae66c [3 years, 6 months ago] Added support for multiple defined triggers
+[neobundle/install] * 0aa37bf [3 years, 6 months ago] Added support for proper indenting
+[neobundle/install] * 22cc4e7 [3 years, 6 months ago] All snippets are dropped when user exits out to normal mode with <Esc>. Changed how tab behaves at the end of all triggers
+[neobundle/install] * b5a2e14 [3 years, 6 months ago] Removed a wrong TODO and fixed a mapping
+[neobundle/install] * bf35ed0 [3 years, 6 months ago] Added support for proper startup and support for working with supertab
+[neobundle/install] * e88378c [3 years, 6 months ago] Fixed cursor movement when there were mirrors in front or above it
+[neobundle/install] * bd842d6 [3 years, 6 months ago] Added a wrapper around Vims Cursor
+[neobundle/install] * b065364 [3 years, 6 months ago] Added missing files
+[neobundle/install] * 1d5a81b [3 years, 6 months ago] Before fixing cursor movement stuff
+[neobundle/install] * fcf5766 [3 years, 6 months ago] Implemented all regular expression stuff that textmate knows about
+[neobundle/install] * bce4cb7 [3 years, 6 months ago] added textmate like backreference and casefoldings in transformations
+[neobundle/install] * 7438a73 [3 years, 6 months ago] Fixed a bug with one char tabstops. Began working on transformation
+[neobundle/install] * 7461ad1 [3 years, 6 months ago] Working towards a non destructable parsing
+[neobundle/install] * 7c6c726 [3 years, 6 months ago] Added more tests for the default mirror features
+[neobundle/install] * c767fc0 [3 years, 6 months ago] Added support for mirrors in TabStop defaults
+[neobundle/install] * ae6bb25 [3 years, 6 months ago] All tests pass again. Following new features now
+[neobundle/install] * 6f25b53 [3 years, 6 months ago] All tests pass except for my Favorite :(
+[neobundle/install] * 4392de3 [3 years, 6 months ago] Everything but mirrors work now again
+[neobundle/install] * 55fdbee [3 years, 6 months ago] Finally fixed the multiline expansion bug. Much still remaining
+[neobundle/install] * d5d65d9 [3 years, 6 months ago] Made SnippetScript Python 2.3 compatible. That was easy :)
+[neobundle/install] * 9272abd [3 years, 6 months ago] More refactoring. Moved some code from ChangeableText into a common base class
+[neobundle/install] * 13b9b12 [3 years, 6 months ago] Got rid of tabstop in mirror
+[neobundle/install] * 6a24bf1 [3 years, 6 months ago] Some more refactoring
+[neobundle/install] * d5705c7 [3 years, 6 months ago] Some refactoring
+[neobundle/install] * c6116f1 [3 years, 6 months ago] Basic multiline replacing now works. all tests pass
+[neobundle/install] * 907ab27 [3 years, 6 months ago] Before text replacement refactoring
+[neobundle/install] * 86bbd40 [3 years, 6 months ago] Trying to get multiline mirrors & tab values to work
+[neobundle/install] * f7e0624 [3 years, 6 months ago] Modified tests so that they test each snippet in the middle of other text. This revealed a few bugs which are fixed now
+[neobundle/install] * ad7241b [3 years, 6 months ago] Refactored some more, got rid of delta_row and delta_col. Introduced Position as zero based coordinate frame
+[neobundle/install] * bf017ac [3 years, 6 months ago] Some more minor refactoring.
+[neobundle/install] * fa71c6f [3 years, 6 months ago] Some more minor refactoring.
+[neobundle/install] * 4f6d543 [3 years, 6 months ago] Added a test for tabstops in multiple lines
+[neobundle/install] * 526617a [3 years, 6 months ago] Some more slight refactoring
+[neobundle/install] * 36a06d1 [3 years, 6 months ago] Some refactorings. Mostly removing unused code
+[neobundle/install] * e8aa288 [3 years, 6 months ago] All tests currently pass
+[neobundle/install] * 61c059e [3 years, 6 months ago] Started building in a TextObject Base class. Doing some refactoring
+[neobundle/install] * d19ddc0 [3 years, 6 months ago] Trying to fit in Mirrors. Not so easy
+[neobundle/install] * 1e3dd7b [3 years, 6 months ago] Tests now work through simulating input via screen. Good solution
+[neobundle/install] * 1926c49 [3 years, 6 months ago] Intermediate state. Multiple text tabstops are already working; testing it does not work, because i can't type from a script
+[neobundle/install] * a60e392 [3 years, 6 months ago] All tests now pass on python2.3. Autodetection of test cases no longer works :(
+[neobundle/install] * c86595a [3 years, 6 months ago] Initial commit
+[neobundle/install] (28/70): |ultisnips-snippets| Error
+[neobundle/install] (29/70): |vim-bundler| Skipped
+[neobundle/install] (30/70): |vim-capybara| Skipped
+[neobundle/install] (31/70): |vim-coffee-script| Skipped
+[neobundle/install] (32/70): |vim-colors-solarized| git pull --rebase
+[neobundle/install] (33/70): |vim-cucumber| git pull --rebase
+[neobundle/install] (34/70): |vim-dochub| git pull --rebase
+[neobundle/install] (35/70): |vim-endwise| git pull --rebase
+[neobundle/install] (36/70): |vim-fugitive| git pull --rebase
+[neobundle/install] (32/70): |vim-colors-solarized| Skipped
+[neobundle/install] (33/70): |vim-cucumber| Skipped
+[neobundle/install] (34/70): |vim-dochub| Skipped
+[neobundle/install] (35/70): |vim-endwise| Skipped
+[neobundle/install] (36/70): |vim-fugitive| Updated
+[neobundle/install] * d63a475 [7 days ago] Fix duplicate Signed-off-by lines
+[neobundle/install] * 2723a11 [11 days ago] Return '' from buffer.path() if outside work tree
+[neobundle/install] * 7df3a68 [11 days ago] Send :help :Gw to the right place
+[neobundle/install] * 6f380fa [4 weeks ago] Fix error when g:fugitive_github_domains is unset
+[neobundle/install] (37/70): |vim-git| git pull --rebase
+[neobundle/install] (38/70): |vim-haml| git pull --rebase
+[neobundle/install] (39/70): |vim-indent-guides| git pull --rebase
+[neobundle/install] (40/70): |vim-indent-object| git pull --rebase
+[neobundle/install] (41/70): |vim-irblack| git pull --rebase
+[neobundle/install] (37/70): |vim-git| Skipped
+[neobundle/install] (38/70): |vim-haml| Updated
+[neobundle/install] *   ce0cfed [2 weeks ago] Merge pull request #44 from jacknagel/compiler
+[neobundle/install] |\  
+[neobundle/install] | * c637b6e [2 weeks ago] Add compiler plugin for haml
+[neobundle/install] | * b61cfdb [2 weeks ago] Add a compiler plugin for sass
+[neobundle/install] |/  
+[neobundle/install] * b573600 [4 weeks ago] Merge pull request #43 from mattsacks/add-placeholders
+[neobundle/install] * 5a11a44 [4 weeks ago] Add SASS 3.2 placeholders
+[neobundle/install] (39/70): |vim-indent-guides| Skipped
+[neobundle/install] (40/70): |vim-indent-object| Skipped
+[neobundle/install] (41/70): |vim-irblack| Skipped
+[neobundle/install] (42/70): |vim-javascript| git pull --rebase
+[neobundle/install] (43/70): |vim-jquery| git pull --rebase
+[neobundle/install] (44/70): |vim-less| git pull --rebase
+[neobundle/install] (45/70): |vim-markdown| git pull --rebase
+[neobundle/install] (46/70): |vim-markdown-folding| git pull --rebase
+[neobundle/install] (42/70): |vim-javascript| Skipped
+[neobundle/install] (43/70): |vim-jquery| Skipped
+[neobundle/install] (44/70): |vim-less| Skipped
+[neobundle/install] (45/70): |vim-markdown| Skipped
+[neobundle/install] (46/70): |vim-markdown-folding| Skipped
+[neobundle/install] (47/70): |vim-matchit| git pull --rebase
+[neobundle/install] (48/70): |vim-powerline| git pull --rebase
+[neobundle/install] (49/70): |vim-rails| git pull --rebase
+[neobundle/install] (50/70): |vim-repeat| git pull --rebase
+[neobundle/install] (51/70): |vim-rhubarb| git pull --rebase
+[neobundle/install] (47/70): |vim-matchit| Skipped
+[neobundle/install] (48/70): |vim-powerline| Skipped
+[neobundle/install] (49/70): |vim-rails| Updated
+[neobundle/install] *   3e54fc9 [12 days ago] Merge pull request #170 from DawidJanczak/master
+[neobundle/install] |\  
+[neobundle/install] | * effbd9e [5 months ago] Add has_secure_password to list of keywords.
+[neobundle/install] * 7878d04 [4 weeks ago] Correct documentation grammar
+[neobundle/install] (50/70): |vim-repeat| Skipped
+[neobundle/install] (51/70): |vim-rhubarb| Skipped
+[neobundle/install] (52/70): |vim-rspec| git pull --rebase
+[neobundle/install] (53/70): |vim-ruby| git pull --rebase
+[neobundle/install] (54/70): |vim-ruby-doc| git pull --rebase
+[neobundle/install] (55/70): |vim-ruby-minitest| git pull --rebase
+[neobundle/install] (56/70): |vim-ruby-refactoring| git pull --rebase
+[neobundle/install] (52/70): |vim-rspec| Skipped
+[neobundle/install] (53/70): |vim-ruby| Updated
+[neobundle/install] *   2ee2763 [3 days ago] Merge pull request #120 from sencer/pull
+[neobundle/install] |\  
+[neobundle/install] | * f53e7f1 [9 days ago] a:v -> escape(a:v) in GetRubyVarType for *args
+[neobundle/install] |/  
+[neobundle/install] *   7a019bb [10 days ago] Merge pull request #116 from irrationalfab/yard-todo
+[neobundle/install] |\  
+[neobundle/install] | * bda2858 [3 weeks ago] Added support for YARD todos.
+[neobundle/install] * 680d1ea [11 days ago] Colon replacement for surround.vim
+[neobundle/install] *   b3af8c4 [12 days ago] Merge pull request #119 from mislav/ri-color
+[neobundle/install] |\  
+[neobundle/install] | * 91382a1 [13 days ago] disable ansi color for keyword lookup with `ri` in GUI
+[neobundle/install] |/  
+[neobundle/install] * 4245457 [3 weeks ago] Some more help file reformatting
+[neobundle/install] (54/70): |vim-ruby-doc| Skipped
+[neobundle/install] (55/70): |vim-ruby-minitest| Skipped
+[neobundle/install] (56/70): |vim-ruby-refactoring| Skipped
+[neobundle/install] (57/70): |vim-rvm| git pull --rebase
+[neobundle/install] (58/70): |vim-shoulda| git pull --rebase
+[neobundle/install] (59/70): |vim-solarized-powerline| git pull --rebase
+[neobundle/install] (60/70): |vim-sparkup| git pull --rebase
+[neobundle/install] (61/70): |vim-surround| git pull --rebase
+[neobundle/install] (57/70): |vim-rvm| Skipped
+[neobundle/install] (58/70): |vim-shoulda| Skipped
+[neobundle/install] (59/70): |vim-solarized-powerline| Skipped
+[neobundle/install] (60/70): |vim-sparkup| Skipped
+[neobundle/install] (61/70): |vim-surround| Skipped
+[neobundle/install] (62/70): |vim-textobj-rubyblock| git pull --rebase
+[neobundle/install] (63/70): |vim-textobj-user| git pull --rebase
+[neobundle/install] (64/70): |vim-tomorrow-theme| git pull --rebase
+[neobundle/install] (65/70): |vim-turbux| git pull --rebase
+[neobundle/install] (66/70): |vim-vividchalk| git pull --rebase
+[neobundle/install] (62/70): |vim-textobj-rubyblock| Updated
+[neobundle/install] * 4233958 [7 days ago] Update tests for latest version of vspec
+[neobundle/install] * c6b186d [1 year, 11 months ago] Update READMEs with additional dependency info.
+[neobundle/install] (63/70): |vim-textobj-user| Skipped
+[neobundle/install] (64/70): |vim-tomorrow-theme| Skipped
+[neobundle/install] (65/70): |vim-turbux| Skipped
+[neobundle/install] (66/70): |vim-vividchalk| Skipped
+[neobundle/install] (67/70): |vim-yankstack| git pull --rebase
+[neobundle/install] (68/70): |vimux| git pull --rebase
+[neobundle/install] (69/70): |webapi-vim| git pull --rebase
+[neobundle/install] (70/70): |ZoomWin| git pull --rebase
+[neobundle/install] (67/70): |vim-yankstack| Skipped
+[neobundle/install] (68/70): |vimux| Updated
+[neobundle/install] *   8142697 [8 days ago] Merge pull request #56 from tonyskn/betterCloseRunnerPane
+[neobundle/install] |\  
+[neobundle/install] | * 06d75cb [8 days ago] Improve close_runner_pane
+[neobundle/install] |/  
+[neobundle/install] * d6d88a4 [8 weeks ago] Focus runner pane when inspecting.
+[neobundle/install] (69/70): |webapi-vim| Updated
+[neobundle/install] * dff01d2 [7 days ago] version bump up.
+[neobundle/install] * 110be3e [2 weeks ago] use strpart instead of [:].
+[neobundle/install] * f84685f [3 months ago] fix ranges of headers. thanks to @thinca.
+[neobundle/install] (70/70): |ZoomWin| Skipped
+[neobundle/install] Installed/Updated bundles:
+ctrlp.vim
+gist-vim
+neobundle.vim
+nerdtree
+NrrwRgn
+pyflakes
+ri.vim
+scss-syntax.vim
+supertab
+syntastic
+ultisnips
+vim-fugitive
+vim-haml
+vim-rails
+vim-ruby
+vim-textobj-rubyblock
+vimux
+webapi-vim
+[neobundle/install] Errored bundles:
+ultisnips-snippets
+Please read error message log by :message command.
+[neobundle/install] Helptags: done. 14 bundles processed
