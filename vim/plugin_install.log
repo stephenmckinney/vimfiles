@@ -1668,3 +1668,174 @@ webapi-vim
 ultisnips-snippets
 Please read error message log by :message command.
 [neobundle/install] Helptags: done. 14 bundles processed
+[neobundle/install] ( 1/69): |ack.vim| git pull --rebase
+[neobundle/install] ( 2/69): |BufOnly.vim| git pull --rebase
+[neobundle/install] ( 3/69): |cheat_sheet| Skipped
+[neobundle/install] ( 4/69): |Command-T| git pull --rebase
+[neobundle/install] ( 5/69): |ctrlp.vim| git pull --rebase
+[neobundle/install] ( 6/69): |gist-vim| git pull --rebase
+[neobundle/install] ( 1/69): |ack.vim| Skipped
+[neobundle/install] ( 2/69): |BufOnly.vim| Skipped
+[neobundle/install] ( 4/69): |Command-T| Skipped
+[neobundle/install] ( 5/69): |ctrlp.vim| Updated
+[neobundle/install] * 675faa7 [10 days ago] Fix for recognizing/expanding of environment variables
+[neobundle/install] * 5b98c74 [4 weeks ago] Set pos when data is empty
+[neobundle/install] ( 6/69): |gist-vim| Updated
+[neobundle/install] *   beb7485 [11 days ago] Merge pull request #111 from mutewinter/patch-1
+[neobundle/install] |\  
+[neobundle/install] | * ba82d81 [11 days ago] Added installation instructions for Vundle
+[neobundle/install] |/  
+[neobundle/install] * 28c3486 [3 weeks ago] version bump up.
+[neobundle/install] ( 7/69): |gitv| git pull --rebase
+[neobundle/install] ( 8/69): |gundo.vim| git pull --rebase
+[neobundle/install] ( 9/69): |neobundle.vim| git pull --rebase
+[neobundle/install] (10/69): |nerdcommenter| git pull --rebase
+[neobundle/install] (11/69): |nerdtree| git pull --rebase
+[neobundle/install] ( 7/69): |gitv| Skipped
+[neobundle/install] ( 8/69): |gundo.vim| Skipped
+[neobundle/install] ( 9/69): |neobundle.vim| Updated
+[neobundle/install] *   41fddb6 [6 days ago] Merge pull request #50 from aereal/fix/dont-shallow-clone
+[neobundle/install] |\  
+[neobundle/install] | * e6d5540 [8 days ago] Do not append --depth option when the revision is specified
+[neobundle/install] |/  
+[neobundle/install] * 4022205 [2 weeks ago] - Added :NeoBundleFetch.
+[neobundle/install] (10/69): |nerdcommenter| Skipped
+[neobundle/install] (11/69): |nerdtree| Skipped
+[neobundle/install] (12/69): |NrrwRgn| git pull --rebase
+[neobundle/install] (13/69): |puppet-vim| git pull --rebase
+[neobundle/install] (14/69): |QFixToggle| git pull --rebase
+[neobundle/install] (15/69): |Rename2| git pull --rebase
+[neobundle/install] (16/69): |ri.vim| git pull --rebase
+[neobundle/install] (12/69): |NrrwRgn| Updated
+[neobundle/install] * 97709fe [10 days ago] some more error mangement
+[neobundle/install] * 2883065 [11 days ago] also clean up for single narrowed windows
+[neobundle/install] (13/69): |puppet-vim| Skipped
+[neobundle/install] (14/69): |QFixToggle| Skipped
+[neobundle/install] (15/69): |Rename2| Skipped
+[neobundle/install] (16/69): |ri.vim| Skipped
+[neobundle/install] (17/69): |scratch.vim| git pull --rebase
+[neobundle/install] (18/69): |scss-syntax.vim| git pull --rebase
+[neobundle/install] (19/69): |showmarks| git pull --rebase
+[neobundle/install] (20/69): |supertab| git pull --rebase
+[neobundle/install] (21/69): |syntastic| git pull --rebase
+[neobundle/install] (17/69): |scratch.vim| Skipped
+[neobundle/install] (18/69): |scss-syntax.vim| Skipped
+[neobundle/install] (19/69): |showmarks| Skipped
+[neobundle/install] (20/69): |supertab| Skipped
+[neobundle/install] (21/69): |syntastic| Skipped
+[neobundle/install] (22/69): |tabular| git pull --rebase
+[neobundle/install] (23/69): |tagbar| git pull --rebase
+[neobundle/install] (24/69): |textile.vim| git pull --rebase
+[neobundle/install] (25/69): |tmux.vim| git pull --rebase
+[neobundle/install] (26/69): |ultisnips| git pull --rebase
+[neobundle/install] (22/69): |tabular| Skipped
+[neobundle/install] (23/69): |tagbar| Skipped
+[neobundle/install] (24/69): |textile.vim| Skipped
+[neobundle/install] (25/69): |tmux.vim| Skipped
+[neobundle/install] (26/69): |ultisnips| Updated
+[neobundle/install] * 9db8564 [10 days ago] updated github url in doc.
+[neobundle/install] *   faa348d [10 days ago] Perl improvements by Steven Humphrey
+[neobundle/install] |\  
+[neobundle/install] | * fed052c [13 days ago] Adjusted perl snippets for some best practices
+[neobundle/install] |/  
+[neobundle/install] * 86dcbf0 [2 weeks ago] Merge pull request #41 from s0undt3ch/features/single-quotes
+[neobundle/install] * 0d8c8b2 [3 weeks ago] Support single quoting projects.
+[neobundle/install] (27/69): |ultisnips-snippets| git pull --rebase
+[neobundle/install] (28/69): |vim-bundler| git pull --rebase
+[neobundle/install] (29/69): |vim-capybara| git pull --rebase
+[neobundle/install] (30/69): |vim-coffee-script| git pull --rebase
+[neobundle/install] (31/69): |vim-colors-solarized| git pull --rebase
+[neobundle/install] (27/69): |ultisnips-snippets| Error
+[neobundle/install] (28/69): |vim-bundler| Skipped
+[neobundle/install] (29/69): |vim-capybara| Skipped
+[neobundle/install] (30/69): |vim-coffee-script| Skipped
+[neobundle/install] (31/69): |vim-colors-solarized| Skipped
+[neobundle/install] (32/69): |vim-cucumber| git pull --rebase
+[neobundle/install] (33/69): |vim-dochub| git pull --rebase
+[neobundle/install] (34/69): |vim-endwise| git pull --rebase
+[neobundle/install] (35/69): |vim-fugitive| git pull --rebase
+[neobundle/install] (36/69): |vim-git| git pull --rebase
+[neobundle/install] (32/69): |vim-cucumber| Skipped
+[neobundle/install] (33/69): |vim-dochub| Skipped
+[neobundle/install] (34/69): |vim-endwise| Skipped
+[neobundle/install] (35/69): |vim-fugitive| Skipped
+[neobundle/install] (36/69): |vim-git| Skipped
+[neobundle/install] (37/69): |vim-haml| git pull --rebase
+[neobundle/install] (38/69): |vim-indent-guides| git pull --rebase
+[neobundle/install] (39/69): |vim-indent-object| git pull --rebase
+[neobundle/install] (40/69): |vim-irblack| git pull --rebase
+[neobundle/install] (41/69): |vim-javascript| git pull --rebase
+[neobundle/install] (37/69): |vim-haml| Skipped
+[neobundle/install] (38/69): |vim-indent-guides| Skipped
+[neobundle/install] (39/69): |vim-indent-object| Skipped
+[neobundle/install] (40/69): |vim-irblack| Skipped
+[neobundle/install] (41/69): |vim-javascript| Skipped
+[neobundle/install] (42/69): |vim-jquery| git pull --rebase
+[neobundle/install] (43/69): |vim-less| git pull --rebase
+[neobundle/install] (44/69): |vim-markdown| git pull --rebase
+[neobundle/install] (45/69): |vim-markdown-folding| git pull --rebase
+[neobundle/install] (46/69): |vim-matchit| git pull --rebase
+[neobundle/install] (42/69): |vim-jquery| Skipped
+[neobundle/install] (43/69): |vim-less| Skipped
+[neobundle/install] (44/69): |vim-markdown| Skipped
+[neobundle/install] (45/69): |vim-markdown-folding| Skipped
+[neobundle/install] (46/69): |vim-matchit| Skipped
+[neobundle/install] (47/69): |vim-powerline| git pull --rebase
+[neobundle/install] (48/69): |vim-rails| git pull --rebase
+[neobundle/install] (49/69): |vim-repeat| git pull --rebase
+[neobundle/install] (50/69): |vim-rhubarb| git pull --rebase
+[neobundle/install] (51/69): |vim-rspec| git pull --rebase
+[neobundle/install] (47/69): |vim-powerline| Skipped
+[neobundle/install] (48/69): |vim-rails| Skipped
+[neobundle/install] (49/69): |vim-repeat| Skipped
+[neobundle/install] (50/69): |vim-rhubarb| Skipped
+[neobundle/install] (51/69): |vim-rspec| Skipped
+[neobundle/install] (52/69): |vim-ruby| git pull --rebase
+[neobundle/install] (53/69): |vim-ruby-doc| git pull --rebase
+[neobundle/install] (54/69): |vim-ruby-minitest| git pull --rebase
+[neobundle/install] (55/69): |vim-ruby-refactoring| git pull --rebase
+[neobundle/install] (56/69): |vim-rvm| git pull --rebase
+[neobundle/install] (52/69): |vim-ruby| Skipped
+[neobundle/install] (53/69): |vim-ruby-doc| Skipped
+[neobundle/install] (54/69): |vim-ruby-minitest| Skipped
+[neobundle/install] (55/69): |vim-ruby-refactoring| Skipped
+[neobundle/install] (56/69): |vim-rvm| Skipped
+[neobundle/install] (57/69): |vim-shoulda| git pull --rebase
+[neobundle/install] (58/69): |vim-solarized-powerline| git pull --rebase
+[neobundle/install] (59/69): |vim-sparkup| git pull --rebase
+[neobundle/install] (60/69): |vim-surround| git pull --rebase
+[neobundle/install] (61/69): |vim-textobj-rubyblock| git pull --rebase
+[neobundle/install] (57/69): |vim-shoulda| Skipped
+[neobundle/install] (58/69): |vim-solarized-powerline| Skipped
+[neobundle/install] (59/69): |vim-sparkup| Skipped
+[neobundle/install] (60/69): |vim-surround| Updated
+[neobundle/install] * f57e5aa [5 days ago] Fix deletion of delimiters on their own lines
+[neobundle/install] * 1a73f60 [7 months ago] Remove s warning
+[neobundle/install] (61/69): |vim-textobj-rubyblock| Skipped
+[neobundle/install] (62/69): |vim-textobj-user| git pull --rebase
+[neobundle/install] (63/69): |vim-tomorrow-theme| git pull --rebase
+[neobundle/install] (64/69): |vim-turbux| git pull --rebase
+[neobundle/install] (65/69): |vim-vividchalk| git pull --rebase
+[neobundle/install] (66/69): |vim-yankstack| git pull --rebase
+[neobundle/install] (62/69): |vim-textobj-user| Skipped
+[neobundle/install] (63/69): |vim-tomorrow-theme| Skipped
+[neobundle/install] (64/69): |vim-turbux| Skipped
+[neobundle/install] (65/69): |vim-vividchalk| Skipped
+[neobundle/install] (66/69): |vim-yankstack| Skipped
+[neobundle/install] (67/69): |vimux| git pull --rebase
+[neobundle/install] (68/69): |webapi-vim| git pull --rebase
+[neobundle/install] (69/69): |ZoomWin| git pull --rebase
+[neobundle/install] (67/69): |vimux| Skipped
+[neobundle/install] (68/69): |webapi-vim| Skipped
+[neobundle/install] (69/69): |ZoomWin| Skipped
+[neobundle/install] Installed/Updated bundles:
+ctrlp.vim
+gist-vim
+neobundle.vim
+NrrwRgn
+ultisnips
+vim-surround
+[neobundle/install] Errored bundles:
+ultisnips-snippets
+Please read error message log by :message command.
+[neobundle/install] Helptags: done. 6 bundles processed
