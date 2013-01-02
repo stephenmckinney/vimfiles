@@ -1,6 +1,4 @@
-" ======================================================================
-" Plugin Configuration
-" ======================================================================
+" plugin_config.vim - Plugin configuration
 
 " Ack
 let g:ackprg = 'ag --nogroup --nocolor --column' " Use ag
@@ -117,8 +115,7 @@ let g:no_turbux_mappings = 1
 let g:turbux_command_prefix = 'bundle exec'
 
 " Vimux
-" Vim is in pane 1, so always use pane 2
-let VimuxUseNearestPane = 1
+let VimuxUseNearestPane = 1 " Vim is in pane 1, so always use pane 2
 
 " YankStank
 let g:yankstack_map_keys = 0

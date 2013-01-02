@@ -1,3 +1,5 @@
+" .vimrc - Basic settings
+
 " ======================================================================
 " Basic options
 " ======================================================================
@@ -123,17 +125,19 @@ endif
 
 
 " ======================================================================
-" Load functions, autocommands, plugin configurations,
-" key mappings, and local vim conifg
+" Beyond the basics
 " ======================================================================
+" Plugin configurations
 if filereadable(expand("~/.vim/plugin_config.vim"))
   source ~/.vim/plugin_config.vim
 endif
 
-if filereadable(expand("~/.vim/keymaps.vim"))
-  source ~/.vim/keymaps.vim
+" Key mappings, functions, autocommands
+if filereadable(expand("~/.vim/keymaps_etc.vim"))
+  source ~/.vim/keymaps_etc.vim
 endif
 
+" Local vimrc
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
