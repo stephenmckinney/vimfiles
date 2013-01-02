@@ -121,7 +121,7 @@ NeoBundle 'vim-scripts/ZoomWin'
 " =========================================
 
 " HTML speediness
-NeoBundle 'mattn/zencoding-vim'
+NeoBundle 'bingaman/vim-sparkup'
 " Docs
 NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs

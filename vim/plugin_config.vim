@@ -89,6 +89,9 @@ let g:solarized_hitrail=1          "default value is 0
 "hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
 "hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
 
+" Sparkup
+let g:sparkupExecuteMapping='<c-y>'
+
 " Supertab
 "let g:SuperTabDefaultCompletionType = "context"
 
