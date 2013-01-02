@@ -1839,3 +1839,319 @@ vim-surround
 ultisnips-snippets
 Please read error message log by :message command.
 [neobundle/install] Helptags: done. 6 bundles processed
+[neobundle/install] ( 1/69): |ack.vim| git pull --rebase
+[neobundle/install] ( 2/69): |BufOnly.vim| git pull --rebase
+[neobundle/install] ( 3/69): |cheat_sheet| Skipped
+[neobundle/install] ( 4/69): |Command-T| git pull --rebase
+[neobundle/install] ( 5/69): |ctrlp.vim| git pull --rebase
+[neobundle/install] ( 6/69): |gist-vim| git pull --rebase
+[neobundle/install] ( 1/69): |ack.vim| Skipped
+[neobundle/install] ( 2/69): |BufOnly.vim| Skipped
+[neobundle/install] ( 4/69): |Command-T| Skipped
+[neobundle/install] ( 5/69): |ctrlp.vim| Skipped
+[neobundle/install] ( 6/69): |gist-vim| Skipped
+[neobundle/install] ( 7/69): |gitv| git pull --rebase
+[neobundle/install] ( 8/69): |gundo.vim| git pull --rebase
+[neobundle/install] ( 9/69): |neobundle.vim| git pull --rebase
+[neobundle/install] (10/69): |nerdcommenter| git pull --rebase
+[neobundle/install] (11/69): |nerdtree| git pull --rebase
+[neobundle/install] ( 7/69): |gitv| Skipped
+[neobundle/install] ( 8/69): |gundo.vim| Skipped
+[neobundle/install] ( 9/69): |neobundle.vim| Skipped
+[neobundle/install] (10/69): |nerdcommenter| Skipped
+[neobundle/install] (11/69): |nerdtree| Skipped
+[neobundle/install] (12/69): |NrrwRgn| git pull --rebase
+[neobundle/install] (13/69): |puppet-vim| git pull --rebase
+[neobundle/install] (14/69): |QFixToggle| git pull --rebase
+[neobundle/install] (15/69): |ri.vim| git pull --rebase
+[neobundle/install] (16/69): |scratch.vim| git pull --rebase
+[neobundle/install] (12/69): |NrrwRgn| Skipped
+[neobundle/install] (13/69): |puppet-vim| Skipped
+[neobundle/install] (14/69): |QFixToggle| Skipped
+[neobundle/install] (15/69): |ri.vim| Skipped
+[neobundle/install] (16/69): |scratch.vim| Skipped
+[neobundle/install] (17/69): |scss-syntax.vim| git pull --rebase
+[neobundle/install] (18/69): |showmarks| git pull --rebase
+[neobundle/install] (19/69): |supertab| git pull --rebase
+[neobundle/install] (20/69): |syntastic| git pull --rebase
+[neobundle/install] (21/69): |tabular| git pull --rebase
+[neobundle/install] (17/69): |scss-syntax.vim| Skipped
+[neobundle/install] (18/69): |showmarks| Skipped
+[neobundle/install] (19/69): |supertab| Skipped
+[neobundle/install] (20/69): |syntastic| Skipped
+[neobundle/install] (21/69): |tabular| Skipped
+[neobundle/install] (22/69): |tagbar| git pull --rebase
+[neobundle/install] (23/69): |textile.vim| git pull --rebase
+[neobundle/install] (24/69): |tmux.vim| git pull --rebase
+[neobundle/install] (25/69): |ultisnips| git pull --rebase
+[neobundle/install] (26/69): |ultisnips-snippets| git pull --rebase
+[neobundle/install] (22/69): |tagbar| Skipped
+[neobundle/install] (23/69): |textile.vim| Skipped
+[neobundle/install] (24/69): |tmux.vim| Skipped
+[neobundle/install] (25/69): |ultisnips| Skipped
+[neobundle/install] (26/69): |ultisnips-snippets| Error
+[neobundle/install] (27/69): |vim-bundler| git pull --rebase
+[neobundle/install] (28/69): |vim-capybara| git pull --rebase
+[neobundle/install] (29/69): |vim-coffee-script| git pull --rebase
+[neobundle/install] (30/69): |vim-colors-solarized| git pull --rebase
+[neobundle/install] (31/69): |vim-cucumber| git pull --rebase
+[neobundle/install] (27/69): |vim-bundler| Skipped
+[neobundle/install] (28/69): |vim-capybara| Skipped
+[neobundle/install] (29/69): |vim-coffee-script| Skipped
+[neobundle/install] (30/69): |vim-colors-solarized| Skipped
+[neobundle/install] (31/69): |vim-cucumber| Skipped
+[neobundle/install] (32/69): |vim-dochub| git pull --rebase
+[neobundle/install] (33/69): |vim-endwise| git pull --rebase
+[neobundle/install] (34/69): |vim-eunuch| git clone --depth 1 git://github.com/tpope/vim-eunuch.git "/Users/smckinney/.vim/bundle/vim-eunuch"
+[neobundle/install] (35/69): |vim-fugitive| git pull --rebase
+[neobundle/install] (36/69): |vim-git| git pull --rebase
+[neobundle/install] (32/69): |vim-dochub| Skipped
+[neobundle/install] (33/69): |vim-endwise| Skipped
+[neobundle/install] (34/69): |vim-eunuch| Updated
+[neobundle/install]  -> 4abf1f58614fc6b4c20bb247db59469a9a52ff9b
+[neobundle/install] (35/69): |vim-fugitive| Skipped
+[neobundle/install] (36/69): |vim-git| Skipped
+[neobundle/install] (37/69): |vim-haml| git pull --rebase
+[neobundle/install] (38/69): |vim-indent-guides| git pull --rebase
+[neobundle/install] (39/69): |vim-indent-object| git pull --rebase
+[neobundle/install] (40/69): |vim-irblack| git pull --rebase
+[neobundle/install] (41/69): |vim-javascript| git pull --rebase
+[neobundle/install] (37/69): |vim-haml| Skipped
+[neobundle/install] (38/69): |vim-indent-guides| Skipped
+[neobundle/install] (39/69): |vim-indent-object| Skipped
+[neobundle/install] (40/69): |vim-irblack| Skipped
+[neobundle/install] (41/69): |vim-javascript| Skipped
+[neobundle/install] (42/69): |vim-jquery| git pull --rebase
+[neobundle/install] (43/69): |vim-less| git pull --rebase
+[neobundle/install] (44/69): |vim-markdown| git pull --rebase
+[neobundle/install] (45/69): |vim-markdown-folding| git pull --rebase
+[neobundle/install] (46/69): |vim-matchit| git pull --rebase
+[neobundle/install] (42/69): |vim-jquery| Skipped
+[neobundle/install] (43/69): |vim-less| Skipped
+[neobundle/install] (44/69): |vim-markdown| Skipped
+[neobundle/install] (45/69): |vim-markdown-folding| Skipped
+[neobundle/install] (46/69): |vim-matchit| Skipped
+[neobundle/install] (47/69): |vim-powerline| git pull --rebase
+[neobundle/install] (48/69): |vim-rails| git pull --rebase
+[neobundle/install] (49/69): |vim-repeat| git pull --rebase
+[neobundle/install] (50/69): |vim-rhubarb| git pull --rebase
+[neobundle/install] (51/69): |vim-rspec| git pull --rebase
+[neobundle/install] (47/69): |vim-powerline| Skipped
+[neobundle/install] (48/69): |vim-rails| Skipped
+[neobundle/install] (49/69): |vim-repeat| Updated
+[neobundle/install] * 8ee7450 [3 hours ago] Allow customizing all mappings
+[neobundle/install] * aeb3d6c [4 weeks ago] Documentation fix for repeat#setreg()
+[neobundle/install] (50/69): |vim-rhubarb| Skipped
+[neobundle/install] (51/69): |vim-rspec| Skipped
+[neobundle/install] (52/69): |vim-ruby| git pull --rebase
+[neobundle/install] (53/69): |vim-ruby-doc| git pull --rebase
+[neobundle/install] (54/69): |vim-ruby-minitest| git pull --rebase
+[neobundle/install] (55/69): |vim-ruby-refactoring| git pull --rebase
+[neobundle/install] (56/69): |vim-rvm| git pull --rebase
+[neobundle/install] (52/69): |vim-ruby| Skipped
+[neobundle/install] (53/69): |vim-ruby-doc| Skipped
+[neobundle/install] (54/69): |vim-ruby-minitest| Skipped
+[neobundle/install] (55/69): |vim-ruby-refactoring| Skipped
+[neobundle/install] (56/69): |vim-rvm| Skipped
+[neobundle/install] (57/69): |vim-shoulda| git pull --rebase
+[neobundle/install] (58/69): |vim-solarized-powerline| git pull --rebase
+[neobundle/install] (59/69): |vim-sparkup| git pull --rebase
+[neobundle/install] (60/69): |vim-surround| git pull --rebase
+[neobundle/install] (61/69): |vim-textobj-rubyblock| git pull --rebase
+[neobundle/install] (57/69): |vim-shoulda| Skipped
+[neobundle/install] (58/69): |vim-solarized-powerline| Skipped
+[neobundle/install] (59/69): |vim-sparkup| Skipped
+[neobundle/install] (60/69): |vim-surround| Skipped
+[neobundle/install] (61/69): |vim-textobj-rubyblock| Skipped
+[neobundle/install] (62/69): |vim-textobj-user| git pull --rebase
+[neobundle/install] (63/69): |vim-tomorrow-theme| git pull --rebase
+[neobundle/install] (64/69): |vim-turbux| git pull --rebase
+[neobundle/install] (65/69): |vim-vividchalk| git pull --rebase
+[neobundle/install] (66/69): |vim-yankstack| git pull --rebase
+[neobundle/install] (62/69): |vim-textobj-user| Skipped
+[neobundle/install] (63/69): |vim-tomorrow-theme| Skipped
+[neobundle/install] (64/69): |vim-turbux| Skipped
+[neobundle/install] (65/69): |vim-vividchalk| Skipped
+[neobundle/install] (66/69): |vim-yankstack| Skipped
+[neobundle/install] (67/69): |vimux| git pull --rebase
+[neobundle/install] (68/69): |webapi-vim| git pull --rebase
+[neobundle/install] (69/69): |ZoomWin| git pull --rebase
+[neobundle/install] (67/69): |vimux| Skipped
+[neobundle/install] (68/69): |webapi-vim| Skipped
+[neobundle/install] (69/69): |ZoomWin| Skipped
+[neobundle/install] Installed/Updated bundles:
+vim-eunuch
+vim-repeat
+[neobundle/install] Errored bundles:
+ultisnips-snippets
+Please read error message log by :message command.
+[neobundle/install] Helptags: done. 1 bundles processed
+[neobundle/install] ( 1/69): |ack.vim| git pull --rebase
+[neobundle/install] ( 2/69): |BufOnly.vim| git pull --rebase
+[neobundle/install] ( 3/69): |cheat_sheet| Skipped
+[neobundle/install] ( 4/69): |Command-T| git pull --rebase
+[neobundle/install] ( 5/69): |ctrlp.vim| git pull --rebase
+[neobundle/install] ( 6/69): |gist-vim| git pull --rebase
+[neobundle/install] ( 1/69): |ack.vim| Skipped
+[neobundle/install] ( 2/69): |BufOnly.vim| Skipped
+[neobundle/install] ( 4/69): |Command-T| Skipped
+[neobundle/install] ( 5/69): |ctrlp.vim| Skipped
+[neobundle/install] ( 6/69): |gist-vim| Skipped
+[neobundle/install] ( 7/69): |gitv| git pull --rebase
+[neobundle/install] ( 8/69): |gundo.vim| git pull --rebase
+[neobundle/install] ( 9/69): |neobundle.vim| git pull --rebase
+[neobundle/install] (10/69): |nerdcommenter| git pull --rebase
+[neobundle/install] (11/69): |nerdtree| git pull --rebase
+[neobundle/install] ( 7/69): |gitv| Skipped
+[neobundle/install] ( 8/69): |gundo.vim| Skipped
+[neobundle/install] ( 9/69): |neobundle.vim| Skipped
+[neobundle/install] (10/69): |nerdcommenter| Skipped
+[neobundle/install] (11/69): |nerdtree| Skipped
+[neobundle/install] (12/69): |NrrwRgn| git pull --rebase
+[neobundle/install] (13/69): |puppet-vim| git pull --rebase
+[neobundle/install] (14/69): |QFixToggle| git pull --rebase
+[neobundle/install] (15/69): |ri.vim| git pull --rebase
+[neobundle/install] (16/69): |scratch.vim| git pull --rebase
+[neobundle/install] (12/69): |NrrwRgn| Skipped
+[neobundle/install] (13/69): |puppet-vim| Skipped
+[neobundle/install] (14/69): |QFixToggle| Skipped
+[neobundle/install] (15/69): |ri.vim| Skipped
+[neobundle/install] (16/69): |scratch.vim| Skipped
+[neobundle/install] (17/69): |scss-syntax.vim| git pull --rebase
+[neobundle/install] (18/69): |showmarks| git pull --rebase
+[neobundle/install] (19/69): |supertab| git pull --rebase
+[neobundle/install] (20/69): |syntastic| git pull --rebase
+[neobundle/install] (21/69): |tabular| git pull --rebase
+[neobundle/install] (17/69): |scss-syntax.vim| Skipped
+[neobundle/install] (18/69): |showmarks| Skipped
+[neobundle/install] (19/69): |supertab| Updated
+[neobundle/install] * cb8a297 [14 hours ago] fix type on use of b:SuperTabNoCompleteBefore func ref
+[neobundle/install] * 617f47b [6 days ago] Prevent complete using a funcref
+[neobundle/install] * cb52cf1 [3 weeks ago] update context regex to support c++ template syntax
+[neobundle/install] (20/69): |syntastic| Skipped
+[neobundle/install] (21/69): |tabular| Skipped
+[neobundle/install] (22/69): |tagbar| git pull --rebase
+[neobundle/install] (23/69): |textile.vim| git pull --rebase
+[neobundle/install] (24/69): |tmux.vim| git pull --rebase
+[neobundle/install] (25/69): |ultisnips| git pull --rebase
+[neobundle/install] (26/69): |ultisnips-snippets| git pull --rebase
+[neobundle/install] (22/69): |tagbar| Skipped
+[neobundle/install] (23/69): |textile.vim| Skipped
+[neobundle/install] (24/69): |tmux.vim| Skipped
+[neobundle/install] (25/69): |ultisnips| Skipped
+[neobundle/install] (26/69): |ultisnips-snippets| Skipped
+[neobundle/install] (27/69): |vim-bundler| git pull --rebase
+[neobundle/install] (28/69): |vim-capybara| git pull --rebase
+[neobundle/install] (29/69): |vim-coffee-script| git pull --rebase
+[neobundle/install] (30/69): |vim-colors-solarized| git pull --rebase
+[neobundle/install] (31/69): |vim-cucumber| git pull --rebase
+[neobundle/install] (27/69): |vim-bundler| Skipped
+[neobundle/install] (28/69): |vim-capybara| Skipped
+[neobundle/install] (29/69): |vim-coffee-script| Skipped
+[neobundle/install] (30/69): |vim-colors-solarized| Skipped
+[neobundle/install] (31/69): |vim-cucumber| Skipped
+[neobundle/install] (32/69): |vim-dochub| git pull --rebase
+[neobundle/install] (33/69): |vim-endwise| git pull --rebase
+[neobundle/install] (34/69): |vim-eunuch| git pull --rebase
+[neobundle/install] (35/69): |vim-fugitive| git pull --rebase
+[neobundle/install] (36/69): |vim-git| git pull --rebase
+[neobundle/install] (32/69): |vim-dochub| Skipped
+[neobundle/install] (33/69): |vim-endwise| Updated
+[neobundle/install] * fd869a7 [8 hours ago] endwise.vim 1.1
+[neobundle/install] * a45d4a6 [5 weeks ago] Fix detection of #endif
+[neobundle/install] (34/69): |vim-eunuch| Skipped
+[neobundle/install] (35/69): |vim-fugitive| Updated
+[neobundle/install] * 582eb0d [27 hours ago] Fix supposed "Press ENTER" prompt
+[neobundle/install] * d1406ae [2 weeks ago] Revert "s:Detect: only add readable files to &tags and doc"
+[neobundle/install] * d63a475 [3 weeks ago] Fix duplicate Signed-off-by lines
+[neobundle/install] (36/69): |vim-git| Skipped
+[neobundle/install] (37/69): |vim-haml| git pull --rebase
+[neobundle/install] (38/69): |vim-indent-guides| git pull --rebase
+[neobundle/install] (39/69): |vim-indent-object| git pull --rebase
+[neobundle/install] (40/69): |vim-irblack| git pull --rebase
+[neobundle/install] (41/69): |vim-javascript| git pull --rebase
+[neobundle/install] (37/69): |vim-haml| Skipped
+[neobundle/install] (38/69): |vim-indent-guides| Skipped
+[neobundle/install] (39/69): |vim-indent-object| Skipped
+[neobundle/install] (40/69): |vim-irblack| Skipped
+[neobundle/install] (41/69): |vim-javascript| Skipped
+[neobundle/install] (42/69): |vim-jquery| git pull --rebase
+[neobundle/install] (43/69): |vim-less| git pull --rebase
+[neobundle/install] (44/69): |vim-markdown| git pull --rebase
+[neobundle/install] (45/69): |vim-markdown-folding| git pull --rebase
+[neobundle/install] (46/69): |vim-matchit| git pull --rebase
+[neobundle/install] (42/69): |vim-jquery| Skipped
+[neobundle/install] (43/69): |vim-less| Skipped
+[neobundle/install] (44/69): |vim-markdown| Skipped
+[neobundle/install] (45/69): |vim-markdown-folding| Skipped
+[neobundle/install] (46/69): |vim-matchit| Skipped
+[neobundle/install] (47/69): |vim-powerline| git pull --rebase
+[neobundle/install] (48/69): |vim-rails| git pull --rebase
+[neobundle/install] (49/69): |vim-repeat| git pull --rebase
+[neobundle/install] (50/69): |vim-rhubarb| git pull --rebase
+[neobundle/install] (51/69): |vim-rspec| git pull --rebase
+[neobundle/install] (47/69): |vim-powerline| Skipped
+[neobundle/install] (48/69): |vim-rails| Skipped
+[neobundle/install] (49/69): |vim-repeat| Updated
+[neobundle/install] * a81bef7 [25 hours ago] repeat.vim 1.1
+[neobundle/install] * 8ee7450 [33 hours ago] Allow customizing all mappings
+[neobundle/install] (50/69): |vim-rhubarb| Skipped
+[neobundle/install] (51/69): |vim-rspec| Skipped
+[neobundle/install] (52/69): |vim-ruby| git pull --rebase
+[neobundle/install] (53/69): |vim-ruby-doc| git pull --rebase
+[neobundle/install] (54/69): |vim-ruby-minitest| git pull --rebase
+[neobundle/install] (55/69): |vim-ruby-refactoring| git pull --rebase
+[neobundle/install] (56/69): |vim-rvm| git pull --rebase
+[neobundle/install] (52/69): |vim-ruby| Updated
+[neobundle/install] *   2533963 [10 hours ago] Merge pull request #122 from narkisr/master
+[neobundle/install] |\  
+[neobundle/install] | * 005af7a [17 hours ago] adding puppet librarian file detection
+[neobundle/install] |/  
+[neobundle/install] * 2ee2763 [2 weeks ago] Merge pull request #120 from sencer/pull
+[neobundle/install] * f53e7f1 [3 weeks ago] a:v -> escape(a:v) in GetRubyVarType for *args
+[neobundle/install] (53/69): |vim-ruby-doc| Skipped
+[neobundle/install] (54/69): |vim-ruby-minitest| Skipped
+[neobundle/install] (55/69): |vim-ruby-refactoring| Skipped
+[neobundle/install] (56/69): |vim-rvm| Skipped
+[neobundle/install] (57/69): |vim-shoulda| git pull --rebase
+[neobundle/install] (58/69): |vim-solarized-powerline| git pull --rebase
+[neobundle/install] (59/69): |vim-surround| git pull --rebase
+[neobundle/install] (60/69): |vim-textobj-rubyblock| git pull --rebase
+[neobundle/install] (61/69): |vim-textobj-user| git pull --rebase
+[neobundle/install] (57/69): |vim-shoulda| Skipped
+[neobundle/install] (58/69): |vim-solarized-powerline| Skipped
+[neobundle/install] (59/69): |vim-surround| Updated
+[neobundle/install] * 0b2c9ff [24 hours ago] surround.vim 2.0
+[neobundle/install] * 4c9a4e0 [24 hours ago] Add a lisp function call replacement
+[neobundle/install] * 29afa29 [24 hours ago] Add : replacement
+[neobundle/install] * 1c9d8e6 [24 hours ago] Add leading space replacement
+[neobundle/install] * ac67c1a [24 hours ago] Remove documentation of LaTeX expansion
+[neobundle/install] * f57e5aa [7 days ago] Fix deletion of delimiters on their own lines
+[neobundle/install] (60/69): |vim-textobj-rubyblock| Skipped
+[neobundle/install] (61/69): |vim-textobj-user| Skipped
+[neobundle/install] (62/69): |vim-tomorrow-theme| git pull --rebase
+[neobundle/install] (63/69): |vim-turbux| git pull --rebase
+[neobundle/install] (64/69): |vim-vividchalk| git pull --rebase
+[neobundle/install] (65/69): |vim-yankstack| git pull --rebase
+[neobundle/install] (66/69): |vimux| git pull --rebase
+[neobundle/install] (62/69): |vim-tomorrow-theme| Skipped
+[neobundle/install] (63/69): |vim-turbux| Skipped
+[neobundle/install] (64/69): |vim-vividchalk| Skipped
+[neobundle/install] (65/69): |vim-yankstack| Skipped
+[neobundle/install] (66/69): |vimux| Skipped
+[neobundle/install] (67/69): |webapi-vim| git pull --rebase
+[neobundle/install] (68/69): |zencoding-vim| git clone --depth 1 git://github.com/mattn/zencoding-vim.git "/Users/smckinney/.vim/bundle/zencoding-vim"
+[neobundle/install] (69/69): |ZoomWin| git pull --rebase
+[neobundle/install] (67/69): |webapi-vim| Skipped
+[neobundle/install] (68/69): |zencoding-vim| Updated
+[neobundle/install]  -> f6c5a8c717a7cc4385e7dc95d4d62bca540e946a
+[neobundle/install] (69/69): |ZoomWin| Skipped
+[neobundle/install] Installed/Updated bundles:
+supertab
+vim-endwise
+vim-fugitive
+vim-repeat
+vim-ruby
+vim-surround
+zencoding-vim
+[neobundle/install] Helptags: done. 5 bundles processed

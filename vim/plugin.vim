@@ -101,7 +101,9 @@ NeoBundle 'ddollar/nerdcommenter'
 " QFixToggle
 NeoBundle 'Valloric/QFixToggle'
 " Rename
-NeoBundle 'vim-scripts/Rename2'
+"NeoBundle 'vim-scripts/Rename2'
+" Vim sugar for the UNIX shell commands
+NeoBundle 'tpope/vim-eunuch'
 " Scratch buffer (useful for tSlime)
 NeoBundle 'vim-scripts/scratch.vim'
 " Surround
@@ -118,8 +120,8 @@ NeoBundle 'vim-scripts/ZoomWin'
 " **Tools I am experimenting with**
 " =========================================
 
-" Sparkup
-NeoBundle 'bingaman/vim-sparkup'
+" HTML speediness
+NeoBundle 'mattn/zencoding-vim'
 " Docs
 NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs
