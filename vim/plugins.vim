@@ -7,8 +7,8 @@
 filetype plugin indent off     " required
 
 if has('vim_starting')
- set runtimepath+=~/.vim/bundle/neobundle.vim/
- call neobundle#rc(expand('~/.vim/bundle/'))
+ set runtimepath+=~/.vim/plugins/neobundle.vim/
+ call neobundle#rc(expand('~/.vim/plugins/'))
 endif
 
 NeoBundle 'Shougo/neobundle.vim' " required

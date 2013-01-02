@@ -9,8 +9,8 @@
 set nocompatible
 
 " Load plugins
-if filereadable(expand("~/.vim/plugin.vim"))
-  source ~/.vim/plugin.vim
+if filereadable(expand("~/.vim/plugins.vim"))
+  source ~/.vim/plugins.vim
 endif
 
 " Load the filetype detection, plugin, and indent settings

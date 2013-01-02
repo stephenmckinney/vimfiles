@@ -2,8 +2,8 @@ vim/.netrwhist
 vim/.VimballRecord
 vim/backup
 vim/undo
-vim/bundle/*
-!vim/bundle/cheat_sheet/
-!vim/bundle/cheat_sheet/doc/
-!vim/bundle/cheat_sheet/doc/cheat.txt
-vim/bundle/cheat_sheet/doc/tags
+vim/plugins/*
+!vim/plugins/cheat_sheet/
+!vim/plugins/cheat_sheet/doc/
+!vim/plugins/cheat_sheet/doc/cheat.txt
+vim/plugins/cheat_sheet/doc/tags
