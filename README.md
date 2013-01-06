@@ -79,4 +79,5 @@ Go dumpster diving for more Vim goodness:
 
 ## TODO
 
+* rbenv support in vim-powerline
 * Test vimfiles on Linux.

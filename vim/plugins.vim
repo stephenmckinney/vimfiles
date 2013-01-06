@@ -169,8 +169,6 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'skwp/vim-rspec'
 " Ruby
 NeoBundle 'vim-ruby/vim-ruby'
-" RVM
-NeoBundle 'tpope/vim-rvm'
 " SCSS
 NeoBundle 'cakebaker/scss-syntax.vim'
 " Shoulda
