@@ -47,6 +47,11 @@ task :install do
   success_msg("installed")
 end
 
+desc "Upgrade Vim plugins"
+task :upgrade_plugins do
+  upgrade_plugins
+end
+
 desc "(Re)compiles Command-T using system Ruby"
 task :compile_command_t do
   compile_command_t
@@ -103,11 +108,20 @@ def install_plugins
   puts
 end
 
+def upgrade_plugins
+  puts "======================================================"
+  puts "Upgrading plugins via neobundle.vim"
+  puts "======================================================"
+  system("vim +NeoBundleUpdate +qa")
+  puts
+end
+
 def compile_command_t
   puts "======================================================"
   puts "Compiling Command-T"
   puts "======================================================"
-  FileUtils.cd(File.join(ENV['HOME'], '.vim', 'bundle', 'Command-T'))
-  system("bash -l -c 'source $HOME/.rvm/scripts/rvm; rvm use system; make clean; rake make' ")
+  FileUtils.cd(File.join(ENV['HOME'], '.vim', 'plugins', 'Command-T'))
+  system("make clean")
+  system("rake make")
   puts
 end
