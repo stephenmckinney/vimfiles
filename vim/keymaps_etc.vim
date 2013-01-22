@@ -36,6 +36,9 @@ nmap Y y$
 nmap <F10> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 vmap <F11> :w !pbcopy<CR><CR>
 
+" Close HTML tag (ctrl-/)
+imap <silent> <C-_> </<C-X><C-O>
+
 " Toggle paste mode
 "set pastetoggle=<F12>
 
@@ -304,7 +307,7 @@ nmap <silent> <Leader>RR :VimuxRunLastCommand<CR>
 " YankStank
 " =============
 nmap <C-p> <Plug>yankstack_substitute_older_paste
-nmap <C-n> <Plug>yankstack_substitute_older_paste
+nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
 
 " ======================================================================
