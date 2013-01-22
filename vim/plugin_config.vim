@@ -98,8 +98,8 @@ let g:UltiSnipsUsePythonVersion = 2
 let g:UltiSnipsSnippetDirectories=['snippets']
 let g:UltiSnipsListSnippets="<c-k>" " terminal doesn't understand <c-tab>
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsEditSplit='vertical'
 
 " Syntastic
