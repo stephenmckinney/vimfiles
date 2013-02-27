@@ -400,7 +400,6 @@ function! s:UpdateNERDTree(...)
   endif
 endfunction
 
-
 " ======================================================================
 " Autocmds
 " ======================================================================
@@ -456,8 +455,6 @@ if has("autocmd")
     " Remember last location in file
     au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
       \| exe "normal g'\"" | endif
-    " FIXME: Command-T Hack - Resize splits when the a buffer is opened
-    au BufReadPost * :wincmd =
     " Strip trailing whitespace on save
     au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
     " Quit when only Quickfix is the remaining buffer

@@ -4,7 +4,6 @@
 let g:ackprg = 'ag --nogroup --nocolor --column' " Use ag
 
 " Command-T
-let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=20
 let g:CommandTMaxFiles=20000
 let g:CommandTMaxCachedDirectories=0
@@ -14,11 +13,11 @@ let g:CommandTAcceptSelectionSplitMap='<C-h>' " <C-s> won't work in TERM
 " CtrlP
 let g:ctrlp_map = ''
 let g:ctrlp_mruf_default_order = 1
-let g:ctrlp_match_window_bottom = 0
-let g:ctrlp_match_window_reversed = 0
-let g:ctrlp_max_height = 15
+let g:ctrlp_match_window_bottom = 1
+let g:ctrlp_match_window_reversed = 1
+let g:ctrlp_max_height = 20
 let g:ctrlp_open_new_file = 'v'
-let g:ctrlp_extensions = ['tag']
+let g:ctrlp_extensions = ['buffertag', 'tag']
 " This should be unecessary since we HAVE to set |wildignore| options
 " for Command-T (unfortunately). And these custom ignores are identical
 " to our |wildignore| settings.
