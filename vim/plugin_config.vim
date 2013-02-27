@@ -52,6 +52,7 @@ let NERDTreeDirArrows=1
 let NERDTreeHijackNetrw = 0
 let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
+let NERDTreeWinSize=25
 
 " Powerline
 let g:Powerline_symbols='fancy'
