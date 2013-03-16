@@ -151,6 +151,16 @@ MARKS                                                            *cheat-marks*
 {operator}|'|{char} operate to {char} mark e.g. |v'a|
 
 ==============================================================================
+EX COMMANDS                                                 *cheat-ex-commands*
+
+Copy {address1} to {address2}
+
+  :{address1}t{address2}
+
+e.g. copy line 9 to current line
+
+  :9t.
+
 ==============================================================================
 TABULAR                                                         *cheat-tabular*
 
