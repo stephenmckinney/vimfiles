@@ -169,8 +169,8 @@ nmap <leader>jC :CommandT config<CR>
 nmap <leader>jV :CommandT vendor<CR>
 "Cmd-(m)ethod - jump to a method (tag in current file)
 nmap <leader>m :CtrlPBufTag<CR>
-"Ctrl-(M)ethod - jump to a method (tag in all files)
-nmap <leader>M :CtrlPBufTagAll<CR>
+"Ctrl-(M)ethod - jump to a method (tag within a generated central tags file)
+nmap <leader>M :CtrlPTag<CR>
 
 
 " ======================================================================
