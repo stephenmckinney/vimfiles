@@ -88,6 +88,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-rhubarb'
 " Gitlog browswer
 NeoBundle 'gregsexton/gitv'
+" Git diff
+NeoBundle 'airblade/vim-gitgutter'
 " Gundo
 NeoBundle 'sjl/gundo.vim'
 " Gist
