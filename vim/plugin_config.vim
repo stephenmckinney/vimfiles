@@ -3,6 +3,10 @@
 " Ack
 let g:ackprg = 'ag --nogroup --nocolor --column' " Use ag
 
+" Autotag
+"let g:autotagTagsFile='tmp/tags'
+"let g:autotagCtagsCmd='--tag-relative'
+
 " Command-T
 let g:CommandTMaxHeight=20
 let g:CommandTMaxFiles=20000

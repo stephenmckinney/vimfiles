@@ -21,7 +21,7 @@ NeoBundle 'Shougo/neobundle.vim' " required
 " Ack
 NeoBundle 'mileszs/ack.vim'
 " Autotag
-NeoBundle 'stephenmckinney/vim-autotag'
+"NeoBundle 'stephenmckinney/vim-autotag'
 " Command-T
 NeoBundle 'wincent/Command-T'
 " Ctrl-P
