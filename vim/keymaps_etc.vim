@@ -135,11 +135,11 @@ nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
 " ======================================================================
 
 " =============
-" Ack
+" Ack and Ag
 " =============
 " Ack ignores are stored in ~/.ackrc
-nmap <leader>f :Ack!<space>
-nmap <leader>F :Ack!<CR>
+nmap <leader>f :Ag!<space>
+nmap <leader>F :Ag!<CR>
 
 " =============
 " CommandT/CtrlP

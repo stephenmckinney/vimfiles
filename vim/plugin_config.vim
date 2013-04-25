@@ -1,7 +1,10 @@
 " plugin_config.vim - Plugin configuration
 
 " Ack
-let g:ackprg = 'ag --nogroup --nocolor --column' " Use ag
+let g:ackprg = 'ack -H --nogroup --nocolor --column'
+
+"Ag
+let g:agprg  = 'ag --nogroup --nocolor --column --ignore tmp'
 
 " Autotag
 "let g:autotagTagsFile='tmp/tags'

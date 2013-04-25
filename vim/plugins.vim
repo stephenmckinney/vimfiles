@@ -20,6 +20,8 @@ NeoBundle 'Shougo/neobundle.vim' " required
 
 " Ack
 NeoBundle 'mileszs/ack.vim'
+" Ag
+NeoBundle 'rking/ag.vim'
 " Autotag
 "NeoBundle 'stephenmckinney/vim-autotag'
 " Command-T
