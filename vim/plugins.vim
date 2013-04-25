@@ -62,6 +62,8 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 NeoBundle 'michaeljsmith/vim-indent-object'
 " Endwise - add `end` after if, do, def and several other keywords
 NeoBundle 'tpope/vim-endwise'
+" Visual mode "*" search
+NeoBundle 'nelstrom/vim-visual-star-search'
 " Markdown Folding
 NeoBundle 'nelstrom/vim-markdown-folding'
 " Matchit - allows % to match more than just single characters
