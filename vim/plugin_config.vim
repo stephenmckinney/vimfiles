@@ -32,6 +32,9 @@ let g:ctrlp_extensions = ['buffertag', 'tag']
 "\ 'dir':  'bin$\|db/migrate$\|log$\|public/cache$\|public/stylesheets$\|public/system$\|script$\|tmp$\|vendor$'
 "\ }
 
+" Gist
+let g:gist_post_private = 1
+
 " Gitv
 let g:Gitv_DoNotMapCtrlKey = 1
 
