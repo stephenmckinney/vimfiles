@@ -79,7 +79,7 @@ command! StripTrailingWhiteSpace :call <SID>StripTrailingWhitespaces()<CR>
 " ======================================================================
 
 " New tab
-nmap <silent> <C-t> :tabnew<CR>
+command! T :tabnew
 
 " Window navigation
 nmap <C-j> <C-w>j
