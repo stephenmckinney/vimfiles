@@ -123,7 +123,8 @@ NeoBundle "godlygeek/tabular"
 " Tagbar
 NeoBundle 'majutsushi/tagbar'
 " ZoomWin
-NeoBundle 'vim-scripts/ZoomWin'
+"NeoBundle 'vim-scripts/ZoomWin'
+NeoBundle 'regedarek/ZoomWin'
 
 
 " =========================================
