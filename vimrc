@@ -12,6 +12,10 @@ set nocompatible
 if filereadable(expand("~/.vim/plugins.vim"))
   source ~/.vim/plugins.vim
 endif
+" Load powerline
+if filereadable(expand("/usr/local/lib/python3.3/site-packages/powerline/bindings/vim/__init__.py"))
+ set rtp+=/usr/local/lib/python3.3/site-packages/powerline/bindings/vim
+endif
 
 " Load the filetype detection, plugin, and indent settings
 filetype plugin indent on

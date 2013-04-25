@@ -189,13 +189,6 @@ NeoBundle 'zaiste/tmux.vim'
 
 
 " ======================================================================
-" Powerline
-" ======================================================================
-NeoBundle 'Lokaltog/vim-powerline'
-NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
-
-
-" ======================================================================
 " Themes
 " ======================================================================
 
@@ -217,7 +210,13 @@ NeoBundle 'tpope/vim-vividchalk'
 " 'Lokaltog/vim-easymotion' - Vim has easy motions built-in
 " 'nelstrom/vim-markdown-preview' - Not bad but Marked.app is better
 " 'vim-scripts/YankRing.vim' - kept messing up my Vim macros
-"
+" 'Lokaltog/vim-powerline' - Deprecated
+" 'git@github.com:stephenmckinney/vim-solarized-powerline.git' - Deprecated
+"NeoBundle 'Lokaltog/vim-powerline'
+"NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
+" 'tpope/vim-rake' - Causes errors when used with gitv. Maybe another time.
+
+
 "
 " ======================================================================
 " Will try some day when I have time
