@@ -1,7 +1,7 @@
 " plugin_config.vim - Plugin configuration
 
 " Ack
-let g:ackprg = 'ack -H --nogroup --nocolor --column'
+let g:ackprg = 'ack --nogroup --nocolor --column --with-filename'
 
 "Ag
 let g:agprg  = 'ag --nogroup --nocolor --column --ignore tmp'
