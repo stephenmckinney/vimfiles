@@ -278,11 +278,6 @@ vmap <leader>s<bar> c<bar> <C-R>" <bar><ESC>
 vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
 
 " =============
-" Tagbar
-" =============
-nmap <silent> <leader>c :TagbarToggle<CR>
-
-" =============
 " Tabular
 " =============
 nmap <leader>a  :Tabularize /

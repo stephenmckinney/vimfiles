@@ -15,7 +15,7 @@ NeoBundle 'Shougo/neobundle.vim' " required
 
 
 " ======================================================================
-" Search, Buffer, File Navigation
+" Search, Buffer, Tag, and File Navigation
 " ======================================================================
 
 " Ack
@@ -58,22 +58,22 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 " Plugins that plug into default Vim behavior - Objects, Folding, etc.
 " ======================================================================
 
-" Indent Object
+" Add object - Indent Object
 NeoBundle 'michaeljsmith/vim-indent-object'
+" Add object - Ruby Block Object
+NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
+    \ 'kana/vim-textobj-user',
+    \ ]}
 " Endwise - add `end` after if, do, def and several other keywords
 NeoBundle 'tpope/vim-endwise'
-" Visual mode "*" search
-NeoBundle 'nelstrom/vim-visual-star-search'
 " Markdown Folding
 NeoBundle 'nelstrom/vim-markdown-folding'
 " Matchit - allows % to match more than just single characters
 NeoBundle 'edsono/vim-matchit'
-" Repeat- remaps `.` in a way that plugins can tap into it
+" Repeat - remaps `.` in a way that plugins can tap into it
 NeoBundle 'tpope/vim-repeat'
-" Ruby Block Object
-NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
-    \ 'kana/vim-textobj-user',
-    \ ]}
+" Visual mode '*' search
+NeoBundle 'nelstrom/vim-visual-star-search'
 " Yank History
 NeoBundle 'maxbrunsfeld/vim-yankstack'
 
@@ -84,12 +84,12 @@ NeoBundle 'maxbrunsfeld/vim-yankstack'
 
 " BufOnly
 NeoBundle 'vim-scripts/BufOnly.vim'
+" Bundler - Lightweight goodies for Bundler
+NeoBundle 'tpope/vim-bundler'
 " Cheat Sheet
 NeoBundle 'cheat_sheet', {'type' : 'nosync'}
 " Git commands
 NeoBundle 'tpope/vim-fugitive'
-" Github integration
-NeoBundle 'tpope/vim-rhubarb'
 " Gitlog browswer
 NeoBundle 'gregsexton/gitv'
 " Git diff
@@ -110,18 +110,14 @@ NeoBundle 'chrisbra/NrrwRgn'
 NeoBundle 'ddollar/nerdcommenter'
 " QFixToggle
 NeoBundle 'Valloric/QFixToggle'
-" Rename
-"NeoBundle 'vim-scripts/Rename2'
-" Vim sugar for the UNIX shell commands
+" Sugar for shell commands - Rename, Move, etc.
 NeoBundle 'tpope/vim-eunuch'
 " Scratch buffer (useful for tSlime)
 NeoBundle 'vim-scripts/scratch.vim'
 " Surround
 NeoBundle 'tpope/vim-surround'
-" Tabularize
+" Tabularize - Alignment
 NeoBundle "godlygeek/tabular"
-" Tagbar
-NeoBundle 'majutsushi/tagbar'
 " ZoomWin
 "NeoBundle 'vim-scripts/ZoomWin'
 NeoBundle 'regedarek/ZoomWin'
@@ -148,8 +144,6 @@ NeoBundle 'danchoi/ri.vim'
 " Syntastic
 NeoBundle 'scrooloose/syntastic'
 
-" Bundler
-NeoBundle 'tpope/vim-bundler'
 " Capybara
 NeoBundle 'asux/vim-capybara'
 " CoffeeScript
@@ -212,9 +206,10 @@ NeoBundle 'tpope/vim-vividchalk'
 " 'vim-scripts/YankRing.vim' - kept messing up my Vim macros
 " 'Lokaltog/vim-powerline' - Deprecated
 " 'git@github.com:stephenmckinney/vim-solarized-powerline.git' - Deprecated
-"NeoBundle 'Lokaltog/vim-powerline'
-"NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
 " 'tpope/vim-rake' - Causes errors when used with gitv. Maybe another time.
+" 'tpope/vim-rhubarb' - maybe when it has more features
+" 'vim-scripts/Rename2' - vim-eunich does SO much more
+" 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
 
 
 "
