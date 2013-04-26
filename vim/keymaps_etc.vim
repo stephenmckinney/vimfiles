@@ -140,6 +140,8 @@ nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
 " Ack ignores are stored in ~/.ackrc
 nmap <leader>f :Ag!<space>
 nmap <leader>F :Ag!<CR>
+nmap <leader>a :Ack!<space>
+nmap <leader>A :Ack!<CR>
 
 " =============
 " CommandT/CtrlP
@@ -278,18 +280,6 @@ vmap <leader>s<bar> c<bar> <C-R>" <bar><ESC>
 vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
 
 " =============
-" Tabular
-" =============
-nmap <leader>a  :Tabularize /
-vmap <leader>a  :Tabularize /
-nmap <leader>a= :Tabularize /=<CR>
-vmap <leader>a= :Tabularize /=<CR>
-nmap <leader>a: :Tabularize /:<CR>
-vmap <leader>a: :Tabularize /:<CR>
-nmap <leader>a<bar> :Tabularize /<bar><CR>
-vmap <leader>a<bar> :Tabularize /<bar><CR>
-
-" =============
 " Turbux/Vimux
 " =============
 nmap <silent> <leader>r <Plug>SendTestToTmux
@@ -395,6 +385,17 @@ function! s:UpdateNERDTree(...)
   endif
 endfunction
 
+" Tabular custom patterns
+function! s:CustomTabularPatterns()
+  if exists('g:tabular_loaded')
+    AddTabularPattern! comma /,/l0c1
+    AddTabularPattern! symbol /:/l0
+    AddTabularPattern! hashrocket /=>
+    AddTabularPattern! equalsign /=
+    AddTabularPattern! colon /:
+  endif
+endfunction
+
 " ======================================================================
 " Autocmds
 " ======================================================================
@@ -441,6 +442,8 @@ if has("autocmd")
   augroup samFileTypeMisc
     " cd if opening a directory
     au VimEnter * call <SID>CdIfDirectory(expand("<amatch>"))
+    " add custom Tabular patterns
+    au VimEnter * call <SID>CustomTabularPatterns()
     " Update NERDTree
     au FocusGained * silent! call <SID>UpdateNERDTree()
     " Reload Fugitive
