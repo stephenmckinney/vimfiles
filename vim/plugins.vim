@@ -4,14 +4,11 @@
 " Loads plugins via NeoBundle
 " ======================================================================
 
-filetype plugin indent off     " required
-
 if has('vim_starting')
  set runtimepath+=~/.vim/plugins/neobundle.vim/
- call neobundle#rc(expand('~/.vim/plugins/'))
 endif
-
-NeoBundle 'Shougo/neobundle.vim' " required
+call neobundle#rc(expand('~/.vim/plugins/'))
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 
 " ======================================================================
@@ -193,7 +190,18 @@ NeoBundle 'tpope/vim-vividchalk'
 
 
 " ======================================================================
-" Don't Like
+" Flip the on switch!
+" ======================================================================
+
+" Load the filetype detection, plugin, and indent settings
+filetype plugin indent on
+
+" Check installation
+NeoBundleCheck
+
+
+" ======================================================================
+" Plugins I Don't Like
 " ======================================================================
 "
 " 'Shougo/neocomplcache' - woh! So slow, it was like using Eclipse.
@@ -210,11 +218,12 @@ NeoBundle 'tpope/vim-vividchalk'
 " 'tpope/vim-rhubarb' - maybe when it has more features
 " 'vim-scripts/Rename2' - vim-eunich does SO much more
 " 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
-
-
+"
+"
 "
 " ======================================================================
-" Will try some day when I have time
+" Plugins I will try some day when I have time
 " ======================================================================
 "
 " Nada
+
