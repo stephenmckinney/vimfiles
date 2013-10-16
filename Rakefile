@@ -42,19 +42,12 @@ task :install do
 
   install_plugins
 
-  compile_command_t
-
   success_msg("installed")
 end
 
 desc "Upgrade Vim plugins"
 task :upgrade_plugins do
   upgrade_plugins
-end
-
-desc "(Re)compiles Command-T using system Ruby"
-task :compile_command_t do
-  compile_command_t
 end
 
 def replace_file(file)
@@ -113,15 +106,5 @@ def upgrade_plugins
   puts "Upgrading plugins via neobundle.vim"
   puts "======================================================"
   system("vim +NeoBundleUpdate +qa")
-  puts
-end
-
-def compile_command_t
-  puts "======================================================"
-  puts "Compiling Command-T"
-  puts "======================================================"
-  FileUtils.cd(File.join(ENV['HOME'], '.vim', 'plugins', 'Command-T'))
-  system("make clean")
-  system("rake make")
   puts
 end
