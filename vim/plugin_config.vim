@@ -116,13 +116,15 @@ let g:UltiSnipsEditSplit='vertical'
 let g:syntastic_auto_jump=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_quiet_warnings=1
+let g:syntastic_javascript_checkers = ['jshint']
 
 " Tagbar
 let g:tagbar_compact = 1
 
 " Turbux
 let g:no_turbux_mappings = 1
-let g:turbux_command_prefix = 'bundle exec'
+let g:turbux_command_test_unit = 'script/test' " for Chorus testing with Spork
+"let g:turbux_command_prefix = 'bundle exec'
 
 " Vimux
 let VimuxUseNearestPane = 1 " Vim is in pane 1, so always use pane 2
