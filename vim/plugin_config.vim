@@ -73,10 +73,10 @@ let NERDTreeWinSize=25
 "end
 
 " Ruby Doc
-let g:ruby_doc_command='open'
+"let g:ruby_doc_command='open'
 
 " Ruby Refactoring
-let g:ruby_refactoring_map_keys = 0
+"let g:ruby_refactoring_map_keys = 0
 
 " ShowMarks
 let g:showmarks_textlower=" "

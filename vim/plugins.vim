@@ -19,6 +19,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'mileszs/ack.vim'
 " Ag
 NeoBundle 'rking/ag.vim'
+" Abolish
+NeoBundle 'tpope/vim-abolish'
 " Autotag
 "NeoBundle 'stephenmckinney/vim-autotag'
 " Command-T
@@ -85,6 +87,9 @@ NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'tpope/vim-bundler'
 " Cheat Sheet
 NeoBundle 'cheat_sheet', {'type' : 'nosync'}
+" Dash
+NeoBundle 'rizzatti/funcoo.vim'
+NeoBundle 'rizzatti/dash.vim'
 " Git commands
 NeoBundle 'tpope/vim-fugitive'
 " Gitlog browswer
@@ -127,11 +132,11 @@ NeoBundle 'regedarek/ZoomWin'
 " HTML speediness
 NeoBundle 'bingaman/vim-sparkup'
 " Docs
-NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
+"NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs
-NeoBundle 'lucapette/vim-ruby-doc'
-NeoBundle 'ecomba/vim-ruby-refactoring'
-NeoBundle 'danchoi/ri.vim'
+"NeoBundle 'lucapette/vim-ruby-doc'
+"NeoBundle 'ecomba/vim-ruby-refactoring'
+"NeoBundle 'danchoi/ri.vim'
 
 
 " ======================================================================

@@ -180,6 +180,13 @@ nmap <leader>M :CtrlPTag<CR>
 " ======================================================================
 
 " =============
+" Dash
+" =============
+"nmap <leader>d :Dash<space>
+"xmap <leader>d :Dash<CR>
+nmap <silent> <leader>k <Plug>DashSearch
+
+" =============
 " Fugitive/Gitv
 " =============
 command! -range Dg <line1>,<line2>diffget | diffupdate
@@ -223,8 +230,8 @@ nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute
 " =============
 " ri.vim
 " =============
-nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR> " vertical split
-nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR> " horizontal split
+"nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR> " vertical split
+"nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR> " horizontal split
 "nnoremap <silent> <leader>K :call ri#LookupNameUnderCursor()<cr>
 
 " =============
