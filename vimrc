@@ -20,7 +20,7 @@ endif
 
 " Basics
 set encoding=utf-8
-set shell=/bin/sh
+set shell=/bin/bash
 set history=100 " keep 100 lines of command line history
 set ttyfast
 set showcmd   " display incomplete commands
