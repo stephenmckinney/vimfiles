@@ -8184,3 +8184,531 @@ Please read error message log by :message command.
 [neobundle/install] Same revision.
 [neobundle/install] Installed/Updated bundles:
 no new bundles installed
+[neobundle/install] ( 1/66): |ag.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 2/66): |showmarks| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 3/66): |QFixToggle| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 4/66): |nerdcommenter| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 5/66): |vim-javascript| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 1/66): |ag.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 2/66): |showmarks| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 3/66): |QFixToggle| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 4/66): |nerdcommenter| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 5/66): |vim-javascript| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 6/66): |vim-surround| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 7/66): |vim-jquery| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 8/66): |vim-abolish| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 9/66): |dash.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (10/66): |vim-haml| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] ( 6/66): |vim-surround| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 7/66): |vim-jquery| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 8/66): |vim-abolish| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] ( 9/66): |dash.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (10/66): |vim-haml| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (11/66): |vim-bundler| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (12/66): |vim-shoulda| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (13/66): |gundo.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (14/66): |vim-visual-star-search| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (15/66): |vim-ruby-minitest| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (11/66): |vim-bundler| Updated
+[neobundle/install] |vim-bundler| * 86d8bad [3 weeks ago] Support single quotes in bundler config
+[neobundle/install] (12/66): |vim-shoulda| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (13/66): |gundo.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (14/66): |vim-visual-star-search| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (15/66): |vim-ruby-minitest| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (16/66): |tabular| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (17/66): |vim-indent-guides| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (18/66): |funcoo.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (19/66): |vim-textobj-rubyblock| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (20/66): |scratch.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (16/66): |tabular| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (17/66): |vim-indent-guides| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (18/66): |funcoo.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (19/66): |vim-textobj-rubyblock| Updated
+[neobundle/install] |vim-textobj-rubyblock| * 199eb61 [2 weeks ago] Allow 'trailing' if/unless after quotes
+[neobundle/install] |vim-textobj-rubyblock| * 2ba5999 [2 weeks ago] Update instructions for running tests
+[neobundle/install] (20/66): |scratch.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (21/66): |vim-fugitive| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (22/66): |ultisnips| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (23/66): |nerdtree| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (24/66): |gitv| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (25/66): |vim-cucumber| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (21/66): |vim-fugitive| Updated
+[neobundle/install] |vim-fugitive| * 34e2d25 [3 weeks ago] Work around new status style in 1.8.5
+[neobundle/install] |vim-fugitive| * dc250fc [3 weeks ago] Add ability to query current Git version
+[neobundle/install] |vim-fugitive| * 050b22e [3 weeks ago] Fix unmatched parens in :Gmove
+[neobundle/install] |vim-fugitive| * ea18a6a [3 weeks ago] Don't set global foldlevel
+[neobundle/install] (22/66): |ultisnips| Updated
+[neobundle/install] |ultisnips| * 1600f5b [2 days ago] php: Bug fixes for php by Ye Yen.
+[neobundle/install] |ultisnips| *   6ad9a39 [12 days ago] Merge pull request #108 from memand/master
+[neobundle/install] |ultisnips| |\  
+[neobundle/install] |ultisnips| | * 12c8076 [12 days ago] Removed mistake
+[neobundle/install] |ultisnips| | * d61df48 [2 weeks ago] Added img snip
+[neobundle/install] |ultisnips| | * 038cfdb [2 weeks ago] Added img snip and improved block snip
+[neobundle/install] |ultisnips| * |   fe0787b [13 days ago] Merge pull request #109 from marshall-lee/master
+[neobundle/install] |ultisnips| |\ \  
+[neobundle/install] |ultisnips| | |/  
+[neobundle/install] |ultisnips| |/|   
+[neobundle/install] |ultisnips| | * cf51610 [13 days ago] fixed KeyboardInterrupt bug when listing snippets
+[neobundle/install] |ultisnips| |/  
+[neobundle/install] |ultisnips| * 1cfee85 [2 weeks ago] Added a license file.
+[neobundle/install] |ultisnips| *   122b9cc [3 weeks ago] Merge pull request #106 from mohd-akram/master
+[neobundle/install] |ultisnips| |\  
+[neobundle/install] |ultisnips| | * 49e633b [3 weeks ago] Fix for Python 3
+[neobundle/install] |ultisnips| |/  
+[neobundle/install] |ultisnips| *   331eae1 [3 weeks ago] Feature: a option for converting into ASCII before transforming. Patch by rgiot.
+[neobundle/install] |ultisnips| |\  
+[neobundle/install] |ultisnips| | * ce28c27 [3 weeks ago] Fixed a small bug.
+[neobundle/install] |ultisnips| | *   ef2c657 [3 weeks ago] Merge branch 'master' of git://github.com/rgiot/ultisnips into rgiot-master
+[neobundle/install] |ultisnips| | |\  
+[neobundle/install] |ultisnips| | | * de7bff2 [3 weeks ago] Update tests to make test -a option only when unidecode is installed
+[neobundle/install] |ultisnips| | | * 9e813c7 [3 weeks ago] Improve the documentation
+[neobundle/install] |ultisnips| | | * ddcf183 [5 weeks ago] Add two additional tests for the 'a' flag in the transformation
+[neobundle/install] |ultisnips| | | * 2bf3d10 [5 weeks ago] Add a documentation to the 'a' flag
+[neobundle/install] |ultisnips| | | * 449255a [6 weeks ago] Add an error message when unidecode is not installed. The message is displayed only one time
+[neobundle/install] |ultisnips| | | * a150220 [6 weeks ago] Allow to use the flag 'a' in the transformation commands. This way, in a Latex file written with accentueted letters, the label use non accentueted letters instead of _.
+[neobundle/install] |ultisnips| * |   928b4ad [3 weeks ago] Merge pull request #105 from npearson72/master
+[neobundle/install] |ultisnips| |\ \  
+[neobundle/install] |ultisnips| | |/  
+[neobundle/install] |ultisnips| |/|   
+[neobundle/install] |ultisnips| | * 1a496b4 [3 weeks ago] Changes ruby do block args so they are inside the pipe symbols
+[neobundle/install] |ultisnips| |/  
+[neobundle/install] |ultisnips| * 0b8c956 [4 weeks ago] Improvements to the docs by fehlerfix.
+[neobundle/install] (23/66): |nerdtree| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (24/66): |gitv| Updated
+[neobundle/install] |gitv| * be6d7db [9 days ago] Merge pull request #66 from aschrab/jump-to-parent
+[neobundle/install] |gitv| * 29d51a3 [11 days ago] Add command to jump to parent commit
+[neobundle/install] (25/66): |vim-cucumber| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (26/66): |vim-sparkup| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (27/66): |Command-T| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (28/66): |vim-rails| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (29/66): |vim-less| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (30/66): |vim-textobj-user| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (26/66): |vim-sparkup| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (27/66): |Command-T| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (28/66): |vim-rails| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (29/66): |vim-less| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (30/66): |vim-textobj-user| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (31/66): |NrrwRgn| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (32/66): |vim-turbux| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (33/66): |vimux| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (34/66): |vim-tomorrow-theme| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (35/66): |gist-vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (31/66): |NrrwRgn| Updated
+[neobundle/install] |NrrwRgn| * de27db4 [3 weeks ago] switching buffers, might confuse NrrwRgn
+[neobundle/install] (32/66): |vim-turbux| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (33/66): |vimux| Updated
+[neobundle/install] |vimux| * 53477b1 [4 days ago] Correct docs to reflect the true default of VimuxUseNearestPane. Fixes 92
+[neobundle/install] (34/66): |vim-tomorrow-theme| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (35/66): |gist-vim| Updated
+[neobundle/install] |gist-vim| * bd941d0 [4 weeks ago] Check webapi-vim is installed or not. Closes #140
+[neobundle/install] (36/66): |vim-gitgutter| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (37/66): |vim-rspec| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (38/66): |ack.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (39/66): |puppet-vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (40/66): |supertab| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (36/66): |vim-gitgutter| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (37/66): |vim-rspec| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (38/66): |ack.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (39/66): |puppet-vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (40/66): |supertab| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (41/66): |vim-endwise| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (42/66): |vim-capybara| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (43/66): |vim-git| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (44/66): |vim-repeat| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (45/66): |ultisnips-snippets| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (41/66): |vim-endwise| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (42/66): |vim-capybara| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (43/66): |vim-git| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (44/66): |vim-repeat| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (45/66): |ultisnips-snippets| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (46/66): |neobundle.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (47/66): |ZoomWin| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (48/66): |vim-eunuch| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (49/66): |scss-syntax.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (50/66): |vim-irblack| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (46/66): |neobundle.vim| Updated
+[neobundle/install] |neobundle.vim| * 2fda048 [11 days ago] - Updated FAQ.
+[neobundle/install] |neobundle.vim| * 06892c3 [11 days ago] - Improved documentation.
+[neobundle/install] |neobundle.vim| * 75c3820 [2 weeks ago] - Fixed #185 system() arguments.
+[neobundle/install] |neobundle.vim| * e6e22e8 [3 weeks ago] - Fixed #174 autoload commands.
+[neobundle/install] |neobundle.vim| * 4e6aa2f [3 weeks ago] - Fixed tags.
+[neobundle/install] |neobundle.vim| * f30ab2d [3 weeks ago] - Fixed spell.
+[neobundle/install] |neobundle.vim| * e97a3d0 [3 weeks ago] - Improved documentation.
+[neobundle/install] |neobundle.vim| * cdcbee5 [3 weeks ago] - Fixed filename.
+[neobundle/install] |neobundle.vim| * bb85079 [3 weeks ago] - Added recipe feature(experimental).
+[neobundle/install] |neobundle.vim| * f13d485 [3 weeks ago] - Fixed typo.
+[neobundle/install] |neobundle.vim| * 8f773a3 [3 weeks ago] - Updated repository.
+[neobundle/install] |neobundle.vim| *   ed9e3d8 [4 weeks ago] Merge pull request #172 from af/patch-1
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 44ad7f3 [4 weeks ago] Update README with a revision lock example
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * f865465 [4 weeks ago] - Updated description.
+[neobundle/install] |neobundle.vim| * c1ec26f [6 weeks ago] - Changed disabled feature.
+[neobundle/install] |neobundle.vim| * f31354f [6 weeks ago] - Improved neobundle#local().
+[neobundle/install] |neobundle.vim| * 55e022b [6 weeks ago] - Added example for neobundle#local().
+[neobundle/install] |neobundle.vim| * 885e92c [6 weeks ago] - Added g:neobundle#install_process_timeout option.
+[neobundle/install] |neobundle.vim| * 860a2ee [7 weeks ago] - Fixed for "sudo vim".
+[neobundle/install] |neobundle.vim| * 743d774 [7 weeks ago] - Fixed examples.
+[neobundle/install] |neobundle.vim| * f567a7a [7 weeks ago] - Improved for set nocompatible in documentation.
+[neobundle/install] |neobundle.vim| * 2c9528e [7 weeks ago] - Added FAQ section.
+[neobundle/install] |neobundle.vim| * 288928e [9 weeks ago] - Fix #160 Improved rtp path.
+[neobundle/install] |neobundle.vim| * 799d599 [10 weeks ago] - Changed adding runtimepath behavior.
+[neobundle/install] |neobundle.vim| * 9883b3f [2 months ago] - Improved documentation.
+[neobundle/install] |neobundle.vim| * 98f42fb [2 months ago] - Added disabled description.
+[neobundle/install] |neobundle.vim| * 322d55e [3 months ago] - Improved FAQ.
+[neobundle/install] |neobundle.vim| * b9a759f [3 months ago] - Updated FAQ.
+[neobundle/install] |neobundle.vim| * e2cd388 [3 months ago] - Improved documentation.
+[neobundle/install] |neobundle.vim| * c23c0d5 [3 months ago] - Improved version check.
+[neobundle/install] |neobundle.vim| * dfd90eb [3 months ago] - Improved ftdetect detection behavior.
+[neobundle/install] |neobundle.vim| * a85ee9a [3 months ago] - Added FAQ.
+[neobundle/install] |neobundle.vim| * 66f1d58 [3 months ago] - Fixed depends behavior.
+[neobundle/install] |neobundle.vim| *   3f74bc0 [3 months ago] Merge pull request #149 from grantbow/master
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 46664f2 [3 months ago] fix 'a' grammar error in the first line
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| *   75265f0 [3 months ago] Merge pull request #148 from waffleio/patch-1
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 351c9e9 [3 months ago] Update README.md to point to https so github does not cache the image
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 93045a5 [3 months ago] - Fixed error.
+[neobundle/install] |neobundle.vim| * 1c40417 [3 months ago] - Fixed #147 autoload#explorer().
+[neobundle/install] |neobundle.vim| * 5dcb302 [3 months ago] - Fixed reinstall error.
+[neobundle/install] |neobundle.vim| *   a0240c2 [3 months ago] Merge branch 'mapping-count'
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * c4541b3 [3 months ago] Fix to apply count in mapping of autoload. #144
+[neobundle/install] |neobundle.vim| * | e24619c [3 months ago] - Fixed parser.
+[neobundle/install] |neobundle.vim| * | f986901 [3 months ago] - Improved cd.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * fd13baf [4 months ago] - Fixed neobundle#config#source().
+[neobundle/install] |neobundle.vim| *   074da40 [4 months ago] Merge pull request #143 from DeaR/fix-init
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 768093a [4 months ago] Re-add runtimepath of sourced lazy bundles.
+[neobundle/install] |neobundle.vim| | * 32a1935 [4 months ago] Fix initialization.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 2b26d8c [4 months ago] - Fixed neobundle initialization.
+[neobundle/install] |neobundle.vim| * b7ce313 [4 months ago] - Fixed error.
+[neobundle/install] |neobundle.vim| * b3e374d [4 months ago] - Updated FAQ section.
+[neobundle/install] |neobundle.vim| *   987f50d [4 months ago] Merged.
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 15ae866 [4 months ago] - Improved path initialization.
+[neobundle/install] |neobundle.vim| | * 27c3e36 [4 months ago] Improved parser.
+[neobundle/install] |neobundle.vim| | * 78265d0 [4 months ago] Revert "- Fixed parser." This reverts commit 2d47ae9695c46cad785bc482b34d1aecfc26af63. revert.
+[neobundle/install] |neobundle.vim| | * 2d47ae9 [4 months ago] - Fixed parser.
+[neobundle/install] |neobundle.vim| * | 5067a17 [4 months ago] - Fixed initialization.
+[neobundle/install] |neobundle.vim| * | 50e1b7e [4 months ago] - Improved runtimepath behavior.
+[neobundle/install] |neobundle.vim| * | 26c2cf8 [4 months ago] - Improved runtimepath.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * c03600f [4 months ago] - Added nosync auto detection.
+[neobundle/install] |neobundle.vim| * 7c3bfe8 [4 months ago] - Improved not installed plugins behavior.
+[neobundle/install] |neobundle.vim| * 63793d1 [4 months ago] - Added FAQ section.
+[neobundle/install] |neobundle.vim| * 8b74ad5 [4 months ago] - Fixed min_version.
+[neobundle/install] |neobundle.vim| * f27fe3f [4 months ago] - Changed g:neobundle#types#git#default_protocol default value.
+[neobundle/install] |neobundle.vim| * 6bba5a4 [4 months ago] - Fixed vim_version.
+[neobundle/install] |neobundle.vim| * 9fa03eb [4 months ago] - Fixed update log.
+[neobundle/install] |neobundle.vim| * 93eeac4 [4 months ago] - Improved check external commands behavior.
+[neobundle/install] |neobundle.vim| * 62c0861 [4 months ago] - Improved documentation.
+[neobundle/install] |neobundle.vim| * 4098efc [4 months ago] - Added vim_version feature.
+[neobundle/install] |neobundle.vim| * dd03165 [4 months ago] - Changed g:neobundle#install_max_processes default value.
+[neobundle/install] |neobundle.vim| *   674758f [4 months ago] Merge pull request #129 from DeaR/fix-define-dummy-mappings
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 019932e [4 months ago] Fix define dummy mappings.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 68a22f4 [4 months ago] - Added advantages in README.
+[neobundle/install] |neobundle.vim| * 03bd657 [4 months ago] - Improved autoload mappings behavior.
+[neobundle/install] |neobundle.vim| * 51cb931 [4 months ago] - Fixed uri in vim_scripts_org.
+[neobundle/install] |neobundle.vim| *   1298621 [5 months ago] Merge pull request #121 from waffleio/master
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 0c4a770 [5 months ago] add waffle.io badge
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * b57e08d [5 months ago] - Fixed :NeoBundleCheck behavior.
+[neobundle/install] |neobundle.vim| * 00af25a [5 months ago] - Improved neobundle/install source.
+[neobundle/install] |neobundle.vim| *   64e2be0 [5 months ago] Merge pull request #118 from DeaR/fix_reloading
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 35f364e [5 months ago] Fix reloading.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 37f6281 [5 months ago] - Fixed for reinstall behavior.
+[neobundle/install] |neobundle.vim| * c7ee488 [5 months ago] - Added :NeoBundleDirectEdit command.
+[neobundle/install] |neobundle.vim| * d552b86 [5 months ago] - Fixed unify_path() error.
+[neobundle/install] |neobundle.vim| * dc02f13 [5 months ago] - Fixed :NeoBundleDirectInstall behavior.
+[neobundle/install] |neobundle.vim| * c2a4a60 [5 months ago] - Added uninstall description for :NeoBundleDirectInstall.
+[neobundle/install] |neobundle.vim| * 26def47 [5 months ago] - Improved helptags message.
+[neobundle/install] |neobundle.vim| * af1ff0d [5 months ago] - Fixed direct install feature.
+[neobundle/install] |neobundle.vim| * 150b26a [5 months ago] - Improved :NeoBundleDirectInstall behavior.
+[neobundle/install] |neobundle.vim| * 9d786f8 [5 months ago] - Fixed for rtp.
+[neobundle/install] |neobundle.vim| * fcb9c68 [5 months ago] - Refactorred.
+[neobundle/install] |neobundle.vim| * b0f5b0f [5 months ago] - Fixed runtimepath problem.
+[neobundle/install] |neobundle.vim| * 410e10b [5 months ago] - Fixed rtp_add().
+[neobundle/install] |neobundle.vim| * bed1304 [5 months ago] - Deleted changelog.
+[neobundle/install] |neobundle.vim| * 671d533 [5 months ago] - Refactorred.
+[neobundle/install] |neobundle.vim| * a2c000f [5 months ago] - Refactorred parser.
+[neobundle/install] |neobundle.vim| *   7c20358 [5 months ago] Merge branch 'master' into parser
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 0ce3c79 [5 months ago] - Fixed resettable.
+[neobundle/install] |neobundle.vim| * | 5536a57 [5 months ago] - Refactorred.
+[neobundle/install] |neobundle.vim| * | 2196aa3 [5 months ago] - Added parser.
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 4f450b5 [5 months ago] - Fixed resettable.
+[neobundle/install] |neobundle.vim| * 1057852 [5 months ago] - Improved for helptags behavior.
+[neobundle/install] |neobundle.vim| * c0f77cf [5 months ago] - Added FAQ section.
+[neobundle/install] |neobundle.vim| * c455b6e [5 months ago] - Improved :NeoBundleCheck behavior.
+[neobundle/install] |neobundle.vim| * 955d982 [5 months ago] - Fixed neobundle#get_not_installed_bundles().
+[neobundle/install] |neobundle.vim| * 1ab5f3f [5 months ago] - Added auto install feature in nosync type.
+[neobundle/install] |neobundle.vim| * 22df78f [5 months ago] - Improved helptags behavior.
+[neobundle/install] |neobundle.vim| * 74a8c6f [5 months ago] - Improved call hook behavior.
+[neobundle/install] |neobundle.vim| *   b87cbc3 [5 months ago] Merge pull request #104 from iurifq/master
+[neobundle/install] |neobundle.vim| |\  
+[neobundle/install] |neobundle.vim| | * 70af74d [5 months ago] Add gist repo example
+[neobundle/install] |neobundle.vim| |/  
+[neobundle/install] |neobundle.vim| * 3170ecd [5 months ago] - Improved call_hook behavior.
+[neobundle/install] |neobundle.vim| * 7e587f6 [6 months ago] - Improved name conversion.
+[neobundle/install] |neobundle.vim| * ef4df3a [6 months ago] - Fixed name conversion.
+[neobundle/install] |neobundle.vim| * ec44588 [6 months ago] - Added path conversion.
+[neobundle/install] |neobundle.vim| * 68b61e1 [6 months ago] - Improved for normalized name.
+[neobundle/install] |neobundle.vim| * ad79f5d [6 months ago] - Improved name conversion.
+[neobundle/install] (47/66): |ZoomWin| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (48/66): |vim-eunuch| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (49/66): |scss-syntax.vim| Updated
+[neobundle/install] |scss-syntax.vim| * 4b84319 [13 days ago] Typo
+[neobundle/install] |scss-syntax.vim| * 17ed697 [13 days ago] Adding example of #23
+[neobundle/install] |scss-syntax.vim| *   6fee99d [13 days ago] Merging changes from kknoer
+[neobundle/install] |scss-syntax.vim| |\  
+[neobundle/install] |scss-syntax.vim| | * d539217 [3 months ago] fix for issue @include content blocks
+[neobundle/install] |scss-syntax.vim| * e0f38d1 [2 weeks ago] Recognizing the fade-in/fade-out functions
+[neobundle/install] |scss-syntax.vim| * 7e702ba [2 weeks ago] Highlighting scss interpolation inside strings
+[neobundle/install] (50/66): |vim-irblack| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (51/66): |vim-markdown| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (52/66): |tmux.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (53/66): |vim-indent-object| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (54/66): |vim-yankstack| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (55/66): |vim-markdown-folding| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (51/66): |vim-markdown| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (52/66): |tmux.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (53/66): |vim-indent-object| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (54/66): |vim-yankstack| Updated
+[neobundle/install] |vim-yankstack| * 60fb398 [8 days ago] Clean up README a tad
+[neobundle/install] (55/66): |vim-markdown-folding| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (56/66): |ctrlp.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (57/66): |syntastic| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (58/66): |vim-coffee-script| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (59/66): |cheat_sheet| Skipped
+[neobundle/install] Not supported sync action.
+[neobundle/install] (60/66): |vim-vividchalk| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (61/66): |BufOnly.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (56/66): |ctrlp.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (57/66): |syntastic| Updated
+[neobundle/install] |syntastic| * 7c638f6 [7 hours ago] Minor cleanup.
+[neobundle/install] |syntastic| * 56528e8 [10 hours ago] Update errorformat for fsc and scalac.
+[neobundle/install] |syntastic| * 802ccf5 [10 hours ago] Fix luac highlighting.
+[neobundle/install] |syntastic| * 544d616 [18 hours ago] Bump version number.
+[neobundle/install] |syntastic| * c245568 [18 hours ago] Update docs to describe the new checker infrastructure.
+[neobundle/install] |syntastic| *   a5b5fb7 [18 hours ago] Merge branch 'registry_cleanup'
+[neobundle/install] |syntastic| |\  
+[neobundle/install] |syntastic| | * 8e0ceb8 [3 days ago] New checker eslint for JavaScript (@maksimr).
+[neobundle/install] |syntastic| | * 8f35172 [4 days ago] New chacker cppcheck for C/C++.
+[neobundle/install] |syntastic| | * 71ad20e [4 days ago] More typos.
+[neobundle/install] |syntastic| | *   5f0be83 [4 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\  
+[neobundle/install] |syntastic| | * | 531859e [4 days ago] Typo in html/tidy.
+[neobundle/install] |syntastic| | * |   8922dc2 [4 days ago] Cleanup related to the HighlightRegex() functions.
+[neobundle/install] |syntastic| | |\ \  
+[neobundle/install] |syntastic| | * \ \   e07cd55 [4 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\ \ \  
+[neobundle/install] |syntastic| | * \ \ \   0436b39 [5 days ago] JS-YAML: fix errorformat.
+[neobundle/install] |syntastic| | |\ \ \ \  
+[neobundle/install] |syntastic| | * \ \ \ \   997e079 [5 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\ \ \ \ \  
+[neobundle/install] |syntastic| | * \ \ \ \ \   4a7d1f3 [5 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\ \ \ \ \ \  
+[neobundle/install] |syntastic| | * \ \ \ \ \ \   ecf03b1 [6 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | a3e710e [6 days ago] Add a warning about using syntastic_delayed_redraws.
+[neobundle/install] |syntastic| | * | | | | | | |   a0f59e7 [6 days ago] Safety checks for ghc-mod.
+[neobundle/install] |syntastic| | |\ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | | fd5a52e [7 days ago] Cleanup.
+[neobundle/install] |syntastic| | * | | | | | | | | d9296d6 [7 days ago] Update scss_lint to the new registry framework.
+[neobundle/install] |syntastic| | * | | | | | | | |   1790a06 [7 days ago] Merge branch 'master' into registry_cleanup
+[neobundle/install] |syntastic| | |\ \ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | | | 424ad20 [10 days ago] Update for shellcheck.
+[neobundle/install] |syntastic| | * | | | | | | | | | 6d81ac5 [10 days ago] Registry cleanup, stage 3.
+[neobundle/install] |syntastic| | * | | | | | | | | | 3694908 [10 days ago] Registry cleanup, stage 2.
+[neobundle/install] |syntastic| | * | | | | | | | | | 28bce98 [10 days ago] Registry cleanup, stage 1.
+[neobundle/install] |syntastic| * | | | | | | | | | | 6740608 [3 days ago] Bump version number.
+[neobundle/install] |syntastic| * | | | | | | | | | | a9e3b52 [3 days ago] Add default checkers for all filetypes.
+[neobundle/install] |syntastic| | |_|_|_|_|_|_|_|_|/  
+[neobundle/install] |syntastic| |/| | | | | | | | |   
+[neobundle/install] |syntastic| * | | | | | | | | |   d952d14 [4 days ago] Merge pull request #856 from kaleb/patch-5
+[neobundle/install] |syntastic| |\ \ \ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | | | 1072ab0 [4 days ago] Remove hgroup, it is non-conforming
+[neobundle/install] |syntastic| | | |_|_|_|_|_|_|_|/  
+[neobundle/install] |syntastic| | |/| | | | | | | |   
+[neobundle/install] |syntastic| * | | | | | | | | |   154d0c5 [4 days ago] Merge pull request #855 from kaleb/patch-4
+[neobundle/install] |syntastic| |\ \ \ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | | | c907d1b [4 days ago] Added WAI-ARIA attributes
+[neobundle/install] |syntastic| | |/ / / / / / / / /  
+[neobundle/install] |syntastic| * | | | | | | | | |   7d59fb3 [4 days ago] Merge pull request #854 from kaleb/patch-3
+[neobundle/install] |syntastic| |\ \ \ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | |/ / / / / / / / /  
+[neobundle/install] |syntastic| |/| | | | | | | | |   
+[neobundle/install] |syntastic| | * | | | | | | | | 3c33284 [4 days ago] rm'd unkown attribute rule
+[neobundle/install] |syntastic| |/ / / / / / / / /  
+[neobundle/install] |syntastic| * | | | | | | | | 1a5bf01 [4 days ago] Cleanup related to the HighlightRegex() functions.
+[neobundle/install] |syntastic| | |_|_|_|_|_|_|/  
+[neobundle/install] |syntastic| |/| | | | | | |   
+[neobundle/install] |syntastic| * | | | | | | |   b7ba0c0 [4 days ago] Merge pull request #851 from kaleb/patch-1
+[neobundle/install] |syntastic| |\ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | * | | | | | | | 38111f6 [5 days ago] placeholder should only be on input elements
+[neobundle/install] |syntastic| | | |_|_|_|_|_|/  
+[neobundle/install] |syntastic| | |/| | | | | |   
+[neobundle/install] |syntastic| * | | | | | | |   0298480 [4 days ago] Merge pull request #852 from kaleb/patch-2
+[neobundle/install] |syntastic| |\ \ \ \ \ \ \ \  
+[neobundle/install] |syntastic| | |/ / / / / / /  
+[neobundle/install] |syntastic| |/| | | | | | |   
+[neobundle/install] |syntastic| | * | | | | | | a69cb24 [5 days ago] Allow more HTML5 input types
+[neobundle/install] |syntastic| |/ / / / / / /  
+[neobundle/install] |syntastic| * | | | | | | 2a16598 [5 days ago] JS-YAML: fix errorformat.
+[neobundle/install] |syntastic| | |_|_|_|_|/  
+[neobundle/install] |syntastic| |/| | | | |   
+[neobundle/install] |syntastic| * | | | | | 84e71d6 [5 days ago] Jshint: really fix column handling in errorformat this time. ;)
+[neobundle/install] |syntastic| | |_|_|_|/  
+[neobundle/install] |syntastic| |/| | | |   
+[neobundle/install] |syntastic| * | | | | 8510e86 [5 days ago] Jshint: fix column handling in errorformat.
+[neobundle/install] |syntastic| | |_|_|/  
+[neobundle/install] |syntastic| |/| | |   
+[neobundle/install] |syntastic| * | | | f22a2b1 [6 days ago] Cleanup: lessc errorformat.
+[neobundle/install] |syntastic| * | | | 4d7a21f [6 days ago] less: adapt lessc errorformat
+[neobundle/install] |syntastic| | |_|/  
+[neobundle/install] |syntastic| |/| |   
+[neobundle/install] |syntastic| * | | 2c1c0d0 [6 days ago] Safety checks for ghc-mod.
+[neobundle/install] |syntastic| | |/  
+[neobundle/install] |syntastic| |/|   
+[neobundle/install] |syntastic| * | 4c2dcf2 [7 days ago] Cleanup.
+[neobundle/install] |syntastic| * | 0d207aa [8 days ago] Add scss-lint checker for SCSS files
+[neobundle/install] |syntastic| |/  
+[neobundle/install] |syntastic| * 14cb306 [10 days ago] New option g:syntastic_id_checkers.
+[neobundle/install] |syntastic| * c2e1429 [11 days ago] Reword the message given by SyntasticInfo.
+[neobundle/install] |syntastic| * cd1d1a2 [11 days ago] Cleanup.
+[neobundle/install] |syntastic| * e67e599 [13 days ago] Moved initialization of g:syntastic_delayed_redraws to util.vim.
+[neobundle/install] |syntastic| *   bcbcb7c [13 days ago] Merge branch 'delayed_redraws'
+[neobundle/install] |syntastic| |\  
+[neobundle/install] |syntastic| | * 5827b6a [13 days ago] Document g:syntastic_delayed_redraws.  Minor cleanup.
+[neobundle/install] |syntastic| | * f623d1e [2 weeks ago] Workaround for a Vim crash.
+[neobundle/install] |syntastic| * | 2106176 [13 days ago] New checker for sh: shellcheck.
+[neobundle/install] |syntastic| * | e4726f4 [2 weeks ago] Add a note to the manual about the fish shell.
+[neobundle/install] |syntastic| |/  
+[neobundle/install] |syntastic| * 022c493 [2 weeks ago] Check for a minimal set of Vim features at startup.
+[neobundle/install] |syntastic| * 3fa735d [2 weeks ago] Add a note about python-mode to the docs.
+[neobundle/install] |syntastic| * c87d174 [2 weeks ago] Make syntastic re-read g:syntastic_mode_map at every check.
+[neobundle/install] |syntastic| * 8eba8c3 [2 weeks ago] Update version string.
+[neobundle/install] |syntastic| * afb10fa [2 weeks ago] Coco checker: typo.
+[neobundle/install] |syntastic| * 0ef7312 [2 weeks ago] Handlebars checker: send normal output to /dev/null.
+[neobundle/install] |syntastic| * c8e173c [2 weeks ago] Make g:syntastic_filetype_map apply to composite filetypes.
+[neobundle/install] |syntastic| * 68b2c65 [3 weeks ago] Fix handlebars errorformat.
+[neobundle/install] |syntastic| * ccef916 [3 weeks ago] More magic / nomagic fun.
+[neobundle/install] |syntastic| * 95aab25 [3 weeks ago] Try to avoid fun with magic / nomagic by qualifying regexps.
+[neobundle/install] |syntastic| * 16b246e [3 weeks ago] Remove leftovers from the latest validator refactor.
+[neobundle/install] |syntastic| * d238665 [3 weeks ago] Fix unwanted filter() and map() side effects.  Minor cleanup.
+[neobundle/install] |syntastic| *   1b0595d [3 weeks ago] Merge pull request #827 from YorickPeterse/ruby-lint
+[neobundle/install] |syntastic| |\  
+[neobundle/install] |syntastic| | * 5ee1406 [3 weeks ago] Added a syntax checker for ruby-lint.
+[neobundle/install] |syntastic| |/  
+[neobundle/install] |syntastic| * f92741d [4 weeks ago] Added Chef to the list of supported languages.
+[neobundle/install] |syntastic| *   1cef6fa [4 weeks ago] Merge pull request #821 from dougireton/chef_foodcritic
+[neobundle/install] |syntastic| |\  
+[neobundle/install] |syntastic| | * e4fcb80 [4 weeks ago] Add filetype and subchecker args to foodcritic makeprg
+[neobundle/install] |syntastic| | * 304d364 [4 weeks ago] Add foodcritic syntax checker for Chef files
+[neobundle/install] |syntastic| * df13287 [4 weeks ago] Minor help re-wording.
+[neobundle/install] (58/66): |vim-coffee-script| Updated
+[neobundle/install] |vim-coffee-script| * eb81ecc [13 days ago] Don't throw error if variable can't be unlet (#151)
+[neobundle/install] |vim-coffee-script| * 2c15a42 [2 weeks ago] Highlight Infinity and NaN as numbers (#148)
+[neobundle/install] |vim-coffee-script| * 2f618aa [2 weeks ago] Merge pull request #150 from hinrik/dont_change_isident
+[neobundle/install] |vim-coffee-script| * d31bcf4 [2 weeks ago] Don't change 'isident'
+[neobundle/install] (60/66): |vim-vividchalk| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (61/66): |BufOnly.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (62/66): |textile.vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (63/66): |vim-matchit| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (64/66): |vim-colors-solarized| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (65/66): |vim-ruby| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (66/66): |webapi-vim| git pull --rebase && git submodule update --init --recursive
+[neobundle/install] (62/66): |textile.vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (63/66): |vim-matchit| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (64/66): |vim-colors-solarized| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] (65/66): |vim-ruby| Updated
+[neobundle/install] |vim-ruby| * 2597860 [9 days ago] Merge pull request #179 from vim-ruby/private-protected-indenting
+[neobundle/install] |vim-ruby| * b9fc8a2 [9 days ago] Minor doc tweaks
+[neobundle/install] |vim-ruby| * abe527c [9 days ago] Remove redundant s:GetMSL()
+[neobundle/install] |vim-ruby| * d4132ef [9 days ago] Minor documentation fixes and adjustments
+[neobundle/install] |vim-ruby| * c277b5b [9 days ago] Update documentation
+[neobundle/install] |vim-ruby| * 859183e [11 days ago] Add support for the public access modifier keyword.
+[neobundle/install] |vim-ruby| * addba7e [2 weeks ago] Locate class definition more reliably
+[neobundle/install] |vim-ruby| * a794070 [3 weeks ago] Update indentkeys to support non-outdented 'private' or 'protected'.
+[neobundle/install] |vim-ruby| * aaf5b97 [3 weeks ago] Indent private/protected while typing
+[neobundle/install] |vim-ruby| * b5ead62 [3 weeks ago] Also add an "outdent" option
+[neobundle/install] |vim-ruby| * 244ab19 [3 weeks ago] Optionally indent private/protected methods
+[neobundle/install] (66/66): |webapi-vim| Skipped
+[neobundle/install] Same revision.
+[neobundle/install] Installed/Updated bundles:
+vim-bundler
+vim-textobj-rubyblock
+vim-fugitive
+ultisnips
+gitv
+NrrwRgn
+vimux
+gist-vim
+neobundle.vim
+scss-syntax.vim
+vim-yankstack
+syntastic
+vim-coffee-script
+vim-ruby
+[neobundle/install] Helptags: done. 12 bundles processed
