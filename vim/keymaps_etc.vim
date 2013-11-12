@@ -428,7 +428,7 @@ if has("autocmd")
     " Folding
     au FileType html       setlocal foldmethod=syntax
     au FileType javascript setlocal foldmethod=syntax
-    au FileType ruby       setlocal foldmethod=syntax
+    au FileType ruby       setlocal foldmethod=manual
 
     " Compiler
     au FileType ruby       compiler ruby
