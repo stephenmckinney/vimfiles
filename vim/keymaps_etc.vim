@@ -461,7 +461,7 @@ if has("autocmd")
     au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
       \| exe "normal g'\"" | endif
     " Strip trailing whitespace on save
-    au BufWritePre *.rb,*.py,*.html,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
+    au BufWritePre *.rb,*.py,*.html,*.php,*.erb,*.css,*.scss,*.js,*.coffee,*.feature :call <SID>StripTrailingWhitespaces()
     " Quit when only Quickfix is the remaining buffer
     au BufEnter * if (winnr('$') == 1 && &buftype == 'quickfix') | quit | endif
     " Quit when only NERDTreee is the remaining buffer
