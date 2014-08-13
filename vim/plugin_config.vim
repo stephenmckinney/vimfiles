@@ -105,8 +105,8 @@ let g:sparkupExecuteMapping='<c-y>'
 
 " UltiSnips
 let g:UltiSnipsUsePythonVersion = 2
-let g:UltiSnipsSnippetDirectories=['snippets']
-let g:UltiSnipsListSnippets="<c-k>" " terminal doesn't understand <c-tab>
+let g:UltiSnipsSnippetDirectories=['plugins/ultisnips', 'plugins/ultisnips-snippets']
+let g:UltiSnipsListSnippets="<c-j>" " terminal doesn't understand <c-tab>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
@@ -115,7 +115,8 @@ let g:UltiSnipsEditSplit='vertical'
 " Syntastic
 let g:syntastic_auto_jump=1
 let g:syntastic_auto_loc_list=1
-let g:syntastic_quiet_warnings=1
+let g:syntastic_quiet_messages = {'level': 'warnings'}
+let g:syntastic_javascript_jshint_quiet_messages = { "level" : [] }
 let g:syntastic_javascript_checkers = ['jshint']
 
 " Tagbar

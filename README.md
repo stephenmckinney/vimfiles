@@ -27,7 +27,7 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 ### Compile Command-T
 
     rbenv use system
-    cd ~/.vim/plugins/Command-T && make clean && rake make
+    cd ~/.vim/plugins/Command-T/ruby/command-t && ruby extconf.rb && make
 
 ## Stay Updated
 
