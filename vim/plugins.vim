@@ -156,6 +156,8 @@ NeoBundle 'tpope/vim-cucumber'
 NeoBundle 'tpope/vim-git'
 " Haml
 NeoBundle 'tpope/vim-haml'
+" Handlebarsjs/Mustache
+NeoBundle 'mustache/vim-mustache-handlebars'
 " JavaScript
 NeoBundle 'pangloss/vim-javascript'
 " JQuery
