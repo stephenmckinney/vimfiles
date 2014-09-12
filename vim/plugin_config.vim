@@ -124,8 +124,9 @@ let g:tagbar_compact = 1
 
 " Turbux
 let g:no_turbux_mappings = 1
-let g:turbux_command_test_unit = 'script/test' " for Chorus testing with Spork
+let g:turbux_command_test_unit = 'ruby -Itest'
 "let g:turbux_command_prefix = 'bundle exec'
+"let g:turbux_command_test_unit = 'spring testunit' " for Chorus testing with Spring
 
 " Vimux
 let VimuxUseNearestPane = 1 " Vim is in pane 1, so always use pane 2
