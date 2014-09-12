@@ -12,6 +12,13 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 
 " ======================================================================
+" Statusline - powerline
+" ======================================================================
+
+NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
+
+" ======================================================================
 " Search, Buffer, Tag, and File Navigation
 " ======================================================================
 
@@ -218,8 +225,6 @@ NeoBundleCheck
 " 'Lokaltog/vim-easymotion' - Vim has easy motions built-in
 " 'nelstrom/vim-markdown-preview' - Not bad but Marked.app is better
 " 'vim-scripts/YankRing.vim' - kept messing up my Vim macros
-" 'Lokaltog/vim-powerline' - Deprecated
-" 'git@github.com:stephenmckinney/vim-solarized-powerline.git' - Deprecated
 " 'tpope/vim-rake' - Causes errors when used with gitv. Maybe another time.
 " 'tpope/vim-rhubarb' - maybe when it has more features
 " 'vim-scripts/Rename2' - vim-eunich does SO much more

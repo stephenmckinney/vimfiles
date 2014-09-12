@@ -13,11 +13,6 @@ if filereadable(expand("~/.vim/plugins.vim"))
   source ~/.vim/plugins.vim
 endif
 
-" Load powerline
-if filereadable(expand("/usr/local/lib/python3.3/site-packages/powerline/bindings/vim/__init__.py"))
- set rtp+=/usr/local/lib/python3.3/site-packages/powerline/bindings/vim
-endif
-
 " Basics
 set encoding=utf-8
 set shell=/bin/bash
