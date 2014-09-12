@@ -88,7 +88,6 @@ NeoBundle 'tpope/vim-bundler'
 " Cheat Sheet
 NeoBundle 'cheat_sheet', {'type' : 'nosync'}
 " Dash
-NeoBundle 'rizzatti/funcoo.vim'
 NeoBundle 'rizzatti/dash.vim'
 " Git commands
 NeoBundle 'tpope/vim-fugitive'
@@ -130,7 +129,7 @@ NeoBundle 'regedarek/ZoomWin'
 " =========================================
 
 " HTML speediness
-NeoBundle 'bingaman/vim-sparkup'
+"NeoBundle 'bingaman/vim-sparkup'
 " Docs
 "NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs
