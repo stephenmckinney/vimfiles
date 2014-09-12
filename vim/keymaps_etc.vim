@@ -196,7 +196,7 @@ xmap <leader>dp :diffput<CR>\|:diffupdate<CR>
 nmap <leader>gb :Gblame w<CR>
 nmap <leader>gh :Gbrowse<CR>
 nmap <leader>gc :Gcommit<CR>
-nmap <leader>gd :Gdiff<CR>
+nmap <leader>gd :Gvdiff<CR>
 nmap <leader>gr :Gread<CR>
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gw :Gwrite<CR>
