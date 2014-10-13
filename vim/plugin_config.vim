@@ -116,7 +116,9 @@ let g:UltiSnipsEditSplit='vertical'
 let g:syntastic_auto_jump=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
-let g:syntastic_javascript_jshint_quiet_messages = { "level" : [] }
+" Uncomment if you are in a bad project with multiple "mains"
+"let g:syntastic_go_go_quiet_messages = { 'level' : ['warnings', 'errors'] }
+let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
 let g:syntastic_javascript_checkers = ['jshint']
 
 " Tagbar
