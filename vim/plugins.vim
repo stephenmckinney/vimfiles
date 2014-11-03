@@ -117,7 +117,7 @@ NeoBundle 'mattn/gist-vim', { 'depends' : [
     \ 'mattn/webapi-vim',
     \ ]}
 " Go
-NeoBundle '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
+"NeoBundle '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
 " Indent Guides
 NeoBundle 'nathanaelkane/vim-indent-guides'
 " Marks
