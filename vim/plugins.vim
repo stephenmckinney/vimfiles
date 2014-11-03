@@ -3,11 +3,19 @@
 " ======================================================================
 " Loads plugins via NeoBundle
 " ======================================================================
+if !1 | finish | endif
 
 if has('vim_starting')
- set runtimepath+=~/.vim/plugins/neobundle.vim/
+  " Use Vim settings, rather then Vi settings (much better!).
+  " This must be first, because it changes other options as a side effect.
+  set nocompatible
+
+  " Required
+  set runtimepath+=~/.vim/plugins/neobundle.vim/
 endif
-call neobundle#rc(expand('~/.vim/plugins/'))
+" Required
+call neobundle#begin(expand('~/.vim/plugins/'))
+" Required
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 
@@ -208,6 +216,8 @@ NeoBundle 'tpope/vim-vividchalk'
 " Flip the on switch!
 " ======================================================================
 
+call neobundle#end()
+" Required
 " Load the filetype detection, plugin, and indent settings
 filetype plugin indent on
 
