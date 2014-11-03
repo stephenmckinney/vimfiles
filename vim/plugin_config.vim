@@ -120,6 +120,7 @@ let g:syntastic_quiet_messages = {'level': 'warnings'}
 "let g:syntastic_go_go_quiet_messages = { 'level' : ['warnings', 'errors'] }
 let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
 let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Tagbar
 let g:tagbar_compact = 1
