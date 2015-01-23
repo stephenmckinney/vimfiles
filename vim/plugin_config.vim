@@ -6,10 +6,6 @@ let g:ackprg = 'ack --nogroup --nocolor --column --with-filename'
 "Ag
 let g:agprg  = 'ag --nogroup --nocolor --column --ignore tmp'
 
-" Autotag
-"let g:autotagTagsFile='tmp/tags'
-"let g:autotagCtagsCmd='--tag-relative'
-
 " Command-T
 let g:CommandTMaxHeight=20
 let g:CommandTMaxFiles=20000
@@ -121,9 +117,6 @@ let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
-
-" Tagbar
-let g:tagbar_compact = 1
 
 " Turbux
 let g:no_turbux_mappings = 1

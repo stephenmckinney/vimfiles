@@ -117,6 +117,12 @@ if has("statusline")
   set statusline+=\ %P    "percent through file
 endif
 
+" ======================================================================
+" Ctags
+" ======================================================================
+"
+" Fugitive will set tags=.git/tags. Until we stop using Fugitive let's roll
+" with that.
 
 " ======================================================================
 " Beyond the basics

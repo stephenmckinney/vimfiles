@@ -36,8 +36,6 @@ NeoBundle 'mileszs/ack.vim'
 NeoBundle 'rking/ag.vim'
 " Abolish
 NeoBundle 'tpope/vim-abolish'
-" Autotag
-"NeoBundle 'stephenmckinney/vim-autotag'
 " Command-T
 NeoBundle 'wincent/Command-T'
 " Ctrl-P
@@ -170,7 +168,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'tpope/vim-cucumber'
 " Git
 NeoBundle 'tpope/vim-git'
-" Haml
+" Haml + SASS + SCSS
 NeoBundle 'tpope/vim-haml'
 " Handlebarsjs/Mustache
 NeoBundle 'mustache/vim-mustache-handlebars'
@@ -207,9 +205,9 @@ NeoBundle 'zaiste/tmux.vim'
 " ======================================================================
 
 NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
-NeoBundle 'chriskempson/vim-tomorrow-theme'
-NeoBundle 'wgibbs/vim-irblack'
-NeoBundle 'tpope/vim-vividchalk'
+NeoBundleLazy 'chriskempson/vim-tomorrow-theme'
+NeoBundleLazy 'wgibbs/vim-irblack'
+NeoBundleLazy 'tpope/vim-vividchalk'
 
 
 " ======================================================================
@@ -241,6 +239,7 @@ NeoBundleCheck
 " 'tpope/vim-rhubarb' - maybe when it has more features
 " 'vim-scripts/Rename2' - vim-eunich does SO much more
 " 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
+" 'stephenmckinney/vim-autotag' - rather just do it by hand
 "
 "
 "
