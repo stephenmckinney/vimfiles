@@ -212,7 +212,7 @@ nmap <leader>u :GundoToggle<CR>
 " =============
 " NarrowRegion
 " =============
-xmap <leader>n <Plug>NrrwrgnDo
+"xmap <leader>n <Plug>NrrwrgnDo
 
 " =============
 " NERDTree
