@@ -120,12 +120,9 @@ let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Turbux
 let g:no_turbux_mappings = 1
-let g:turbux_command_test_unit = 'ruby -Itest'
+"let g:turbux_command_test_unit = 'ruby -Itest'
 "let g:turbux_command_prefix = 'bundle exec'
-"let g:turbux_command_test_unit = 'spring testunit' " for Chorus testing with Spring
-
-" Vimux
-let VimuxUseNearestPane = 1 " Vim is in pane 1, so always use pane 2
+"let g:turbux_command_test_unit = 'spring rake test' " for Chorus testing with Spring
 
 " YankStank
 let g:yankstack_map_keys = 0

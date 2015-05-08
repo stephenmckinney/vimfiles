@@ -289,11 +289,13 @@ vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
 " =============
 " Turbux/Vimux
 " =============
+" Run tests
 nmap <silent> <leader>r <Plug>SendTestToTmux
-vmap <silent> <leader>r "vy :call VimuxRunCommand(@v . "\n", 0)<CR>
 nmap <silent> <leader>R <Plug>SendFocusedTestToTmux
 nmap <silent> <Leader>RR :VimuxRunLastCommand<CR>
-"vmap <C-c><C-c> <Plug>SendSelectionToTmux
+
+" Send selection to tmux (good for REPL)
+vmap <silent> <leader>r "vy :call <SID>VimuxSlime()<CR>
 
 " =============
 " YankStank
@@ -401,6 +403,12 @@ function! s:CustomTabularPatterns()
     AddTabularPattern! equalsign /=
     AddTabularPattern! colon /:
   endif
+endfunction
+
+function! s:VimuxSlime()
+  call VimuxOpenRunner()
+  call VimuxSendText(@v)
+  call VimuxSendKeys("Enter")
 endfunction
 
 " ======================================================================
