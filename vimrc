@@ -64,10 +64,12 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*.gif,*.GIF,*.jpg,*.JPG,*.png,*.PNG,*.pdf,*.PDF,*.psd,*.PSD
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*,.DS_Store
-" Ignore bundler and sass cache
+" Ignore bundler, sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 " Ignore Rails bin, db, log, script, temp, and public stuff
 set wildignore+=bin/**,db/migrate/**,log/**,public/cache/**,public/stylesheets/**,public/system/**,script/**,tmp/**,vendor/**
+" Ignore Node modules
+set wildignore+=node_modules/**
 
 
 " Use modeline overrides
