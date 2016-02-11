@@ -1199,3 +1199,212 @@
 [neobundle/install] Installed/Updated bundles:
 [neobundle/install] github-vim
 [neobundle/install] Update done: (2015/05/14 13:18:29)
+Update started: (2016/02/11 12:19:28)
+( 1/67): |vim-surround| git clone --recursive https://github.com/tpope/vim-surround.git "/Users/smckinney/.vim/plugins/vim-surround"
+( 2/67): |github-vim| git clone --recursive https://github.com/solars/github-vim.git "/Users/smckinney/.vim/plugins/github-vim"
+( 3/67): |vim-gitgutter| git clone --recursive https://github.com/airblade/vim-gitgutter.git "/Users/smckinney/.vim/plugins/vim-gitgutter"
+( 4/67): |vim-javascript| git clone --recursive https://github.com/pangloss/vim-javascript.git "/Users/smckinney/.vim/plugins/vim-javascript"
+( 5/67): |vim-rspec| git clone --recursive https://github.com/skwp/vim-rspec.git "/Users/smckinney/.vim/plugins/vim-rspec"
+( 6/67): |nerdcommenter| git clone --recursive https://github.com/ddollar/nerdcommenter.git "/Users/smckinney/.vim/plugins/nerdcommenter"
+( 7/67): |ack.vim| git clone --recursive https://github.com/mileszs/ack.vim.git "/Users/smckinney/.vim/plugins/ack.vim"
+( 8/67): |vim-jquery| git clone --recursive https://github.com/itspriddle/vim-jquery.git "/Users/smckinney/.vim/plugins/vim-jquery"
+( 1/67): |vim-surround| Updated
+( 2/67): |github-vim| Updated
+( 3/67): |vim-gitgutter| Updated
+( 4/67): |vim-javascript| Updated
+( 5/67): |vim-rspec| Updated
+( 6/67): |nerdcommenter| Updated
+( 7/67): |ack.vim| Updated
+( 8/67): |vim-jquery| Updated
+( 9/67): |puppet-vim| git clone --recursive https://github.com/ajf/puppet-vim.git "/Users/smckinney/.vim/plugins/puppet-vim"
+(10/67): |dash.vim| git clone --recursive https://github.com/rizzatti/dash.vim.git "/Users/smckinney/.vim/plugins/dash.vim"
+(11/67): |supertab| git clone --recursive https://github.com/ervandew/supertab.git "/Users/smckinney/.vim/plugins/supertab"
+(12/67): |vim-shoulda| git clone --recursive https://github.com/tsaleh/vim-shoulda.git "/Users/smckinney/.vim/plugins/vim-shoulda"
+(13/67): |vim-textobj-user| git clone --recursive https://github.com/kana/vim-textobj-user.git "/Users/smckinney/.vim/plugins/vim-textobj-user"
+(14/67): |textile.vim| git clone --recursive https://github.com/timcharper/textile.vim.git "/Users/smckinney/.vim/plugins/textile.vim"
+(15/67): |vim-fugitive| git clone --recursive https://github.com/tpope/vim-fugitive.git "/Users/smckinney/.vim/plugins/vim-fugitive"
+(16/67): |vim-indent-object| git clone --recursive https://github.com/michaeljsmith/vim-indent-object.git "/Users/smckinney/.vim/plugins/vim-indent-object"
+( 9/67): |puppet-vim| Updated
+(10/67): |dash.vim| Updated
+(11/67): |supertab| Updated
+(12/67): |vim-shoulda| Updated
+(13/67): |vim-textobj-user| Updated
+(14/67): |textile.vim| Updated
+(15/67): |vim-fugitive| Updated
+(16/67): |vim-indent-object| Updated
+(17/67): |QFixToggle| git clone --recursive https://github.com/Valloric/QFixToggle.git "/Users/smckinney/.vim/plugins/QFixToggle"
+(18/67): |tabular| git clone --recursive https://github.com/godlygeek/tabular.git "/Users/smckinney/.vim/plugins/tabular"
+(19/67): |vim-visual-star-search| git clone --recursive https://github.com/nelstrom/vim-visual-star-search.git "/Users/smckinney/.vim/plugins/vim-visual-star-search"
+(20/67): |scss-syntax.vim| git clone --recursive https://github.com/cakebaker/scss-syntax.vim.git "/Users/smckinney/.vim/plugins/scss-syntax.vim"
+(21/67): |vim-tomorrow-theme| git clone --recursive https://github.com/chriskempson/vim-tomorrow-theme.git "/Users/smckinney/.vim/plugins/vim-tomorrow-theme"
+(22/67): |syntastic| git clone --recursive https://github.com/scrooloose/syntastic.git "/Users/smckinney/.vim/plugins/syntastic"
+(23/67): |vim-cucumber| git clone --recursive https://github.com/tpope/vim-cucumber.git "/Users/smckinney/.vim/plugins/vim-cucumber"
+(24/67): |vim-colors-solarized| git clone --recursive git@github.com:stephenmckinney/vim-colors-solarized.git "/Users/smckinney/.vim/plugins/vim-colors-solarized"
+(17/67): |QFixToggle| Updated
+(18/67): |tabular| Updated
+(19/67): |vim-visual-star-search| Updated
+(20/67): |scss-syntax.vim| Updated
+(21/67): |vim-tomorrow-theme| Updated
+(22/67): |syntastic| Updated
+(23/67): |vim-cucumber| Updated
+(24/67): |vim-colors-solarized| Updated
+(25/67): |vim-rails| git clone --recursive https://github.com/tpope/vim-rails.git "/Users/smckinney/.vim/plugins/vim-rails"
+(26/67): |vim-git| git clone --recursive https://github.com/tpope/vim-git.git "/Users/smckinney/.vim/plugins/vim-git"
+(27/67): |gundo.vim| git clone --recursive https://github.com/sjl/gundo.vim.git "/Users/smckinney/.vim/plugins/gundo.vim"
+(28/67): |ZoomWin| git clone --recursive https://github.com/regedarek/ZoomWin.git "/Users/smckinney/.vim/plugins/ZoomWin"
+(29/67): |vim-turbux| git clone --recursive https://github.com/jgdavey/vim-turbux.git "/Users/smckinney/.vim/plugins/vim-turbux"
+(30/67): |vim-markdown| git clone --recursive https://github.com/tpope/vim-markdown.git "/Users/smckinney/.vim/plugins/vim-markdown"
+(31/67): |nerdtree| git clone --recursive https://github.com/scrooloose/nerdtree.git "/Users/smckinney/.vim/plugins/nerdtree"
+(32/67): |vim-markdown-folding| git clone --recursive https://github.com/nelstrom/vim-markdown-folding.git "/Users/smckinney/.vim/plugins/vim-markdown-folding"
+(25/67): |vim-rails| Updated
+(26/67): |vim-git| Updated
+(27/67): |gundo.vim| Updated
+(28/67): |ZoomWin| Updated
+(29/67): |vim-turbux| Updated
+(30/67): |vim-markdown| Updated
+(31/67): |nerdtree| Updated
+(32/67): |vim-markdown-folding| Updated
+(33/67): |ag.vim| git clone --recursive https://github.com/rking/ag.vim.git "/Users/smckinney/.vim/plugins/ag.vim"
+(34/67): |vim-vividchalk| git clone --recursive https://github.com/tpope/vim-vividchalk.git "/Users/smckinney/.vim/plugins/vim-vividchalk"
+(35/67): |vim-endwise| git clone --recursive https://github.com/tpope/vim-endwise.git "/Users/smckinney/.vim/plugins/vim-endwise"
+(36/67): |vim-solarized-powerline| git clone --recursive git@github.com:stephenmckinney/vim-solarized-powerline.git "/Users/smckinney/.vim/plugins/vim-solarized-powerline"
+(37/67): |vim-bundler| git clone --recursive https://github.com/tpope/vim-bundler.git "/Users/smckinney/.vim/plugins/vim-bundler"
+(38/67): |vim-mustache-handlebars| git clone --recursive https://github.com/mustache/vim-mustache-handlebars.git "/Users/smckinney/.vim/plugins/vim-mustache-handlebars"
+(39/67): |scratch.vim| git clone --recursive https://github.com/vim-scripts/scratch.vim.git "/Users/smckinney/.vim/plugins/scratch.vim"
+(40/67): |vim-capybara| git clone --recursive https://github.com/asux/vim-capybara.git "/Users/smckinney/.vim/plugins/vim-capybara"
+(33/67): |ag.vim| Updated
+(34/67): |vim-vividchalk| Updated
+(35/67): |vim-endwise| Updated
+(36/67): |vim-solarized-powerline| Updated
+(37/67): |vim-bundler| Updated
+(38/67): |vim-mustache-handlebars| Updated
+(39/67): |scratch.vim| Updated
+(40/67): |vim-capybara| Updated
+(41/67): |vim-less| git clone --recursive https://github.com/groenewege/vim-less.git "/Users/smckinney/.vim/plugins/vim-less"
+(42/67): |vim-repeat| git clone --recursive https://github.com/tpope/vim-repeat.git "/Users/smckinney/.vim/plugins/vim-repeat"
+(43/67): |vim-indent-guides| git clone --recursive https://github.com/nathanaelkane/vim-indent-guides.git "/Users/smckinney/.vim/plugins/vim-indent-guides"
+(44/67): |neobundle.vim| git pull --ff --ff-only && git submodule update --init --recursive
+(45/67): |NrrwRgn| git clone --recursive https://github.com/chrisbra/NrrwRgn.git "/Users/smckinney/.vim/plugins/NrrwRgn"
+(46/67): |vim-eunuch| git clone --recursive https://github.com/tpope/vim-eunuch.git "/Users/smckinney/.vim/plugins/vim-eunuch"
+(47/67): |ultisnips| git clone --recursive https://github.com/SirVer/ultisnips.git "/Users/smckinney/.vim/plugins/ultisnips"
+(48/67): |vim-irblack| git clone --recursive https://github.com/wgibbs/vim-irblack.git "/Users/smckinney/.vim/plugins/vim-irblack"
+(41/67): |vim-less| Updated
+(42/67): |vim-repeat| Updated
+(43/67): |vim-indent-guides| Updated
+(44/67): |neobundle.vim| Skipped
+Same revision.
+(45/67): |NrrwRgn| Updated
+(46/67): |vim-eunuch| Updated
+(47/67): |ultisnips| Updated
+(48/67): |vim-irblack| Updated
+(49/67): |vimux| git clone --recursive https://github.com/benmills/vimux.git "/Users/smckinney/.vim/plugins/vimux"
+(50/67): |tmux.vim| git clone --recursive https://github.com/zaiste/tmux.vim.git "/Users/smckinney/.vim/plugins/tmux.vim"
+(51/67): |vim-textobj-rubyblock| git clone --recursive https://github.com/nelstrom/vim-textobj-rubyblock.git "/Users/smckinney/.vim/plugins/vim-textobj-rubyblock"
+(52/67): |vim-yankstack| git clone --recursive https://github.com/maxbrunsfeld/vim-yankstack.git "/Users/smckinney/.vim/plugins/vim-yankstack"
+(53/67): |gist-vim| git clone --recursive https://github.com/mattn/gist-vim.git "/Users/smckinney/.vim/plugins/gist-vim"
+(54/67): |ctrlp.vim| git clone --recursive https://github.com/kien/ctrlp.vim.git "/Users/smckinney/.vim/plugins/ctrlp.vim"
+(55/67): |vim-powerline| git clone --recursive https://github.com/Lokaltog/vim-powerline.git "/Users/smckinney/.vim/plugins/vim-powerline"
+(56/67): |vim-coffee-script| git clone --recursive https://github.com/kchmck/vim-coffee-script.git "/Users/smckinney/.vim/plugins/vim-coffee-script"
+(49/67): |vimux| Updated
+(50/67): |tmux.vim| Updated
+(51/67): |vim-textobj-rubyblock| Updated
+(52/67): |vim-yankstack| Updated
+(53/67): |gist-vim| Updated
+(54/67): |ctrlp.vim| Updated
+(55/67): |vim-powerline| Updated
+(56/67): |vim-coffee-script| Updated
+(57/67): |vim-haml| git clone --recursive https://github.com/tpope/vim-haml.git "/Users/smckinney/.vim/plugins/vim-haml"
+(58/67): |BufOnly.vim| git clone --recursive https://github.com/vim-scripts/BufOnly.vim.git "/Users/smckinney/.vim/plugins/BufOnly.vim"
+(59/67): |showmarks| git clone --recursive https://github.com/xsunsmile/showmarks.git "/Users/smckinney/.vim/plugins/showmarks"
+(60/67): |vim-matchit| git clone --recursive https://github.com/edsono/vim-matchit.git "/Users/smckinney/.vim/plugins/vim-matchit"
+(61/67): |vim-abolish| git clone --recursive https://github.com/tpope/vim-abolish.git "/Users/smckinney/.vim/plugins/vim-abolish"
+(62/67): |gitv| git clone --recursive https://github.com/gregsexton/gitv.git "/Users/smckinney/.vim/plugins/gitv"
+(63/67): |Command-T| git clone --recursive https://github.com/wincent/Command-T.git "/Users/smckinney/.vim/plugins/Command-T"
+(64/67): |vim-ruby| git clone --recursive https://github.com/vim-ruby/vim-ruby.git "/Users/smckinney/.vim/plugins/vim-ruby"
+(57/67): |vim-haml| Updated
+(58/67): |BufOnly.vim| Updated
+(59/67): |showmarks| Updated
+(60/67): |vim-matchit| Updated
+(61/67): |vim-abolish| Updated
+(62/67): |gitv| Updated
+(63/67): |Command-T| Updated
+(64/67): |vim-ruby| Updated
+(65/67): |vim-ruby-minitest| git clone --recursive https://github.com/sunaku/vim-ruby-minitest.git "/Users/smckinney/.vim/plugins/vim-ruby-minitest"
+(66/67): |webapi-vim| git clone --recursive https://github.com/mattn/webapi-vim.git "/Users/smckinney/.vim/plugins/webapi-vim"
+(67/67): |ultisnips-snippets| git clone --recursive git@github.com:stephenmckinney/ultisnips-snippets.git "/Users/smckinney/.vim/plugins/ultisnips-snippets"
+(65/67): |vim-ruby-minitest| Updated
+(66/67): |webapi-vim| Updated
+(67/67): |ultisnips-snippets| Updated
+
+Installed bundles:
+  vim-surround
+  github-vim
+  vim-gitgutter
+  vim-javascript
+  vim-rspec
+  nerdcommenter
+  ack.vim
+  vim-jquery
+  puppet-vim
+  dash.vim
+  supertab
+  vim-shoulda
+  vim-textobj-user
+  textile.vim
+  vim-fugitive
+  vim-indent-object
+  QFixToggle
+  tabular
+  vim-visual-star-search
+  scss-syntax.vim
+  vim-tomorrow-theme
+  syntastic
+  vim-cucumber
+  vim-colors-solarized
+  vim-rails
+  vim-git
+  gundo.vim
+  ZoomWin
+  vim-turbux
+  vim-markdown
+  nerdtree
+  vim-markdown-folding
+  ag.vim
+  vim-vividchalk
+  vim-endwise
+  vim-solarized-powerline
+  vim-bundler
+  vim-mustache-handlebars
+  scratch.vim
+  vim-capybara
+  vim-less
+  vim-repeat
+  vim-indent-guides
+  NrrwRgn
+  vim-eunuch
+  ultisnips
+  vim-irblack
+  vimux
+  tmux.vim
+  vim-textobj-rubyblock
+  vim-yankstack
+  gist-vim
+  ctrlp.vim
+  vim-powerline
+  vim-coffee-script
+  vim-haml
+  BufOnly.vim
+  showmarks
+  vim-matchit
+  vim-abolish
+  gitv
+  Command-T
+  vim-ruby
+  vim-ruby-minitest
+  webapi-vim
+  ultisnips-snippets
+Update done: (2016/02/11 12:20:44)
+[neobundle] Target bundles not found.
+[neobundle] You may have used the wrong bundle name, or all of the bundles are already installed.
+[neobundle] Target bundles not found.
+[neobundle] You may have used the wrong bundle name, or all of the bundles are already installed.
