@@ -21,7 +21,7 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
 ### Install Vimfiles and Plugins
 
-    git clone git://github.com/stephenmckinney/vimfiles ~/.vimfiles
+    git clone git@github.com:stephenmckinney/vimfiles.git
     cd ~/.vimfiles && rake install
 
 ### Compile Command-T
