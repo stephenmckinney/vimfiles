@@ -114,6 +114,8 @@ NeoBundle 'sjl/gundo.vim'
 NeoBundle 'mattn/gist-vim', { 'depends' : [
     \ 'mattn/webapi-vim',
     \ ]}
+" Github - open current file on web
+NeoBundle 'solars/github-vim'
 " Go
 "NeoBundle '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
 " Indent Guides

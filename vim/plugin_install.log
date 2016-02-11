@@ -1169,3 +1169,33 @@
 [neobundle/check] (1/2): |vimux| git ls-remote origin HEAD
 [neobundle/check] (2/2): |vim-turbux| git ls-remote origin HEAD
 [neobundle/check] (1/1): |vimux| git ls-remote origin HEAD
+[neobundle/check] (1/1): |vim-bundler| git ls-remote origin HEAD
+[neobundle/install] Update started: (2015/05/07 22:50:55)
+[neobundle/install] (1/1): |vim-bundler| git pull --ff --ff-only && git submodule update --init --recursive
+[neobundle/install] (1/1): |vim-bundler| Updated
+[neobundle/install] |vim-bundler| * 83cc90f [2 days ago] Change :Bundle console title to reflect project name
+[neobundle/install] |vim-bundler| * 0e46a06 [2 days ago] Fix :Bundle console issues
+[neobundle/install] |vim-bundler| * 796397b [2 days ago] Use :Start for :Bundle console
+[neobundle/install] |vim-bundler| * 78cd05a [2 days ago] Change heading style
+[neobundle/install] |vim-bundler| * ff6cbcc [6 days ago] Support gems.rb and gems.locked
+[neobundle/install] |vim-bundler| * b4a7906 [13 days ago] Match Gem::InstallError
+[neobundle/install] Helptags: done. 42 bundles processed
+[neobundle/install] Installed/Updated bundles:
+[neobundle/install] vim-bundler
+[neobundle/install] Update done: (2015/05/07 22:50:58)
+[neobundle/install] Target bundles not found.
+[neobundle/install] You may have used the wrong bundle name, or all of the bundles are already installed.
+[neobundle/install] Target bundles not found.
+[neobundle/install] You may have used the wrong bundle name, or all of the bundles are already installed.
+[neobundle/install] Target bundles not found.
+[neobundle/install] You may have used the wrong bundle name, or all of the bundles are already installed.
+[neobundle/install] Target bundles not found.
+[neobundle/install] You may have used the wrong bundle name, or all of the bundles are already installed.
+[neobundle/install] Update started: (2015/05/14 13:18:24)
+[neobundle/install] (1/1): |github-vim| git clone --recursive https://github.com/solars/github-vim.git "/Users/smckinney/.vim/plugins/github-vim"
+[neobundle/install] (1/1): |github-vim| Updated
+[neobundle/install] |github-vim|  -> 42dbd99e910f6fb3bdaae6b6ccedc69249097193
+[neobundle/install] Helptags: done. 42 bundles processed
+[neobundle/install] Installed/Updated bundles:
+[neobundle/install] github-vim
+[neobundle/install] Update done: (2015/05/14 13:18:29)
