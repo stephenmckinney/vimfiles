@@ -36,6 +36,8 @@ task :install do
   end
   puts
 
+  make_backup_dir
+
   install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
 
   install_neobundle
@@ -64,6 +66,16 @@ def link_file(file)
   else
     puts "linking ~/.#{file}"
     system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
+  end
+end
+
+def make_backup_dir
+  unless Dir.exist?(File.join(ENV['HOME'], '.vim', 'backup'))
+    puts "======================================================"
+    puts "Creating backup dir"
+    puts "======================================================"
+    system %Q{mkdir $HOME/.vim/backup}
+    puts
   end
 end
 
