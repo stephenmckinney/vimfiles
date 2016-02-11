@@ -84,11 +84,11 @@ def install_fonts
 end
 
 def install_neobundle
-  unless File.exist?(File.join(ENV['HOME'], '.vim', 'bundle', 'neobundle.vim'))
+  unless File.exist?(File.join(ENV['HOME'], '.vim', 'plugins', 'neobundle.vim'))
     puts "======================================================"
     puts "Installing neobundle.vim"
     puts "======================================================"
-    system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim")
+    system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/plugins/neobundle.vim")
     puts
   end
 end
