@@ -4,7 +4,7 @@
 let g:ackprg = 'ack --nogroup --nocolor --column --with-filename'
 
 "Ag
-let g:agprg  = 'ag --nogroup --nocolor --column --ignore tmp'
+let g:ag_prg  = 'ag --nogroup --nocolor --column --ignore tmp'
 
 " Command-T
 let g:CommandTMaxHeight=20
