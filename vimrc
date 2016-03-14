@@ -61,7 +61,7 @@ set wildignore+=*.o,*.out,*.obj,*.pyc,.git,.hg,*.rbc,*.rbo,*.class,.svn,*.gem
 " Disable archive files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 " Disable images
-set wildignore+=*.gif,*.GIF,*.jpg,*.JPG,*.png,*.PNG,*.pdf,*.PDF,*.psd,*.PSD
+set wildignore+=*.gif,*.GIF,*.jpg,*.JPG,*.png,*.PNG,*.svg,*.SVG,*.pdf,*.PDF,*.psd,*.PSD
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*,.DS_Store
 " Ignore bundler, sass cache
