@@ -67,7 +67,7 @@ set wildignore+=*.swp,*~,._*,.DS_Store
 " Ignore bundler, sass cache
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 " Ignore Rails bin, db, log, script, temp, and public stuff
-set wildignore+=bin/**,db/migrate/**,log/**,public/cache/**,public/stylesheets/**,public/system/**,script/**,tmp/**,vendor/**
+set wildignore+=bin/**,db/migrate/**,log/**,public/cache/**,public/sitemaps/**,public/stylesheets/**,public/system/**,script/**,tmp/**,vendor/**
 " Ignore Node modules
 set wildignore+=node_modules/**
 
