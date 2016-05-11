@@ -32,10 +32,6 @@ vmap < <gv
 " Make Y consistent with C and D: Yank from the cursor to the end of the line
 nmap Y y$
 
-" Mac OS X pasteboard integration
-nmap <F10> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
-vmap <F11> :w !pbcopy<CR><CR>
-
 " Close HTML tag (ctrl-/)
 imap <silent> <C-_> </<C-X><C-O>
 
@@ -182,8 +178,6 @@ nmap <leader>M :CtrlPTag<CR>
 " =============
 " Dash
 " =============
-"nmap <leader>d :Dash<space>
-"xmap <leader>d :Dash<CR>
 nmap <silent> <leader>k <Plug>DashSearch
 
 " =============
@@ -210,11 +204,6 @@ nmap <leader>gV :Gitv --all<CR>  " Browser mode
 nmap <leader>u :GundoToggle<CR>
 
 " =============
-" NarrowRegion
-" =============
-"xmap <leader>n <Plug>NrrwrgnDo
-
-" =============
 " NERDTree
 " =============
 nmap <silent> <leader>d :NERDTreeToggle<CR>
@@ -230,9 +219,9 @@ nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute
 " =============
 " ri.vim
 " =============
-"nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR> " vertical split
-"nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR> " horizontal split
-"nnoremap <silent> <leader>K :call ri#LookupNameUnderCursor()<cr>
+" nnoremap <silent> <leader>k :call ri#OpenSearchPrompt(1)<CR> " vertical split
+" nnoremap <silent> <leader>K :call ri#OpenSearchPrompt(0)<CR> " horizontal split
+" nnoremap <silent> <leader>K :call ri#LookupNameUnderCursor()<cr>
 
 " =============
 " Scratch
@@ -245,46 +234,46 @@ nmap <silent> <leader><tab> :Scratch<CR>
 " Use v or # to get a variable interpolation (inside of a string)}
 " ysiw#   Wrap the token under the cursor in #{}
 " v...s#  Wrap the selection in #{}
-let g:surround_113 = "#{\r}"   " v
-let g:surround_35  = "#{\r}"   " #
+" let g:surround_113 = "#{\r}"   " v
+" let g:surround_35  = "#{\r}"   " #
 " Select text in an ERb file with visual mode and then press ysaw- or ysaw=
 " Or yss- to do entire line.
-let g:surround_45 = "<% \r %>"    " -
-let g:surround_61 = "<%= \r %>"   " =
+" let g:surround_45 = "<% \r %>"    " -
+" let g:surround_61 = "<%= \r %>"   " =
 
 " <leader># Surround a word with #{ruby interpolation}
-map <leader>s# ysiw#
-vmap <leader>s# c#{<C-R>"}<ESC>
+" map <leader>s# ysiw#
+" vmap <leader>s# c#{<C-R>"}<ESC>
 " <leader>" Surround a word with "quotes"
-map <leader>s" ysiw"
-vmap <leader>s" c"<C-R>""<ESC>
+" map <leader>s" ysiw"
+" vmap <leader>s" c"<C-R>""<ESC>
 " <leader>' Surround a word with 'single quotes'
-map <leader>s' ysiw'
-vmap <leader>s' c'<C-R>"'<ESC>
+" map <leader>s' ysiw'
+" vmap <leader>s' c'<C-R>"'<ESC>
 " <leader>` Surround a word with markdown ``
-map <leader>s` ysiw`
-vmap <leader>s` c`<C-R>"`<ESC>
-" <leader>) or <leader>( Surround a word with (parens)
+" map <leader>s` ysiw`
+" vmap <leader>s` c`<C-R>"`<ESC>
+" " <leader>) or <leader>( Surround a word with (parens)
 " The difference is in whether a space is put in
-map <leader>s) ysiw(
-map <leader>s( ysiw)
-vmap <leader>s) c( <C-R>" )<ESC>
-vmap <leader>s( c(<C-R>")<ESC>
+" map <leader>s) ysiw(
+" map <leader>s( ysiw)
+" vmap <leader>s) c( <C-R>" )<ESC>
+" vmap <leader>s( c(<C-R>")<ESC>
 " <leader>[ Surround a word with [brackets]
-map <leader>s[ ysiw]
-map <leader>s] ysiw[
-vmap <leader>s] c[ <C-R>" ]<ESC>
-vmap <leader>s[ c[<C-R>"]<ESC>
+" map <leader>s[ ysiw]
+" map <leader>s] ysiw[
+" vmap <leader>s] c[ <C-R>" ]<ESC>
+" vmap <leader>s[ c[<C-R>"]<ESC>
 " <leader>{ Surround a word with {braces}
-map <leader>s{ ysiw}
-map <leader>s} ysiw{
-vmap <leader>s} c{ <C-R>" }<ESC>
-vmap <leader>s{ c{<C-R>"}<ESC>
+" map <leader>s{ ysiw}
+" map <leader>s} ysiw{
+" vmap <leader>s} c{ <C-R>" }<ESC>
+" vmap <leader>s{ c{<C-R>"}<ESC>
 " <leader>| Surround a word with |braces|
-map <leader>s<bar> ysiw<bar>
-map <leader>s<bar> ysiw<bar>
-vmap <leader>s<bar> c<bar> <C-R>" <bar><ESC>
-vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
+" map <leader>s<bar> ysiw<bar>
+" map <leader>s<bar> ysiw<bar>
+" vmap <leader>s<bar> c<bar> <C-R>" <bar><ESC>
+" vmap <leader>s<bar> c<bar><C-R>"<bar><ESC>
 
 " =============
 " Turbux/Vimux
