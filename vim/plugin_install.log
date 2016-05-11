@@ -1408,3 +1408,19 @@ Update done: (2016/02/11 12:20:44)
 [neobundle] You may have used the wrong bundle name, or all of the bundles are already installed.
 [neobundle] Target bundles not found.
 [neobundle] You may have used the wrong bundle name, or all of the bundles are already installed.
+Update started: (2016/05/10 21:55:52)
+(1/1): |vim-commentary| git clone --recursive https://github.com/tpope/vim-commentary.git "/Users/smckinney/.vim/plugins/vim-commentary"
+(1/1): |vim-commentary| Updated
+Helptags: done. 42 bundles processed
+
+Installed bundles:
+  vim-commentary
+Update done: (2016/05/10 21:55:54)
+Update started: (2016/05/10 22:00:28)
+(1/1): |vim-system-copy| git clone --recursive https://github.com/christoomey/vim-system-copy.git "/Users/smckinney/.vim/plugins/vim-system-copy"
+(1/1): |vim-system-copy| Updated
+Helptags: done. 42 bundles processed
+
+Installed bundles:
+  vim-system-copy
+Update done: (2016/05/10 22:00:29)

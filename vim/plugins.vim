@@ -70,9 +70,9 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 " Plugins that plug into default Vim behavior - Objects, Folding, etc.
 " ======================================================================
 
-" Add object - Indent Object
+" Add object - Indent Object - `ai`, `ii`
 NeoBundle 'michaeljsmith/vim-indent-object'
-" Add object - Ruby Block Object
+" Add object - Ruby Block Object - `ar`, `ir`
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
     \ 'kana/vim-textobj-user',
     \ ]}
@@ -84,6 +84,8 @@ NeoBundle 'nelstrom/vim-markdown-folding'
 NeoBundle 'edsono/vim-matchit'
 " Repeat - remaps `.` in a way that plugins can tap into it
 NeoBundle 'tpope/vim-repeat'
+" Surround - adds 'surroundings' - `s`
+NeoBundle 'tpope/vim-surround'
 " Visual mode '*' search
 NeoBundle 'nelstrom/vim-visual-star-search'
 " Yank History
@@ -100,6 +102,8 @@ NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'tpope/vim-bundler'
 " Cheat Sheet
 NeoBundle 'cheat_sheet', {'type' : 'nosync'}
+" Commentary - Comments using `gcc`, `gc*motion*`
+NeoBundle 'tpope/vim-commentary'
 " Dash
 NeoBundle 'rizzatti/dash.vim'
 " Git commands
@@ -124,16 +128,14 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'xsunsmile/showmarks'
 " Narrow Region
 NeoBundle 'chrisbra/NrrwRgn'
-" Nerdcommenter
-NeoBundle 'ddollar/nerdcommenter'
 " QFixToggle
 NeoBundle 'Valloric/QFixToggle'
 " Sugar for shell commands - Rename, Move, etc.
 NeoBundle 'tpope/vim-eunuch'
 " Scratch buffer (useful for tSlime)
 NeoBundle 'vim-scripts/scratch.vim'
-" Surround
-NeoBundle 'tpope/vim-surround'
+" System copy - sytem copy: `cp*motion*`, sytem paste: `cv`
+NeoBundle 'christoomey/vim-system-copy'
 " Tabularize - Alignment
 NeoBundle "godlygeek/tabular"
 " ZoomWin
