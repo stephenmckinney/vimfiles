@@ -33,6 +33,10 @@ set tabstop=2
 set autoindent " copy indent from current line when starting a new line
 set nowrap " do not wrap long lines
 
+" Escape quickly
+set ttimeout
+set ttimeoutlen=100
+
 " Folding
 set foldmethod=indent   " fold based on indent
 set nofoldenable        " don't fold by default
