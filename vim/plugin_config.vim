@@ -120,7 +120,8 @@ let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Turbux
 let g:no_turbux_mappings = 1
-"let g:turbux_command_test_unit = 'ruby -Itest'
+" hack to fix broken 'run focused test' since https://github.com/jgdavey/vim-turbux/pull/36
+let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
 "let g:turbux_command_test_unit = 'spring rake test' " for Chorus testing with Spring
 
