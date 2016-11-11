@@ -123,7 +123,7 @@ let g:no_turbux_mappings = 1
 " hack to fix broken 'run focused test' since https://github.com/jgdavey/vim-turbux/pull/36
 let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
-"let g:turbux_command_test_unit = 'spring rake test' " for Chorus testing with Spring
+let g:turbux_command_test_unit = './bin/spring rake test' " for Chorus testing with Spring
 
 " YankStank
 let g:yankstack_map_keys = 0
