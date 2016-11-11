@@ -1424,3 +1424,14 @@ Helptags: done. 42 bundles processed
 Installed bundles:
   vim-system-copy
 Update done: (2016/05/10 22:00:29)
+Update started: (2016/05/17 11:18:30)
+(1/2): |vim-codereview| git clone --recursive https://github.com/codegram/vim-codereview.git "/Users/smckinney/.vim/plugins/vim-codereview"
+(2/2): |patchreview-vim| git clone --recursive https://github.com/junkblocker/patchreview-vim.git "/Users/smckinney/.vim/plugins/patchreview-vim"
+(1/2): |vim-codereview| Updated
+(2/2): |patchreview-vim| Updated
+Helptags: done. 44 bundles processed
+
+Installed bundles:
+  vim-codereview
+  patchreview-vim
+Update done: (2016/05/17 11:18:33)

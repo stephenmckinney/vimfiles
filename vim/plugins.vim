@@ -120,6 +120,10 @@ NeoBundle 'mattn/gist-vim', { 'depends' : [
     \ ]}
 " Github - open current file on web
 NeoBundle 'solars/github-vim'
+" Github PR review
+NeoBundle 'codegram/vim-codereview', { 'depends' : [
+    \ 'junkblocker/patchreview-vim',
+    \ ]}
 " Go
 "NeoBundle '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
 " Indent Guides
