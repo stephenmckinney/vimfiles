@@ -13,8 +13,9 @@ anyone interested in tmux + zsh + vim as a Ruby and Rails IDE on OS X. See
 
 Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
-    rbenv use system
-    brew install vim ack the_silver_searcher ctags
+    brew install python3 ack the_silver_searcher ctags
+    rbenv shell system
+    brew install vim --with-custom-ruby
 
 > **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
 > see [issue](https://github.com/mxcl/homebrew/issues/15902).
@@ -26,7 +27,7 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
 ### Compile Command-T
 
-    rbenv use system
+    rbenv shell system
     cd ~/.vim/plugins/Command-T/ruby/command-t && ruby extconf.rb && make
 
 ## Stay Updated
