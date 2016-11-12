@@ -57,8 +57,6 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'kana/vim-textobj-user' | Plug 'nelstrom/vim-textobj-rubyblock'
 " Endwise - add `end` after if, do, def and several other keywords
 Plug 'tpope/vim-endwise'
-" Matchit - allows % to match more than just single characters
-Plug 'edsono/vim-matchit'
 " Repeat - remaps `.` in a way that plugins can tap into it
 Plug 'tpope/vim-repeat'
 " Surround - adds 'surroundings' - `s`
