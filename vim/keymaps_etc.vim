@@ -357,6 +357,7 @@ function! s:CdIfDirectory(directory)
     NERDTree
     wincmd p
     bd
+    wincmd p
   endif
 
   if explicitDirectory
