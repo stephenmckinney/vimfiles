@@ -33,6 +33,8 @@ Plug 'tpope/vim-abolish'
 Plug 'wincent/Command-T'
 " Ctrl-P
 Plug 'kien/ctrlp.vim'
+" FZF
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 " Nerdtree
 Plug 'scrooloose/nerdtree'
 
