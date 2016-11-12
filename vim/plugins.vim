@@ -4,10 +4,12 @@
 "               and simple configuration. Don't bother researching
 "               pathogen, vundle, or neobundle/dein.
 
+
 " ======================================================================
 " Start adding plugins
 " ======================================================================
 call plug#begin('~/.vim/plugins')
+
 
 " ======================================================================
 " Statusline - powerline
@@ -15,6 +17,7 @@ call plug#begin('~/.vim/plugins')
 
 Plug 'Lokaltog/vim-powerline'
 Plug 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
+
 
 " ======================================================================
 " Search, Buffer, Tag, and File Navigation
@@ -45,14 +48,6 @@ Plug 'ervandew/supertab'
 
 
 " ======================================================================
-" Tmux Integration
-" ======================================================================
-
-" Vim-Tmux integration (vim-turbux depends on vimux)
-Plug 'benmills/vimux' | Plug 'jgdavey/vim-turbux'
-
-
-" ======================================================================
 " Plugins that plug into default Vim behavior - Objects, Folding, etc.
 " ======================================================================
 
@@ -72,6 +67,29 @@ Plug 'tpope/vim-surround'
 Plug 'nelstrom/vim-visual-star-search'
 " Yank History
 Plug 'maxbrunsfeld/vim-yankstack'
+
+
+" ======================================================================
+" Languages, File Types & Syntax Highlighting
+" ======================================================================
+
+" Syntastic
+Plug 'scrooloose/syntastic'
+
+" Rails
+Plug 'tpope/vim-rails'
+" Ruby
+Plug 'vim-ruby/vim-ruby'
+" Tmux
+Plug 'zaiste/tmux.vim'
+
+
+" ======================================================================
+" Tmux Integration
+" ======================================================================
+
+" Vim-Tmux integration
+Plug 'benmills/vimux' | Plug 'jgdavey/vim-turbux'
 
 
 " ======================================================================
@@ -117,39 +135,10 @@ Plug 'vim-scripts/scratch.vim'
 " System copy - sytem copy: `cp*motion*`, sytem paste: `cv`
 Plug 'christoomey/vim-system-copy'
 " Tabularize - Alignment
-Plug "godlygeek/tabular"
+Plug 'godlygeek/tabular'
 " ZoomWin
 "Plug 'vim-scripts/ZoomWin'
 Plug 'regedarek/ZoomWin'
-
-
-" =========================================
-" **Tools I am experimenting with**
-" =========================================
-
-" HTML speediness
-"Plug 'bingaman/vim-sparkup'
-" Docs
-"Plug 'git@github.com:stephenmckinney/vim-dochub.git'
-" Ruby/RSpec/Rails Docs
-"Plug 'lucapette/vim-ruby-doc'
-"Plug 'ecomba/vim-ruby-refactoring'
-"Plug 'danchoi/ri.vim'
-
-
-" ======================================================================
-" Languages, File Types & Syntax Highlighting
-" ======================================================================
-
-" Syntastic
-Plug 'scrooloose/syntastic'
-
-" Rails
-Plug 'tpope/vim-rails'
-" Ruby
-Plug 'vim-ruby/vim-ruby'
-" Tmux
-Plug 'zaiste/tmux.vim'
 
 
 " ======================================================================
@@ -162,6 +151,12 @@ Plug 'wgibbs/vim-irblack'
 Plug 'tpope/vim-vividchalk'
 
 
+" =========================================
+" Plugins I'm experimenting with
+" =========================================
+" ...
+
+
 " ======================================================================
 " Flip the on switch!
 " * Add plugins to &runtimepath
@@ -170,6 +165,29 @@ Plug 'tpope/vim-vividchalk'
 " ======================================================================
 
 call plug#end()
+
+
+
+
+" ======================================================================
+" Plugins I *was* experimenting with
+" ======================================================================
+" HTML speediness
+" Plug 'bingaman/vim-sparkup'
+"
+" Docs
+" Plug 'git@github.com:stephenmckinney/vim-dochub.git'
+"
+" Ruby/RSpec/Rails Docs
+" Plug 'lucapette/vim-ruby-doc'
+" Plug 'ecomba/vim-ruby-refactoring'
+" Plug 'danchoi/ri.vim'
+
+
+" ======================================================================
+" Plugins I will try some day when I have time
+" ======================================================================
+" ...
 
 
 " ======================================================================
@@ -190,12 +208,3 @@ call plug#end()
 " 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
 " 'stephenmckinney/vim-autotag' - rather just do it by hand
 " 'sjl/gundo.vim' - I just never use this shit
-"
-"
-"
-" ======================================================================
-" Plugins I will try some day when I have time
-" ======================================================================
-"
-" Nada
-
