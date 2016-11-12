@@ -41,15 +41,12 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 
 " HTML seettings from javascript.vim
-let g:html_indent_inctags = "html,body,head,tbody"
-let g:html_indent_script1 = "inc"
-let g:html_indent_style1 = "inc"
+" let g:html_indent_inctags = "html,body,head,tbody"
+" let g:html_indent_script1 = "inc"
+" let g:html_indent_style1 = "inc"
 
 " Matchit
 runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigation
-
-" NeoBundle
-let g:neobundle#log_filename=expand('~/.vim/plugin_install.log')
 
 " NERDTree
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o', '\~$']
@@ -92,9 +89,6 @@ let g:solarized_hitrail=1          "default value is 0
 "hi Pmenu  guifg=#000000 guibg=#F8F8F8 ctermfg=black ctermbg=Lightgray
 "hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
 "hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
-
-" Sparkup
-let g:sparkupExecuteMapping='<c-y>'
 
 " Supertab
 "let g:SuperTabDefaultCompletionType = "context"

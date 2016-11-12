@@ -405,6 +405,10 @@ endfunction
 " ======================================================================
 
 if has("autocmd")
+  augroup samFileTypeSet
+    autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+  augroup END
+
   augroup samFileTypeOptions
     au!
 

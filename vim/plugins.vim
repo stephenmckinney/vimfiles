@@ -1,69 +1,55 @@
-" plugin.vim - List of plugins to manage via NeoBundle
+" plugins.vim - List of plugins managed via vim-plug.
+"
+" NOTE to self: You chose vim-plug for it's lazy-loading, robust features,
+"               and simple configuration. Don't bother researching
+"               pathogen, vundle, or neobundle/dein.
 
 " ======================================================================
-" Loads plugins via NeoBundle
+" Start adding plugins
 " ======================================================================
-if !1 | finish | endif
-
-if has('vim_starting')
-  " Use Vim settings, rather then Vi settings (much better!).
-  " This must be first, because it changes other options as a side effect.
-  set nocompatible
-
-  " Required
-  set runtimepath+=~/.vim/plugins/neobundle.vim/
-endif
-" Required
-call neobundle#begin(expand('~/.vim/plugins/'))
-" Required
-NeoBundleFetch 'Shougo/neobundle.vim'
-
+call plug#begin('~/.vim/plugins')
 
 " ======================================================================
 " Statusline - powerline
 " ======================================================================
 
-NeoBundle 'Lokaltog/vim-powerline'
-NeoBundle 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
+Plug 'Lokaltog/vim-powerline'
+Plug 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
 
 " ======================================================================
 " Search, Buffer, Tag, and File Navigation
 " ======================================================================
 
 " Ack
-NeoBundle 'mileszs/ack.vim'
+Plug 'mileszs/ack.vim'
 " Ag
-NeoBundle 'rking/ag.vim'
+Plug 'rking/ag.vim'
 " Abolish
-NeoBundle 'tpope/vim-abolish'
+Plug 'tpope/vim-abolish'
 " Command-T
-NeoBundle 'wincent/Command-T'
+Plug 'wincent/Command-T'
 " Ctrl-P
-NeoBundle 'kien/ctrlp.vim'
+Plug 'kien/ctrlp.vim'
 " Nerdtree
-NeoBundle 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
 
 
 " ======================================================================
 " Omnicompletion, Snippets
 " ======================================================================
 
-" Ultisnips
-NeoBundle 'SirVer/ultisnips'
-" Ultisnips Snippets
-NeoBundle 'git@github.com:stephenmckinney/ultisnips-snippets.git'
+" Ultisnips + my snippets
+Plug 'SirVer/ultisnips' | Plug 'git@github.com:stephenmckinney/ultisnips-snippets.git'
 " Supertab
-NeoBundle 'ervandew/supertab'
+Plug 'ervandew/supertab'
 
 
 " ======================================================================
 " Tmux Integration
 " ======================================================================
 
-" Vim-Tmux integration
-NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
-    \ 'benmills/vimux',
-    \ ]}
+" Vim-Tmux integration (vim-turbux depends on vimux)
+Plug 'benmills/vimux' | Plug 'jgdavey/vim-turbux'
 
 
 " ======================================================================
@@ -71,25 +57,21 @@ NeoBundle 'jgdavey/vim-turbux', { 'depends' : [
 " ======================================================================
 
 " Add object - Indent Object - `ai`, `ii`
-NeoBundle 'michaeljsmith/vim-indent-object'
+Plug 'michaeljsmith/vim-indent-object'
 " Add object - Ruby Block Object - `ar`, `ir`
-NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
-    \ 'kana/vim-textobj-user',
-    \ ]}
+Plug 'kana/vim-textobj-user' | Plug 'nelstrom/vim-textobj-rubyblock'
 " Endwise - add `end` after if, do, def and several other keywords
-NeoBundle 'tpope/vim-endwise'
-" Markdown Folding
-NeoBundle 'nelstrom/vim-markdown-folding'
+Plug 'tpope/vim-endwise'
 " Matchit - allows % to match more than just single characters
-NeoBundle 'edsono/vim-matchit'
+Plug 'edsono/vim-matchit'
 " Repeat - remaps `.` in a way that plugins can tap into it
-NeoBundle 'tpope/vim-repeat'
+Plug 'tpope/vim-repeat'
 " Surround - adds 'surroundings' - `s`
-NeoBundle 'tpope/vim-surround'
-" Visual mode '*' search
-NeoBundle 'nelstrom/vim-visual-star-search'
+Plug 'tpope/vim-surround'
+" Visual mode '#/*' search
+Plug 'nelstrom/vim-visual-star-search'
 " Yank History
-NeoBundle 'maxbrunsfeld/vim-yankstack'
+Plug 'maxbrunsfeld/vim-yankstack'
 
 
 " ======================================================================
@@ -97,54 +79,48 @@ NeoBundle 'maxbrunsfeld/vim-yankstack'
 " ======================================================================
 
 " BufOnly
-NeoBundle 'vim-scripts/BufOnly.vim'
+Plug 'vim-scripts/BufOnly.vim'
 " Bundler - Lightweight goodies for Bundler
-NeoBundle 'tpope/vim-bundler'
+Plug 'tpope/vim-bundler'
 " Cheat Sheet
-NeoBundle 'cheat_sheet', {'type' : 'nosync'}
+" Plug 'cheat_sheet', {'type' : 'nosync'}
 " Commentary - Comments using `gcc`, `gc*motion*`
-NeoBundle 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 " Dash
-NeoBundle 'rizzatti/dash.vim'
+Plug 'rizzatti/dash.vim'
 " Git commands
-NeoBundle 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 " Gitlog browswer
-NeoBundle 'gregsexton/gitv'
+Plug 'gregsexton/gitv'
 " Git diff
-NeoBundle 'airblade/vim-gitgutter'
-" Gundo
-NeoBundle 'sjl/gundo.vim'
+Plug 'airblade/vim-gitgutter'
 " Gist
-NeoBundle 'mattn/gist-vim', { 'depends' : [
-    \ 'mattn/webapi-vim',
-    \ ]}
+Plug 'mattn/webapi-vim' | Plug 'mattn/gist-vim'
 " Github - open current file on web
-NeoBundle 'solars/github-vim'
+Plug 'solars/github-vim'
 " Github PR review
-NeoBundle 'codegram/vim-codereview', { 'depends' : [
-    \ 'junkblocker/patchreview-vim',
-    \ ]}
+Plug 'junkblocker/patchreview-vim' | Plug 'codegram/vim-codereview'
 " Go
-"NeoBundle '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
+"Plug '/usr/local/Cellar/go/1.3.1/libexec/misc/vim', { 'type' : 'nosync' }
 " Indent Guides
-NeoBundle 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
 " Marks
-NeoBundle 'xsunsmile/showmarks'
+Plug 'xsunsmile/showmarks'
 " Narrow Region
-NeoBundle 'chrisbra/NrrwRgn'
+Plug 'chrisbra/NrrwRgn'
 " QFixToggle
-NeoBundle 'Valloric/QFixToggle'
+Plug 'Valloric/QFixToggle'
 " Sugar for shell commands - Rename, Move, etc.
-NeoBundle 'tpope/vim-eunuch'
+Plug 'tpope/vim-eunuch'
 " Scratch buffer (useful for tSlime)
-NeoBundle 'vim-scripts/scratch.vim'
+Plug 'vim-scripts/scratch.vim'
 " System copy - sytem copy: `cp*motion*`, sytem paste: `cv`
-NeoBundle 'christoomey/vim-system-copy'
+Plug 'christoomey/vim-system-copy'
 " Tabularize - Alignment
-NeoBundle "godlygeek/tabular"
+Plug "godlygeek/tabular"
 " ZoomWin
-"NeoBundle 'vim-scripts/ZoomWin'
-NeoBundle 'regedarek/ZoomWin'
+"Plug 'vim-scripts/ZoomWin'
+Plug 'regedarek/ZoomWin'
 
 
 " =========================================
@@ -152,83 +128,48 @@ NeoBundle 'regedarek/ZoomWin'
 " =========================================
 
 " HTML speediness
-"NeoBundle 'bingaman/vim-sparkup'
+"Plug 'bingaman/vim-sparkup'
 " Docs
-"NeoBundle 'git@github.com:stephenmckinney/vim-dochub.git'
+"Plug 'git@github.com:stephenmckinney/vim-dochub.git'
 " Ruby/RSpec/Rails Docs
-"NeoBundle 'lucapette/vim-ruby-doc'
-"NeoBundle 'ecomba/vim-ruby-refactoring'
-"NeoBundle 'danchoi/ri.vim'
+"Plug 'lucapette/vim-ruby-doc'
+"Plug 'ecomba/vim-ruby-refactoring'
+"Plug 'danchoi/ri.vim'
 
 
 " ======================================================================
-" Languages & Syntax Highlighting
+" Languages, File Types & Syntax Highlighting
 " ======================================================================
 
 " Syntastic
-NeoBundle 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 
-" Capybara
-NeoBundle 'asux/vim-capybara'
-" CoffeeScript
-NeoBundle 'kchmck/vim-coffee-script'
-" Cucumber
-NeoBundle 'tpope/vim-cucumber'
-" Git
-NeoBundle 'tpope/vim-git'
-" Haml + SASS + SCSS
-NeoBundle 'tpope/vim-haml'
-" Handlebarsjs/Mustache
-NeoBundle 'mustache/vim-mustache-handlebars'
-" JavaScript
-NeoBundle 'pangloss/vim-javascript'
-" JQuery
-NeoBundle 'itspriddle/vim-jquery'
-" Less
-NeoBundle 'groenewege/vim-less'
-" Markdown
-NeoBundle 'tpope/vim-markdown'
-" MiniTest
-NeoBundle 'sunaku/vim-ruby-minitest'
-" Puppet
-NeoBundle 'ajf/puppet-vim'
 " Rails
-NeoBundle 'tpope/vim-rails'
-" Rspec
-NeoBundle 'skwp/vim-rspec'
+Plug 'tpope/vim-rails'
 " Ruby
-NeoBundle 'vim-ruby/vim-ruby'
-" SCSS
-NeoBundle 'cakebaker/scss-syntax.vim'
-" Shoulda
-NeoBundle 'tsaleh/vim-shoulda'
-" Textile
-NeoBundle 'timcharper/textile.vim'
+Plug 'vim-ruby/vim-ruby'
 " Tmux
-NeoBundle 'zaiste/tmux.vim'
+Plug 'zaiste/tmux.vim'
 
 
 " ======================================================================
 " Themes
 " ======================================================================
 
-NeoBundle 'git@github.com:stephenmckinney/vim-colors-solarized'
-NeoBundleLazy 'chriskempson/vim-tomorrow-theme'
-NeoBundleLazy 'wgibbs/vim-irblack'
-NeoBundleLazy 'tpope/vim-vividchalk'
+Plug 'git@github.com:stephenmckinney/vim-colors-solarized'
+Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'wgibbs/vim-irblack'
+Plug 'tpope/vim-vividchalk'
 
 
 " ======================================================================
 " Flip the on switch!
+" * Add plugins to &runtimepath
+" * filetype plugin indent on
+" * syntax enable
 " ======================================================================
 
-call neobundle#end()
-" Required
-" Load the filetype detection, plugin, and indent settings
-filetype plugin indent on
-
-" Check installation
-NeoBundleCheck
+call plug#end()
 
 
 " ======================================================================
@@ -248,6 +189,7 @@ NeoBundleCheck
 " 'vim-scripts/Rename2' - vim-eunich does SO much more
 " 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
 " 'stephenmckinney/vim-autotag' - rather just do it by hand
+" 'sjl/gundo.vim' - I just never use this shit
 "
 "
 "
