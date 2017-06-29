@@ -103,10 +103,12 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsEditSplit='vertical'
 
 " Syntastic
-let g:syntastic_auto_jump=1
+" When set to 1 always stick any detected errors into the location-list.
+let g:syntastic_always_populate_loc_list = 1
+" When set to 1 the error window will be automatically opened when errors are detected, and closed when none are detected.
 let g:syntastic_auto_loc_list=1
-let g:syntastic_quiet_messages = {'level': 'warnings'}
-" Uncomment if you are in a bad project with multiple "mains"
+" When set to 1 the cursor will always jump to the first issue detected, regardless of type.
+let g:syntastic_auto_jump=1
 "let g:syntastic_go_go_quiet_messages = { 'level' : ['warnings', 'errors'] }
 let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
 let g:syntastic_javascript_checkers = ['jshint']
