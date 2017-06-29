@@ -76,6 +76,10 @@ Plug 'maxbrunsfeld/vim-yankstack'
 " Syntastic
 Plug 'scrooloose/syntastic'
 
+" ES2015
+Plug 'pangloss/vim-javascript'
+" JSX
+Plug 'mxw/vim-jsx'
 " Rails
 Plug 'tpope/vim-rails'
 " Ruby

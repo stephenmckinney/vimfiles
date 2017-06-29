@@ -45,6 +45,9 @@ let g:indent_guides_start_level = 2
 " let g:html_indent_script1 = "inc"
 " let g:html_indent_style1 = "inc"
 
+" JSX
+let g:jsx_ext_required = 0
+
 " Matchit
 runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigation
 
@@ -109,9 +112,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list=1
 " When set to 1 the cursor will always jump to the first issue detected, regardless of type.
 let g:syntastic_auto_jump=1
-"let g:syntastic_go_go_quiet_messages = { 'level' : ['warnings', 'errors'] }
-let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
-let g:syntastic_javascript_checkers = ['jshint']
+" Use eslint
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Turbux
