@@ -36,22 +36,22 @@ task :install do
   end
   puts
 
-  make_backup_undo_dir
 
-  install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
+  make_dir('undo')
+  make_dir('backup')
 
-  install_neobundle
+  install_fonts if RUBY_PLATFORM.downcase.include?('darwin')
 
-  install_plugins
+  puts "======================================================"
+  puts "Follow install instructions: https://github.com/junegunn/vim-plug"
+  puts "======================================================"
 
   success_msg("installed")
 end
 
-desc "Upgrade Vim plugins"
-task :upgrade_plugins do
-  upgrade_plugins
-end
-
+# ======================================================
+# File helpers
+# ======================================================
 def replace_file(file)
   system %Q{rm -rf "$HOME/.#{file.sub('.erb', '')}"}
   link_file(file)
@@ -69,32 +69,19 @@ def link_file(file)
   end
 end
 
-def make_backup_undo_dir
-  unless Dir.exist?(File.join(ENV['HOME'], '.vim', 'backup'))
+def make_dir(name)
+  unless Dir.exist?(File.join(ENV['HOME'], '.vim', name))
     puts "======================================================"
-    puts "Creating backup dir"
+    puts "Creating #{name} dir"
     puts "======================================================"
-    system %Q{mkdir $HOME/.vim/backup}
-    puts
-  end
-
-  unless Dir.exist?(File.join(ENV['HOME'], '.vim', 'undo'))
-    puts "======================================================"
-    puts "Creating undo dir"
-    puts "======================================================"
-    system %Q{mkdir $HOME/.vim/undo}
+    system %Q{mkdir $HOME/.vim/#{name}}
     puts
   end
 end
 
-def success_msg(action)
-  puts "======================================================"
-  puts "Success!"
-  puts "======================================================"
-  puts
-  puts ".vimfiles have been #{action}. Please restart any open Vim sessions."
-end
-
+# ======================================================
+# Install helpers
+# ======================================================
 def install_fonts
   puts "======================================================"
   puts "Installing patched fonts for Vim Powerline"
@@ -103,28 +90,13 @@ def install_fonts
   puts
 end
 
-def install_neobundle
-  unless File.exist?(File.join(ENV['HOME'], '.vim', 'plugins', 'neobundle.vim'))
-    puts "======================================================"
-    puts "Installing neobundle.vim"
-    puts "======================================================"
-    system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/plugins/neobundle.vim")
-    puts
-  end
-end
-
-def install_plugins
+# ======================================================
+# Message helpers
+# ======================================================
+def success_msg(action)
   puts "======================================================"
-  puts "Installing plugins via neobundle.vim"
+  puts "Success!"
   puts "======================================================"
-  system("vim +NeoBundleInstall +qa")
   puts
-end
-
-def upgrade_plugins
-  puts "======================================================"
-  puts "Upgrading plugins via neobundle.vim"
-  puts "======================================================"
-  system("vim +NeoBundleUpdate +qa")
-  puts
+  puts ".vimfiles have been #{action}. Please restart any open Vim sessions."
 end

@@ -17,13 +17,14 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
     rbenv shell system
     brew install vim --with-custom-ruby
 
-> **Wat?** Homebrew'd Vim hates Ruby 1.9 on OS X without a certain patch
-> see [issue](https://github.com/mxcl/homebrew/issues/15902).
+> **Wat?** Vim will dynamically link to Ruby, so let's use system Ruby.
 
 ### Install Vimfiles and Plugins
 
     git clone git@github.com:stephenmckinney/vimfiles.git
     cd ~/.vimfiles && rake install
+
+Follow install instructions for vim-plug and plugins: https://github.com/junegunn/vim-plug.
 
 ### Compile Command-T
 
@@ -32,7 +33,7 @@ Install [Homebrew](http://mxcl.github.com/homebrew/), then:
 
 ## Stay Updated
 
-    vim +NeoBundleUpdate +q
+Follow update instructions for vim-plug and plugins: https://github.com/junegunn/vim-plug.
 
 ## Ctags
 
