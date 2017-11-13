@@ -334,8 +334,8 @@ endfunction
 
 " Set up Markdown Preview keymap
 function! s:SetupMarkdownPreview()
-  command! Marked silent !open -a "Marked.app" "%:p"
-  nmap <silent> <leader>p :Marked<CR>\|:redraw!<CR>
+  command! Markdown silent !macdown "%:p"
+  nmap <silent> <leader>p :Markdown<CR>\|:redraw!<CR>
 endfunction
 
 " If the parameter is a directory, cd into it
