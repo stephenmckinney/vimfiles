@@ -50,7 +50,7 @@ Fugitve will set `tags` to `.git/tags` and all will work well.
 
 *The below are installed by following the steps in the [Install](#install) section.*
 
-* [NeoBundle.vim](https://github.com/Shougo/neobundle.vim) to manage [a laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim)
+* [Vim-Plug](https://github.com/junegunn/vim-plug) to manage [a laundry list of Vim plugins](https://github.com/stephenmckinney/vimfiles/blob/master/vim/plugin.vim)
 * My own Vim plugins and forks:
     * [Solarized Vim theme](https://github.com/stephenmckinney/vim-colors-solarized) with opinionatedly better support for Ruby, Omnicompletion, ShowMarks, Command-T, and CtrlP
     * [Solarized Powerline theme](https://github.com/stephenmckinney/vim-solarized-powerline) to bring Solarized to the statusbar
