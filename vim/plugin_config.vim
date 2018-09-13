@@ -97,7 +97,7 @@ let g:solarized_hitrail=1          "default value is 0
 "let g:SuperTabDefaultCompletionType = "context"
 
 " UltiSnips
-let g:UltiSnipsUsePythonVersion = 2
+let g:UltiSnipsUsePythonVersion = 3
 let g:UltiSnipsSnippetDirectories=['plugins/ultisnips', 'plugins/ultisnips-snippets']
 let g:UltiSnipsListSnippets="<c-j>" " terminal doesn't understand <c-tab>
 let g:UltiSnipsExpandTrigger="<tab>"
