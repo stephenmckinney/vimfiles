@@ -140,31 +140,31 @@ nmap <leader>a :Ack!<space>
 nmap <leader>A :Ack!<CR>
 
 " =============
-" CommandT/CtrlP
+" FZF/CommandT/CtrlP
 " =============
-nmap <silent> <leader>t :CommandT<CR>
-nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
-nmap <silent> <leader>b :CtrlPBuffer<CR>
+nmap <silent> <leader>t :Files<CR>
+" nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
+nmap <silent> <leader>b :Buffers<CR>
 nmap <silent> <leader>B :BufOnly<CR>
 " Rails Command-T Mappings - taken from:
 "   https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/ctrlp.vim
 "   Open Command-T starting from a particular path, making it much
 "   more likely to find the correct thing first. mnemonic 'jump to [something]'
-nmap <leader>ja :CommandT app/assets<CR>
-nmap <leader>jc :CommandT app/controllers<CR>
-nmap <leader>jh :CommandT app/helpers<CR>
-nmap <leader>jm :CommandT app/models<CR>
-nmap <leader>jv :CommandT app/views<CR>
-nmap <leader>jF :CommandT test/fixtures<CR>
-nmap <leader>jf :CommandT features<CR>
-nmap <leader>jl :CommandT lib<CR>
-nmap <leader>jp :CommandT public<CR>
-nmap <leader>js :CommandT spec<CR>
+" nmap <leader>ja :CommandT app/assets<CR>
+" nmap <leader>jc :CommandT app/controllers<CR>
+" nmap <leader>jh :CommandT app/helpers<CR>
+" nmap <leader>jm :CommandT app/models<CR>
+" nmap <leader>jv :CommandT app/views<CR>
+" nmap <leader>jF :CommandT test/fixtures<CR>
+" nmap <leader>jf :CommandT features<CR>
+" nmap <leader>jl :CommandT lib<CR>
+" nmap <leader>jp :CommandT public<CR>
+" nmap <leader>js :CommandT spec<CR>
 "nmap <leader>jF :CommandT spec/factories<CR>
-nmap <leader>jt :CommandT test<CR>
-nmap <leader>jd :CommandT db<CR>
-nmap <leader>jC :CommandT config<CR>
-nmap <leader>jV :CommandT vendor<CR>
+" nmap <leader>jt :CommandT test<CR>
+" nmap <leader>jd :CommandT db<CR>
+" nmap <leader>jC :CommandT config<CR>
+" nmap <leader>jV :CommandT vendor<CR>
 "Cmd-(m)ethod - jump to a method (tag in current file)
 nmap <leader>m :CtrlPBufTag<CR>
 "Ctrl-(M)ethod - jump to a method (tag within a generated central tags file)
@@ -334,8 +334,8 @@ endfunction
 
 " Set up Markdown Preview keymap
 function! s:SetupMarkdownPreview()
-  command! Marked silent !open -a "Marked.app" "%:p"
-  nmap <silent> <leader>p :Marked<CR>\|:redraw!<CR>
+  command! Markdown silent !macdown "%:p"
+  nmap <silent> <leader>p :Markdown<CR>\|:redraw!<CR>
 endfunction
 
 " If the parameter is a directory, cd into it
@@ -357,6 +357,7 @@ function! s:CdIfDirectory(directory)
     NERDTree
     wincmd p
     bd
+    wincmd p
   endif
 
   if explicitDirectory
@@ -405,6 +406,10 @@ endfunction
 " ======================================================================
 
 if has("autocmd")
+  augroup samFileTypeSet
+    autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+  augroup END
+
   augroup samFileTypeOptions
     au!
 

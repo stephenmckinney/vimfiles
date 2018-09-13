@@ -41,15 +41,15 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 
 " HTML seettings from javascript.vim
-let g:html_indent_inctags = "html,body,head,tbody"
-let g:html_indent_script1 = "inc"
-let g:html_indent_style1 = "inc"
+" let g:html_indent_inctags = "html,body,head,tbody"
+" let g:html_indent_script1 = "inc"
+" let g:html_indent_style1 = "inc"
+
+" JSX
+let g:jsx_ext_required = 0
 
 " Matchit
 runtime macros/matchit.vim " Enable matchit.vim for Ruby blocks and HTML navigation
-
-" NeoBundle
-let g:neobundle#log_filename=expand('~/.vim/plugin_install.log')
 
 " NERDTree
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o', '\~$']
@@ -93,14 +93,11 @@ let g:solarized_hitrail=1          "default value is 0
 "hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
 "hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
 
-" Sparkup
-let g:sparkupExecuteMapping='<c-y>'
-
 " Supertab
 "let g:SuperTabDefaultCompletionType = "context"
 
 " UltiSnips
-let g:UltiSnipsUsePythonVersion = 2
+let g:UltiSnipsUsePythonVersion = 3
 let g:UltiSnipsSnippetDirectories=['plugins/ultisnips', 'plugins/ultisnips-snippets']
 let g:UltiSnipsListSnippets="<c-j>" " terminal doesn't understand <c-tab>
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -109,13 +106,15 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsEditSplit='vertical'
 
 " Syntastic
-let g:syntastic_auto_jump=1
+" When set to 1 always stick any detected errors into the location-list.
+let g:syntastic_always_populate_loc_list = 1
+" When set to 1 the error window will be automatically opened when errors are detected, and closed when none are detected.
 let g:syntastic_auto_loc_list=1
-let g:syntastic_quiet_messages = {'level': 'warnings'}
-" Uncomment if you are in a bad project with multiple "mains"
-"let g:syntastic_go_go_quiet_messages = { 'level' : ['warnings', 'errors'] }
-let g:syntastic_javascript_jshint_quiet_messages = { 'level' : [] }
-let g:syntastic_javascript_checkers = ['jshint']
+" When set to 3 the cursor will jump to the first error detected, if any. If
+" all issues detected are warnings, the cursor won't jump.
+let g:syntastic_auto_jump=3
+" Use eslint
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Turbux
@@ -123,7 +122,8 @@ let g:no_turbux_mappings = 1
 " hack to fix broken 'run focused test' since https://github.com/jgdavey/vim-turbux/pull/36
 let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
-let g:turbux_command_test_unit = './bin/spring rake test' " for Chorus testing with Spring
+let g:turbux_command_test_unit = 'rails test'
+let g:turbux_command_rspec = 'rspec --format documentation'
 
 " YankStank
 let g:yankstack_map_keys = 0
