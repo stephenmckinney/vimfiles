@@ -73,19 +73,17 @@ Plug 'maxbrunsfeld/vim-yankstack'
 " Languages, File Types & Syntax Highlighting
 " ======================================================================
 
+" Editorconfig
+Plug 'editorconfig/editorconfig-vim'
+
 " Syntastic
 Plug 'scrooloose/syntastic'
 
-" ES2015
-Plug 'pangloss/vim-javascript'
-" JSX
-Plug 'mxw/vim-jsx'
+" Ruby, ES6, JSX, Tmux provided by vim-polygot
+Plug 'sheerun/vim-polyglot'
+
 " Rails
 Plug 'tpope/vim-rails'
-" Ruby
-Plug 'vim-ruby/vim-ruby'
-" Tmux
-Plug 'zaiste/tmux.vim'
 
 
 " ======================================================================
@@ -118,8 +116,9 @@ Plug 'gregsexton/gitv'
 Plug 'airblade/vim-gitgutter'
 " Gist
 Plug 'mattn/webapi-vim' | Plug 'mattn/gist-vim'
-" Github - open current file on web
-Plug 'solars/github-vim'
+" Github - If fugitive.vim is the Git, rhubarb.vim is the Hub
+" Sets up :Git to use hub if installed rather than git
+Plug 'tpope/vim-rhubarb'
 " Github PR review
 Plug 'junkblocker/patchreview-vim' | Plug 'codegram/vim-codereview'
 " Go
@@ -207,7 +206,6 @@ call plug#end()
 " 'nelstrom/vim-markdown-preview' - Not bad but Marked.app is better
 " 'vim-scripts/YankRing.vim' - kept messing up my Vim macros
 " 'tpope/vim-rake' - Causes errors when used with gitv. Maybe another time.
-" 'tpope/vim-rhubarb' - maybe when it has more features
 " 'vim-scripts/Rename2' - vim-eunich does SO much more
 " 'majutsushi/tagbar' - meh, Ctrl-P has good tag navigation
 " 'stephenmckinney/vim-autotag' - rather just do it by hand
