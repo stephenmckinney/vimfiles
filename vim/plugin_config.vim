@@ -110,8 +110,9 @@ let g:UltiSnipsEditSplit='vertical'
 let g:syntastic_always_populate_loc_list = 1
 " When set to 1 the error window will be automatically opened when errors are detected, and closed when none are detected.
 let g:syntastic_auto_loc_list=1
-" When set to 1 the cursor will always jump to the first issue detected, regardless of type.
-let g:syntastic_auto_jump=1
+" When set to 3 the cursor will jump to the first error detected, if any. If
+" all issues detected are warnings, the cursor won't jump.
+let g:syntastic_auto_jump=3
 " Use eslint
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
