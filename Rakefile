@@ -40,10 +40,8 @@ task :install do
   make_dir('undo')
   make_dir('backup')
 
-  install_fonts if RUBY_PLATFORM.downcase.include?('darwin')
-
   puts "======================================================"
-  puts "Follow install instructions: https://github.com/junegunn/vim-plug"
+  puts "vim-plug will auto-install on launch"
   puts "======================================================"
 
   success_msg("installed")
@@ -77,17 +75,6 @@ def make_dir(name)
     system %Q{mkdir $HOME/.vim/#{name}}
     puts
   end
-end
-
-# ======================================================
-# Install helpers
-# ======================================================
-def install_fonts
-  puts "======================================================"
-  puts "Installing patched fonts for Vim Powerline"
-  puts "======================================================"
-  system %{ cp -f $HOME/.vimfiles/fonts/* $HOME/Library/Fonts }
-  puts
 end
 
 # ======================================================
