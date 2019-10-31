@@ -125,11 +125,13 @@ let g:syntastic_mode_map = {
 
 " Turbux
 let g:no_turbux_mappings = 1
+let g:turbux_runner  = 'vimux'
 " hack to fix broken 'run focused test' since https://github.com/jgdavey/vim-turbux/pull/36
 let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
 let g:turbux_command_test_unit = 'rails test'
 let g:turbux_command_rspec = 'rspec --format documentation'
+let g:turbux_command_javascript_test = 'NODE_ENV=test mocha --exit'
 
 " YankStank
 let g:yankstack_map_keys = 0
