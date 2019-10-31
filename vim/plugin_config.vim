@@ -115,7 +115,13 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_jump=3
 " Use eslint
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_ruby_checkers = ['mri'] ", 'rubocop']
+" let g:syntastic_quiet_messages = finddir('app_sbn', '.;') == '' ? { "level" : [] } : { "level": "warnings" }
+let g:syntastic_quiet_messages = { "level": "warnings" }
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": ["html"] }
 
 " Turbux
 let g:no_turbux_mappings = 1
