@@ -60,13 +60,13 @@ let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
 let NERDTreeWinSize=25
 
-" Powerline
-let g:Powerline_symbols='fancy'
-let g:Powerline_theme='short'
-let g:Powerline_colorscheme='solarized16_dark'
-if has("gui_macvim")
-  let g:Powerline_colorscheme='solarized256_dark'
-end
+" Powerline - defunct for now
+" let g:Powerline_symbols='fancy'
+" let g:Powerline_theme='short'
+" let g:Powerline_colorscheme='solarized16_dark'
+" if has("gui_macvim")
+"   let g:Powerline_colorscheme='solarized256_dark'
+" end
 
 " Ruby Doc
 "let g:ruby_doc_command='open'
