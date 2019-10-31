@@ -142,7 +142,7 @@ nmap <leader>A :Ack!<CR>
 " =============
 " FZF/CommandT/CtrlP
 " =============
-nmap <silent> <leader>t :Files<CR>
+nmap <silent> <leader>t :GFiles<CR>
 " nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
 nmap <silent> <leader>b :Buffers<CR>
 nmap <silent> <leader>B :BufOnly<CR>
