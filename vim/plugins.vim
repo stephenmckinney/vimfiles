@@ -99,7 +99,7 @@ Plug 'tpope/vim-rails'
 " ======================================================================
 
 " Vim-Tmux integration
-Plug 'benmills/vimux' | Plug 'jgdavey/vim-turbux'
+Plug 'benmills/vimux' | Plug 'git@github.com:stephenmckinney/vim-turbux', { 'as': 'vim-turbux' }
 
 
 " ======================================================================
@@ -156,7 +156,7 @@ Plug 'regedarek/ZoomWin'
 " Themes
 " ======================================================================
 
-Plug 'git@github.com:stephenmckinney/vim-colors-solarized'
+Plug 'git@github.com:stephenmckinney/vim-colors-solarized', { 'as': 'vim-colors-solarized' }
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'wgibbs/vim-irblack'
 Plug 'tpope/vim-vividchalk'
