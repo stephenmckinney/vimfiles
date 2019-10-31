@@ -14,8 +14,8 @@ call yankstack#setup()
 command! W :w
 
 " Page up/Page down: Space/Ctrl-Space
-nnoremap <Space> <C-d>
-nnoremap <C-@> <C-u>
+" nnoremap <Space> <C-d>
+" nnoremap <C-@> <C-u>
 
 " Make j and k move by screen line instead of file line
 nnoremap j gj
