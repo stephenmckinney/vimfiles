@@ -60,14 +60,6 @@ let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
 let NERDTreeWinSize=25
 
-" Powerline - defunct for now
-" let g:Powerline_symbols='fancy'
-" let g:Powerline_theme='short'
-" let g:Powerline_colorscheme='solarized16_dark'
-" if has("gui_macvim")
-"   let g:Powerline_colorscheme='solarized256_dark'
-" end
-
 " Ruby Doc
 "let g:ruby_doc_command='open'
 
@@ -81,7 +73,7 @@ let g:showmarks_include = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz"
 let g:showmarks_hlline_lower=1
 let g:showmarks_hlline_upper=1
 
-" Solarized
+" Solarized + Lightline
 if !has("gui_macvim")
   let g:solarized_termcolors=16
 end
@@ -89,9 +81,26 @@ let g:solarized_contrast="normal"  "default value is normal
 let g:solarized_diffmode="high"    "default value is normal
 let g:solarized_visibility="high"  "default value is normal
 let g:solarized_hitrail=1          "default value is 0
-"hi Pmenu  guifg=#000000 guibg=#F8F8F8 ctermfg=black ctermbg=Lightgray
-"hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
-"hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
+let g:lightline = {
+  \ 'colorscheme': 'solarized',
+  \ 'component_function': {
+  \   'filename': 'LightlineFilename',
+  \   'fileformat': 'LightlineFileformat',
+  \   'fileencoding': 'LightlineFileencoding',
+  \ },
+  \ }
+
+function! LightlineFilename()
+  return winwidth(0) > 70 ? fnamemodify(expand("%"), ":~:.") : pathshorten(fnamemodify(expand("%"), ":~:."))
+endfunction
+
+function! LightlineFileformat()
+  return winwidth(0) > 70 ? &fileformat : ''
+endfunction
+
+function! LightlineFileencoding()
+  return winwidth(0) > 70 ? &fileencoding : ''
+endfunction
 
 " Supertab
 "let g:SuperTabDefaultCompletionType = "context"

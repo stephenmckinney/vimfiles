@@ -20,12 +20,10 @@ call plug#begin('~/.vim/plugins')
 
 
 " ======================================================================
-" Statusline - powerline
+" Statusline - lightline
 " ======================================================================
 
-Plug 'Lokaltog/vim-powerline'
-Plug 'git@github.com:stephenmckinney/vim-solarized-powerline.git'
-
+Plug 'itchyny/lightline.vim'
 
 " ======================================================================
 " Search, Buffer, Tag, and File Navigation
