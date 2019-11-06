@@ -146,24 +146,30 @@ nmap <silent> <leader>t :GFiles<CR>
 " nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
 nmap <silent> <leader>b :Buffers<CR>
 nmap <silent> <leader>B :BufOnly<CR>
-" Rails Command-T Mappings - taken from:
-"   https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/ctrlp.vim
-"   Open Command-T starting from a particular path, making it much
-"   more likely to find the correct thing first. mnemonic 'jump to [something]'
+" FZF mappings that work in Rails and Node.js projects:
+"   Idea from: https://github.com/skwp/dotfiles/blob/master/vim/settings/ctrlp.vim
+"   mnemonic 'jump to [something]'
+" models
+nmap <leader>jm :<c-u>call fzf#vim#files('', {'options': ['--query', "'/models/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
+" views
+nmap <leader>jv :<c-u>call fzf#vim#files('', {'options': ['--query', "'/views/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
+" controllers
+nmap <leader>jc :<c-u>call fzf#vim#files('', {'options': ['--query', "'/controllers/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
+" lib
+nmap <leader>jl :<c-u>call fzf#vim#files('', {'options': ['--query', "^lib \\| ^src/lib "], 'source': 'fd --type f --exclude test --exclude /public' })<cr>
+" db
+nmap <leader>jd :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path db'})<cr>
+" tests
+nmap <leader>jt :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path test --exclude fixtures --exclude cassettes'})<cr>
+" config
+nmap <leader>jC :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path config'})<cr>
 " nmap <leader>ja :CommandT app/assets<CR>
-" nmap <leader>jc :CommandT app/controllers<CR>
 " nmap <leader>jh :CommandT app/helpers<CR>
-" nmap <leader>jm :CommandT app/models<CR>
-" nmap <leader>jv :CommandT app/views<CR>
 " nmap <leader>jF :CommandT test/fixtures<CR>
 " nmap <leader>jf :CommandT features<CR>
-" nmap <leader>jl :CommandT lib<CR>
 " nmap <leader>jp :CommandT public<CR>
 " nmap <leader>js :CommandT spec<CR>
-"nmap <leader>jF :CommandT spec/factories<CR>
-" nmap <leader>jt :CommandT test<CR>
-" nmap <leader>jd :CommandT db<CR>
-" nmap <leader>jC :CommandT config<CR>
+" nmap <leader>jF :CommandT spec/factories<CR>
 " nmap <leader>jV :CommandT vendor<CR>
 "Cmd-(m)ethod - jump to a method (tag in current file)
 nmap <leader>m :CtrlPBufTag<CR>
