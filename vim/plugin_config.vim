@@ -140,8 +140,8 @@ let g:turbux_runner  = 'vimux'
 let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
 let g:turbux_command_test_unit = 'rails test'
-let g:turbux_command_rspec = 'rspec --format documentation'
-let g:turbux_command_javascript_test = 'NODE_ENV=test mocha --exit'
+let g:turbux_command_rspec = 'bundle exec rspec --format documentation'
+let g:turbux_command_javascript_test = 'yarn'
 
 " YankStank
 let g:yankstack_map_keys = 0
