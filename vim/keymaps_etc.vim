@@ -35,6 +35,9 @@ nmap Y y$
 " Close HTML tag (ctrl-/)
 imap <silent> <C-_> </<C-X><C-O>
 
+" auto-indent entire file
+nmap <leader>i gg=G<C-o><C-o>
+
 " Toggle paste mode
 "set pastetoggle=<F12>
 
