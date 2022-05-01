@@ -12,7 +12,7 @@ endif
 " Basics
 set encoding=utf-8
 set shell=/bin/bash
-set history=100 " keep 100 lines of command line history
+set history=1000 " keep lines of command line history
 set ttyfast
 set showcmd   " display incomplete commands
 set showmode  " display mode
@@ -36,6 +36,10 @@ set nowrap " do not wrap long lines
 " Escape quickly
 set ttimeout
 set ttimeoutlen=100
+
+" Max column to search for syntax.
+" This helps to avoid very slow redrawing for an XML file that is one.
+set synmaxcol=500
 
 " Folding
 set foldmethod=indent   " fold based on indent
