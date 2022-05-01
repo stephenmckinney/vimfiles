@@ -212,12 +212,12 @@ command! -range Dg <line1>,<line2>diffget | diffupdate
 command! -range Dp <line1>,<line2>diffput | diffupdate
 xmap <leader>dg :diffget<CR>\|:diffupdate<CR>
 xmap <leader>dp :diffput<CR>\|:diffupdate<CR>
-nmap <leader>gb :Gblame<CR>
-nmap <leader>gh :Gbrowse<CR>
-nmap <leader>gc :Gcommit<CR>
-nmap <leader>gd :Gvdiff<CR>
+nmap <leader>gb :Git blame<CR>
+nmap <leader>gh :GBrowse<CR>
+nmap <leader>gc :Git commit<CR>
+nmap <leader>gd :Gvdiffsplit<CR>
 nmap <leader>gr :Gread<CR>
-nmap <leader>gs :Gstatus<CR>
+nmap <leader>gs :Git<CR>
 nmap <leader>gw :Gwrite<CR>
 nmap <leader>gv :Gitv! --all<CR> " File mode
 vmap <leader>gv :Gitv! --all<CR> " File mode
@@ -318,27 +318,6 @@ nmap <C-p> <Plug>yankstack_substitute_older_paste
 nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
 
-" ======================================================================
-"
-"                 Below Lies Functions and Autocmds...
-"
-"
-"                                             ,,,
-"                          _         _      \(((.
-"                   __,,../v\,----../ `-..=.>"" _\,_
-"          _______;/____<_  \_______\ \___////______;______
-"                ,"/      `.)        `.)       ```
-"               /,"        /7__       /7_
-"              ((          ' \\\       )))
-"               \\
-"                ))
-"               ((
-"                )
-"               /
-"
-"
-"
-"
 " ======================================================================
 " Functions
 " ======================================================================
