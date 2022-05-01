@@ -38,6 +38,7 @@ let NERDTreeHijackNetrw = 0
 let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
 let NERDTreeWinSize=25
+let NERDTreeStatusline=-1
 
 " Ruby Doc
 "let g:ruby_doc_command='open'
