@@ -1,32 +1,11 @@
 " plugin_config.vim - Plugin configuration
 
-" Ack
-let g:ackprg = 'ack --nogroup --nocolor --column --with-filename'
-
 "Ag
-let g:ag_prg  = 'ag --nogroup --nocolor --column --ignore tmp'
+let g:ag_prg  = 'ag --vimgrep --smart-case'
+let g:ag_highlight=1
 
-" Command-T
-let g:CommandTMaxHeight=20
-let g:CommandTMaxFiles=20000
-let g:CommandTMaxCachedDirectories=0
-let g:CommandTCancelMap='<ESC>'
-let g:CommandTAcceptSelectionSplitMap='<C-h>' " <C-s> won't work in TERM
-
-" CtrlP
-let g:ctrlp_map = ''
-let g:ctrlp_mruf_default_order = 1
-let g:ctrlp_match_window_bottom = 1
-let g:ctrlp_match_window_reversed = 1
-let g:ctrlp_max_height = 20
-let g:ctrlp_open_new_file = 'v'
-let g:ctrlp_extensions = ['buffertag', 'tag']
-" This should be unecessary since we HAVE to set |wildignore| options
-" for Command-T (unfortunately). And these custom ignores are identical
-" to our |wildignore| settings.
-"let g:ctrlp_custom_ignore = {
-"\ 'dir':  'bin$\|db/migrate$\|log$\|public/cache$\|public/stylesheets$\|public/system$\|script$\|tmp$\|vendor$'
-"\ }
+" FZF
+let g:fzf_command_prefix = 'Fzf'
 
 " Gist
 let g:gist_post_private = 1
@@ -59,6 +38,7 @@ let NERDTreeHijackNetrw = 0
 let NERDTreeMapOpenVSplit='v'
 let NERDTreeMapOpenSplit='s'
 let NERDTreeWinSize=25
+let NERDTreeStatusline=-1
 
 " Ruby Doc
 "let g:ruby_doc_command='open'
@@ -84,14 +64,31 @@ let g:solarized_hitrail=1          "default value is 0
 let g:lightline = {
   \ 'colorscheme': 'solarized',
   \ 'component_function': {
+  \   'mode': 'LightlineMode',
   \   'filename': 'LightlineFilename',
+  \   'modified': 'LightlineModified',
+  \   'readonly': 'LightlineReadonly',
   \   'fileformat': 'LightlineFileformat',
   \   'fileencoding': 'LightlineFileencoding',
+  \   'filetype': 'LightlineFiletype',
   \ },
   \ }
 
+function! LightlineMode()
+  return &filetype !=# 'nerdtree' ? lightline#mode() : ''
+endfunction
+
 function! LightlineFilename()
-  return winwidth(0) > 70 ? fnamemodify(expand("%"), ":~:.") : pathshorten(fnamemodify(expand("%"), ":~:."))
+  return &filetype ==# 'nerdtree' ? '' :
+        \ winwidth(0) > 70 ? fnamemodify(expand("%"), ":~:.") : pathshorten(fnamemodify(expand("%"), ":~:."))
+endfunction
+
+function! LightlineModified()
+  return &modified && &filetype !=# 'nerdtree' ? '+' : ''
+endfunction
+
+function! LightlineReadonly()
+  return &readonly && &filetype !=# 'nerdtree' ? 'RO' : ''
 endfunction
 
 function! LightlineFileformat()
@@ -100,6 +97,10 @@ endfunction
 
 function! LightlineFileencoding()
   return winwidth(0) > 70 ? &fileencoding : ''
+endfunction
+
+function! LightlineFiletype()
+  return &filetype !=# 'nerdtree' ? &filetype : ''
 endfunction
 
 " Supertab
@@ -139,8 +140,8 @@ let g:turbux_runner  = 'vimux'
 let g:turbux_test_type = ''
 "let g:turbux_command_prefix = 'bundle exec'
 let g:turbux_command_test_unit = 'rails test'
-let g:turbux_command_rspec = 'rspec --format documentation'
-let g:turbux_command_javascript_test = 'NODE_ENV=test mocha --exit'
+let g:turbux_command_rspec = 'bundle exec rspec --format documentation'
+let g:turbux_command_javascript_test = 'yarn'
 
 " YankStank
 let g:yankstack_map_keys = 0

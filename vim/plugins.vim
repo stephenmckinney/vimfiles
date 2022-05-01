@@ -7,11 +7,12 @@
 " ======================================================================
 " Auto-install vim-plug
 " ======================================================================
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
+
 
 " ======================================================================
 " Start adding plugins
@@ -25,20 +26,15 @@ call plug#begin('~/.vim/plugins')
 
 Plug 'itchyny/lightline.vim'
 
+
 " ======================================================================
 " Search, Buffer, Tag, and File Navigation
 " ======================================================================
 
-" Ack
-Plug 'mileszs/ack.vim'
 " Ag
 Plug 'rking/ag.vim'
 " Abolish
 Plug 'tpope/vim-abolish'
-" Command-T
-Plug 'wincent/Command-T'
-" Ctrl-P
-Plug 'kien/ctrlp.vim'
 " FZF
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 " Nerdtree
@@ -164,6 +160,8 @@ Plug 'tpope/vim-vividchalk'
 " Plugins I'm experimenting with
 " =========================================
 " ...
+" Gutentags
+" Plug 'ludovicchabant/vim-gutentags'
 
 
 " ======================================================================

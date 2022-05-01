@@ -35,6 +35,9 @@ nmap Y y$
 " Close HTML tag (ctrl-/)
 imap <silent> <C-_> </<C-X><C-O>
 
+" auto-indent entire file
+nmap <leader>i gg=G<C-o><C-o>
+
 " Toggle paste mode
 "set pastetoggle=<F12>
 
@@ -136,33 +139,52 @@ nnoremap <leader>S :%s/\<<C-r><C-w>\>//g<Left><Left>
 " Ack ignores are stored in ~/.ackrc
 nmap <leader>f :Ag!<space>
 nmap <leader>F :Ag!<CR>
-nmap <leader>a :Ack!<space>
-nmap <leader>A :Ack!<CR>
+nmap <leader>a :FzfAg!<space>
+nmap <leader>A :FzfAg! <C-R><C-W><CR>
 
 " =============
 " FZF/CommandT/CtrlP
 " =============
-nmap <silent> <leader>t :GFiles<CR>
-" nmap <silent> <leader>T :CommandTFlush<CR>\|:CommandT<CR>
-nmap <silent> <leader>b :Buffers<CR>
+nmap <silent> <leader>t :FzfFiles<CR>
+nmap <silent> <leader>b :FzfBuffers<CR>
 nmap <silent> <leader>B :BufOnly<CR>
 " FZF mappings that work in Rails and Node.js projects:
 "   Idea from: https://github.com/skwp/dotfiles/blob/master/vim/settings/ctrlp.vim
 "   mnemonic 'jump to [something]'
-" models
+"   mnemonic 'ag/find/grep in [something]'
+"
+" 'models' dir e.g. app/models app/mixin/models src/models
 nmap <leader>jm :<c-u>call fzf#vim#files('', {'options': ['--query', "'/models/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
-" views
+command! -bang -nargs=* AgToFzfModels call fzf#vim#ag(<q-args>, '--file-search-regex models --ignore test --ignore public', <bang>0)
+nmap <leader>am :AgToFzfModels<space>
+" 'views' dir e.g. app/views src/views
 nmap <leader>jv :<c-u>call fzf#vim#files('', {'options': ['--query', "'/views/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
-" controllers
+command! -bang -nargs=* AgToFzfViews call fzf#vim#ag(<q-args>, '--file-search-regex views --ignore test --ignore public', <bang>0)
+nmap <leader>av :AgToFzfViews<space>
+" 'controllers' dir e.g. app/controllers app/mixin/controllers src/controllers
 nmap <leader>jc :<c-u>call fzf#vim#files('', {'options': ['--query', "'/controllers/ "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
-" lib
-nmap <leader>jl :<c-u>call fzf#vim#files('', {'options': ['--query', "^lib \\| ^src/lib "], 'source': 'fd --type f --exclude test --exclude /public' })<cr>
-" db
+command! -bang -nargs=* AgToFzfControllers call fzf#vim#ag(<q-args>, '--file-search-regex controllers --ignore test --ignore public', <bang>0)
+nmap <leader>ac :AgToFzfControllers<space>
+" 'lib' dir e.g. lib src/lib
+nmap <leader>jl :<c-u>call fzf#vim#files('', {'options': ['--query', "^lib \\| ^src/lib "], 'source': 'fd --type f --exclude test --exclude public' })<cr>
+command! -bang -nargs=* AgToFzfLib call fzf#vim#ag(<q-args>, '--file-search-regex lib --ignore test --ignore public', <bang>0)
+nmap <leader>al :AgToFzfLib<space>
+" db/
 nmap <leader>jd :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path db'})<cr>
-" tests
+command! -bang -nargs=* AgToFzfDb call fzf#vim#ag_raw(<q-args> . ' db/', <bang>0)
+nmap <leader>ad :AgToFzfDb<space>
+" tests/
 nmap <leader>jt :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path test --exclude fixtures --exclude cassettes'})<cr>
-" config
+command! -bang -nargs=* AgToFzfTest call fzf#vim#ag_raw(<q-args> . ' test/', <bang>0)
+nmap <leader>at :AgToFzfTest<space>
+" specs/
+nmap <leader>js :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path specs --exclude fixtures --exclude cassettes'})<cr>
+command! -bang -nargs=* AgToFzfSpec call fzf#vim#ag_raw(<q-args> . ' spec/', <bang>0)
+nmap <leader>as :AgToFzfSpec<space>
+" config/
 nmap <leader>jC :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-path config'})<cr>
+command! -bang -nargs=* AgToFzfConfig call fzf#vim#ag_raw(<q-args> . ' config/', <bang>0)
+nmap <leader>aC :AgToFzfConfig<space>
 " nmap <leader>ja :CommandT app/assets<CR>
 " nmap <leader>jh :CommandT app/helpers<CR>
 " nmap <leader>jF :CommandT test/fixtures<CR>
@@ -172,9 +194,9 @@ nmap <leader>jC :<c-u>call fzf#vim#files('', {'source': 'fd --type f --search-pa
 " nmap <leader>jF :CommandT spec/factories<CR>
 " nmap <leader>jV :CommandT vendor<CR>
 "Cmd-(m)ethod - jump to a method (tag in current file)
-nmap <leader>m :CtrlPBufTag<CR>
+nmap <leader>m :FzfBTags<CR>
 "Ctrl-(M)ethod - jump to a method (tag within a generated central tags file)
-nmap <leader>M :CtrlPTag<CR>
+nmap <leader>M :FzfTags<CR>
 
 
 " ======================================================================
@@ -193,12 +215,12 @@ command! -range Dg <line1>,<line2>diffget | diffupdate
 command! -range Dp <line1>,<line2>diffput | diffupdate
 xmap <leader>dg :diffget<CR>\|:diffupdate<CR>
 xmap <leader>dp :diffput<CR>\|:diffupdate<CR>
-nmap <leader>gb :Gblame<CR>
-nmap <leader>gh :Gbrowse<CR>
-nmap <leader>gc :Gcommit<CR>
-nmap <leader>gd :Gvdiff<CR>
+nmap <leader>gb :Git blame<CR>
+nmap <leader>gh :GBrowse<CR>
+nmap <leader>gc :Git commit<CR>
+nmap <leader>gd :Gvdiffsplit<CR>
 nmap <leader>gr :Gread<CR>
-nmap <leader>gs :Gstatus<CR>
+nmap <leader>gs :Git<CR>
 nmap <leader>gw :Gwrite<CR>
 nmap <leader>gv :Gitv! --all<CR> " File mode
 vmap <leader>gv :Gitv! --all<CR> " File mode
@@ -299,27 +321,6 @@ nmap <C-p> <Plug>yankstack_substitute_older_paste
 nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
 
-" ======================================================================
-"
-"                 Below Lies Functions and Autocmds...
-"
-"
-"                                             ,,,
-"                          _         _      \(((.
-"                   __,,../v\,----../ `-..=.>"" _\,_
-"          _______;/____<_  \_______\ \___////______;______
-"                ,"/      `.)        `.)       ```
-"               /,"        /7__       /7_
-"              ((          ' \\\       )))
-"               \\
-"                ))
-"               ((
-"                )
-"               /
-"
-"
-"
-"
 " ======================================================================
 " Functions
 " ======================================================================
