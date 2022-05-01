@@ -1,32 +1,11 @@
 " plugin_config.vim - Plugin configuration
 
-" Ack
-let g:ackprg = 'ack --nogroup --nocolor --column --with-filename'
-
 "Ag
-let g:ag_prg  = 'ag --nogroup --nocolor --column --ignore tmp'
+let g:ag_prg  = 'ag --vimgrep --smart-case'
+let g:ag_highlight=1
 
-" Command-T
-let g:CommandTMaxHeight=20
-let g:CommandTMaxFiles=20000
-let g:CommandTMaxCachedDirectories=0
-let g:CommandTCancelMap='<ESC>'
-let g:CommandTAcceptSelectionSplitMap='<C-h>' " <C-s> won't work in TERM
-
-" CtrlP
-let g:ctrlp_map = ''
-let g:ctrlp_mruf_default_order = 1
-let g:ctrlp_match_window_bottom = 1
-let g:ctrlp_match_window_reversed = 1
-let g:ctrlp_max_height = 20
-let g:ctrlp_open_new_file = 'v'
-let g:ctrlp_extensions = ['buffertag', 'tag']
-" This should be unecessary since we HAVE to set |wildignore| options
-" for Command-T (unfortunately). And these custom ignores are identical
-" to our |wildignore| settings.
-"let g:ctrlp_custom_ignore = {
-"\ 'dir':  'bin$\|db/migrate$\|log$\|public/cache$\|public/stylesheets$\|public/system$\|script$\|tmp$\|vendor$'
-"\ }
+" FZF
+let g:fzf_command_prefix = 'Fzf'
 
 " Gist
 let g:gist_post_private = 1

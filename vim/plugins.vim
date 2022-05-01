@@ -31,16 +31,10 @@ Plug 'itchyny/lightline.vim'
 " Search, Buffer, Tag, and File Navigation
 " ======================================================================
 
-" Ack
-Plug 'mileszs/ack.vim'
 " Ag
 Plug 'rking/ag.vim'
 " Abolish
 Plug 'tpope/vim-abolish'
-" Command-T
-Plug 'wincent/Command-T'
-" Ctrl-P
-Plug 'kien/ctrlp.vim'
 " FZF
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 " Nerdtree
@@ -166,6 +160,8 @@ Plug 'tpope/vim-vividchalk'
 " Plugins I'm experimenting with
 " =========================================
 " ...
+" Gutentags
+" Plug 'ludovicchabant/vim-gutentags'
 
 
 " ======================================================================
