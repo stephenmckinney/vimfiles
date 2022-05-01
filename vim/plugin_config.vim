@@ -64,14 +64,31 @@ let g:solarized_hitrail=1          "default value is 0
 let g:lightline = {
   \ 'colorscheme': 'solarized',
   \ 'component_function': {
+  \   'mode': 'LightlineMode',
   \   'filename': 'LightlineFilename',
+  \   'modified': 'LightlineModified',
+  \   'readonly': 'LightlineReadonly',
   \   'fileformat': 'LightlineFileformat',
   \   'fileencoding': 'LightlineFileencoding',
+  \   'filetype': 'LightlineFiletype',
   \ },
   \ }
 
+function! LightlineMode()
+  return &filetype !=# 'nerdtree' ? lightline#mode() : ''
+endfunction
+
 function! LightlineFilename()
-  return winwidth(0) > 70 ? fnamemodify(expand("%"), ":~:.") : pathshorten(fnamemodify(expand("%"), ":~:."))
+  return &filetype ==# 'nerdtree' ? '' :
+        \ winwidth(0) > 70 ? fnamemodify(expand("%"), ":~:.") : pathshorten(fnamemodify(expand("%"), ":~:."))
+endfunction
+
+function! LightlineModified()
+  return &modified && &filetype !=# 'nerdtree' ? '+' : ''
+endfunction
+
+function! LightlineReadonly()
+  return &readonly && &filetype !=# 'nerdtree' ? 'RO' : ''
 endfunction
 
 function! LightlineFileformat()
@@ -80,6 +97,10 @@ endfunction
 
 function! LightlineFileencoding()
   return winwidth(0) > 70 ? &fileencoding : ''
+endfunction
+
+function! LightlineFiletype()
+  return &filetype !=# 'nerdtree' ? &filetype : ''
 endfunction
 
 " Supertab
