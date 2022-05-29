@@ -9,7 +9,7 @@ The goal is to use tmux + zsh + vim as a Ruby and Rails IDE on OS X. See
 ## Getting started
 
 ```shell
-git clone git@github.com:stephenmckinney/vimfiles.git
+git clone git@github.com:stephenmckinney/vimfiles.git ~/.vimfiles
 cd ~/.vimfiles && rake install
 ```
 
